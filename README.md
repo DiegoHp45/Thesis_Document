@@ -20,7 +20,7 @@ The project is organized as follows:
 
 ```
 thesis/
-│── main.tex                % Root document
+│── Thesis.tex                % Root document
 │── preamble.tex            % Packages, formatting, and custom commands
 │── references.bib          % Bibliographic database (BibTeX)
 │── chapters/               % Individual chapter files
