@@ -524,11 +524,11 @@
 	pdfstartview=Fit,
 	pdfnewwindow=true,
 %
-	pdfcontactaddress={Massachusetts Institute of Technology, 77 Massachusetts Avenue},
-	pdfcontactcity={Cambridge, MA},
-	pdfcontactpostcode={02139-4307},
-	pdfcontactcountry={USA},
-	pdfcontacturl={https://dspace.mit.edu/handle/1721.1/7582},% DSPACE@MIT theses page
+	pdfcontactaddress={Universidad de los Andes, Cra. 1 #18A - 12},
+	pdfcontactcity={Bogotá},
+	pdfcontactpostcode={111711},
+	pdfcontactcountry={Colombia},
+	pdfcontacturl={https://www.uniandes.edu.co/},
 }
  		
 %%%%%%%%%%%%  PDF bookmark strings  %%%%%%%%%%%%%%%%%%%%%%%
@@ -611,7 +611,7 @@
 	\tl_gremove_all:No \g__mitthesis_dd_year_tl  { \space }
  	\str_case_e:nnF 
 		{ \str_lowercase:f { \tl_to_str:N  \g__mitthesis_dd_month_tl } }
-	 	{ {february}{} {may}{} {june}{} {september}{} }
+	 	{ {february}{} {may}{} {june}{} {september}{} {december}{}}
 		{ \msg_error:nnn { \ClassName } { wrong_month } {#1} } 
 }
 \msg_new:nnnn { \ClassName } { wrong_month } 
@@ -1221,7 +1221,7 @@
 \tl_new:N \g__mitthesis_copyright_mitpermission_tl
 \tl_gset:Nn \g__mitthesis_copyright_mitpermlast_tl 
 	{
-	  to\ MIT\ a\ nonexclusive,\ worldwide,\ irrevocable,\ royalty-free\ license\ to\ exercise\ 
+	  to\ Universidad\ de\ los\ Andes\ a\ nonexclusive,\ worldwide,\ irrevocable,\ royalty-free\ license\ to\ exercise\ 
 	  any\ and\ all\ rights\ under\ copyright,\ including\ to\ reproduce,\ preserve,\ distribute\ 
 	  and\ publicly\ display\ copies\ of\ the\ thesis,\ or\ release\ the\  thesis\ under\ an\ 
 	  open-access\ license.
@@ -1311,7 +1311,7 @@
 	}
 
 \tl_new:N \g_titlepage_institution_name_tl
-\tl_gset:Nn \g_titlepage_institution_name_tl { Massachusetts\ Institute\ of\ Technology } 
+\tl_gset:Nn \g_titlepage_institution_name_tl { Universidad\ de\ los\ Andes } 
 \cs_new_protected:Npn \Institution #1 { \tl_gset:Nn \g_titlepage_institution_name_tl { \tl_trim_spaces:n #1 } }
 
 
