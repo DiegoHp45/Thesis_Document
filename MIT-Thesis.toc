@@ -1,7 +1,7 @@
 \contentsline {frontmatter}{List of Figures}{9}{listoffigures}%
 \contentsline {frontmatter}{List of Tables}{11}{listoftables}%
 \contentsline {chapter}{\numberline {1}Introduction}{13}{chapter.1}%
-\contentsline {section}{\numberline {1.1}A section discussing the first issue: \(J/\psi \)}{13}{section.1.1}%
+\contentsline {section}{\numberline {1.1}MH}{13}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Subsection~eqn.~(\ref *{eqn:WT1})}{14}{subsection.1.1.1}%
 \contentsline {subsubsection}{A subsubsection}{15}{section*.5}%
 \contentsline {section}{\numberline {1.2}Description our paradigm}{15}{section.1.2}%
