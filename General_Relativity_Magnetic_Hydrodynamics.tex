@@ -3,45 +3,17 @@
 % Documentation: https://ctan.org/pkg/mitthesis
 
 
-\chapter{Introduction}
+\chapter{General Realtivity Magnetic Hydrodynamics}
 
-In this chapter we justify our work based on current open questions.
-Is the abundance of heavy nuclei in the universe explained by neutron star mergers or do we need an extra astrophysical event?
-Is it possible, with future observations, to infer important physics results such as possible transitions to Quark-Gluon plasma?
-
-As one may imagine, such relevant questions need a acordingly rigourous answers, that of course needs to be verify with observations constanly.   
-
-Neutron star mergers are promising sites to test theoretical results from a varity of fields in physics.
-It has been propoused that some unclear results may have a crusial impact on the evolution of the merger.
-As an example, the unknow 
-
-This work attemp to contribue to the answer to such questions by reconstructing the signals from a neutron star merger for different cases.\textcolor{red}{adress what do you mean by cases?}
-
-\section[The heavy elements in the universe]{The abundance of heavy elements in the universe}
-This section will present and discuss the state of the art regarding the issue with the abundnace of the heavy nuclei in the cosmos.
-
-\section[Neutron Star Mergers as proof for fundamental physics]{Neutron Star Mergers as proof for fundamental physics}
-This section will present and discuss the state of the art of the fundamental physics results infered by observations of neutron star mergers.
+\section{Foundations of GRMHD}
+\subsection{Equation of state for nuclear matter}
+\subsection{Neutrino treatment}
+\section{Numerical methods}
+\section{Simulation setup}
+\section{Results}
+%\newcommand*{\Jpsi}{\ifpdftex\mathord{\bm{J}/\bm{\psi}}\else\mathord{\symbfit{J/\psi}}\fi} % works with either pdftex or lualatex
 
 
-
-%%%%%%%%%%%%%%%%%  begin figure  %%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{figure}[t]
-% sample images are from mwe package, but should be found by latex in the tex tree w/o loading that package
-%\begin{subfigure}[t]{0.495\textwidth}
-%{\centering{\includegraphics[alt={sample image},width=0.99\textwidth]{example-image-c.jpg}}}%
-%\subcaption{\label{fig:golden} Postremo aliquos futuros suspicor, qui me ad alias litteras vocent, genus hoc scribendi.}
-%\end{subfigure}
-%%%%%%%% don't leave a break here
-%\begin{subfigure}[t]{0.495\textwidth}
-%{\centering{\includegraphics[alt={sample image},width=0.99\textwidth]{example-image-c.jpg}}}%
-%\subcaption{\label{fig:golden1} Second subfigure.}%
-%\end{subfigure}%
-%\caption{A figure with two subfigures.\label{fig:4}}\label{fig:golden2}
-%\end{figure}
-%%%%%%%%%%%%%%%%%%%  end figure  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%% note use of \ref* here to avoid placing a nested link in the table of contents
 
 
 %\newcommand*{\boldA}{\ifpdftex\mathbf{A}\else\symbfup{A}\fi}% to get the right symbol with either pdftex or unicode-math
@@ -60,6 +32,13 @@ This section will present and discuss the state of the art of the fundamental ph
 %\dfrac{\varphi k_{n,1}}{(\varphi_n,\varepsilon_1)}				& \dfrac{\varphi k_{n,2}}{(\varphi_n,\varepsilon_2)}		& \hdotsfor{2}	&
 %	\dfrac{\varphi k_{n,n-1}}{(\varphi_n,\varepsilon_{n-1})} 		& \dfrac{\varphi}{(\varphi_n,\varepsilon_n)}
 %\end{pmatrix}
+%\newcommand*{\boldA}{\ifpdftex\mathbf{A}\else\symbfup{A}\fi}% to get the right symbol with either pdftex or unicode-math
+
+
+%% This version looks nicer, but it does not produce proper html under current tagpdf (2025/10/31)
+%
+%\begin{equation}\label{eqn:WT1} 
+
 %\end{equation}
 
 %\begin{equation}
@@ -117,14 +96,5 @@ This section will present and discuss the state of the art of the fundamental ph
 %	For a two-column nomenclature list, use \begin{nomenclature*} AND
 %		**put \usepackage{multicol}** in your preamble (in the main .tex file)
 %
-
-%\begin{nomenclature*}[2em][Nomenclature for Chapter 1][section]
-%\EntryHeading{Roman letters}
-%\entry{$\mathcal{C}$}{material curve}
-%\entry{$\mathbf{r}$}{material position [m]}
-%\entry{$\mathbf{u}$}{velocity [m s$^{-1}$]}% this more cumbersome superscripting is [arguably..] better for html translation than $^{-1}$.
-%\EntryHeading{Greek letters}
-%\entry{$\Gamma$}{circulation [m$^2$ s$^{-1}$]}
-%\entry{$\rho$}{mass density [kg m$^{-3}$]}
-%\entry{$\boldomega$}{vorticity [s$^{-1}$]} 
-%\end{nomenclature*}
+%	\newcommand*{\boldomega}{\ifpdftex\mathord{\bm{\omega}}\else\mathord{\symbfup{\omega}}\fi} % works with pdftex or lualatex
+%

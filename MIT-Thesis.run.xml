@@ -85,7 +85,7 @@
       <file>MIT-Thesis.bcf</file>
     </requires>
     <requires type="editable">
-      <file>mitthesis-sample.bib</file>
+      <file>references.bib</file>
     </requires>
   </external>
 </requests>

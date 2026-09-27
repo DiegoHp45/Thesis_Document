@@ -52,7 +52,7 @@
 %						See documentation for details and a description of the appropriate fontsets to use with each.
 %
 %					    As distributed, mydesign.tex will set caption labels in bold face (e.g., "Figure 1.1:" in bold)
-%
+%Introduction.tex
 
 %%%%%%%%  Packages used in the sample chapters (not otherwise required) %%%
 
@@ -150,7 +150,7 @@
 % \usepackage[style=authoryear, maxbibnames=10]{biblatex} 
 
 
-\addbibresource{mitthesis-sample.bib}%% <== change to YOUR bib file <========= CHANGE !!
+\addbibresource{references.bib}%% 
 
 
 %% to avoid split urls and stretched white space, you can make the bibliography ragged-right by uncommenting this:
@@ -191,7 +191,6 @@
 	% Change this to briefly state topic of your thesis 
 % 
 	pdfkeywords={Neutron star mergers, kilonovae, light curves, nuclear physics, astrophysics, numerical simulations},
-	
 %
 	pdfurl={},
 	% If you have a url for the thesis, put it here. Otherwise delete this.
@@ -233,7 +232,7 @@
 
  \Supervisor{Neelima Govind Kelkar}{Professor of Physics}[Department of Physics]
 
-\Acceptor{None}{none}{} % \\ & Third title}
+\Acceptor{None}{Departament of Physics}{none} % \\ & Third title}
 
 
 % Date degree will be issued: \DegreeDate{Month}{year}
@@ -253,7 +252,7 @@
 %
 % If you are using a cc license, uncomment the following line and insert details of your cc license here.
 %
-% \CClicense{CC BY-NC-ND 4.0}{https://creativecommons.org/licenses/by-nc-nd/4.0/}
+%\CClicense{CC BY-NC-ND 4.0}{https://creativecommons.org/licenses/by-nc-nd/4.0/}
 %
 
 
@@ -325,10 +324,13 @@
 
 %% If you want to use "double spacing", you should start here...
 
-\include{Introduction}% .tex extension is presumed
-\include{Multimenssengers_physics}
-\include{Kilonova_light_curves}
-\include{Results}
+\include{Introduction}
+\include{Binary_Neutron_Stars}
+\include{Multimessengers_physics}
+\include{General_Relativity_Magnetic_Hydrodynamics}
+\include{Nuclear_Reaction_Networks}
+\include{Radiative_Transfer}
+\include{The_end-to-end_model_of_the_merger}
 
 
 %%% Appendices of thesis  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
