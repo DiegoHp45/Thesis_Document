@@ -223,7 +223,7 @@
 \begin{document}
 %%% edit the following commands to match your thesis %%%%%%%%%%
 
-\title{End-to-end modeling of kilonova light curves and waveforms from neutron star mergers and its possible constraints on nuclear physics parameters}
+\title{End-to-end modeling of kilonova light curves and gravitational waveforms from neutron star mergers for possible constraints on nuclear physics parameters}
 
  \Author{Diego Fernando Hernández Porras}{Department of Physics}
 
@@ -325,20 +325,23 @@
 %% If you want to use "double spacing", you should start here...
 
 \include{Introduction}
-\include{Binary_Neutron_Stars}
-\include{Multimessengers_physics}
-\include{General_Relativity_Magnetic_Hydrodynamics}
-\include{Nuclear_Reaction_Networks}
-\include{Radiative_Transfer}
-\include{The_end-to-end_model_of_the_merger}
+\include{Dense_matter}
+\include{Binary_neutron_star_mergers}\printbibliography[title={\refname},heading=bibintoc]
+\include{Numerical_relativity_hydro}
+\include{r_process_nucleosynthesis}
+\include{Kilonova_light_curves}
+\include{Methods}
+\include{Results}
+\include{Discussion}
+\include{Conclusions}
 
 
 %%% Appendices of thesis  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \appendix
-%\include{appendixa}% listings example (not compatible with tagged pdf, as of Oct. 2025)
-%\include{appendixb}% longtable example
-
+\include{appendixa}% listings example (not compatible with tagged pdf, as of Oct. 2025)
+\include{appendixb}% longtable example
+\include{appendixc}
 
 %%% Bibliography (biblatex)  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
