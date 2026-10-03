@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.7)  30 SEP 2026 22:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.7)  30 SEP 2026 22:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -961,32 +961,20 @@ Package biblatex Info: Reference segment=0 on input line 222.
 \tf@toc=\write4
 \openout4 = `MIT-Thesis.toc'.
 
- [8] (./MIT-Thesis.lof)
-\tf@lof=\write5
-\openout5 = `MIT-Thesis.lof'.
-
- [9
-
-] [10
-
-] (./MIT-Thesis.lot)
-\tf@lot=\write6
-\openout6 = `MIT-Thesis.lot'.
-
- [11]
+ [8]
 \openout2 = `1_Introduction.aux'.
 
- (./1_Introduction.tex [12
-
-
-]
+ (./1_Introduction.tex
 Chapter 1.
-[13]) [14]
+[9
+
+
+]) [10]
 \openout2 = `2_Dense_matter.aux'.
 
  (./2_Dense_matter.tex
 Chapter 2.
-) [15
+) [11
 
 
 
@@ -994,114 +982,114 @@ Chapter 2.
 ]
 \openout2 = `3_Binary_neutron_star_mergers.aux'.
 
- (./3_Binary_neutron_star_mergers.tex [16
+ (./3_Binary_neutron_star_mergers.tex [12
 
 
 
 
 ]
 Chapter 3.
-) [17]
+) [13]
 \openout2 = `4_Numerical_relativity_hydro.aux'.
 
- (./4_Numerical_relativity_hydro.tex [18
+ (./4_Numerical_relativity_hydro.tex [14
 
 
 
 
 ]
 Chapter 4.
-) [19]
+) [15]
 \openout2 = `5_r_process_nucleosynthesis.aux'.
 
- (./5_r_process_nucleosynthesis.tex [20
+ (./5_r_process_nucleosynthesis.tex [16
 
 
 
 
 ]
 Chapter 5.
-) [21]
+) [17]
 \openout2 = `6_Kilonova_light_curves.aux'.
 
- (./6_Kilonova_light_curves.tex [22
+ (./6_Kilonova_light_curves.tex [18
 
 
 
 
 ]
 Chapter 6.
-) [23]
+) [19]
 \openout2 = `7_Methods.aux'.
 
- (./7_Methods.tex [24
+ (./7_Methods.tex [20
 
 
 
 
 ]
 Chapter 7.
-) [25]
+) [21]
 \openout2 = `8_Results.aux'.
 
- (./8_Results.tex [26
+ (./8_Results.tex [22
 
 
 
 
 ]
 Chapter 8.
-) [27]
+) [23]
 \openout2 = `9_Discussion.aux'.
 
- (./9_Discussion.tex [28
+ (./9_Discussion.tex [24
 
 
 
 
 ]
 Chapter 9.
-) [29]
+) [25]
 \openout2 = `10_Conclusions.aux'.
 
- (./10_Conclusions.tex [30
+ (./10_Conclusions.tex [26
 
 
 
 
 ]
 Chapter 10.
-) [31]
+) [27]
 \openout2 = `appendixa.aux'.
 
- (./appendixa.tex [32
+ (./appendixa.tex [28
 
 
 
 
 ]
 Appendix A.
-) [33]
+) [29]
 \openout2 = `appendixb.aux'.
 
- (./appendixb.tex [34
+ (./appendixb.tex [30
 
 
 
 
 ]
 Appendix B.
-) [35]
+) [31]
 \openout2 = `appendixc.aux'.
 
- (./appendixc.tex [36
+ (./appendixc.tex [32
 
 
 
 
 ]
 Appendix C.
-) [37]
+) [33]
 
 LaTeX Warning: Empty bibliography on input line 351.
 
@@ -1115,18 +1103,18 @@ Package logreq Info: Writing requests to 'MIT-Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28851 strings out of 474222
- 539384 string characters out of 5748734
+ 28819 strings out of 474222
+ 538977 string characters out of 5748734
  1937975 words of memory out of 5000000
- 50454 multiletter control sequences out of 15000+600000
- 578106 words of font info for 136 fonts, out of 8000000 for 9000
+ 50441 multiletter control sequences out of 15000+600000
+ 577188 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,7n,93p,1046b,1948s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on MIT-Thesis.pdf (37 pages, 218448 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb>
+Output written on MIT-Thesis.pdf (33 pages, 195842 bytes).
 PDF statistics:
- 586 PDF objects out of 1000 (max. 8388607)
- 515 compressed objects within 6 object streams
- 110 named destinations out of 1000 (max. 500000)
- 39457 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 546 PDF objects out of 1000 (max. 8388607)
+ 482 compressed objects within 5 object streams
+ 102 named destinations out of 1000 (max. 500000)
+ 37393 words of extra memory for PDF output out of 42996 (max. 10000000)
 

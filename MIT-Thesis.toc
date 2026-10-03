@@ -1,61 +1,59 @@
-\contentsline {frontmatter}{List of Figures}{9}{listoffigures}%
-\contentsline {frontmatter}{List of Tables}{11}{listoftables}%
-\contentsline {chapter}{\numberline {1}Introduction}{13}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Dense matter and neutron-star equation of state}{13}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Binary neutron-star mergers as multimessenger laboratories}{13}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Open problems: phase transitions and nuclear-physics uncertainties}{13}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Objectives and research questions}{14}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Structure of the thesis}{14}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Dense Matter and Neutron-Star Structure}{15}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Equation of state of cold, beta-equilibrated matter}{15}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Hadron–quark phase transitions and hybrid equations of state}{15}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Thermal effects in the equation of state}{15}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Stellar structure: TOV equations and tidal deformability}{15}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Observational constraints}{15}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Binary Neutron-Star Mergers}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Merger phases and remnant fate}{17}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Gravitational waves: inspiral tidal effects and post-merger spectrum}{17}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Mass ejection: tidal, shock-driven, and disk-wind ejecta}{17}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Weak interactions and the electron fraction of the ejecta}{17}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Electromagnetic counterparts}{17}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Numerical Relativistic Hydrodynamics}{19}{chapter.4}%
-\contentsline {section}{\numberline {4.1}3+1 decomposition and evolution formulation}{19}{section.4.1}%
-\contentsline {section}{\numberline {4.2}General-relativistic hydrodynamics in conservative form}{19}{section.4.2}%
-\contentsline {section}{\numberline {4.3}The Einstein Toolkit: initial data, mesh refinement, atmosphere}{19}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Gravitational-wave extraction}{19}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Ejecta diagnostics and unbound-matter criteria}{19}{section.4.5}%
-\contentsline {chapter}{\numberline {5}r-Process Nucleosynthesis}{21}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Nuclear statistical equilibrium and freeze-out}{21}{section.5.1}%
-\contentsline {section}{\numberline {5.2}The r-process: neutron-to-seed ratio, fission cycling}{21}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Reaction-network equations and numerical solution}{21}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Nuclear inputs: masses, decay rates, neutron capture, fission}{21}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Radioactive heating and thermalization}{21}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Kilonova Light Curves}{23}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Radiative transfer and the diffusion regime}{23}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Opacities of r-process matter}{23}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Light-curve modeling}{23}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Methods}{25}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Hadronic and hybrid equation-of-state models}{25}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Binary neutron-star simulation setup}{25}{section.7.2}%
-\contentsline {section}{\numberline {7.3}From simulation to trajectories: ejecta extraction and expansion}{25}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Network setup and nuclear-physics variations}{25}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Kilonova model setup}{25}{section.7.5}%
-\contentsline {section}{\numberline {7.6}Gravitational-wave analysis and detectability metrics}{25}{section.7.6}%
-\contentsline {chapter}{\numberline {8}Results}{27}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Stellar properties of the equation-of-state models}{27}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Numerical accuracy and convergence}{27}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Merger dynamics and remnant evolution}{27}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Gravitational-wave signals}{27}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Dynamical-ejecta properties}{27}{section.8.5}%
-\contentsline {section}{\numberline {8.6}Nucleosynthesis and heating rates}{27}{section.8.6}%
-\contentsline {section}{\numberline {8.7}Kilonova light curves}{27}{section.8.7}%
-\contentsline {section}{\numberline {8.8}Joint GW EM signatures}{27}{section.8.8}%
-\contentsline {section}{\numberline {8.9}Uncertainty budget: EOS, nuclear physics, and resolution}{27}{section.8.9}%
-\contentsline {section}{\numberline {8.10}Detectability with current and future facilities}{27}{section.8.10}%
-\contentsline {chapter}{\numberline {9}Discussion}{29}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Comparison with previous studies}{29}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Limitations and model assumptions}{29}{section.9.2}%
-\contentsline {chapter}{\numberline {10}Conclusions and Outlook}{31}{chapter.10}%
-\contentsline {chapter}{\numberline {A}Units and conventions}{33}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Convergence tests}{35}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Network and equation-of-state configuration details}{37}{appendix.C}%
+\contentsline {chapter}{\numberline {1}Introduction}{9}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Dense matter and neutron-star equation of state}{9}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Binary neutron-star mergers as multimessenger laboratories}{9}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Open problems: phase transitions and nuclear-physics uncertainties}{9}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Objectives and research questions}{10}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Structure of the thesis}{10}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Dense Matter and Neutron-Star Structure}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Equation of state of cold, beta-equilibrated matter}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Hadron–quark phase transitions and hybrid equations of state}{11}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Thermal effects in the equation of state}{11}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Stellar structure: TOV equations and tidal deformability}{11}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Observational constraints}{11}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Binary Neutron-Star Mergers}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Merger phases and remnant fate}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Gravitational waves: inspiral tidal effects and post-merger spectrum}{13}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Mass ejection: tidal, shock-driven, and disk-wind ejecta}{13}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Weak interactions and the electron fraction of the ejecta}{13}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Electromagnetic counterparts}{13}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Numerical Relativistic Hydrodynamics}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}3+1 decomposition and evolution formulation}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}General-relativistic hydrodynamics in conservative form}{15}{section.4.2}%
+\contentsline {section}{\numberline {4.3}The Einstein Toolkit: initial data, mesh refinement, atmosphere}{15}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Gravitational-wave extraction}{15}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Ejecta diagnostics and unbound-matter criteria}{15}{section.4.5}%
+\contentsline {chapter}{\numberline {5}r-Process Nucleosynthesis}{17}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Nuclear statistical equilibrium and freeze-out}{17}{section.5.1}%
+\contentsline {section}{\numberline {5.2}The r-process: neutron-to-seed ratio, fission cycling}{17}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Reaction-network equations and numerical solution}{17}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Nuclear inputs: masses, decay rates, neutron capture, fission}{17}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Radioactive heating and thermalization}{17}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Kilonova Light Curves}{19}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Radiative transfer and the diffusion regime}{19}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Opacities of r-process matter}{19}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Light-curve modeling}{19}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Methods}{21}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Hadronic and hybrid equation-of-state models}{21}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Binary neutron-star simulation setup}{21}{section.7.2}%
+\contentsline {section}{\numberline {7.3}From simulation to trajectories: ejecta extraction and expansion}{21}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Network setup and nuclear-physics variations}{21}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Kilonova model setup}{21}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Gravitational-wave analysis and detectability metrics}{21}{section.7.6}%
+\contentsline {chapter}{\numberline {8}Results}{23}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Stellar properties of the equation-of-state models}{23}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Numerical accuracy and convergence}{23}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Merger dynamics and remnant evolution}{23}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Gravitational-wave signals}{23}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Dynamical-ejecta properties}{23}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Nucleosynthesis and heating rates}{23}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Kilonova light curves}{23}{section.8.7}%
+\contentsline {section}{\numberline {8.8}Joint GW EM signatures}{23}{section.8.8}%
+\contentsline {section}{\numberline {8.9}Uncertainty budget: EOS, nuclear physics, and resolution}{23}{section.8.9}%
+\contentsline {section}{\numberline {8.10}Detectability with current and future facilities}{23}{section.8.10}%
+\contentsline {chapter}{\numberline {9}Discussion}{25}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Comparison with previous studies}{25}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Limitations and model assumptions}{25}{section.9.2}%
+\contentsline {chapter}{\numberline {10}Conclusions and Outlook}{27}{chapter.10}%
+\contentsline {chapter}{\numberline {A}Units and conventions}{29}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Convergence tests}{31}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Network and equation-of-state configuration details}{33}{appendix.C}%
