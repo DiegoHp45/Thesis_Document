@@ -1,21 +1,133 @@
 \chapter{Introduction}
-Here we will responds: 
+
+
+
+\section{Dense matter and the neutron-star equation of state}
+Neutron stars contain the densest matter known to exist in a stable state. 
+Their central densities reach several times the nuclear saturation density $n_{\rm sat}\simeq 0.15~\mathrm{fm^{-3}}$ \cite{horowitz_insights_2020}.
+Their structure is determined by the equation of state (EOS) of this matter through the Tolman-Oppenheimer-Volkoff equations.
+One interesting result from the study of the EOS of dense matter is that the mapping between the cold EOS and the mass-radius relation is one-to-one \cite{lindblom_determining_1992}. 
+Neutron stars are therefore natural laboratories for strongly interacting matter at densities that cannot be reached in terrestrial experiments.
+
+The microscopic theory of this matter, quantum chromodynamics (QCD), cannot at present provide the EOS in the relevant density range.
+At the baryon chemical potentials of neutron-star cores, QCD is non-perturbative, and lattice QCD is hampered by the fermion sign problem at finite baryon density. 
+Controlled calculations exist in chiral effective field theory limit (up to 2 times nuclear saturation) \cite{hebeler_equation_2013}, and perturbative QCD becomes reliable only at densities of order $40\,n_{\rm sat}$, far above those realized in neutron stars \cite{kurkela_constraining_2014}.
+
+In the intermediate regime, where neutron-star cores reside, the EOS is described by phenomenological models or agnostic parameterizations, whose predictions must be confronted with astrophysical observations.
+
+As a consequence, the composition of neutron-star cores remains unknown.
+Matter at several times $n_{\rm sat}$ may consist of nucleons, may contain hyperons, or may undergo a transition to deconfined quark matter, either through a smooth crossover or through a first-order hadron--quark phase transition.%~\textbf{Baym2018}. 
+Heavy-ion collisions probe hot and nearly isospin-symmetric matter and cannot access the cold, neutron-rich, $\beta$-equilibrated regime of neutron stars.
+Astrophysical observations therefore play a unique role in constraining this region of the QCD phase diagram.
+
+\section{Binary neutron-star mergers as multimessenger laboratories}
+
+Observations of isolated neutron stars have placed significant
+constraints on the EOS. The existence of pulsars with masses of about
+$2\,M_\odot$~\textbf{Fonseca2021} and the radii inferred by
+NICER~\textbf{Riley2021,Miller2021} constrain the pressure of dense
+matter up to roughly $2$--$3\,n_{\rm sat}$. These quantities,
+however, constrain the pressure--energy-density relation rather than
+the underlying degrees of freedom: hybrid stars with quark cores can
+have mass--radius relations nearly indistinguishable from those of
+purely hadronic stars.%~\textbf{Alford2005}.
+
+Binary neutron-star mergers (BNSMs) provide complementary
+information. During the inspiral, the tidal deformability of the stars
+imprints the gravitational-wave (GW) phase; GW170817 constrained the
+binary tidal deformability to
+$\tilde\Lambda\lesssim 720$~.%\textbf{LVC2019PRX}. 
+After the merger,
+the remnant reaches higher densities and temperatures than any
+isolated neutron star, so the post-merger dynamics are sensitive to
+the EOS in a regime that isolated stars cannot probe. Numerical
+simulations have shown that a hadron--quark phase transition can
+modify the post-merger GW spectrum, the threshold mass for prompt
+collapse, and the lifetime of the remnant~%\textbf{Bauswein2019,Most2019,Weih2020,Prakash2021}. 
+In addition, the neutron-rich
+material ejected during the merger undergoes rapid neutron-capture
+(r-process) nucleosynthesis, and the radioactive decay of the newly
+formed nuclei powers a kilonova. The kilonova AT2017gfo, which
+followed GW170817, confirmed BNSMs as a site of the
+r-process~%\textbf{Abbott2017MMA,Kasen2017}.
+
+Extracting EOS information from these signals is, however, far from
+straightforward. Each step between the EOS and an observable
+introduces additional uncertainties: numerical resolution and the
+treatment of neutrino interactions in merger simulations, the
+properties of neutron-rich nuclei far from stability, and the atomic
+opacities of the ejecta. Constraints on the EOS derived from the
+kilonova of GW170817 illustrate this fragility, as they were later
+shown to depend sensitively on modeling
+assumptions~%\textbf{Bauswein2017,Radice2018Lambda,Kiuchi2019}.
+Moreover, no further neutron-star merger with an electromagnetic
+counterpart was detected during the fourth LIGO--Virgo--KAGRA
+observing run, so the interpretation of future events will rely
+heavily on theoretical predictions. Systematic studies of how
+uncertainties propagate from the EOS and nuclear physics to the
+observable signals are therefore required.
+
+\section{Phase transitions and nuclear-physics uncertainties}
+
+
+The observational signatures of a hadron--quark phase transition
+depend on the density at which it occurs. If the onset density lies
+below the central density of the inspiraling stars, quark cores are
+already present before the merger and modify the stellar radii, the
+tidal deformability, and the tidally ejected material. If the onset
+is reached only in the post-merger remnant, the inspiral is unaffected
+and the transition manifests itself only after the merger. In the
+hybrid model considered in this work, [quark matter is already present
+in the inspiraling stars], so the transition can affect both phases.
+
+The kilonova depends on the EOS only indirectly, through the mass,
+velocity, and composition of the ejecta. The composition determines
+the opacity: material with electron fraction $Y_e\lesssim 0.25$
+produces lanthanides, which strongly increase the opacity and shift
+the emission to longer timescales and redder
+wavelengths~%\textbf{Kasen2013,Lippuner2015}. 
+The radioactive heating
+that powers the kilonova, in turn, depends on the decay properties of
+nuclei far from stability, many of which have not been measured and
+must be taken from theoretical models %~\textbf{Mumpower2016,Barnes2021}.
+
+These two sources of uncertainty act on different physical
+quantities but on the same observable. An EOS-induced change in the
+ejecta mass and a change in the theoretical $\beta$-decay rates can
+both alter the luminosity and timescale of the kilonova. Likewise, a
+purely hadronic EOS with a tidal deformability similar to that of a
+hybrid EOS produces a nearly identical inspiral. A central question is
+therefore whether nuclear-physics uncertainties can mask the signature
+of a phase transition in the electromagnetic signal, and whether the
+combination with the GW signal can break this degeneracy.
+
+\section{Objectives and research questions}
+
+
+The objective of this thesis is to perform a proof-of-concept joint
+analysis of the gravitational-wave and kilonova signals of a binary
+neutron-star merger, in order to assess whether a hadron--quark phase
+transition leaves signatures that can be distinguished from those of
+hadronic EOS variations and from nuclear-physics uncertainties.
+Specifically, we address the following questions:
+
 \begin{enumerate}
-    \item What question I am trying to answer?\\
-        Can the joint analysis of GW and EM signals encode relevant information about the existance of the phase transition inside a neutron star?
-    \item Why is this question open an relevant?\\
-        The posible confirmation or dismiss of quark-gluon plasma inside neutron stars could help us stablish the structure of neutron stars and test theoretical results in that regime.
-    \item What will I do to contribute to this question?\\
-        This thesis is just a prove of concept and a first approch to use the two different signals from a merger to try to identify posible encode information about the nature of the matter in the merger.
+  \item How do the gravitational-wave signal and the dynamical
+        ejecta (mass, velocity, and thermodynamic conditions) of an
+        equal-mass merger differ between hadronic EOSs and an EOS
+        with a first-order hadron--quark phase transition, and are
+        these differences larger than the numerical uncertainty?
+  \item How do the EOS-induced changes in the nucleosynthesis yields,
+        radioactive heating, and kilonova light curves compare with
+        those produced by different theoretical prescriptions for
+        $\beta$-decay rates, and does the joint GW+EM analysis help
+        disentangle the two?
 \end{enumerate}
-\section[Dense matter and neutron-star equation of state]{Dense matter and neutron-star equation of state}
-This section concentrates on the context of the second question. Here we will have a overview of the known equations of state, what they acount for and their limitations.
-\section[Binary neutron-star mergers as multimessenger laboratories]{Binary neutron-star mergers as multimessenger laboratories}
-This section is the state of the art of current efforts to use compact object mergers, in particular neutron star mergers, as test for theoretical develoment.
-\section[Open problems: phase transitions and nuclear-physics uncertainties]{Open problems: phase transitions and nuclear-physics uncertainties}
-This section as continuation of the first one states why is so difficult to calculate the equation of state of matter inside a neutron star.
-\section[Objectives and research questions]{Objectives and research questions}
-This section focus on the first question, it states what question am i answering.
-Are combine GW and EM be usefull for testing theretical results?
-\section[Structure of the thesis]{Structure of the thesis}
-This is and overall review of what will i do in this thesis (answer to question 3)
+
+The study is restricted to a single equal-mass binary, three EOSs
+[names], and the dynamical ejecta; the long-term disk outflows and
+neutrinos as a direct observable are beyond its scope.
+
+\section{Structure of the thesis}
+
+

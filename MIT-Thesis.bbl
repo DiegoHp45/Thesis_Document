@@ -16,5 +16,231 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{horowitz_insights_2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b9b2bd70a12473e3119e1d122cfca650}{%
+           family={Horowitz},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=57b4796de57a0d1cc4ef003c4ca6a515}{%
+           family={Piekarewicz},
+           familyi={P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1fbf6c1efb002d7176abac160ac79764}{%
+           family={Reed},
+           familyi={R\bibinitperiod},
+           given={Brendan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{0f9422df7f48513cfc66d62f3de89ef9}
+      \strng{fullhash}{0f9422df7f48513cfc66d62f3de89ef9}
+      \strng{bibnamehash}{0f9422df7f48513cfc66d62f3de89ef9}
+      \strng{authorbibnamehash}{0f9422df7f48513cfc66d62f3de89ef9}
+      \strng{authornamehash}{0f9422df7f48513cfc66d62f3de89ef9}
+      \strng{authorfullhash}{0f9422df7f48513cfc66d62f3de89ef9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2469-9985, 2469-9993}
+      \field{journaltitle}{Physical Review C}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{Insights into nuclear saturation density from parity-violating electron scattering}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{102}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{044321}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.102.044321
+      \endverb
+      \verb{file}
+      \verb Submitted Version:/home/diefer/snap/zotero-snap/common/Zotero/storage/NTV8QDNU/Horowitz et al. - 2020 - Insights into nuclear saturation density from parity-violating electron scattering.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.102.044321
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.102.044321
+      \endverb
+    \endentry
+    \entry{lindblom_determining_1992}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0dca35708b66abcce2a52311b220824d}{%
+           family={Lindblom},
+           familyi={L\bibinitperiod},
+           given={Lee},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP}%
+      }
+      \strng{namehash}{0dca35708b66abcce2a52311b220824d}
+      \strng{fullhash}{0dca35708b66abcce2a52311b220824d}
+      \strng{bibnamehash}{0dca35708b66abcce2a52311b220824d}
+      \strng{authorbibnamehash}{0dca35708b66abcce2a52311b220824d}
+      \strng{authornamehash}{0dca35708b66abcce2a52311b220824d}
+      \strng{authorfullhash}{0dca35708b66abcce2a52311b220824d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A method is developed for determining the nuclear equation of state directly from a knowledge of the masses and radii of neutron stars. This analysis assumes only that equilibrium neutron-star matter has the stress-energy tensor of an isotropic fluid with a barotropic equation of state, and that general relativity describes a neutron star's internal gravitational field. We present numerical examples which illustrate how well this method will determine the equation of state when the appropriate observational data become available.}
+      \field{issn}{0004-637X}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{month}{10}
+      \field{note}{ADS Bibcode: 1992ApJ...398..569L}
+      \field{title}{Determining the {Nuclear} {Equation} of {State} from {Neutron}-{Star} {Masses} and {Radii}}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{398}
+      \field{year}{1992}
+      \field{urldateera}{ce}
+      \field{pages}{569}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1086/171882
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/diefer/snap/zotero-snap/common/Zotero/storage/MJR3ET9E/Lindblom - 1992 - Determining the Nuclear Equation of State from Neutron-Star Masses and Radii.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ui.adsabs.harvard.edu/abs/1992ApJ...398..569L
+      \endverb
+      \verb{url}
+      \verb https://ui.adsabs.harvard.edu/abs/1992ApJ...398..569L
+      \endverb
+      \keyw{Astrophysics,Barotropism,Computational Astrophysics,EQUATION OF STATE,Equations Of State,METHODS: NUMERICAL,Neutron Stars,Nuclear Astrophysics,Radii,RELATIVITY,STARS: INTERIORS,STARS: NEUTRON,Stellar Interiors,Stellar Mass,Stellar Physics}
+    \endentry
+    \entry{hebeler_equation_2013}{article}{}
+      \name{author}{4}{}{%
+        {{hash=98c822cf9a60b53080de8986b7ca5544}{%
+           family={Hebeler},
+           familyi={H\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=685fd2ead2b1408f4f5ef0769a087807}{%
+           family={Lattimer},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=51982a6e8e4825889211a5e335e8d184}{%
+           family={Pethick},
+           familyi={P\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7f5e50e2c20612a05c1ff8a53b7f4d5e}{%
+           family={Schwenk},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{36cd6a3865dc9c79373d527d30ed9142}
+      \strng{fullhash}{809508c26ce123719bdcc4f7a6195ba9}
+      \strng{bibnamehash}{809508c26ce123719bdcc4f7a6195ba9}
+      \strng{authorbibnamehash}{809508c26ce123719bdcc4f7a6195ba9}
+      \strng{authornamehash}{36cd6a3865dc9c79373d527d30ed9142}
+      \strng{authorfullhash}{809508c26ce123719bdcc4f7a6195ba9}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0004-637X, 1538-4357}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{{EQUATION} {OF} {STATE} {AND} {NEUTRON} {STAR} {PROPERTIES} {CONSTRAINED} {BY} {NUCLEAR} {PHYSICS} {AND} {OBSERVATION}}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{773}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{11}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0004-637X/773/1/11
+      \endverb
+      \verb{urlraw}
+      \verb https://iopscience.iop.org/article/10.1088/0004-637X/773/1/11
+      \endverb
+      \verb{url}
+      \verb https://iopscience.iop.org/article/10.1088/0004-637X/773/1/11
+      \endverb
+    \endentry
+    \entry{kurkela_constraining_2014}{article}{}
+      \name{author}{4}{}{%
+        {{hash=cdba72d92d17d4813fc493010b45b5fb}{%
+           family={Kurkela},
+           familyi={K\bibinitperiod},
+           given={Aleksi},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cbd11011aa30a8c7137f1e4cfd5d097a}{%
+           family={Fraga},
+           familyi={F\bibinitperiod},
+           given={Eduardo\bibnamedelima S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=7591536ec284548c93f49dec7d7c9df4}{%
+           family={Schaffner-Bielich},
+           familyi={S\bibinithyphendelim B\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c2ab79bf890bbc5c4b6fd9782b1cd2de}{%
+           family={Vuorinen},
+           familyi={V\bibinitperiod},
+           given={Aleksi},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{71eaad1673471c6de23b5b54d176b99d}
+      \strng{fullhash}{b871b1439c84d3d8eeb8826e343e6f9b}
+      \strng{bibnamehash}{b871b1439c84d3d8eeb8826e343e6f9b}
+      \strng{authorbibnamehash}{b871b1439c84d3d8eeb8826e343e6f9b}
+      \strng{authornamehash}{71eaad1673471c6de23b5b54d176b99d}
+      \strng{authorfullhash}{b871b1439c84d3d8eeb8826e343e6f9b}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0004-637X, 1538-4357}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{{CONSTRAINING} {NEUTRON} {STAR} {MATTER} {WITH} {QUANTUM} {CHROMODYNAMICS}}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{789}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{127}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0004-637X/789/2/127
+      \endverb
+      \verb{file}
+      \verb Full Text:/home/diefer/snap/zotero-snap/common/Zotero/storage/47HV3UB4/Kurkela et al. - 2014 - CONSTRAINING NEUTRON STAR MATTER WITH QUANTUM CHROMODYNAMICS.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://iopscience.iop.org/article/10.1088/0004-637X/789/2/127
+      \endverb
+      \verb{url}
+      \verb https://iopscience.iop.org/article/10.1088/0004-637X/789/2/127
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
