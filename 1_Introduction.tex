@@ -1,82 +1,66 @@
-\chapter{Introduction}
+\chapter{Introduction}\label{ch:introduction}
 
+\section{Dense matter and the neutron-star equation of state}\label{sec:intro-eos}
 
-
-\section{Dense matter and the neutron-star equation of state}
 Neutron stars contain the densest matter known to exist in a stable state. 
-Their central densities reach several times the nuclear saturation density $n_{\rm sat}\simeq 0.15~\mathrm{fm^{-3}}$ \cite{horowitz_insights_2020}. 
-At densities reached in neutron stars atoms configurations are unlikely and matter adopts a different form. 
-Physicists called this state of matter, in absent of better names, dense matter and has been the protagonist in the study of compact objects. 
-To understand its composition an properties we should begin by the lightest tail of the dense matter.
-Between densities of $n_{drip}\simeq 2.5\time 10^{-4}~\mathrm{fm^{-3}}$ to $n_{\rm sat}$ neutrons inside nuclei begin to unbound so there are nuclei, electrons and free neutrons.
-When density reach saturation the difference between inside and outside of a nucleus vanish effectively becoming a continuum of nucleons \cite{baym_neutron_1971}. 
+Their central densities reach several times the nuclear saturation density $n_{\rm sat}\simeq 0.15~\mathrm{fm^{-3}}$~\cite{horowitz_insights_2020}. 
+At such densities atoms are not stable configurations, and matter adopts a different form governed by the strong and weak interactions called dense matter.
+In the outer layers of the star, nuclei coexist with a degenerate electron gas. 
+With increasing density, electron captures make the nuclei progressively more neutron-rich until, at the neutron-drip density $n_{\rm drip}\simeq 2.5\times10^{-4}~\mathrm{fm^{-3}}$ ($\rho\simeq 4\times10^{11}~\mathrm{g\,cm^{-3}}$), neutrons are no longer bound to the nuclei and form a free neutron gas~\cite{baym_neutron_1971}.
+At about half the saturation density the difference between inside and outside of a nucleus vanish effectively becoming a continuum of nucleons which marks the transition from crust to core. 
 At the same time the $\beta$ equilibrium favors neutrons instead of protons, this leads to a neutron dominated composition.  
-The mechanism from which neutrons drip at such densities and why nature favors neutrons will be addressed in chapter $2$.
- 
-Neutron stars masses ranges from $\simeq 1.1 - 2 M_\odot$ with radius from $\simeq 5-15\,\mathrm{km}$ \cite{ozel_masses_2016}.
-Their structure is determined by the equation of state (EOS) of this matter through the Tolman-Oppenheimer-Volkoff equations plus rotational corrections.
-Since the matter inside the star is excepted to be dominated by neutrons, the EOS will inherit the nature predicted from the quantum behavior and interactions of neutrons.
-Phenomena such as pauli exclusion principle manifest as the degeneracy pressure and repulsive interaction between neutrons through $\omega$ meson exchange adds the necessary pressure to prevent the collapse setting up a specific radius for a given mass and rotation.  
-This link between microphysics to astrophysical observables opened a window to study of dense matter through compact object observations. 
-Neutron stars are therefore natural laboratories for strongly interacting matter at densities that cannot be reached in terrestrial experiments.
+The mechanism from which neutrons drip at such densities and why nature favors neutrons will be addressed in Chapter~\ref{ch:mergers}.
 
-However the microscopic theory of this matter, quantum chromodynamics (QCD), cannot at present provide the EOS in the relevant density range.
+Observed neutron-star masses range from about $1.1$ to slightly above $2\,M_\odot$, and their radii are inferred to lie between roughly $10$ and $14~\mathrm{km}$~\cite{ozel_masses_2016,riley_nicer_2021}.
+Their structure is determined by the equation of state (EOS) through the Tolman-Oppenheimer-Volkoff equations plus rotational corrections.
+Since the matter inside the star is expected to be dominated by neutrons, the EOS will inherit the nature predicted from the quantum behavior and interactions of neutrons.
+A free, degenerate neutron gas can support stars of at most $\simeq 0.7\,M_\odot$ \cite{oppenheimer_massive_1939}.
+To accurate explain observations the strongly repulsive short-range part of the nuclear interaction is required, which in relativistic mean-field models is mediated by $\omega$-meson exchange. 
+Through this link between microphysics and astrophysical observables, neutron stars have become natural laboratories for strongly interacting matter at densities that cannot be reached in terrestrial experiments.
+
+The microscopic theory of this matter, quantum chromodynamics (QCD), cannot at present provide the EOS in the relevant density range.
 At the baryon chemical potentials of neutron-star cores, QCD is non-perturbative, and lattice QCD is hampered by the fermion sign problem at finite baryon density. 
-Controlled calculations exist in the chiral effective field theory limit (up to 2 times nuclear saturation) \cite{hebeler_equation_2013}, and perturbative QCD becomes reliable only at densities of order $40\,n_{\rm sat}$, far above those realized in neutron stars \cite{kurkela_constraining_2014}.
+Controlled calculations exist only in two limits, chiral effective field theory describes nuclear matter up to about $1$--$2\,n_{\rm sat}$ \cite{hebeler_equation_2013}, and perturbative QCD becomes reliable only at densities of order $40\,n_{\rm sat}$, far above those realized in neutron stars \cite{kurkela_constraining_2014}.
 In the intermediate regime, where neutron-star cores reside, the EOS is described by phenomenological models whose predictions must be confronted with astrophysical observations.
 
 As a consequence, the composition of neutron star cores remains unknown.
 Matter at several times $n_{\rm sat}$ may consist of nucleons, may contain hyperons, or may undergo a transition to deconfined quark matter, either through a smooth crossover or through a first order hadron-quark phase transition \cite{baym_hadrons_2018}. 
-Heavy ion collisions probe hot and nearly symmetric ($Y_e\simeq0.5$) matter and cannot access the cold, neutron rich, $\beta$-equilibrated regime of neutron stars.
+Heavy ion collisions probe hot matter with proton fractions close to those of stable nuclei ($Y_p\simeq 0.4$--$0.5$) and cannot access the cold, neutron rich, $\beta$-equilibrated regime of neutron stars.
 Astrophysical observations therefore play a unique role in constraining this region of the QCD phase diagram.
 
-\section{Binary neutron-star mergers as multimessenger laboratories}
+\section{Binary neutron-star mergers as multimessenger laboratories}\label{sec:intro-mergers}
 
 Observations of isolated neutron stars have placed significant constraints on the EOS. 
-The existence of pulsars with masses of about $2\,M_\odot$ \cite{fonseca_refined_2021} and the radii inferred by NICER \cite{riley_nicer_2021} constrain the pressure of dense matter up to roughly $2-3\,n_{\rm sat}$. 
-These quantities, however, constrain the pressure energy density relation rather than giving a full description of the matter. 
-For example, hybrid stars (Neutron stars with quark cores) can have mass-radius relations nearly indistinguishable from those of purely hadronic stars \cite{alford_hybrid_2005}.
+The existence of pulsars with masses of about $2\,M_\odot$~\cite{fonseca_refined_2021} and the radii inferred by NICER~\cite{riley_nicer_2021} constrain the pressure of dense matter up to densities of roughly $2-3\,n_{\rm sat}$ \cite{raaijmakers_constraints_2021}. 
+These measurements, however, constrain the relation between pressure and energy density rather than giving a full description of the matter. 
+For example, hybrid stars (Neutron stars with quark cores) can have mass-radius relations nearly indistinguishable from those of purely hadronic stars~\cite{alford_hybrid_2005}.
 
 Binary neutron star mergers (BNSMs) provide complementary information.
-During the inspiral, the tidal deformability of the stars imprints the gravitational wave (GW) phase.
-This has been proved in the GW170817 to constrain the tidal deformability $\tilde\Lambda$ to values between  $80$ and $700$ \cite{de_tidal_2018}. 
-After the merger, the remnant reaches higher densities and temperatures than any isolated neutron star, so the post-merger dynamics are sensitive to the EOS in a regime that isolated stars cannot probe. 
-In addition, the neutron rich material ejected during the merger undergoes rapid neutron capture (r-process) nucleosynthesis, and the radioactive decay of the newly formed nuclei powers a kilonova. 
-The kilonova AT2017gfo, which followed GW170817, confirmed BNSMs as a site of the r-process \cite{abbott_gw170817_2017,kasen_origin_2017}.
+During the inspiral, the tidal deformability of the stars imprints the phase of the gravitational-wave (GW) signal.
+For GW170817, this effect constrained the binary tidal deformability $\tilde\Lambda$ to values of roughly $600$-$800$ depending on the waveform model and the priors \cite{de_tidal_2018}.
+BNSMs also provide information about the nuclear physics phenomena that takes place during sudden expansion of the dense matter. 
+Since neutron rich material ejected during the merger undergoes rapid neutron capture (r-process) nucleosynthesis, fresh unstable nuclei are been form.
+Their radioactive decays powers a kilonova, a thermal optical and infrared transient, whose luminosity and colour is sensible to its composition through the radioactive heating rate and the
+opacity~\cite{li_transient_1998,metzger_electromagnetic_2010,yang_lanthanide-rich_2024,hotokezaka_radioactive_2020}. 
+The kilonova AT2017gfo, which followed GW170817, confirmed BNSMs as sites of the r-process \cite{abbott_gw170817_2017,kasen_origin_2017}.
 
-Extracting EOS information from these signals is, however, far from straightforward. Each step between the EOS and an observable introduces additional uncertainties: 
-numerical resolution and the
-treatment of neutrino interactions in merger simulations, the
-properties of neutron-rich nuclei far from stability, and the atomic
-opacities of the ejecta. Constraints on the EOS derived from the
-kilonova of GW170817 illustrate this fragility, as they were later
-shown to depend sensitively on modeling
-assumptions~%\textbf{Bauswein2017,Radice2018Lambda,Kiuchi2019}.
-Moreover, no further neutron-star merger with an electromagnetic
-counterpart was detected during the fourth LIGO--Virgo--KAGRA
-observing run, so the interpretation of future events will rely
-heavily on theoretical predictions. Systematic studies of how
-uncertainties propagate from the EOS and nuclear physics to the
-observable signals are therefore required.
+BNSMs therefore connect the EOS of dense matter with the nuclear physics of heavy-element formation.
+Extracting this information from the observed signals, however, is not straightforward, because each step from the microphysics to an observable introduces additional modeling uncertainties.
+Current merger simulations have to face three major limitations.
+First, an accurate treatment of neutrino transport. Neutrinos interaction changes the $Y_e$ distribution which impacts the r-process nucleosynthesis and therefore the kilonova.
+Current merger simulations include neutrino treatment approximated by leakage, moment, or Monte Carlo transport
+schemes~\cite{foucart_neutrino_2023}. 
+Second, nucleosynthesis calculations require the properties of thousands of neutron-rich nuclei far from stability, most of which have never been measured and are taken from global theoretical models of nuclear masses, $\beta$-decay half-lives, and reaction rates~\cite{rauscher_astrophysical_2000}.
+Finally, kilonova models require atomic opacities dominated by the bound-bound transitions of lanthanides and actinides, which are themselves only approximately known~\cite{tanaka_radiative_2013}.
 
-\section{Phase transitions and nuclear-physics uncertainties}
+Constraints on the EOS derived from the kilonova of GW170817 illustrate this fragility, as they were later shown to depend sensitively on modeling assumptions~\cite{radice_gw170817_2018,kiuchi_revisiting_2019}.
+Also, no further neutron-star merger with an electromagnetic counterpart was detected, so the interpretation of future events will rely heavily on theoretical predictions.
+In particular, any attempt to use kilonovae to probe the EOS, for instance to search for signatures of a hadron-quark phase transition, requires that the contribution of nuclear-physics uncertainties to the predicted light curves be quantified first.
 
+\section{Nuclear-physics uncertainties in kilonova light curves}\label{sec:intro-nuclear}
 
-The observational signatures of a hadron--quark phase transition
-depend on the density at which it occurs. If the onset density lies
-below the central density of the inspiraling stars, quark cores are
-already present before the merger and modify the stellar radii, the
-tidal deformability, and the tidally ejected material. If the onset
-is reached only in the post-merger remnant, the inspiral is unaffected
-and the transition manifests itself only after the merger. In the
-hybrid model considered in this work, [quark matter is already present
-in the inspiraling stars], so the transition can affect both phases.
-
-The kilonova depends on the EOS only indirectly, through the mass,
-velocity, and composition of the ejecta. The composition determines
-the opacity: material with electron fraction $Y_e\lesssim 0.25$
-produces lanthanides, which strongly increase the opacity and shift
-the emission to longer timescales and redder
+The kilonova depends on the EOS only indirectly, through the mass, velocity, and composition of the ejecta.
+The composition determines the opacity, material with electron fraction $Y_e\lesssim 0.25$ produces lanthanides, which strongly increase the opacity and shift the emission to longer timescales and redder
 wavelengths~%\textbf{Kasen2013,Lippuner2015}. 
 The radioactive heating
 that powers the kilonova, in turn, depends on the decay properties of

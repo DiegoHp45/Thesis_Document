@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
-[1] Config.pm:310> INFO - Logfile is 'MIT-Thesis.blg'
-[107] biber:340> INFO - === Tue Oct 20, 2026, 19:04:07
-[133] Biber.pm:419> INFO - Reading 'MIT-Thesis.bcf'
-[249] Biber.pm:979> INFO - Found 12 citekeys in bib section 0
-[274] Biber.pm:4419> INFO - Processing section 0
-[299] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[306] bibtex.pm:1713> INFO - LaTeX decoding ...
-[447] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[3526] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[3526] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[3526] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[3526] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[3600] bbl.pm:660> INFO - Writing 'MIT-Thesis.bbl' with encoding 'UTF-8'
-[4157] bbl.pm:763> INFO - Output to MIT-Thesis.bbl
+[0] Config.pm:310> INFO - Logfile is 'MIT-Thesis.blg'
+[66] biber:340> INFO - === Thu Oct 22, 2026, 10:28:02
+[82] Biber.pm:419> INFO - Reading 'MIT-Thesis.bcf'
+[140] Biber.pm:979> INFO - Found 23 citekeys in bib section 0
+[152] Biber.pm:4419> INFO - Processing section 0
+[161] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[165] bibtex.pm:1713> INFO - LaTeX decoding ...
+[231] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[2104] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2104] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2104] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2104] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[2153] bbl.pm:660> INFO - Writing 'MIT-Thesis.bbl' with encoding 'UTF-8'
+[2588] bbl.pm:763> INFO - Output to MIT-Thesis.bbl

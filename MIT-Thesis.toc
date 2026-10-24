@@ -1,9 +1,9 @@
 \contentsline {chapter}{\numberline {1}Introduction}{9}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Dense matter and the neutron-star equation of state}{9}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Binary neutron-star mergers as multimessenger laboratories}{10}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Phase transitions and nuclear-physics uncertainties}{10}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Nuclear-physics uncertainties in kilonova light curves}{11}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Objectives and research questions}{11}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Structure of the thesis}{11}{section.1.5}%
+\contentsline {section}{\numberline {1.5}Structure of the thesis}{12}{section.1.5}%
 \contentsline {chapter}{\numberline {2}Dense Matter and Neutron-Star Structure}{13}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Equation of state of cold, beta-equilibrated matter}{13}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Hadron–quark phase transitions and hybrid equations of state}{13}{section.2.2}%

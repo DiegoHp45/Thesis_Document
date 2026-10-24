@@ -2388,15 +2388,27 @@
     <bcf:citekey order="1" intorder="1">horowitz_insights_2020</bcf:citekey>
     <bcf:citekey order="2" intorder="1">baym_neutron_1971</bcf:citekey>
     <bcf:citekey order="3" intorder="1">ozel_masses_2016</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">hebeler_equation_2013</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">kurkela_constraining_2014</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">baym_hadrons_2018</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">fonseca_refined_2021</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">riley_nicer_2021</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">alford_hybrid_2005</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">de_tidal_2018</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">abbott_gw170817_2017</bcf:citekey>
-    <bcf:citekey order="11" intorder="2">kasen_origin_2017</bcf:citekey>
+    <bcf:citekey order="3" intorder="2">riley_nicer_2021</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">oppenheimer_massive_1939</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">hebeler_equation_2013</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">kurkela_constraining_2014</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">baym_hadrons_2018</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">fonseca_refined_2021</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">riley_nicer_2021</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">raaijmakers_constraints_2021</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">alford_hybrid_2005</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">de_tidal_2018</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">li_transient_1998</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">metzger_electromagnetic_2010</bcf:citekey>
+    <bcf:citekey order="13" intorder="3">yang_lanthanide-rich_2024</bcf:citekey>
+    <bcf:citekey order="13" intorder="4">hotokezaka_radioactive_2020</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">abbott_gw170817_2017</bcf:citekey>
+    <bcf:citekey order="14" intorder="2">kasen_origin_2017</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">foucart_neutrino_2023</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">rauscher_astrophysical_2000</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">tanaka_radiative_2013</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">radice_gw170817_2018</bcf:citekey>
+    <bcf:citekey order="18" intorder="2">kiuchi_revisiting_2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
