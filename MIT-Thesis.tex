@@ -27,7 +27,7 @@
 
 %%%%%%%%%  Documentclass and options  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[twoside]{mitthesis}
+\documentclass{mitthesis}
 % 						fontset=libertinus, fontset=lmodern, fontset=lucida, 
 %						fontset=fira-newtxsf, fontset=newtx, fontset=newtx-sans-text,  
 %						fontset=heros-stix2,  fontset=stix2, fontset=termes-stix2, fontset=termes
@@ -187,7 +187,7 @@
 % The following items should be adjusted to match your work. <================= !!!!!!!!!!
 
 \hypersetup{%
-	pdfsubject={Full simualtion of kilonova light curves from neutron star mergers},
+	pdfsubject={kilonova light curves from neutron star mergers},
 	% Change this to briefly state topic of your thesis 
 % 
 	pdfkeywords={Neutron star mergers, kilonovae, light curves, nuclear physics, astrophysics, numerical simulations},
@@ -215,8 +215,6 @@
 \DeclareMathOperator{\Erfc}{erfc}
 \DeclarePairedDelimiterXPP\erf[1]{\Erf\mkern1mu}(){}{#1}% increase to 2mu with stix2 font
 \DeclarePairedDelimiterXPP\erfc[1]{\Erfc\mkern1mu}(){}{#1}
-
-
 %%%%%%%%%%%%%%  End preamble %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -224,7 +222,7 @@
 
 %%% edit the following commands to match your thesis %%%%%%%%%%
 
-\title{End-to-end modeling of kilonova light curves and gravitational waveforms from neutron star mergers and possible constraints on nuclear physics parameters}
+\title{Modeling of kilonova light curves from neutron star mergers and possible constraints on nuclear physics}
 
  \Author{Diego Fernando Hernández Porras}{Department of Physics}
 
@@ -325,7 +323,7 @@
 %% If you want to use "double spacing", you should start here...
 
 \include{1_Introduction}
-\include{2_Dense_matter}
+%\include{2_Dense_matter}
 \include{3_Binary_neutron_star_mergers}
 \include{4_Numerical_relativity_hydro}
 \include{5_r_process_nucleosynthesis}

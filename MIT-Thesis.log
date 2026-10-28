@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.7)  22 OCT 2026 10:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.7)  27 OCT 2026 23:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -822,27 +822,27 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 ))
 \@quotelevel=\count477
 \@quotereset=\count478
- (./MIT-Thesis.aux (./acknowledgments.aux) (./1_Introduction.aux) (./2_Dense_matter.aux) (./3_Binary_neutron_star_mergers.aux) (./4_Numerical_relativity_hydro.aux) (./5_r_process_nucleosynthesis.aux) (./6_Kilonova_light_curves.aux) (./7_Methods.aux) (./8_Results.aux) (./9_Discussion.aux) (./10_Conclusions.aux) (./appendixa.aux) (./appendixb.aux) (./appendixc.aux))
+ (./MIT-Thesis.aux (./acknowledgments.aux) (./1_Introduction.aux) (./3_Binary_neutron_star_mergers.aux) (./4_Numerical_relativity_hydro.aux) (./5_r_process_nucleosynthesis.aux) (./6_Kilonova_light_curves.aux) (./7_Methods.aux) (./8_Results.aux) (./9_Discussion.aux) (./10_Conclusions.aux) (./appendixa.aux) (./appendixb.aux) (./appendixc.aux))
 \openout1 = `MIT-Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 223.
-LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 221.
+LaTeX Font Info:    ... okay on input line 221.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 221.
+LaTeX Font Info:    ... okay on input line 221.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 221.
+LaTeX Font Info:    ... okay on input line 221.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 221.
+LaTeX Font Info:    ... okay on input line 221.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 221.
+LaTeX Font Info:    ... okay on input line 221.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 221.
+LaTeX Font Info:    ... okay on input line 221.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 221.
+LaTeX Font Info:    ... okay on input line 221.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 221.
+LaTeX Font Info:    ... okay on input line 221.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 221.
+LaTeX Font Info:    ... okay on input line 221.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -851,7 +851,7 @@ LaTeX Font Info:    ... okay on input line 223.
 * paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside heightrounded 
+* modes: heightrounded 
 * h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
 * v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
 * \paperwidth=614.295pt
@@ -873,8 +873,8 @@ LaTeX Font Info:    ... okay on input line 223.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -897,23 +897,23 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 223.
+Package hyperref Info: Link coloring OFF on input line 221.
 \c@lstlisting=\count485
 
-Package chemgreek Info: Activating mapping `default' on line 223.
+Package chemgreek Info: Activating mapping `default' on line 221.
 
-LaTeX Info: Redefining \microtypecontext on input line 223.
-Package microtype Info: Applying patch `item' on input line 223.
-Package microtype Info: Applying patch `toc' on input line 223.
-Package microtype Info: Applying patch `eqnum' on input line 223.
-Package microtype Info: Applying patch `verbatim' on input line 223.
+LaTeX Info: Redefining \microtypecontext on input line 221.
+Package microtype Info: Applying patch `item' on input line 221.
+Package microtype Info: Applying patch `toc' on input line 221.
+Package microtype Info: Applying patch `eqnum' on input line 221.
+Package microtype Info: Applying patch `verbatim' on input line 221.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 223.
+LaTeX Info: Redefining \showhyphens on input line 221.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -942,16 +942,16 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'MIT-Thesis.bbl' found.
  (./MIT-Thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 223.
-Package biblatex Info: Reference segment=0 on input line 223.
+Package biblatex Info: Reference section=0 on input line 221.
+Package biblatex Info: Reference segment=0 on input line 221.
 <<sRGB.icc>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 295.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 293.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 295.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 293.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -963,179 +963,187 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
  [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./abstract.tex) [2
 
-] (./abstract.tex) [3
 
-] [4]
+]
 \openout2 = `acknowledgments.aux'.
 
- (./acknowledgments.tex) [5
+ (./acknowledgments.tex) [3
 
 
 
-] [6
+] (./MIT-Thesis.toc [4
 
 
 
-] (./MIT-Thesis.toc [7])
+])
 \tf@toc=\write4
 \openout4 = `MIT-Thesis.toc'.
 
- [8]
+ [5]
 \openout2 = `1_Introduction.aux'.
 
  (./1_Introduction.tex
 Chapter 1.
-[9
+[6
 
 
-] [10] [11]) [12]
-\openout2 = `2_Dense_matter.aux'.
-
- (./2_Dense_matter.tex
-Chapter 2.
-) [13
-
-
-
-
-]
+] [7] [8] [9]) [10]
 \openout2 = `3_Binary_neutron_star_mergers.aux'.
 
- (./3_Binary_neutron_star_mergers.tex [14
+ (./3_Binary_neutron_star_mergers.tex
+Chapter 2.
+[11
 
 
 
 
 ]
-Chapter 3.
-) [15]
+<Figures/DNS_formation.jpeg, id=262, 598.235pt x 721.69624pt>
+File: Figures/DNS_formation.jpeg Graphic file (type jpg)
+<use Figures/DNS_formation.jpeg>
+Package pdftex.def Info: Figures/DNS_formation.jpeg  used on input line 54.
+(pdftex.def)             Requested size: 328.82707pt x 396.6919pt.
+ [12] [13 <./Figures/DNS_formation.jpeg>]
+
+LaTeX Warning: Reference `ch:numerical' on page 14 undefined on input line 134.
+
+)
+Overfull \hbox (13.80484pt too wide) in paragraph at lines 125--327
+\T1/cmr/m/n/12 (-20) Two con-sis-tency checks are worth not-ing. At $\OML/cmm/m/it/12 a[]$\T1/cmr/m/n/12 (-20) , the or-bital ve-loc-ity is $\OML/cmm/m/it/12 v=c \OT1/cmr/m/n/12 (-20) = (\OML/cmm/m/it/12 GM=a[]c[]\OT1/cmr/m/n/12 (-20) )[] \OMS/cmsy/m/n/12 ^^Y
+ []
+
+[14]
 \openout2 = `4_Numerical_relativity_hydro.aux'.
 
- (./4_Numerical_relativity_hydro.tex [16
+ (./4_Numerical_relativity_hydro.tex
+Chapter 3.
+) [15
 
 
 
 
 ]
-Chapter 4.
-) [17]
 \openout2 = `5_r_process_nucleosynthesis.aux'.
 
- (./5_r_process_nucleosynthesis.tex [18
+ (./5_r_process_nucleosynthesis.tex
+Chapter 4.
+) [16
 
 
 
 
 ]
-Chapter 5.
-) [19]
 \openout2 = `6_Kilonova_light_curves.aux'.
 
- (./6_Kilonova_light_curves.tex [20
+ (./6_Kilonova_light_curves.tex
+Chapter 5.
+) [17
 
 
 
 
 ]
-Chapter 6.
-) [21]
 \openout2 = `7_Methods.aux'.
 
- (./7_Methods.tex [22
+ (./7_Methods.tex
+Chapter 6.
+) [18
 
 
 
 
 ]
-Chapter 7.
-) [23]
 \openout2 = `8_Results.aux'.
 
- (./8_Results.tex [24
+ (./8_Results.tex
+Chapter 7.
+) [19
 
 
 
 
 ]
-Chapter 8.
-) [25]
 \openout2 = `9_Discussion.aux'.
 
- (./9_Discussion.tex [26
+ (./9_Discussion.tex
+Chapter 8.
+) [20
 
 
 
 
 ]
-Chapter 9.
-) [27]
 \openout2 = `10_Conclusions.aux'.
 
- (./10_Conclusions.tex [28
+ (./10_Conclusions.tex
+Chapter 9.
+) [21
 
 
 
 
 ]
-Chapter 10.
-) [29]
 \openout2 = `appendixa.aux'.
 
- (./appendixa.tex [30
+ (./appendixa.tex
+Appendix A.
+) [22
 
 
 
 
 ]
-Appendix A.
-) [31]
 \openout2 = `appendixb.aux'.
 
- (./appendixb.tex [32
+ (./appendixb.tex
+Appendix B.
+) [23
 
 
 
 
 ]
-Appendix B.
-) [33]
 \openout2 = `appendixc.aux'.
 
- (./appendixc.tex [34
-
-
-
-
-]
+ (./appendixc.tex
 Appendix C.
-) [35] [36
+) [24
 
 
 
-] [37] [38] [39] (./MIT-Thesis.aux (./acknowledgments.aux) (./1_Introduction.aux) (./2_Dense_matter.aux) (./3_Binary_neutron_star_mergers.aux) (./4_Numerical_relativity_hydro.aux) (./5_r_process_nucleosynthesis.aux) (./6_Kilonova_light_curves.aux) (./7_Methods.aux) (./8_Results.aux) (./9_Discussion.aux) (./10_Conclusions.aux) (./appendixa.aux) (./appendixb.aux) (./appendixc.aux))
+
+] [25
+
+
+
+] [26] [27] [28] [29] (./MIT-Thesis.aux (./acknowledgments.aux) (./1_Introduction.aux) (./3_Binary_neutron_star_mergers.aux) (./4_Numerical_relativity_hydro.aux) (./5_r_process_nucleosynthesis.aux) (./6_Kilonova_light_curves.aux) (./7_Methods.aux) (./8_Results.aux) (./9_Discussion.aux) (./10_Conclusions.aux) (./appendixa.aux) (./appendixb.aux) (./appendixc.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'MIT-Thesis.run.xml'.
 \openout1 = `MIT-Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29613 strings out of 474222
- 553942 string characters out of 5748734
- 1942975 words of memory out of 5000000
- 51091 multiletter control sequences out of 15000+600000
- 584291 words of font info for 192 fonts, out of 8000000 for 9000
+ 29714 strings out of 474222
+ 557732 string characters out of 5748734
+ 1945975 words of memory out of 5000000
+ 51135 multiletter control sequences out of 15000+600000
+ 584944 words of font info for 210 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,7n,93p,1672b,3078s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on MIT-Thesis.pdf (39 pages, 304365 bytes).
+ 90i,7n,93p,1128b,3084s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on MIT-Thesis.pdf (29 pages, 430121 bytes).
 PDF statistics:
- 706 PDF objects out of 1000 (max. 8388607)
- 620 compressed objects within 7 object streams
- 127 named destinations out of 1000 (max. 500000)
- 41465 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 750 PDF objects out of 1000 (max. 8388607)
+ 670 compressed objects within 7 object streams
+ 136 named destinations out of 1000 (max. 500000)
+ 41398 words of extra memory for PDF output out of 42996 (max. 10000000)
 

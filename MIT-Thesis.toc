@@ -1,56 +1,47 @@
-\contentsline {chapter}{\numberline {1}Introduction}{9}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Dense matter and the neutron-star equation of state}{9}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Binary neutron-star mergers as multimessenger laboratories}{10}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Nuclear-physics uncertainties in kilonova light curves}{11}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Objectives and research questions}{11}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Structure of the thesis}{12}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Dense Matter and Neutron-Star Structure}{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Equation of state of cold, beta-equilibrated matter}{13}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Hadron–quark phase transitions and hybrid equations of state}{13}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Thermal effects in the equation of state}{13}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Stellar structure: TOV equations and tidal deformability}{13}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Observational constraints}{13}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Binary Neutron-Star Mergers}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Merger phases and remnant fate}{15}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Gravitational waves: inspiral tidal effects and post-merger spectrum}{15}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Mass ejection: tidal, shock-driven, and disk-wind ejecta}{15}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Weak interactions and the electron fraction of the ejecta}{15}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Electromagnetic counterparts}{15}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Numerical Relativistic Hydrodynamics}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}3+1 decomposition and evolution formulation}{17}{section.4.1}%
-\contentsline {section}{\numberline {4.2}General-relativistic hydrodynamics in conservative form}{17}{section.4.2}%
-\contentsline {section}{\numberline {4.3}The Einstein Toolkit: initial data, mesh refinement, atmosphere}{17}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Gravitational-wave extraction}{17}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Ejecta diagnostics and unbound-matter criteria}{17}{section.4.5}%
-\contentsline {chapter}{\numberline {5}r-Process Nucleosynthesis}{19}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Nuclear statistical equilibrium and freeze-out}{19}{section.5.1}%
-\contentsline {section}{\numberline {5.2}The r-process: neutron-to-seed ratio, fission cycling}{19}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Reaction-network equations and numerical solution}{19}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Nuclear inputs: masses, decay rates, neutron capture, fission}{19}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Radioactive heating and thermalization}{19}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Kilonova Light Curves}{21}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Li-Paczy\'nski model}{21}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Radiative transfer and the diffusion regime}{21}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Opacities of r-process matter}{21}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Light-curve modeling}{21}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Methodology on the impact of theoretical decay rates across thermodynamics trajectories}{23}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Binary neutron-star simulation}{23}{section.7.1}%
-\contentsline {section}{\numberline {7.2}From simulation to trajectories: ejecta extraction and expansion}{23}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Initial termodinamic trajectories treatment}{23}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Nuclear reaction network setup and theoretical reaction reates}{23}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Modified Li-Paczy\'nski model and radiative transfer simulations}{23}{section.7.5}%
-\contentsline {chapter}{\numberline {8}Results}{25}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Merger dynamics}{25}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Dynamical-ejecta properties}{25}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Nucleosynthesis and heating rates}{25}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Kilonova light curves}{25}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Relevant nuclei and uncertainties}{25}{section.8.5}%
-\contentsline {section}{\numberline {8.6}Detectability with current and future telescopes}{25}{section.8.6}%
-\contentsline {chapter}{\numberline {9}Discussion}{27}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Comparison with previous studies}{27}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Limitations and model assumptions}{27}{section.9.2}%
-\contentsline {chapter}{\numberline {10}Conclusions and Outlook}{29}{chapter.10}%
-\contentsline {chapter}{\numberline {A}Units and conventions}{31}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Convergence tests}{33}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Network and equation-of-state configuration details}{35}{appendix.C}%
-\contentsline {backmatter}{References}{37}{appendix*.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Kilonovae in a nutshell}{6}{section.1.1}%
+\contentsline {section}{\numberline {1.2}A brief history of the kilonova}{7}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Modern models of Kilonova and observations}{8}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Objectives and thesis structure}{10}{section.1.4}%
+\contentsline {chapter}{\numberline {2}From Neutron stars to Kilonova}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}The Neutron star}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Formation of binary neutron stars that merge}{12}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Gravitational-wave-driven inspiral and the maximum separation}{12}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Numerical Relativistic Hydrodynamics}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}3+1 decomposition and evolution formulation}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.2}General-relativistic hydrodynamics in conservative form}{15}{section.3.2}%
+\contentsline {section}{\numberline {3.3}The Einstein Toolkit: initial data, mesh refinement, atmosphere}{15}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Gravitational-wave extraction}{15}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Ejecta diagnostics and unbound-matter criteria}{15}{section.3.5}%
+\contentsline {chapter}{\numberline {4}r-Process Nucleosynthesis}{16}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Nuclear statistical equilibrium and freeze-out}{16}{section.4.1}%
+\contentsline {section}{\numberline {4.2}The r-process: neutron-to-seed ratio, fission cycling}{16}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Reaction-network equations and numerical solution}{16}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Nuclear inputs: masses, decay rates, neutron capture, fission}{16}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Radioactive heating and thermalization}{16}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Kilonova Light Curves}{17}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Li-Paczy\'nski model}{17}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Radiative transfer and the diffusion regime}{17}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Opacities of r-process matter}{17}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Light-curve modeling}{17}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Methodology on the impact of theoretical decay rates across thermodynamics trajectories}{18}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Binary neutron-star simulation}{18}{section.6.1}%
+\contentsline {section}{\numberline {6.2}From simulation to trajectories: ejecta extraction and expansion}{18}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Initial termodinamic trajectories treatment}{18}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Nuclear reaction network setup and theoretical reaction reates}{18}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Modified Li-Paczy\'nski model and radiative transfer simulations}{18}{section.6.5}%
+\contentsline {chapter}{\numberline {7}Results}{19}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Merger dynamics}{19}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Dynamical-ejecta properties}{19}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Nucleosynthesis and heating rates}{19}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Kilonova light curves}{19}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Relevant nuclei and uncertainties}{19}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Detectability with current and future telescopes}{19}{section.7.6}%
+\contentsline {chapter}{\numberline {8}Discussion}{20}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Comparison with previous studies}{20}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Limitations and model assumptions}{20}{section.8.2}%
+\contentsline {chapter}{\numberline {9}Conclusions and Outlook}{21}{chapter.9}%
+\contentsline {chapter}{\numberline {A}Units and conventions}{22}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Convergence tests}{23}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Network and equation-of-state configuration details}{24}{appendix.C}%
+\contentsline {backmatter}{References}{25}{appendix*.3}%

@@ -1,109 +1,126 @@
 \chapter{Introduction}\label{ch:introduction}
 
-\section{Dense matter and the neutron-star equation of state}\label{sec:intro-eos}
+Binary neutron star mergers (BNSMs) are among the most energetic events in the universe, releasing tremendous amounts of energy through gravitational waves, neutrinos, and electromagnetic radiation. 
+Following the merger of two neutron stars, a fraction of their mass is ejected through strong tidal interactions. 
+The ejected material is expected to consist of extremely neutron rich matter, within which rapid neutron captures (r-process) lead to the formation of heavy nuclei far from stability. 
+Consequently, these mergers are considered one of the primary sites for the synthesis of the heaviest elements in the Universe \cite{cowan_origin_2021,rosswog_heavy_2024}. 
+As the freshly synthesized nuclei decay toward stability, their radioactive energy release drives the thermodynamical evolution and produce a thermal electromagnetic transient \cite{metzger_electromagnetic_2010}.
+Such transient is called Kilonova and will be the main topic of this thesis since they encode crucial information about the physics of the merger such as the abundance pattern of elements and the amount of material.
 
-Neutron stars contain the densest matter known to exist in a stable state. 
-Their central densities reach several times the nuclear saturation density $n_{\rm sat}\simeq 0.15~\mathrm{fm^{-3}}$~\cite{horowitz_insights_2020}. 
-At such densities atoms are not stable configurations, and matter adopts a different form governed by the strong and weak interactions called dense matter.
-In the outer layers of the star, nuclei coexist with a degenerate electron gas. 
-With increasing density, electron captures make the nuclei progressively more neutron-rich until, at the neutron-drip density $n_{\rm drip}\simeq 2.5\times10^{-4}~\mathrm{fm^{-3}}$ ($\rho\simeq 4\times10^{11}~\mathrm{g\,cm^{-3}}$), neutrons are no longer bound to the nuclei and form a free neutron gas~\cite{baym_neutron_1971}.
-At about half the saturation density the difference between inside and outside of a nucleus vanish effectively becoming a continuum of nucleons which marks the transition from crust to core. 
-At the same time the $\beta$ equilibrium favors neutrons instead of protons, this leads to a neutron dominated composition.  
-The mechanism from which neutrons drip at such densities and why nature favors neutrons will be addressed in Chapter~\ref{ch:mergers}.
+\section{Kilonovae in a nutshell}\label{in_a_nutshell}
 
-Observed neutron-star masses range from about $1.1$ to slightly above $2\,M_\odot$, and their radii are inferred to lie between roughly $10$ and $14~\mathrm{km}$~\cite{ozel_masses_2016,riley_nicer_2021}.
-Their structure is determined by the equation of state (EOS) through the Tolman-Oppenheimer-Volkoff equations plus rotational corrections.
-Since the matter inside the star is expected to be dominated by neutrons, the EOS will inherit the nature predicted from the quantum behavior and interactions of neutrons.
-A free, degenerate neutron gas can support stars of at most $\simeq 0.7\,M_\odot$ \cite{oppenheimer_massive_1939}.
-To accurate explain observations the strongly repulsive short-range part of the nuclear interaction is required, which in relativistic mean-field models is mediated by $\omega$-meson exchange. 
-Through this link between microphysics and astrophysical observables, neutron stars have become natural laboratories for strongly interacting matter at densities that cannot be reached in terrestrial experiments.
+Kilonovae are closely related to the nuclear and atomic phenomena inside the ejecta.
+As heavy nuclei decays towards stability part of the energy is released in form of high energy photons according to the specific transitions inside the nuclei. 
+Also decay products such as $\alpha$ and $\beta$ particles, which carry part of the energy of the decay as well, will interact with surrounding charged particles primarily through coulomb interaction which will produce photons that wil steal part of that energy.
+So effectively the relevant particles will be just photons.
 
-The microscopic theory of this matter, quantum chromodynamics (QCD), cannot at present provide the EOS in the relevant density range.
-At the baryon chemical potentials of neutron-star cores, QCD is non-perturbative, and lattice QCD is hampered by the fermion sign problem at finite baryon density. 
-Controlled calculations exist only in two limits, chiral effective field theory describes nuclear matter up to about $1$--$2\,n_{\rm sat}$ \cite{hebeler_equation_2013}, and perturbative QCD becomes reliable only at densities of order $40\,n_{\rm sat}$, far above those realized in neutron stars \cite{kurkela_constraining_2014}.
-In the intermediate regime, where neutron-star cores reside, the EOS is described by phenomenological models whose predictions must be confronted with astrophysical observations.
+At early stage the density is still high, so photons can not easily scape and interact with several charged particles before reaching the surface.
+As photons interact matter their energy spectrum approaches the one of a black body, this process is called thermalization and the same process can be applied to all the other decay products~\cite{barnes_radioactivity_2016}.
+The emission at such stages then is well described as a black body with a temperature evolution govern by the heating rate from radioactive decays. 
+As the density decreases bound states like atoms are being form in a process called electronic reconfiguration.
+After this point the thermalization of the photons depends on the emission and absorption spectrum of heavy elements.
+As a consequence kilonova light curves encapsule information the abundance of certain nuclei with some specific emission and absorption lines. 
+For example, the presence of lanthanides increases the opacity of the ejected material in an order of magnitude, so a kilonova with lanthanides will thermalize more efficiently and will shape the kilonova into a long lived thermal spectrum~\cite{yang_lanthanide-rich_2024}.
+Since the abundance of lanthanides along with the rest of nuclei are determined by nuclear physics inputs, such as reaction rates, decay rates and masses, a detailed treatment of their uncertainties is needed for the correct interpretation of current and future observations. 
+This is were this research work sits and will be developed later in the text.
 
-As a consequence, the composition of neutron star cores remains unknown.
-Matter at several times $n_{\rm sat}$ may consist of nucleons, may contain hyperons, or may undergo a transition to deconfined quark matter, either through a smooth crossover or through a first order hadron-quark phase transition \cite{baym_hadrons_2018}. 
-Heavy ion collisions probe hot matter with proton fractions close to those of stable nuclei ($Y_p\simeq 0.4$--$0.5$) and cannot access the cold, neutron rich, $\beta$-equilibrated regime of neutron stars.
-Astrophysical observations therefore play a unique role in constraining this region of the QCD phase diagram.
+In the folowing sections, we will first give the reader a brief historical introduction of the kilonova.
+Then we will present the modern models of kilonova with its limitations.
+And, by the end of this chapter, we will state the objective of the reseach, explain the methodology and explain the whole structure of this thesis. 
 
-\section{Binary neutron-star mergers as multimessenger laboratories}\label{sec:intro-mergers}
+%Before we continue the discussion on kilonova light curves evolution we should also discuss the the astrophysical site that enables the environment needed for the r-process nucleosynthesis. In this chapter and chapter \ref{chap:2} I will first develop the intuition on  why dense matter inside neutrons stars consist on neutrons and how are those objects even in equilibrium. How can a neutron star meet another neutron star and why they end up merging together. What is emitted at the merger and after
 
-Observations of isolated neutron stars have placed significant constraints on the EOS. 
-The existence of pulsars with masses of about $2\,M_\odot$~\cite{fonseca_refined_2021} and the radii inferred by NICER~\cite{riley_nicer_2021} constrain the pressure of dense matter up to densities of roughly $2-3\,n_{\rm sat}$ \cite{raaijmakers_constraints_2021}. 
-These measurements, however, constrain the relation between pressure and energy density rather than giving a full description of the matter. 
-For example, hybrid stars (Neutron stars with quark cores) can have mass-radius relations nearly indistinguishable from those of purely hadronic stars~\cite{alford_hybrid_2005}.
+\section{A brief history of the kilonova}\label{sec:briefkilo}
 
-Binary neutron star mergers (BNSMs) provide complementary information.
-During the inspiral, the tidal deformability of the stars imprints the phase of the gravitational-wave (GW) signal.
-For GW170817, this effect constrained the binary tidal deformability $\tilde\Lambda$ to values of roughly $600$-$800$ depending on the waveform model and the priors \cite{de_tidal_2018}.
-BNSMs also provide information about the nuclear physics phenomena that takes place during sudden expansion of the dense matter. 
-Since neutron rich material ejected during the merger undergoes rapid neutron capture (r-process) nucleosynthesis, fresh unstable nuclei are been form.
-Their radioactive decays powers a kilonova, a thermal optical and infrared transient, whose luminosity and colour is sensible to its composition through the radioactive heating rate and the
-opacity~\cite{li_transient_1998,metzger_electromagnetic_2010,yang_lanthanide-rich_2024,hotokezaka_radioactive_2020}. 
-The kilonova AT2017gfo, which followed GW170817, confirmed BNSMs as sites of the r-process \cite{abbott_gw170817_2017,kasen_origin_2017}.
+Until the last decade, the astrophysical origin of roughly half of the nuclei heavier than iron remained one of the major open problems of nuclear astrophysics.
+Big Bang nucleosynthesis accounts for the primordial abundances of the lightest nuclides (D, $^{3}$He, $^{4}$He and $^{7}$Li), while hydrostatic and explosive burning in stars and supernovae produces the elements from carbon up to the iron peak and some heavier elements \cite{cyburt_big_2016,thielemann_nucleosynthesis_2018}.
+The issue was that beyond iron, the binding energy per nucleon decreases and Coulomb barriers grow, so heavy nuclei are built mainly by neutron captures rather than by charged particle fusion.
+However, the two main channels were known \cite{burbidge_synthesis_1957}.
+The first channel is the slow ($s$) process, neutron captures are slower than $\beta$-decays.
+The second is the rapid ($r$) process, in which captures are much faster than $\beta$-decays and drive matter far to the neutron-rich side of stability.
+The $s$-process is now well understood and operates mainly in asymptotic giant branch (AGB) stars and, for the lighter heavy elements, in massive stars \cite{kappeler_s_2011}.
+The conditions required by the $r$-process have also been characterized.Neutron densities $n_n \gtrsim 10^{20}\,\mathrm{cm^{-3}}$, or equivalently suitable combinations of electron fraction, entropy and expansion timescale in the ejecta \cite{hoffman_model_1997}.
+But, the site where these conditions occur, however, remained elusive.
 
-BNSMs therefore connect the EOS of dense matter with the nuclear physics of heavy-element formation.
-Extracting this information from the observed signals, however, is not straightforward, because each step from the microphysics to an observable introduces additional modeling uncertainties.
-Current merger simulations have to face three major limitations.
-First, an accurate treatment of neutrino transport. Neutrinos interaction changes the $Y_e$ distribution which impacts the r-process nucleosynthesis and therefore the kilonova.
-Current merger simulations include neutrino treatment approximated by leakage, moment, or Monte Carlo transport
-schemes~\cite{foucart_neutrino_2023}. 
-Second, nucleosynthesis calculations require the properties of thousands of neutron-rich nuclei far from stability, most of which have never been measured and are taken from global theoretical models of nuclear masses, $\beta$-decay half-lives, and reaction rates~\cite{rauscher_astrophysical_2000}.
-Finally, kilonova models require atomic opacities dominated by the bound-bound transitions of lanthanides and actinides, which are themselves only approximately known~\cite{tanaka_radiative_2013}.
+For several decades the favoured candidate was the core-collapse supernova, in particular the neutrino driven wind from the newborn neutron star \cite{woosley_r-process_1994}.
+Modern simulations, however, find this wind neither neutron rich nor entropic enough to produce the heaviest $r$-process nuclei \cite{arcones_nucleosynthesis_2007}, so ordinary supernovae contribute at most a weak $r$-process, producing elements up to about Sr-Ag.
+Observations point in the same direction.
+The large star-to-star scatter of europium in metal-poor stars \cite{sneden_neutron_2008}, the strong $r$-process enrichment of the ultra-faint dwarf galaxy Reticulum II \cite{ji_complete_2016}, and the low abundance of live $^{244}$Pu in deep-sea sediments \cite{wallner_abundance_2015} all indicate that the heavy $r$-process elements are made in rare events with large yields, rather than in frequent ordinary supernovae.
 
-Constraints on the EOS derived from the kilonova of GW170817 illustrate this fragility, as they were later shown to depend sensitively on modeling assumptions~\cite{radice_gw170817_2018,kiuchi_revisiting_2019}.
-Also, no further neutron-star merger with an electromagnetic counterpart was detected, so the interpretation of future events will rely heavily on theoretical predictions.
-In particular, any attempt to use kilonovae to probe the EOS, for instance to search for signatures of a hadron-quark phase transition, requires that the contribution of nuclear-physics uncertainties to the predicted light curves be quantified first.
+Neutron star mergers on the other hand matches those requirements.
+Early theoretical studies had proposed that during the merger of compact objects, tidal forces lead to the ejection of neutron-rich material \cite{lattimer_tidal_1976}.
+This ejecta was expected to be very neutron-rich material and decompress rapidly.
+Ideal for $r$-process, enabling the synthesis of heavy neutron-rich nuclei.
+It was then proposed that the radioactive decay of freshly synthesized nuclei would power a short-lived optical transient.
+In 1998 Li and Paczyński proposed a simple model (LP98) to calculate that possible electromagnetic counter part.
+The model predicted a light curve with a bolometric luminosity peak of approximately $10^{44}\ erg\ s^{-1}$ with a duration of $\approx 1$ day after the merger depending on some free parameters like expansion velocity, ejected mass and an effective constant for the radioactive heating \cite{li_transient_1998}.
 
-\section{Nuclear-physics uncertainties in kilonova light curves}\label{sec:intro-nuclear}
+\section{Modern models of Kilonova and observations}
 
-The kilonova depends on the EOS only indirectly, through the mass, velocity, and composition of the ejecta.
-The composition determines the opacity, material with electron fraction $Y_e\lesssim 0.25$ produces lanthanides, which strongly increase the opacity and shift the emission to longer timescales and redder
-wavelengths~%\textbf{Kasen2013,Lippuner2015}. 
-The radioactive heating
-that powers the kilonova, in turn, depends on the decay properties of
-nuclei far from stability, many of which have not been measured and
-must be taken from theoretical models %~\textbf{Mumpower2016,Barnes2021}.
+The LP98 model assumes an analytical energy generation rate of the form $\dot\varepsilon(t) \propto t^{-1}$ and models the electromagnetic emission as a blackbody spectrum.
+However, these assumptions may not fully capture the physical complexity of the event.
+As we discuss before the $\gamma$-rays produced by nuclear decays can escape without thermalizing, leading to deviations in the predicted emission spectrum.
+In addition, the actual energy generation rate may deviate from the assumed analytical form, making a more detailed treatment of the spectral evolution of the emission a challenging task.
 
-These two sources of uncertainty act on different physical
-quantities but on the same observable. An EOS-induced change in the
-ejecta mass and a change in the theoretical $\beta$-decay rates can
-both alter the luminosity and timescale of the kilonova. Likewise, a
-purely hadronic EOS with a tidal deformability similar to that of a
-hybrid EOS produces a nearly identical inspiral. A central question is
-therefore whether nuclear-physics uncertainties can mask the signature
-of a phase transition in the electromagnetic signal, and whether the
-combination with the GW signal can break this degeneracy.
+The first attempt to construct a realistic model of this phenomenon was presented by Metzger et al. 2010 \cite{metzger_electromagnetic_2010}, who performed self-consistent calculations of the optical and near-infrared counterparts with two major improvements.
+First, they implemented nuclear reaction network calculations to evolve the abundances and compute the corresponding energy generation rate, $\dot{\varepsilon}(t)$, using both experimental and theoretical reaction and decay rates.
+Secondly, they performed one-dimensional Monte Carlo radiative transfer simulations, assuming opacities derived from bound–bound transitions of iron (Fe), with corrections applied to the ionization energies, in order to model the resulting light curves.
+The first results demonstrated an abundance pattern close to the solar system r-process abundances.
+Also, the energy generation rate was found to follow a power-law dependence, $\dot \varepsilon(t) \propto t^{-\alpha}$ with $\alpha \sim 1.1-1.3$, remarkably robust against variations in the electron fraction, ($Y_e \sim 0.05-0.35$), thermodynamic trajectories, and nuclear properties along the r-process path.
+The second key result demonstrated that the light curves evolve significantly different from that predicted by the simple blackbody approximation.
+The simulated light curves exhibited a characteristic “bump-like” behavior on different timescales across various wavelength bands and a peak luminosity three orders of magnitude greater than a typical nova with the latter being the reason why the term kilonova was first introduced.
 
-\section{Objectives and research questions}
+However, radiative transfer simulations face major challenges due to the highly complex opacities arising from the dense line spectra of heavy r-process nuclei.
+This “opacity problem” has been addressed through several approaches.
+For instance, in \cite{kasen_opacities_2013}, atomic structure models for representative elements were employed to compute radiative transition rates for tens of millions of lines, enabling more realistic estimates of the opacities for r-process material.
+A different approach was done in \cite{tanaka_radiative_2013} where the opacity was estimated by taking into account electron scattering, free-free, bound-free and bound-bound transitions using analytical formulas.
+These advances led to the identification of distinct kilonova components based on the lanthanide content of the ejecta \cite{barnes_effect_2013,lippuner_r-process_2015}.
+Material with a low electron fraction ($Y_e \le 0.22$) is expected to produce lanthanide-rich ejecta with high opacity, resulting in a red, longer-lived transient commonly referred to as the red kilonova.
+In contrast, material ejected with a higher electron fraction ($Y_e \ge 0.22-0.3$), typically from the polar regions, evolves into lanthanide-poor ejecta with lower opacity, producing a short-lived, blue optical transient known as the blue kilonova.
 
+Nevertheless, all previous efforts remained purely theoretical and computational, as no observational data were available to validate the models.
+This situation changed on August 17, 2017, when the Advanced LIGO and Advanced Virgo gravitational-wave detectors made their first observation of a binary neutron star merger (BNSM) \cite{abbott_gw170817_2017} with the subsequent identification of the electromagnetic counterparts in the same location, which supported the identification of the event as a BNSM.
+An approximately 100 s long gravitational-wave signal, GW170817, was followed by a short gamma ray burst (sGRB) GRB 170817A and an optical transient named, SSS17a/AT 2017gfo  \cite{coulter_swope_2017}, found in the host galaxy NGC 4993.
+The source of the signal was detected across the electromagnetic spectrum in the X-ray, ultraviolet, optical, infrared, and radio bands—over hours, days, and weeks \cite{drout_light_2017}.
 
-The objective of this thesis is to perform a proof-of-concept joint
-analysis of the gravitational-wave and kilonova signals of a binary
-neutron-star merger, in order to assess whether a hadron--quark phase
-transition leaves signatures that can be distinguished from those of
-hadronic EOS variations and from nuclear-physics uncertainties.
-Specifically, we address the following questions:
+The electromagnetic transient SSS17a/AT 2017gfo was of great significance, as it provided the first compelling observational evidence for the nucleosynthesis of heavy nuclei through the r-process.
+As shown in \cite{villar_combined_2017}, the observed emission was well reproduced by a three-component kilonova model.
+A lanthanide-poor blue component with an opacity of $\kappa = 0.5$ $cm^{2}g^{-1}$, ejecta mass $M_{ej}\approx0.020M_{\odot}$ and velocity $V_{ej}=0.27c$; an intermediate (purple) component with $\kappa=3$ $cm^2g^{-1}$, $M_{ej}\approx0.047M_{\odot}$ and $V_{ej}=0.15c$; and a lanthanide-rich red component $\kappa=10$ $cm^2g^{-1}$), $M_{ej}\approx0.011M_{\odot}$ and $V_{ej}=0.14c$.
+Meanwhile, numerous efforts have been made to improve previous kilonova models, motivated by the prospect of obtaining high-resolution data from future observations with the James Webb Space Telescope (JWST).
+But performing fully consistent general relativistic simulations that include a realistic treatment of nuclear matter with proper neutrino transport, followed by detailed nucleosynthesis calculations in the ejecta and subsequent radiative transfer simulations to reproduce the observed light curves, remains computationally demanding.
+Consequently, several practical semi-analytical formulations have been proposed to approximate key physical processes and reduce the computational cost while retaining the essential physics of the problem.
 
-\begin{enumerate}
-  \item How do the gravitational-wave signal and the dynamical
-        ejecta (mass, velocity, and thermodynamic conditions) of an
-        equal-mass merger differ between hadronic EOSs and an EOS
-        with a first-order hadron--quark phase transition, and are
-        these differences larger than the numerical uncertainty?
-  \item How do the EOS-induced changes in the nucleosynthesis yields,
-        radioactive heating, and kilonova light curves compare with
-        those produced by different theoretical prescriptions for
-        $\beta$-decay rates, and does the joint GW+EM analysis help
-        disentangle the two?
-\end{enumerate}
+One of the cornerstones of analytical modeling was presented in \cite{metzger_kilonovae_2017}, which introduced a simplified model not intended to replace full multi-group radiative transfer simulations, but rather to serve as a toy model for qualitatively understanding the evolution of the transient.
+More refined analytical approaches were proposed shortly thereafter. For instance, \cite{waxman_constraints_2018} developed a model capable of reproducing multi-band light curves by assuming a time-dependent effective opacity and a uniform power-law energy generation rate.
+Some models also account for the impact of ejecta morphology on the observed emission, introducing more realistic prescriptions for non-spherical geometries and their influence on the angular dependence of the kilonova light curves \cite{wollaeger_impact_2018}.
 
-The study is restricted to a single equal-mass binary, three EOSs
-[names], and the dynamical ejecta; the long-term disk outflows and
-neutrinos as a direct observable are beyond its scope.
+The present panorama of kilonova modeling extends beyond purely analytical formulations and is now better represented by semi-analytical frameworks, such as the one introduced in \cite{ricigliano_xkn_2024}. This framework provides a practical approach for generating broadband light curves that account for multiple ejecta components and non-spherical geometries, while incorporating time- and composition-dependent heating rates, thermalization efficiencies, and opacities. 
 
-\section{Structure of the thesis}
+Such advances in kilonova modeling have opened new possibilities for studying distinct features in the light curves that may contain additional information about the composition of the ejecta.
+It has been theorized that the late time kilonova emission, occurring weeks to months after the merger, can reveal the radioactive signatures of specific heavy nuclei, rather than the power-law heating that dominates the early time emission \cite{wu_fingerprints_2019}.
+Isotopes such as 223Ra ($t_{1/2}=11.43$ d), 225Ac ($t_{1/2}=10.0$ d) with $\alpha-$decay and 254Cf with spontaneous fission, have been identified as potential dominant contributors to the late-time heating \cite{chen_radioactive_2023}.
+These nuclei release large amounts of energy per decay and the $\alpha$ particles thermalize more efficiently than typical $\beta$-decay products.
+Therefore, these nuclei are expected to produce detectable bumps or departures from a smooth power-law decline in the bolometric light curve.
+However, identifying such “fingerprints” requires sufficiently accurate heating-rate predictions from nucleosynthesis calculations and sensitive, multi-epoch, wide-band observations.
 
+In March 2023, the electromagnetic transient AT2023vfi, associated with the gamma-ray burst GRB 230307A, was identified as the second confirmed observation of a kilonovae \cite{levan_heavy-element_2024}.
+This signal has provided an early opportunity to apply these ideas observationally \cite{gillanders_analysis_2025}.
+JWST follow-up analyses indicate that AT2023vfi’s early evolution resembles AT2017gfo during the first week, and detailed spectral/photometric modeling has been used to place constraints on the presence and abundances of superheavy nuclei in the ejecta.
+The work presented in \cite{liu_constraint_2025} reports upper limits and tentative abundance estimates for isotopes such as 222Rn, 223Ra, 224Ra and 225Ac.
+These results illustrate both the promise and the current limitations: while JWST data can probe late-time radioactive contributors, robust identification of specific isotopes requires careful propagation of nuclear-physics (decay-rate and fission-yield) and opacity uncertainties.
+In this context, one of the goals of this work is to assess whether a more accurate treatment of decay-rate uncertainties can improve the constraints on the abundance of heavy nuclei.
 
+\section{Objectives and thesis structure}
+
+As mention before, the main objective of this work is to evaluate the sensibility of kilonova light curves to choice of theoretical decay rates prescription.
+We constructed an ensemble of initial thermodynamics trajectories possibles within the ejecta.
+For each initial condition we ran three nuclear reaction network calculations with three different $\beta^{-}$-decay prescription.
+Then with the results for the abundance and the heating rate we modeled the kilonova.
+We found consistent deviations form the power-law behavior across the ensemble of initial conditions.
+We also identify the nuclei responsible for such behavior along with their decay chains.
+
+The thesis is divided in 3 main parts.
+The introductory part are chapters \ref{ch:introduction} and \ref{chap:BNMS}.
+The next chapter will develop the physics needed to understand neutrons stars and binaries neutrons stars. 
+Chapters \ref{ch:GR}, \ref{ch:Nuclear_reaction_net} and \ref{ch:rad_models} Will present a basic the theoretical framework regarding the three stages of the merger simualtion, the general realtivistic hydrodynamic part, the nucelar reaction network evolution and the construction of the kilonova light curve from emission models.
+The last stage, chapters \ref{ch:methods}, \ref{ch:results} and \ref{ch:conclutions}, will explain the details of the construction of the initial thermodynamic trajectories, the setup of the nuclear reaction network calculations with their results and the construction of the kilonova light curves.
