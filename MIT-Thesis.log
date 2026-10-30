@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.7)  27 OCT 2026 23:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.7)  30 OCT 2026 17:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -814,14 +814,21 @@ Package biblatex Info: ... and expl3
 (biblatex)             setting 'casechanger=expl3'.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
-)) (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count476
+\float@exts=\toks29
+\float@box=\box115
+\@float@everytoks=\toks30
+\@floatcapt=\box116
+) (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
-\BKM@id=\count476
+\BKM@id=\count477
 ))
-\@quotelevel=\count477
-\@quotereset=\count478
+\@quotelevel=\count478
+\@quotereset=\count479
  (./MIT-Thesis.aux (./acknowledgments.aux) (./1_Introduction.aux) (./3_Binary_neutron_star_mergers.aux) (./4_Numerical_relativity_hydro.aux) (./5_r_process_nucleosynthesis.aux) (./6_Kilonova_light_curves.aux) (./7_Methods.aux) (./8_Results.aux) (./9_Discussion.aux) (./10_Conclusions.aux) (./appendixa.aux) (./appendixb.aux) (./appendixc.aux))
 \openout1 = `MIT-Thesis.aux'.
 
@@ -880,17 +887,17 @@ LaTeX Font Info:    ... okay on input line 221.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count479
+\scratchcounter=\count480
 \scratchdimen=\dimen264
-\scratchbox=\box115
-\nofMPsegments=\count480
-\nofMParguments=\count481
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count482
+\scratchbox=\box117
+\nofMPsegments=\count481
+\nofMParguments=\count482
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count483
 \MPscratchDim=\dimen265
-\MPnumerator=\count483
-\makeMPintoPDFobject=\count484
-\everyMPtoPDFconversion=\toks30
+\MPnumerator=\count484
+\makeMPintoPDFobject=\count485
+\everyMPtoPDFconversion=\toks32
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -898,7 +905,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 221.
-\c@lstlisting=\count485
+\c@lstlisting=\count486
 
 Package chemgreek Info: Activating mapping `default' on line 221.
 
@@ -957,9 +964,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-\g__signature_autno_int=\count486
-\g__signature_supno_int=\count487
-\g__signature_accno_int=\count488
+\g__signature_autno_int=\count487
+\g__signature_supno_int=\count488
+\g__signature_accno_int=\count489
  [1
 
 
@@ -999,27 +1006,34 @@ Chapter 2.
 
 
 
-]
-<Figures/DNS_formation.jpeg, id=262, 598.235pt x 721.69624pt>
+] [12]
+<Figures/DNS_formation.jpeg, id=292, 598.235pt x 721.69624pt>
 File: Figures/DNS_formation.jpeg Graphic file (type jpg)
 <use Figures/DNS_formation.jpeg>
-Package pdftex.def Info: Figures/DNS_formation.jpeg  used on input line 54.
-(pdftex.def)             Requested size: 328.82707pt x 396.6919pt.
- [12] [13 <./Figures/DNS_formation.jpeg>]
-
-LaTeX Warning: Reference `ch:numerical' on page 14 undefined on input line 134.
-
-)
-Overfull \hbox (13.80484pt too wide) in paragraph at lines 125--327
-\T1/cmr/m/n/12 (-20) Two con-sis-tency checks are worth not-ing. At $\OML/cmm/m/it/12 a[]$\T1/cmr/m/n/12 (-20) , the or-bital ve-loc-ity is $\OML/cmm/m/it/12 v=c \OT1/cmr/m/n/12 (-20) = (\OML/cmm/m/it/12 GM=a[]c[]\OT1/cmr/m/n/12 (-20) )[] \OMS/cmsy/m/n/12 ^^Y
- []
-
-[14]
+Package pdftex.def Info: Figures/DNS_formation.jpeg  used on input line 73.
+(pdftex.def)             Requested size: 342.91914pt x 413.6947pt.
+ [13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.84 
+      <./Figures/DNS_formation.jpeg>]
+<Figures/binary.pdf, id=303, 406.51875pt x 338.76563pt>
+File: Figures/binary.pdf Graphic file (type pdf)
+<use Figures/binary.pdf>
+Package pdftex.def Info: Figures/binary.pdf  used on input line 88.
+(pdftex.def)             Requested size: 234.8775pt x 195.72949pt.
+ [14
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.117 \begin{align}
+                    <./Figures/binary.pdf>]) [15]
 \openout2 = `4_Numerical_relativity_hydro.aux'.
 
  (./4_Numerical_relativity_hydro.tex
 Chapter 3.
-) [15
+) [16
 
 
 
@@ -1029,7 +1043,7 @@ Chapter 3.
 
  (./5_r_process_nucleosynthesis.tex
 Chapter 4.
-) [16
+) [17
 
 
 
@@ -1039,7 +1053,7 @@ Chapter 4.
 
  (./6_Kilonova_light_curves.tex
 Chapter 5.
-) [17
+) [18
 
 
 
@@ -1049,7 +1063,7 @@ Chapter 5.
 
  (./7_Methods.tex
 Chapter 6.
-) [18
+) [19
 
 
 
@@ -1059,7 +1073,7 @@ Chapter 6.
 
  (./8_Results.tex
 Chapter 7.
-) [19
+) [20
 
 
 
@@ -1069,7 +1083,7 @@ Chapter 7.
 
  (./9_Discussion.tex
 Chapter 8.
-) [20
+) [21
 
 
 
@@ -1079,7 +1093,7 @@ Chapter 8.
 
  (./10_Conclusions.tex
 Chapter 9.
-) [21
+) [22
 
 
 
@@ -1089,17 +1103,29 @@ Chapter 9.
 
  (./appendixa.tex
 Appendix A.
-) [22
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2.
+
+[23
 
 
 
 
-]
+]) [24]
 \openout2 = `appendixb.aux'.
 
  (./appendixb.tex
 Appendix B.
-) [23
+) [25
 
 
 
@@ -1109,41 +1135,37 @@ Appendix B.
 
  (./appendixc.tex
 Appendix C.
-) [24
+) [26
 
 
 
 
-] [25
+] [27
 
 
 
-] [26] [27] [28] [29] (./MIT-Thesis.aux (./acknowledgments.aux) (./1_Introduction.aux) (./3_Binary_neutron_star_mergers.aux) (./4_Numerical_relativity_hydro.aux) (./5_r_process_nucleosynthesis.aux) (./6_Kilonova_light_curves.aux) (./7_Methods.aux) (./8_Results.aux) (./9_Discussion.aux) (./10_Conclusions.aux) (./appendixa.aux) (./appendixb.aux) (./appendixc.aux))
+] [28] [29] [30] [31] [32] (./MIT-Thesis.aux (./acknowledgments.aux) (./1_Introduction.aux) (./3_Binary_neutron_star_mergers.aux) (./4_Numerical_relativity_hydro.aux) (./5_r_process_nucleosynthesis.aux) (./6_Kilonova_light_curves.aux) (./7_Methods.aux) (./8_Results.aux) (./9_Discussion.aux) (./10_Conclusions.aux) (./appendixa.aux) (./appendixb.aux) (./appendixc.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package logreq Info: Writing requests to 'MIT-Thesis.run.xml'.
 \openout1 = `MIT-Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29714 strings out of 474222
- 557732 string characters out of 5748734
- 1945975 words of memory out of 5000000
- 51135 multiletter control sequences out of 15000+600000
- 584944 words of font info for 210 fonts, out of 8000000 for 9000
+ 29951 strings out of 474222
+ 562231 string characters out of 5748734
+ 1948975 words of memory out of 5000000
+ 51285 multiletter control sequences out of 15000+600000
+ 594911 words of font info for 255 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,7n,93p,1128b,3084s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on MIT-Thesis.pdf (29 pages, 430121 bytes).
+ 90i,13n,93p,1128b,3086s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on MIT-Thesis.pdf (32 pages, 458166 bytes).
 PDF statistics:
- 750 PDF objects out of 1000 (max. 8388607)
- 670 compressed objects within 7 object streams
- 136 named destinations out of 1000 (max. 500000)
- 41398 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 892 PDF objects out of 1000 (max. 8388607)
+ 799 compressed objects within 8 object streams
+ 184 named destinations out of 1000 (max. 500000)
+ 57811 words of extra memory for PDF output out of 61914 (max. 10000000)
 

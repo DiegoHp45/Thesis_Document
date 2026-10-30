@@ -1,14 +1,57 @@
-% From mitthesis package
-% Version: 1.02, 2025/10/24
-% Documentation: https://ctan.org/pkg/mitthesis
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Quadrupole and $L_{GW}$}\label{ap:L_GW}
 
-%% NB: the listings package is not compatible with pdf tagging 
-%%     under TeX Live 2025 and earlier formats! Fatal errors may 
-%%     result from combining these! 
+In this appendix we will go through the details of finding the mass quadrupole components, explain the approximations assumed and finding the $L_{GW}$.
+Lets start with the definitions, as we saw from Fig. \ref{fig:binary} the position are:
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{align}
+    \textbf{r}_1 &= -\frac{\mu a}{m_1}(cos(\theta),sin(\theta),0),\\
+    \textbf{r}_2 &= \frac{\mu a}{m_2}(cos(\theta),sin(\theta),0).\\
+\end{align}
 
-
-\chapter{Units and conventions}
+\noindent We used $||\textbf{r}_1||= m_2 a/(m_1+m_2)=\mu a/m_1$ with $\mu=m_1 m_2 /(m_1+m_2)$.
+\noindent The first quadrupole component will be:
+\begin{align}
+    Q_{xx}&=m_1r_{x1}r_{x1}+m_2r_{x2}r_{x2}=m_1\frac{\mu^2 a^2}{m_1^2}cos^2(\theta)+m_2\frac{\mu^2 a^2}{m_2^2}cos^2(\theta),\\
+    Q_{xx}&=\mu^2 a^2cos^2(\theta)(\frac{1}{m_1}+\frac{1}{m_2}),\\
+    Q_{xx}&=\mu a^2cos^2(\theta),\\
+    Q_{xx}&=\frac{\mu a^2}{2}(cos(2\theta)+1).\\
+\end{align}
+\noindent Similarly for $Q_{yy}$:
+\begin{align}
+    Q_{yy}&=m_1r_{y1}r_{y1}+m_2r_{y2}r_{y2}=m_1\frac{\mu^2 a^2}{m_1^2}sin^2(\theta)+m_2\frac{\mu^2 a^2}{m_2^2}sin^2(\theta),\\
+    Q_{yy}&=\mu^2 a^2sin^2(\theta)(\frac{1}{m_1}+\frac{1}{m_2}),\\
+    Q_{yy}&=\mu a^2sin^2(\theta),\\
+    Q_{yy}&=\frac{\mu a^2}{2}(-cos(2\theta)+1).\\
+\end{align}
+\noindent Finally for $Q_{xy}$
+\begin{align}
+    Q_{xy}&=m_1r_{x1}r_{y1}+m_2r_{x2}r_{y2}=m_1\frac{\mu^2 a^2}{m_1^2}sin(\theta)cos(\theta)+m_2\frac{\mu^2 a^2}{m_2^2}sin(\theta)cos(\theta),\\
+    Q_{xy}&=\mu^2 a^2sin(\theta)cos(\theta)(\frac{1}{m_1}+\frac{1}{m_2}),\\
+    Q_{xy}&=\mu a^2sin(\theta)cos(\theta),\\
+    Q_{xy}&=\frac{\mu a^2}{2}sin(2\theta).\\
+\end{align}
+\noindent Now we need the third derivate with respect to time. 
+We will assume two things, $\ddot\theta<<1$ and $\dot a<<1$.
+Effectively we are saying that the change in angular velocity and the change in the radius is slow which is referred as an adiabatic process. 
+To see how good the approximation is we can compare the orbit time scale with the inspiral timescale.
+Which in fact is the situation, therefore is a good approximation until the merger itself.
+Therefore it is easy to see that:
+\begin{align}
+    \dddot Q_{xx}&=4\mu a^2\dot\theta^3sin(2\theta)\\
+    \dddot Q_{yy}&=-4\mu a^2\dot\theta^3sin(2\theta)\\
+    \dddot Q_{xy}&=-4\mu a^2\dot\theta^3cos(2\theta)\\
+\end{align}
+Now we meed to calculate the following term remembering that we are using einstein notation for the repeated indices and that $Q_{xy}=Q_{yx}$:
+\begin{align}
+    \dddot Q_{ij}\dddot Q_{ij} - \dddot Q_{ii}\dddot Q_{jj}&=\dddot Q_{xx}\dddot Q_{xx}+\dddot Q_{xy}\dddot Q_{xy}+\dddot Q_{yx}\dddot Q_{yx}+\dddot Q_{yy}\dddot Q_{yy}\\
+    &-\dddot Q_{xx}\dddot Q_{xx}-\dddot Q_{yy}\dddot Q_{xx}-\dddot Q_{xx}\dddot Q_{yy}-\dddot Q_{yy}\dddot Q_{yy}\\
+    &=\dddot Q_{xx}^2+2\dddot Q_{xy}^2+\dddot Q_{yy}^2-\dddot Q_{xx}^2-2\dddot Q_{yy}\dddot Q_{xx}-\dddot Q_{yy}^2\\
+    &=\dddot Q_{xx}^2+2\dddot Q_{xy}^2+\dddot Q_{yy}^2-(\dddot Q_{xx}+\dddot Q_{yy})^2\\
+    &=16\mu^2 a^4 \dot\theta^6(sin^2(2\theta)+2cos^2(2\theta)+sin^2(2\theta))\\
+    &=32\mu^2 a^4 \dot\theta^6=\frac{32G^3m_1^2m_2^2M}{a^5}
+\end{align}
+Finally:
+\begin{equation}
+    L_{GW}=\frac{G}{5c^5}(\dddot Q_{ij}\dddot Q_{ij} - \dddot Q_{ii}\dddot Q_{jj})=\frac{32G^4 m_1^2 m_2^2M}{c^5a^5}
+\end{equation}
