@@ -1,77 +1,80 @@
-\chapter{From Neutron stars to Kilonovas}\label{chap:BNMS}
+\chapter{From Neutron Stars to Kilonovae}\label{chap:BNMS}
 
-Kilonovae is going to be our main topic of study through the whole thesis.
-Every chapter and section was build with the objective to develop the intuition on all the processes that takes place in the kilonova.
-However a necessary astrophysical context will enrich our understanding.
-This chapter therefore will first present the neutron star with its dense matter in the general relativity description. 
-Then the text will move to the problem of finding two neutron star in a close enough orbit and present a little discussion on why the existing of such configurations are not trivial.
+Kilonovae are the main topic of study throughout this thesis.
+Every chapter and section was built with the objective of developing the intuition on all the processes that take place in kilonovae.
+However, the necessary astrophysical context will enrich our understanding.
+Therefore, this chapter will first present the neutron star and its dense matter in the general relativity description. 
+Then the text will move to the problem of finding two neutron stars in a close enough orbit and present a brief discussion of why the existence of such configurations is not trivial.
 After that, a description of the different phases of the merger will be presented.
-The different emission mechanisms will be discussed, gravitational waves, short gamma ray bursts and our favorite the kilonova.
+The different emission mechanisms will be discussed: gravitational waves, short gamma ray bursts and our favorite the kilonova.
 
-\section{The Neutron star}\label{NS}
+\section{The Neutron Star}\label{NS}
 
 Neutron stars contain the densest matter known to exist in a stable state. 
 Their central densities reach several times the nuclear saturation density $n_{\rm sat}\simeq 0.15~\mathrm{fm^{-3}}$~\cite{horowitz_insights_2020}. 
 In the outer layers of the star, nuclei coexist with a degenerate electron gas. 
 With increasing density, electron captures make the nuclei progressively more neutron-rich until, at the neutron-drip density $n_{\rm drip}\simeq 2.5\times10^{-4}~\mathrm{fm^{-3}}$ ($\rho\simeq 4\times10^{11}~\mathrm{g\,cm^{-3}}$), neutrons are no longer bound to the nuclei and form a free neutron gas~\cite{baym_neutron_1971}.
-At about half the saturation density the difference between inside and outside of a nucleus vanish effectively becoming a continuum of nucleons which marks the transition from crust to core. 
-At the same time the $\beta$ equilibrium favors neutrons instead of protons, this leads to a neutron dominated composition. 
+At about half the saturation density, the distinction between the inside and the outside of a nucleus effectively vanishes and matter becomes a continuum of nucleons, which marks the transition from crust to core. 
+At the same time the, $\beta$ equilibrium favors neutrons instead of protons, which leads to a neutron dominated composition. 
 
 Observed neutron-star masses range from about $1.1$ to slightly above $2\,M_\odot$, and their radii are inferred to lie between roughly $10$ and $14~\mathrm{km}$~\cite{ozel_masses_2016,riley_nicer_2021}.
 However, a free degenerate neutron gas can support stars of at most $\simeq 0.7\,M_\odot$ \cite{oppenheimer_massive_1939,tolman_static_1939}.
-To accurate explain observations the strongly repulsive short-range part of the nuclear interaction is required. 
-The EOS, therefore, will have to include nuclear interaction terms which is quite a formidable task to calculate.
+To explain the observations accurately, the strongly repulsive short-range part of the nuclear interaction is required. 
+The equation of state (EOS), therefore, has to include nuclear interaction terms, which are a formidable task to calculate.
 
 The microscopic theory of this matter, quantum chromodynamics (QCD), cannot at present provide the EOS in the relevant density range.
 At the baryon chemical potentials of neutron-star cores, QCD is non-perturbative, and lattice QCD is hampered by the fermion sign problem at finite baryon density. 
-Controlled calculations exist only in two limits, chiral effective field theory describes nuclear matter up to about $1$-$2\,n_{\rm sat}$ \cite{hebeler_equation_2013}, and perturbative QCD becomes reliable only at densities of order $40\,n_{\rm sat}$, far above those realized in neutron stars \cite{kurkela_constraining_2014}.
+Controlled calculations exist only in two limits: chiral effective field theory describes nuclear matter up to about $1$--$2\,n_{\rm sat}$ \cite{hebeler_equation_2013}, and perturbative QCD becomes reliable only at densities of order $40\,n_{\rm sat}$, far above those realized in neutron stars \cite{kurkela_constraining_2014}.
 In the intermediate regime, where neutron-star cores reside, the EOS is described by phenomenological models.
-As a consequence, a description from first principles of neutron star cores remains unknown.
+As a consequence, a first principles description of neutron star cores is still lacking.
 Matter at several times $n_{\rm sat}$ may consist of nucleons, may contain hyperons, or may undergo a transition to deconfined quark matter, either through a smooth crossover or through a first order hadron-quark phase transition \cite{baym_hadrons_2018}.
 
-Lets assume for instance that we know the EOS, then can estimate the radius of the star for a certain range of masses including GR effects through the Tolman-Oppenheimer-Volkoff equation.
-the equation assumes a statics spherical symmetric perfect, fluid which is completely fine but real stars have angular momentum so rotational corrections will be relevant. 
+Lets us assume, for instance, that we know the EOS.
+We can then estimate the radius of the star for a certain range of masses, including GR effects, through the Tolman-Oppenheimer-Volkoff equation:
 
 \begin{equation}
-  \frac{dP}{dr} = -\frac{G}{r^2}\left ( \rho + \frac{P}{c^2}\right )\left ( m + 4\pi r^3 \frac{P}{c^2} \right )\left ( 1- \frac{2Gm}{c^2 r} \right )^{-1}
+  \frac{dP}{dr} = -\frac{G}{r^2}\left ( \rho + \frac{P}{c^2}\right )\left ( m + 4\pi r^3 \frac{P}{c^2} \right )\left ( 1- \frac{2Gm}{c^2 r} \right )^{-1}.
 \end{equation}
 
-Here $\rho (r)$ and $P(r)$ are density and pressure at a radial distance $r$. 
+The equation assumes a static, spherically symmetric perfect fluid.
+This is a good approximation, but real stars have angular momentum, so rotational corrections will be relevant. 
+Here $\rho (r)$ and $P(r)$ are the density and pressure at a radial distance $r$. 
 The quantity $m(r)$ is the mass within a sphere of radius $r$.
-At this point we have not introduce any EOS yet.
+At this point we have not introduced any EOS yet.
 The relationship between $P$ and $\rho$ could depend on temperature and composition.
-Many current models for EOS actually presents their results for many temperatures and $Y_e$.
-Once we stablish the EOS one can find a radius-mass curve. 
-By comparing with observations one can in principle infer constrains on the EOS.
+Many current EOS models actually present their results for a range of temperatures and electron fractions $Y_e$.
+Once the EOS is established, one can find a mass--radius curve. 
+By comparing with observations one can in principle infer constraints on the EOS.
 Such studies have been done, for example existence of pulsars with masses of about $2\,M_\odot$~\cite{fonseca_refined_2021} and the radii inferred by NICER~\cite{riley_nicer_2021} constrain the pressure of dense matter up to densities of roughly $2-3\,n_{\rm sat}$ \cite{raaijmakers_constraints_2021}.
 These measurements, however, constrain the relation between pressure and energy density rather than giving a full description of the matter. 
-For example, hybrid stars (Neutron stars with quark cores) can have mass-radius relations nearly indistinguishable from those of purely hadronic stars~\cite{alford_hybrid_2005}.
+For example, hybrid stars (neutron stars with quark cores) can have mass--radius relations nearly indistinguishable from those of purely hadronic stars~\cite{alford_hybrid_2005}.
 
 \section{Formation of binary neutron stars}\label{sec:formation}
 
 For two neutron stars to merge, three conditions must be met.
-Both stars must form, which requires two core-collapse supernovae so the binary must survive both explosions.
-Then the two remnants must end up close enough for gravitational-wave (GW) emission to bring them into contact in less than a Hubble time.
+Both stars must form, which requires two core-collapse supernovae (SNe), and the binary must survive both explosions.
+Then the two remnants must end up close enough for gravitational-wave (GW) emission to bring them into contact in less than the age of the universe at least.
 For typical neutron-star masses, the initial separation must be smaller than about $5\,R_\odot$.
 This is two to three orders of magnitude smaller than the radii that the progenitor stars reach as supergiants.
 The central problem of binary-neutron-star formation is therefore how to bring the compact remnants of two massive stars to separations far smaller than the stars themselves once were, without unbinding the system on the way.
 
-In the standard isolated channel, a double neutron star (DNS) descends from a binary of two OB stars that are massive enough to end their lives in a core-collapse SN, see Fig. \ref{fig:DNS formation}.
-If the initial binary are separated enough the descending DNS will not be close enough to merge.
-If, on the contrary, the initial star are close, they will interact via stable or unstable mass transfer. 
-Once one of the stars reach the end of its live the star will expands transferring part of its mass to their companion. 
-If after the supernova the two stars remain bounded they will become a high-mass X-ray binary (HMXB).
-When the second star expands it will bolt the first star in a phase called common envelope \cite{paczynski_common_1976}. 
-In that stage the dynamical friction of the motion of the first star inside the second one will cause the necessary loss of angular momentum to bring closer the cores.
-This phase is not stable so eventually the envelope will fall to the stars ofr get ejected leaving behind the first NS and the He core of the second one that eventually will die in what is called a ultra-strippend SN \cite{tauris_erratum_2017}.
-finally the system will results in a DNS close enough to merge.
+In the standard isolated channel, a double neutron star (DNS) descends from a binary of two OB stars that are massive enough to end their lives in a core-collapse SN (see Fig. \ref{fig:DNS formation}).
+If the stars of the initial binary are too far apart, the resulting DNS will not be close enough to merge.
+If, on the contrary, the initial stars are close enough, they will interact via stable or unstable mass transfer. 
+Once one of the stars reaches the end of its life, it expands and transfers part of its mass to its companion.
+This star then explodes in a SN and leaves a NS, as in Fig.~\ref{fig:DNS formation}. 
+If the two stars remain bounded after the supernova, they become a high-mass X-ray binary (HMXB).
+When the second star expands, it eats the first star in a phase called common envelope \cite{paczynski_common_1976}.
+In that stage, the dynamical friction on the first star as it moves inside the envelope of the second one causes the loss of angular momentum needed to bring the cores closer.
+This phase is not stable, so eventually the envelope either falls onto the stars or is ejected, leaving behind the first NS and the He core of the second star, which eventually dies in what is called an ultra-strippend SN \cite{tauris_erratum_2017}.
+Finally, the system results in a DNS close enough to merge.
 The sequence of events is reviewed in \cite{tauris_formation_2017}.
  
 %%%%%%%%%%%%%%%%%  begin figure  %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.73\textwidth]{Figures/DNS_formation.jpeg}    
-    \caption{Double neutron star (DNS) formation from two OB stars as presented in \cite{tauris_formation_2017}. ZAMS refers to zero-age main sequence, RLO roche lobe overflow, SN supernova, HMXB high mass X ray binary and CE common envelope}
+    \caption{Double neutron star (DNS) formation from two OB stars as presented in \cite{tauris_formation_2017}. ZAMS refers to zero-age main sequence, RLO Roche-lobe overflow, SN supernova, HMXB high-mass X-ray binary and CE common envelope.}
     \label{fig:DNS formation}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%  end figure  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -79,20 +82,20 @@ The sequence of events is reviewed in \cite{tauris_formation_2017}.
 \section{Gravitational-wave-driven inspiral and the maximum separation}\label{sec:formation-gw}
  
 Once both neutron stars have formed, the only process that changes the orbit appreciably is the emission of gravitational radiation.
-Here we will show an estimate of the time to the merger at leading (quadrupole) order and the maximum initial separation that allows a merger within the age of the Universe.
+Here we will show an estimate of the time to merger at leading (quadrupole) order and the maximum initial separation that allows a merger within the age of the Universe.
 This calculation is based on the work presented in \cite{peters_gravitational_1963}.
 
 %%%%%%%%%%%%%%%%%  begin figure  %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{Figures/binary.pdf}    
-    \caption{Two neutron stars with masses $m_1$ and $m_2$ orbiting at a distance $a$ seen from the center of mass frame.}
+    \caption{Two neutron stars with masses $m_1$ and $m_2$  with separation $a$ seen from the center of mass frame.}
     \label{fig:binary}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%  end figure  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \noindent Consider two point masses $m_1$ and $m_2$ on a circular orbit of separation $a$ and angular frequency $\omega=\sqrt{GM/a^3}$, with total mass $M = m_1 + m_2$ and reduced mass $\mu = m_1 m_2 / M$.
-Their vector positions will be $\textbf{r}_1$ and $\textbf{r}_2$ respectively, see Fig \ref{fig:binary}.
+Their position vectors are $\mathbf{r}_1$ and $\mathbf{r}_2$, respectively ( see Fig.~\ref{fig:binary}).
 Define the quadrupole mass tensor as
 
 \begin{equation}
@@ -100,26 +103,28 @@ Define the quadrupole mass tensor as
 \end{equation}
 
 \noindent summing over the masses $m_l$ with $r_{li}=\textbf{r}_l\cdot \hat{\imath}$.
-From this configuration the position are
-
+From this configuration, the position are
+\texttt{\textbackslash cos}
+\texttt{\textbackslash sin}
 \begin{equation}
-  \textbf{r}_1=-\frac{\mu a}{m_1} \hat{n}\,;\quad \textbf{r}_2= \frac{\mu a}{m_2}\hat{n}\quad\text{with}\,\quad\hat{n}=(cos(\theta),sin(\theta),0).
+  \textbf{r}_1=-\frac{\mu a}{m_1} \hat{n}\,;\quad \textbf{r}_2= \frac{\mu a}{m_2}\hat{n}\quad\text{with}\,\quad\hat{n}=(\cos(\theta),\sin(\theta),0).
 \end{equation}
 
 
-\noindent So the quadrupole mass tensor components will be:
+\noindent So the quadrupole mass tensor components are:
 \begin{align}
-  Q_{xx} &= \frac{\mu^2 a^2}{m_1}cos^2(\theta)+\frac{\mu^2 a^2}{m_2}cos^2(\theta)=\mu a^2 cos^2(\theta)=\frac{\mu a^2}{2}(1+cos(2\theta))\\
-  Q_{yy} &= \mu a^2 sin^2(\theta)=-\frac{\mu a^2}{2}(1+cos(2\theta))\\
-  Q_{xy} &= \mu a^2 sin(\theta)cos(\theta)=\frac{\mu a^2}{2}(sin(2\theta))\\
+  Q_{xx} &= \frac{\mu^2 a^2}{m_1}\cos^2(\theta)+\frac{\mu^2 a^2}{m_2}\cos^2(\theta)=\mu a^2 \cos^2(\theta)=\frac{\mu a^2}{2}(1+\cos(2\theta))\\
+  Q_{yy} &= \mu a^2 \sin^2(\theta)=\frac{\mu a^2}{2}(1-\cos(2\theta))\\
+  Q_{xy} &= \mu a^2 \sin(\theta)\cos(\theta)=\frac{\mu a^2}{2}(\sin(2\theta))\\
 \end{align}
-For our fortune the power radiated in form of GW ($L_{GW}$) can be estimated using equation ($6$) from \cite{peters_gravitational_1963}
+Fortunately, the power radiated in the form of GWs ($L_{\rm GW}$) can be estimated using Eq.~(6) of Ref.~\cite{peters_gravitational_1963}.
+
 \begin{align}
   L_{\rm GW} &= \frac{G}{5c^{5}}\left ( \dddot{Q}_{ij}\dddot{Q}_{ij}-\frac{1}{3}\dddot{Q}_{ii}\dddot{Q}_{jj}\right )\\
-  L_{\rm GW} &= \frac{G}{5c^{5}}\left ( {\dddot{Q}_{xx}}^2 + {\dddot{Q}_{yy}}^2+2{\dddot{Q}_{xy}}^2 -\frac{1}{3}(\dddot{Q}_{xx} + \dddot{Q}_{yy} )^2 \right )
+  L_{\rm GW} &= \frac{G}{5c^{5}}\left ( {\dddot{Q}_{xx}}^2 + {\dddot{Q}_{yy}}^2+2{\dddot{Q}_{xy}}^2 -\frac{1}{3}(\dddot{Q}_{xx} + \dddot{Q}_{yy} )^2 \right ).
 \end{align}
-since $Q_{xx}=-Q_{yy}$ the last term vanishes and with $\dddot{Q}_{xx}^{2} + \dddot{Q}_{yy}^{2} + 2\dddot{Q}_{xy}^{2}
-= 32\,\mu^{2} a^{4}\omega^{6}$ (see appendix \ref{ap:L_GW}), the GW luminosity gives
+Since $\dddot Q_{xx}=-\dddot Q_{yy}$ the last term vanishes and with $\dddot{Q}_{xx}^{2} + \dddot{Q}_{yy}^{2} + 2\dddot{Q}_{xy}^{2}
+= 32\,\mu^{2} a^{4}\omega^{6}$ (see Appendix \ref{ap:L_GW}), the GW luminosity is
 \begin{equation}\label{eq:lgw}
   L_{\rm GW} = \frac{32}{5}\frac{G}{c^{5}}\mu^{2}a^{4}\omega^{6}
              = \frac{32}{5}\frac{G^{4}}{c^{5}}\frac{(m_1 m_2)^{2} M}{a^{5}} .
@@ -129,7 +134,7 @@ The energy radiated is drawn from the orbital energy $E = -G m_1 m_2/(2a)$. Sett
   \frac{\mathrm{d}a}{\mathrm{d}t} = -\frac{\beta}{a^{3}}, \qquad
   \beta \equiv \frac{64}{5}\frac{G^{3} m_1 m_2 M}{c^{5}} .
 \end{equation}
-Equation~\eqref{eq:dadt} integrates to $a^{4}(t) = a_0^{4} - 4\beta t$, so a binary with initial separation $a_0$ merge ($a \to 0$) after
+Equation~\eqref{eq:dadt} integrates to $a^{4}(t) = a_0^{4} - 4\beta t$, so a binary with initial separation $a_0$ merges ($a \to 0$) after
 \begin{equation}\label{eq:tc}
   t_m(a_0) = \frac{a_0^{4}}{4\beta}
   = \frac{5}{256}\frac{c^{5} a_0^{4}}{G^{3} m_1 m_2 M} .
@@ -137,9 +142,9 @@ Equation~\eqref{eq:dadt} integrates to $a^{4}(t) = a_0^{4} - 4\beta t$, so a bin
 The steep $a_0^{4}$ dependence is the key point. 
 Halving the separation shortens the inspiral by a factor of sixteen.
 
-Now lets estimate the maximum separation for BNS to merger within the age of the universe.
-Notice that since the stars require a preliminary formation and evolution we will therefore over estimate the maximum distances between stars.
-Lets require $t_{m} \le t_{\rm H}$, with $t_{\rm H} \simeq 13.8~\mathrm{Gyr}$ the age of the Universe
+Now let us estimate the maximum separation for BNS to merge within the age of the Universe.
+Note that, since the stars require a prior formation and evolution, this calculation overestimate the maximum distances between stars.
+Let us require $t_{\rm m} \le t_{\rm U}$, with $t_{\rm U} \simeq 13.8~\mathrm{Gyr}$ the age of the Universe
 \begin{equation}\label{eq:amax}
   a_{\max} = \left(4\beta\, t_{\rm H}\right)^{1/4}
   = \left(\frac{256}{5}\frac{G^{3} m_1 m_2 M}{c^{5}}\, t_{\rm H}\right)^{1/4} .
@@ -148,7 +153,13 @@ For $m_1 = m_2 = 1.35\,M_\odot$, $m_1 m_2 M = 4.92\,M_\odot^{3}$ and $\beta = 6.
 \begin{equation}\label{eq:amax-num}
   a_{\max} \simeq 3.2\times10^{6}~\mathrm{km}\simeq 4.6\,R_\odot ,
 \end{equation}
-about $0.02~\mathrm{AU}$. As reference red giants have typical radius of hundreds of $R_\odot$ so having neutron stars closer than $4.6\,R_\odot$ is quite a challenge.
+about $0.02~\mathrm{AU}$. As reference, red supergiants have typical radii of hundreds of $R_\odot$, so having neutron stars closer than $4.6\,R_\odot$ is quite a challenge.
 \section{Mass ejection: tidal, shock-driven, and disk-wind ejecta}
+
+At the last instans 
+
 \section{Weak interactions and the electron fraction of the ejecta}
+
+
+
 \section{Electromagnetic counterparts}
