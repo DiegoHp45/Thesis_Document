@@ -1,7 +1,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Kilonovae in a nutshell}{6}{section.1.1}%
 \contentsline {section}{\numberline {1.2}A brief history of the kilonova}{7}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Modern models of Kilonova and observations}{8}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Modern models of kilonovae and observations}{8}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Objectives and thesis structure}{10}{section.1.4}%
 \contentsline {chapter}{\numberline {2}From Neutron stars to Kilonovas}{11}{chapter.2}%
 \contentsline {section}{\numberline {2.1}The Neutron star}{11}{section.2.1}%
