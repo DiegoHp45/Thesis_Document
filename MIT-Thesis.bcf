@@ -2434,6 +2434,17 @@
     <bcf:citekey order="57" intorder="1">lippuner_r-process_2015</bcf:citekey>
     <bcf:citekey order="58" intorder="1">korobkin_astrophysical_2012</bcf:citekey>
     <bcf:citekey order="59" intorder="1">lippuner_r-process_2015</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">metzger_electromagnetic_2010</bcf:citekey>
+    <bcf:citekey order="60" intorder="2">hotokezaka_analytic_2017</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">hotokezaka_analytic_2017</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">metzger_electromagnetic_2010</bcf:citekey>
+    <bcf:citekey order="62" intorder="2">korobkin_astrophysical_2012</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">korobkin_astrophysical_2012</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">barnes_radioactivity_2016</bcf:citekey>
+    <bcf:citekey order="64" intorder="2">hotokezaka_radioactive_2016</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">kasen_radioactive_2019</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">kasen_opacities_2013</bcf:citekey>
+    <bcf:citekey order="66" intorder="2">tanaka_systematic_2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

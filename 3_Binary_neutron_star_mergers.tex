@@ -287,11 +287,11 @@ Most kilonova models, from analytic like LP98 to multidimensional radiative tran
  
 At early stages the dynamical ejecta is accelerated but shortly after the pressure forces become negligible and every fluid element moves ballistically, $r=vt$. One model for th density that encapsules this behavior is the one presented in Ref.~\cite{lippuner_r-process_2015}
 \begin{equation}\label{eq:homol}
-  \rho(\tau,t)=
+  \rho(\tau_{exp},t)=
   \left \{
     \begin{array}{lr}
-      \rho_0e^{-t/\tau} & \text{if}\, t\leq 3\tau \\
-      \rho_0 \left (\frac{3\tau}{et}\right )^3& \text{if}\, t \geq 3\tau \\
+      \rho_0e^{-t/\tau_{exp}} & \text{if}\, t\leq 3\tau_{exp} \\
+      \rho_0 \left (\frac{3\tau_{exp}}{et}\right )^3& \text{if}\, t \geq 3\tau_{exp} \\
     \end{array}
   \right \}.
 \end{equation}
@@ -299,16 +299,105 @@ where $\rho_0$ is an initial density and $\tau$ the expansion time.
 Notice that this model referents a smooth transition from a exponential expansion to a ballistic expansion. 
 
 
-\subsection{Radioactive heating}
-Within the reaction network the nuclear energy released per unit mass for decays is
-\begin{equation}
+\subsubsection{Radioactive heating}
+
+As nuclei decay part of their energy stored as mass is released on form of kinetic energy and photons.
+Part of the kinetic energy escape form the system in form of neutrinos and the rest thermilized through plasma interactions.
+So effectively not all the energy from decays is used to power the transient.
+This subsection focus on the energy and the next subsection will talk about thermalization.
+Let us first define the the nuclear energy released per unit mass form decays, $\dot\epsilon$,  as 
+\begin{equation}\label{eq:dotepsilon}
   \dot \epsilon(t)= \sum_{i,x} \frac{Q_{i,x}}{m_i}\lambda_{i,x}X_i(t)
 \end{equation}
 where the index $i$ represents the sum over all the nuclear species and the index $x$ represent the sum over decay modes. 
 $Q_{i,x}$ is the energy released by species $i$ that decay through the decay mode $x$.
 $\lambda_{i,x}$ is the decay constant through the decay mode $x$ of species $i$.
-$X_i$ is the mass fraction defined as $\rho_i/\rho$ and $m_i$ is the mass os a nucleus $i$.
-This definition is completely consistent with the standard 
-\begin{equation}
-  \dot q_{reac}=\sum_i (\mu_i+Z_i\mu_e)\dot Y_i
+$X_i$ is the mass fraction defined as $\rho_i/\rho$ where $\rho_i$ is the usual density but only for species $i$. $m_i$ is the mass of a nucleus $i$.
+At this point this equation does not account thermalization effects.
+This definition is completely consistent with the standard definition of heat due to changes in the composition.
+\begin{equation}\label{eq:dotheat}
+  \dot q =\sum_i (\mu_i+Z_i\mu_e)\dot Y_i
 \end{equation}
+Where $Y_i$ is the number fraction defined as $n_i/n$ which is the number density of $i$ over the number density of baryons. 
+Notice that Eq.~\ref{eq:dotepsilon} only accounts decays while the Eq.~\ref{eq:dotheat} accounts for any changes in the compositions (decay and reactions).
+They are consistent in the sense that if we restrict Eq.~\ref{eq:dotheat} to account changes only through decays, that means establish an expression for $\dot Y_i$, we get Eq.~\ref{eq:dotepsilon}.
+Now the issue became how to correctly estimate the abundances ($X_i$,$Y_i$) as a function of time while taking into account all reactions and decays involved. 
+That problem is solved by implementing a nuclear reaction network which we will treat in details in Chapter.~\ref{ch:Nuclear_reaction_net}.
+So kilonova models usually implement a reaction network or at least some fits like powers-law.
+ 
+The power-law behavior of $\dot q$ can be understood with a statistical argument~\cite{metzger_electromagnetic_2010,hotokezaka_analytic_2017}.
+Due to the large number of species Eq.~\ref{eq:dotepsilon} can be approximated as a integral.
+From Fermi's theory of allowed $\beta$ decay the rate scales as, $\lambda\propto Q^{5}$.
+Also, $Q\propto\eta$ with $\eta=N-Z$ (neutron excess).
+Assuming that number of nuclei per neutron excess interval is constant $dN\propto d\eta$ is easy to se that
+\begin{equation}
+  dN=N_0d\eta=N_0\lambda^{-4/5}d\lambda,
+\end{equation}
+\noindent where $N_0$ is a normalization constant.
+Let us now calculate the heating rate as follows:
+\begin{equation}
+  \dot\epsilon=\sum_i \frac{Q_i\lambda_i}{M}\dot N_i(t)\approx\int_{0}^{\infty}\frac{1}{M}\lambda^{1/5}\lambda N_0e^{-\lambda t}\lambda^{-4/5}d\lambda
+\end{equation}
+\begin{equation}
+  \dot \epsilon \propto t^{-7/5}
+\end{equation}
+
+\noindent in agreement with the analysis of Hotokezaka et al.~\cite{hotokezaka_analytic_2017}.
+Network calculations confirm this behaviour, $\dot q\simeq10^{10}~\mathrm{erg\,g^{-1}\,s^{-1}}\,(t/\mathrm{day})^{-1.3}$~\cite{metzger_electromagnetic_2010,korobkin_astrophysical_2012}.
+A widely used fit is~\cite{korobkin_astrophysical_2012}
+\begin{equation}\label{eq:korobkin}
+  \dot q(t)=\dot q_0\left[\frac{1}{2}-\frac{1}{\pi}\arctan\left(\frac{t-t_0}{\sigma}\right)\right]^{\alpha},
+  \quad \dot q_0=2\times10^{18}~\mathrm{erg\,g^{-1}\,s^{-1}},\; t_0=1.3~\mathrm{s},\; \sigma=0.11~\mathrm{s},\; \alpha=1.3,
+\end{equation}
+which reproduces the plateau during the r-process and the subsequent power law.
+ 
+\subsubsection{Thermalization}
+ 
+Only the fraction of the decay energy that is deposited in the ejecta can be radiated.
+The effective heating rate is $\dot \varepsilon(t)=\sum_x f_{\rm x}(t)\,\dot \epsilon_x(t)$, with $\dot\epsilon_x(t)=\sum_i\dot \epsilon_{i,x}(t)$.
+Since thermalization depends on the nature of the decay products then $f_{x}(t)=\sum_p \chi_p\,f_p(t)$ where $\chi$ is the average fraction of the energy that carry the product $p$ and $p$ can be $\gamma,\alpha,\beta$ or fission daughters.
+
+Gamma rays deposit their energy if the ejecta are optically thick to them.
+A convenient interpolation is $f_\gamma\simeq1-\exp(-t_\gamma^{2}/t^{2})$~\cite{barnes_radioactivity_2016,hotokezaka_radioactive_2016}.
+Most of the gamma-ray energy therefore escapes after about a day, around the time of the peak.
+
+Electrons, $\alpha$ particles and fission fragments are confined by magnetic fields and lose energy by ionization and excitation, at a rate proportional to the density.
+A convenient way to approximate the thermalization is presented in Ref.~\cite{kasen_radioactive_2019},
+\begin{equation}\label{eq:te}
+  f_e(t)\simeq\left(1+\frac{t}{t_e}\right)^{-n},\qquad n\simeq1\text{--}1.5.
+\end{equation}
+
+Here the $t_e$ is a function that depends on the dynamics and mass of the ejecta.
+This formula can be applied to any charge particle by using different values for $n$.
+
+\subsubsection{Opacity}
+ 
+The free electrons provide only a small opacity, because the ejecta are cool and only weakly ionized.
+The opacity of kilonova ejecta is instead dominated by the very large number of bound--bound transitions of the r-process elements which are unknown.
+The firsts models and radiative transfer simulations used relatively low opacities assuming that the  optical properties of the ejecta matched the ones from ordinary SNe, mostly related to iron group lines.
+Such assumptions were later probe wrong as observations matched a kilonova with a high opacity component.
+Now, one may think that opacity is then related to the number of electrons an atom have but it is rather the vastly number of distinct ways of moving electrons within the open shells that increases the opacity. 
+As reference the number of ways of placing $n$ electrons in a shell with $g=2(2\ell+1)$ states is $\binom{g}{n}$, at most 252 for a $d$ shell ($g=10$) but 3432 for an $f$ shell ($g=14$).
+The lanthanides and actinides, with open $4f$ and $5f$ shells, therefore have vastly more levels and lines than the iron group, and an opacity higher by one to two orders of magnitude, concentrated at optical and ultraviolet wavelengths~\cite{kasen_opacities_2013,tanaka_systematic_2020}.
+In grey models this is captured by $\kappa\simeq0.5$--$1~\mathrm{cm^{2}\,g^{-1}}$ for lanthanide-poor ejecta ($Y_e\gtrsim0.3$) and $\kappa\simeq10$--$30~\mathrm{cm^{2}\,g^{-1}}$ for lanthanide-rich ejecta ($X_{\rm La}\gtrsim10^{-2}$, $Y_e\lesssim0.25$).
+ 
+\subsubsection{Diffusion and the time of the peak}
+ 
+Photons produced in the ejecta escape by diffusion.
+For a uniform sphere the optical depth is $\tau=\kappa\rho R=3\kappa M/(4\pi v^{2}t^{2})$\footnote{This $\tau$ is different from the expansion time $\tau_{\rm exp}$}\footnote{Here we are assuming that the ejecta is already in the ballistic regime (expanding with constant velocity).}, and the diffusion time (the time need for the photons to reach the surface) is $t_d\simeq\tau R/c$, 
+\begin{equation}\label{eq:td}
+  t_d=\frac{3\kappa M}{4\pi\,c\,v\,t}\equiv\frac{\tau_m^{2}}{t},\qquad
+  \tau_m\equiv\left(\frac{3\kappa M}{4\pi\,c\,v}\right)^{1/2}.
+\end{equation}
+At early times $t_d\gg t$ and the radiation is trapped and degraded by adiabatic expansion.
+The emission peaks roughly when $t \simeq \tau_m$.
+
+At this point ends our introductory stage.
+We have study what is a neutron star, the different stages of a merger, their mass ejection and we have discuss briefly the GRBs and the kilonovae.
+The next chapter is going to be fully dedicated to understand the physics involved we implementing a nuclear reaction network.
+We will cover from nuclear statistical equilibrium to abundance evolution employing decay rates and discuss the thermodynamics involved in the evolution.
+After that we will retakes the discussion on kilonovae an explain in detail the model we will employ in this work.
+At the methodology we will make use of the theoretical framework built and present how did we use it to our research.
+
+
+

@@ -9934,6 +9934,235 @@
       \verb https://academic.oup.com/mnras/article-lookup/doi/10.1111/j.1365-2966.2012.21859.x
       \endverb
     \endentry
+    \entry{hotokezaka_analytic_2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b29967ee81ac17919cea3ce6af4fb517}{%
+           family={Hotokezaka},
+           familyi={H\bibinitperiod},
+           given={Kenta},
+           giveni={K\bibinitperiod}}}%
+        {{hash=cde50799635a4643d97e25b74916372d}{%
+           family={Sari},
+           familyi={S\bibinitperiod},
+           given={Re'em},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f55962ecc8b6264aa479500b8bdfdee0}{%
+           family={Piran},
+           familyi={P\bibinitperiod},
+           given={Tsvi},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{46e05018821c763e5138c889725f696d}
+      \strng{fullhash}{c2eb996d4313e128f4fec3ab8aed7ff9}
+      \strng{bibnamehash}{c2eb996d4313e128f4fec3ab8aed7ff9}
+      \strng{authorbibnamehash}{c2eb996d4313e128f4fec3ab8aed7ff9}
+      \strng{authornamehash}{46e05018821c763e5138c889725f696d}
+      \strng{authorfullhash}{c2eb996d4313e128f4fec3ab8aed7ff9}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0035-8711, 1365-2966}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{month}{6}
+      \field{number}{1}
+      \field{title}{Analytic heating rate of neutron star merger ejecta derived from {Fermi}'s theory of beta decay}
+      \field{urlday}{1}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{volume}{468}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{91\bibrangedash 96}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1093/mnras/stx411
+      \endverb
+      \verb{file}
+      \verb Submitted Version:/home/diefer/snap/zotero-snap/common/Zotero/storage/GA5JPR6Z/Hotokezaka et al. - 2017 - Analytic heating rate of neutron star merger ejecta derived from Fermi's theory of beta decay.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/mnras/article-lookup/doi/10.1093/mnras/stx411
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/mnras/article-lookup/doi/10.1093/mnras/stx411
+      \endverb
+    \endentry
+    \entry{hotokezaka_radioactive_2016}{article}{}
+      \name{author}{6}{}{%
+        {{hash=2f43256a3e7fd00a522a907ce1cc55ba}{%
+           family={Hotokezaka},
+           familyi={H\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=224a05d7a72b7753318f6a3676e8449c}{%
+           family={Wanajo},
+           familyi={W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bb93883167705814c0431a0cb8e04830}{%
+           family={Tanaka},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=31d029ea8530a5feac6974261363bdc8}{%
+           family={Bamba},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=66b97b9a3c1783c5b9348b278dbc4781}{%
+           family={Terada},
+           familyi={T\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=7ae202ef7fdb40e22f900d828bde0f06}{%
+           family={Piran},
+           familyi={P\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{d633dabe59bbe98e2d54cb941d87339f}
+      \strng{fullhash}{5f8d6c51f37cead5e51bc6c5edc2e853}
+      \strng{bibnamehash}{d633dabe59bbe98e2d54cb941d87339f}
+      \strng{authorbibnamehash}{d633dabe59bbe98e2d54cb941d87339f}
+      \strng{authornamehash}{d633dabe59bbe98e2d54cb941d87339f}
+      \strng{authorfullhash}{5f8d6c51f37cead5e51bc6c5edc2e853}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0035-8711, 1365-2966}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{month}{6}
+      \field{number}{1}
+      \field{shorttitle}{Radioactive decay products in neutron star merger ejecta}
+      \field{title}{Radioactive decay products in neutron star merger ejecta: heating efficiency and γ-ray emission}
+      \field{urlday}{1}
+      \field{urlmonth}{11}
+      \field{urlyear}{2026}
+      \field{volume}{459}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{35\bibrangedash 43}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1093/mnras/stw404
+      \endverb
+      \verb{file}
+      \verb Submitted Version:/home/diefer/snap/zotero-snap/common/Zotero/storage/K4H4N9MM/Hotokezaka et al. - 2016 - Radioactive decay products in neutron star merger ejecta heating efficiency and γ-ray emission.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/mnras/article-lookup/doi/10.1093/mnras/stw404
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/mnras/article-lookup/doi/10.1093/mnras/stw404
+      \endverb
+    \endentry
+    \entry{kasen_radioactive_2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=75da53f8948d2f00715d25d482ccd9b0}{%
+           family={Kasen},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=396dd1483c070f7d0b4c88eb23ed5f24}{%
+           family={Barnes},
+           familyi={B\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ace049ea0607e02c901e75a97aad758}
+      \strng{fullhash}{9ace049ea0607e02c901e75a97aad758}
+      \strng{bibnamehash}{9ace049ea0607e02c901e75a97aad758}
+      \strng{authorbibnamehash}{9ace049ea0607e02c901e75a97aad758}
+      \strng{authornamehash}{9ace049ea0607e02c901e75a97aad758}
+      \strng{authorfullhash}{9ace049ea0607e02c901e75a97aad758}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0004-637X, 1538-4357}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{Radioactive {Heating} and {Late} {Time} {Kilonova} {Light} {Curves}}
+      \field{volume}{876}
+      \field{year}{2019}
+      \field{pages}{128}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3847/1538-4357/ab06c2
+      \endverb
+      \verb{urlraw}
+      \verb https://iopscience.iop.org/article/10.3847/1538-4357/ab06c2
+      \endverb
+      \verb{url}
+      \verb https://iopscience.iop.org/article/10.3847/1538-4357/ab06c2
+      \endverb
+    \endentry
+    \entry{tanaka_systematic_2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=2ee156daec0b452239c06e71707bebf3}{%
+           family={Tanaka},
+           familyi={T\bibinitperiod},
+           given={Masaomi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=748030a7711c07ab1665f4c74b49e6c7}{%
+           family={Kato},
+           familyi={K\bibinitperiod},
+           given={Daiji},
+           giveni={D\bibinitperiod}}}%
+        {{hash=76370233855f5462302573f7229bfb15}{%
+           family={Gaigalas},
+           familyi={G\bibinitperiod},
+           given={Gediminas},
+           giveni={G\bibinitperiod}}}%
+        {{hash=aea03bd9d2bfa2cea79e776a7ae037fc}{%
+           family={Kawaguchi},
+           familyi={K\bibinitperiod},
+           given={Kyohei},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{d6149bcf65d78f18eff1ba7c457d04ae}
+      \strng{fullhash}{9ac1d3617c285a30f9a3c745225b04f3}
+      \strng{bibnamehash}{d6149bcf65d78f18eff1ba7c457d04ae}
+      \strng{authorbibnamehash}{d6149bcf65d78f18eff1ba7c457d04ae}
+      \strng{authornamehash}{d6149bcf65d78f18eff1ba7c457d04ae}
+      \strng{authorfullhash}{9ac1d3617c285a30f9a3c745225b04f3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0035-8711, 1365-2966}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{month}{8}
+      \field{number}{2}
+      \field{title}{Systematic opacity calculations for kilonovae}
+      \field{volume}{496}
+      \field{year}{2020}
+      \field{pages}{1369\bibrangedash 1392}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1093/mnras/staa1576
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/mnras/article/496/2/1369/5851757
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/mnras/article/496/2/1369/5851757
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
