@@ -69,7 +69,7 @@
 
 %%%%%%%%%  Other optional packages used sample chapters  %%%%%%%%%%%%%%%%%%
 
-%% Table related packages  
+%% Table related packages 
 
 \usepackage{booktabs}% publication quality tables (https://ctan.org/pkg/booktabs)
 
@@ -108,35 +108,44 @@
 %%   cheat sheet is here:   https://tug.ctan.org/info/biblatex-cheatsheet/biblatex-cheatsheet.pdf
 
 %% Numerical citations of references
-\usepackage[style=ext-numeric-comp,giveninits=true,maxbibnames=10,sorting=none,language=american]{biblatex}
+\usepackage[style=phys,
+            biblabel=brackets,     % [1] instead of superscript labels
+            articletitle=false,    % drop article titles
+            chaptertitle=false,
+            pageranges=false,      % first page only
+            maxbibnames=3, minbibnames=1,
+            sorting=none, giveninits=true,
+            doi=false, url=false, isbn=false, eprint=false]{biblatex}
+% and make some changes to that style
+%\usepackage[style=ext-numeric-comp,giveninits=true,maxbibnames=10,sorting=none,language=american]{biblatex}
 
 % and make some changes to that style
-	\renewcommand{\multicitedelim}{\addcomma}% removes space between consecutive cites to give [6,7], not [6, 7]
-    \AtEveryBibitem{%
-      \ifentrytype{article}{%
-        \renewbibmacro{in:}{}% Removes "In:" for articles
-		\renewcommand*{\jourvoldelim}{\addcomma\space}   % put comma after journal title
-		\renewcommand*{\volnumdatedelim}{\addcomma\space}% put comma after volume info
-		\renewbibmacro*{issue+date}{% Print date without parentheses around it
-		\iffieldundef{issue}%
-        	{}%
-        	{\printfield{issue}%
-         	\setunit*{\addcomma\space}
-        	}%
-			\printdate
-		}
-      }{}
-    }
-    %
-	\renewbibmacro*{volume+number+eid}{%
-        \printtext[bold]{\printfield{volume}}%    bold volume (issue number) , eid
+%	\renewcommand{\multicitedelim}{\addcomma}% removes space between consecutive cites to give [6,7], not [6, 7]
+%    \AtEveryBibitem{%
+%      \ifentrytype{article}{%
+%        \renewbibmacro{in:}{}% Removes "In:" for articles
+%		\renewcommand*{\jourvoldelim}{\addcomma\space}   % put comma after journal title
+%		\renewcommand*{\volnumdatedelim}{\addcomma\space}% put comma after volume info
+%		\renewbibmacro*{issue+date}{% Print date without parentheses around it
+%		\iffieldundef{issue}%
+%        	{}%
+%        	{\printfield{issue}%
+%         	\setunit*{\addcomma\space}
+%        	}%
+%			\printdate
+%		}
+%      }{}
+%    }
+%    %
+%	\renewbibmacro*{volume+number+eid}{%
+%        \printtext[bold]{\printfield{volume}}%    bold volume (issue number) , eid
 %        \printtext[parens]{\printfield{number}}%  
-        \iffieldundef{number}
-          {} % do nothing
-          {\printtext[parens]{\printfield{number}}} % print number in parentheses
-        \setunit{\bibeidpunct}%
-        \printfield{eid}
-    }
+%        \iffieldundef{number}
+%          {} % do nothing
+%          {\printtext[parens]{\printfield{number}}} % print number in parentheses
+%        \setunit{\bibeidpunct}%
+%        \printfield{eid}
+%    }
 
 %% IEEE style citations and references
 % \usepackage[style=ieee,maxbibnames=10,sorting=none]{biblatex}% style=ext-numeric-comp,articlein=false,giveninits=true
@@ -325,7 +334,7 @@
 \include{1_Introduction}
 %\include{2_Dense_matter}
 \include{3_Binary_neutron_star_mergers}
-\include{4_Numerical_relativity_hydro}
+%\include{4_Numerical_relativity_hydro}
 \include{5_r_process_nucleosynthesis}
 \include{6_Kilonova_light_curves}
 \include{7_Methods}
@@ -338,8 +347,8 @@
 
 \appendix
 \include{appendixa}% listings example (not compatible with tagged pdf, as of Oct. 2025)
-\include{appendixb}% longtable example
-\include{appendixc}
+%\include{appendixb}% longtable example
+%\include{appendixc}
 
 %%% Bibliography (biblatex)  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

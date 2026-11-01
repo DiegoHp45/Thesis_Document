@@ -96,15 +96,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>10</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>maxcitenames</bcf:key>
       <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
+      <bcf:key>maxcitenames</bcf:key>
+      <bcf:value>2</bcf:value>
+    </bcf:option>
+    <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>10</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -331,15 +331,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>10</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>maxcitenames</bcf:key>
       <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
+      <bcf:key>maxcitenames</bcf:key>
+      <bcf:value>2</bcf:value>
+    </bcf:option>
+    <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>10</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -558,7 +558,6 @@
     <bcf:option datatype="string">datelabel</bcf:option>
     <bcf:option datatype="string">backrefstyle</bcf:option>
     <bcf:option datatype="string">arxiv</bcf:option>
-    <bcf:option datatype="string">introcite</bcf:option>
     <bcf:option datatype="boolean">familyinits</bcf:option>
     <bcf:option datatype="boolean">giveninits</bcf:option>
     <bcf:option datatype="boolean">prefixinits</bcf:option>
@@ -642,13 +641,11 @@
     <bcf:option datatype="boolean">doi</bcf:option>
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
-    <bcf:option datatype="boolean">citexref</bcf:option>
-    <bcf:option datatype="boolean">citeinxref</bcf:option>
-    <bcf:option datatype="boolean">innamebeforetitle</bcf:option>
-    <bcf:option datatype="boolean">innameidem</bcf:option>
-    <bcf:option datatype="boolean">articlein</bcf:option>
-    <bcf:option datatype="boolean">maintitleaftertitle</bcf:option>
     <bcf:option datatype="boolean">subentry</bcf:option>
+    <bcf:option datatype="boolean">articletitle</bcf:option>
+    <bcf:option datatype="boolean">chaptertitle</bcf:option>
+    <bcf:option datatype="boolean">pageranges</bcf:option>
+    <bcf:option datatype="boolean">biblabel</bcf:option>
     <bcf:option datatype="boolean">subentrycomp</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
@@ -680,7 +677,6 @@
     <bcf:option datatype="string">loccittracker</bcf:option>
     <bcf:option datatype="string">uniquelist</bcf:option>
     <bcf:option datatype="string">uniquename</bcf:option>
-    <bcf:option datatype="string">introcite</bcf:option>
     <bcf:option datatype="boolean">familyinits</bcf:option>
     <bcf:option datatype="boolean">giveninits</bcf:option>
     <bcf:option datatype="boolean">prefixinits</bcf:option>
@@ -732,12 +728,6 @@
     <bcf:option datatype="boolean">doi</bcf:option>
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
-    <bcf:option datatype="boolean">citexref</bcf:option>
-    <bcf:option datatype="boolean">citeinxref</bcf:option>
-    <bcf:option datatype="boolean">innamebeforetitle</bcf:option>
-    <bcf:option datatype="boolean">innameidem</bcf:option>
-    <bcf:option datatype="boolean">articlein</bcf:option>
-    <bcf:option datatype="boolean">maintitleaftertitle</bcf:option>
     <bcf:option datatype="boolean">subentry</bcf:option>
     <bcf:option datatype="boolean">subentrycomp</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
@@ -777,7 +767,6 @@
     <bcf:option datatype="string" backendout="1">loccittracker</bcf:option>
     <bcf:option datatype="string">uniquelist</bcf:option>
     <bcf:option datatype="string">uniquename</bcf:option>
-    <bcf:option datatype="string" backendout="1">introcite</bcf:option>
     <bcf:option datatype="boolean" backendout="1">familyinits</bcf:option>
     <bcf:option datatype="boolean" backendout="1">giveninits</bcf:option>
     <bcf:option datatype="boolean" backendout="1">prefixinits</bcf:option>
@@ -828,12 +817,6 @@
     <bcf:option datatype="boolean" backendout="1">doi</bcf:option>
     <bcf:option datatype="boolean" backendout="1">eprint</bcf:option>
     <bcf:option datatype="boolean" backendout="1">related</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">citexref</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">citeinxref</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">innamebeforetitle</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">innameidem</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">articlein</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">maintitleaftertitle</bcf:option>
     <bcf:option datatype="boolean" backendout="1">subentry</bcf:option>
     <bcf:option datatype="boolean" backendout="1">subentrycomp</bcf:option>
     <bcf:option datatype="boolean" backendout="1">bibtexcaseprotection</bcf:option>
@@ -1364,6 +1347,7 @@
       <bcf:field fieldtype="field" format="xsv" datatype="option" skip_output="true">relatedoptions</bcf:field>
       <bcf:field fieldtype="field" datatype="range">pages</bcf:field>
       <bcf:field fieldtype="field" datatype="code">execute</bcf:field>
+      <bcf:field fieldtype="field" datatype="literal">collaboration</bcf:field>
     </bcf:fields>
     <bcf:entryfields>
       <bcf:field>abstract</bcf:field>
@@ -2440,6 +2424,16 @@
     <bcf:citekey order="48" intorder="1">tauris_formation_2017</bcf:citekey>
     <bcf:citekey order="49" intorder="1">peters_gravitational_1963</bcf:citekey>
     <bcf:citekey order="50" intorder="1">peters_gravitational_1963</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">radice_dynamical_2016</bcf:citekey>
+    <bcf:citekey order="51" intorder="2">radice_binary_2018</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">metzger_kilonovae_2017</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">radice_dynamics_2020</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">kruger_estimates_2020</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">rosswog_heavy_2024</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">shibata_merger_2019</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">lippuner_r-process_2015</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">korobkin_astrophysical_2012</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">lippuner_r-process_2015</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

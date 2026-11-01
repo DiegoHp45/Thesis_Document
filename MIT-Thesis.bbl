@@ -64,8 +64,8 @@
       }
       \strng{namehash}{d79c1537ba0f44335da91cc385319833}
       \strng{fullhash}{e37937ad127f08dbe0ed0d6f2b182700}
-      \strng{bibnamehash}{e37937ad127f08dbe0ed0d6f2b182700}
-      \strng{authorbibnamehash}{e37937ad127f08dbe0ed0d6f2b182700}
+      \strng{bibnamehash}{d79c1537ba0f44335da91cc385319833}
+      \strng{authorbibnamehash}{d79c1537ba0f44335da91cc385319833}
       \strng{authornamehash}{d79c1537ba0f44335da91cc385319833}
       \strng{authorfullhash}{e37937ad127f08dbe0ed0d6f2b182700}
       \field{sortinit}{1}
@@ -200,8 +200,8 @@
       }
       \strng{namehash}{5ef8d5534d9654bc37dd5411102f82c4}
       \strng{fullhash}{a5b69751cb9cb5b8b1d8ed9857b8443d}
-      \strng{bibnamehash}{a5b69751cb9cb5b8b1d8ed9857b8443d}
-      \strng{authorbibnamehash}{a5b69751cb9cb5b8b1d8ed9857b8443d}
+      \strng{bibnamehash}{5ef8d5534d9654bc37dd5411102f82c4}
+      \strng{authorbibnamehash}{5ef8d5534d9654bc37dd5411102f82c4}
       \strng{authornamehash}{5ef8d5534d9654bc37dd5411102f82c4}
       \strng{authorfullhash}{a5b69751cb9cb5b8b1d8ed9857b8443d}
       \field{sortinit}{2}
@@ -260,8 +260,8 @@
       }
       \strng{namehash}{aa22ccda434dfc6ef3333b74257bc1a7}
       \strng{fullhash}{8fc25eb219c186b60ac093e990ef8ef0}
-      \strng{bibnamehash}{8fc25eb219c186b60ac093e990ef8ef0}
-      \strng{authorbibnamehash}{8fc25eb219c186b60ac093e990ef8ef0}
+      \strng{bibnamehash}{aa22ccda434dfc6ef3333b74257bc1a7}
+      \strng{authorbibnamehash}{aa22ccda434dfc6ef3333b74257bc1a7}
       \strng{authornamehash}{aa22ccda434dfc6ef3333b74257bc1a7}
       \strng{authorfullhash}{8fc25eb219c186b60ac093e990ef8ef0}
       \field{sortinit}{3}
@@ -485,8 +485,8 @@
       }
       \strng{namehash}{e5e4e1ed9aa2d4ae4d9a86329534c334}
       \strng{fullhash}{2be2b9d0ddfa7ef130c78cbf06b560ce}
-      \strng{bibnamehash}{2be2b9d0ddfa7ef130c78cbf06b560ce}
-      \strng{authorbibnamehash}{2be2b9d0ddfa7ef130c78cbf06b560ce}
+      \strng{bibnamehash}{e5e4e1ed9aa2d4ae4d9a86329534c334}
+      \strng{authorbibnamehash}{e5e4e1ed9aa2d4ae4d9a86329534c334}
       \strng{authornamehash}{e5e4e1ed9aa2d4ae4d9a86329534c334}
       \strng{authorfullhash}{2be2b9d0ddfa7ef130c78cbf06b560ce}
       \field{sortinit}{5}
@@ -541,8 +541,8 @@
       }
       \strng{namehash}{9f0ce2d4555ac7ff9f5ce9820cf05eb7}
       \strng{fullhash}{a71bef85c38a857f08c66367716ed4b7}
-      \strng{bibnamehash}{a71bef85c38a857f08c66367716ed4b7}
-      \strng{authorbibnamehash}{a71bef85c38a857f08c66367716ed4b7}
+      \strng{bibnamehash}{9f0ce2d4555ac7ff9f5ce9820cf05eb7}
+      \strng{authorbibnamehash}{9f0ce2d4555ac7ff9f5ce9820cf05eb7}
       \strng{authornamehash}{9f0ce2d4555ac7ff9f5ce9820cf05eb7}
       \strng{authorfullhash}{a71bef85c38a857f08c66367716ed4b7}
       \field{sortinit}{5}
@@ -596,8 +596,8 @@
       }
       \strng{namehash}{1fce56dcb5494fec33719c4f87c99f6b}
       \strng{fullhash}{057177012e008af91843ec8dba7a1258}
-      \strng{bibnamehash}{057177012e008af91843ec8dba7a1258}
-      \strng{authorbibnamehash}{057177012e008af91843ec8dba7a1258}
+      \strng{bibnamehash}{1fce56dcb5494fec33719c4f87c99f6b}
+      \strng{authorbibnamehash}{1fce56dcb5494fec33719c4f87c99f6b}
       \strng{authornamehash}{1fce56dcb5494fec33719c4f87c99f6b}
       \strng{authorfullhash}{057177012e008af91843ec8dba7a1258}
       \field{sortinit}{6}
@@ -651,8 +651,8 @@
       }
       \strng{namehash}{edfda37a9bbe6f50645a900b01d0f1e6}
       \strng{fullhash}{60eb0050feb8ed7fa47b6e199b78d0a2}
-      \strng{bibnamehash}{60eb0050feb8ed7fa47b6e199b78d0a2}
-      \strng{authorbibnamehash}{60eb0050feb8ed7fa47b6e199b78d0a2}
+      \strng{bibnamehash}{edfda37a9bbe6f50645a900b01d0f1e6}
+      \strng{authorbibnamehash}{edfda37a9bbe6f50645a900b01d0f1e6}
       \strng{authornamehash}{edfda37a9bbe6f50645a900b01d0f1e6}
       \strng{authorfullhash}{60eb0050feb8ed7fa47b6e199b78d0a2}
       \field{sortinit}{7}
@@ -700,11 +700,11 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{fea82536233ec7b4023bf205b6d637d2}
+      \strng{namehash}{8d0f69975733a321d50c9ff6ef4695d5}
       \strng{fullhash}{fea82536233ec7b4023bf205b6d637d2}
       \strng{bibnamehash}{fea82536233ec7b4023bf205b6d637d2}
       \strng{authorbibnamehash}{fea82536233ec7b4023bf205b6d637d2}
-      \strng{authornamehash}{fea82536233ec7b4023bf205b6d637d2}
+      \strng{authornamehash}{8d0f69975733a321d50c9ff6ef4695d5}
       \strng{authorfullhash}{fea82536233ec7b4023bf205b6d637d2}
       \field{sortinit}{8}
       \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
@@ -762,8 +762,8 @@
       }
       \strng{namehash}{9f1f73bc317ea4e48ac4b3f28b42d775}
       \strng{fullhash}{b67135b4fe52f316018d6d8074d22074}
-      \strng{bibnamehash}{b67135b4fe52f316018d6d8074d22074}
-      \strng{authorbibnamehash}{b67135b4fe52f316018d6d8074d22074}
+      \strng{bibnamehash}{9f1f73bc317ea4e48ac4b3f28b42d775}
+      \strng{authorbibnamehash}{9f1f73bc317ea4e48ac4b3f28b42d775}
       \strng{authornamehash}{9f1f73bc317ea4e48ac4b3f28b42d775}
       \strng{authorfullhash}{b67135b4fe52f316018d6d8074d22074}
       \field{sortinit}{9}
@@ -806,11 +806,11 @@
            given={L.},
            giveni={L\bibinitperiod}}}%
       }
-      \strng{namehash}{3921c95a164790c3bed30b4a3cd74f36}
+      \strng{namehash}{ebd0ebf14308b01ef3d281b51758cfa8}
       \strng{fullhash}{3921c95a164790c3bed30b4a3cd74f36}
       \strng{bibnamehash}{3921c95a164790c3bed30b4a3cd74f36}
       \strng{authorbibnamehash}{3921c95a164790c3bed30b4a3cd74f36}
-      \strng{authornamehash}{3921c95a164790c3bed30b4a3cd74f36}
+      \strng{authornamehash}{ebd0ebf14308b01ef3d281b51758cfa8}
       \strng{authorfullhash}{3921c95a164790c3bed30b4a3cd74f36}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -857,11 +857,11 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{8ae0c0b61945b196ce28c9fb3bfea9f1}
+      \strng{namehash}{c8d1c2a69d6f7f070ccd43235f4c40ac}
       \strng{fullhash}{8ae0c0b61945b196ce28c9fb3bfea9f1}
       \strng{bibnamehash}{8ae0c0b61945b196ce28c9fb3bfea9f1}
       \strng{authorbibnamehash}{8ae0c0b61945b196ce28c9fb3bfea9f1}
-      \strng{authornamehash}{8ae0c0b61945b196ce28c9fb3bfea9f1}
+      \strng{authornamehash}{c8d1c2a69d6f7f070ccd43235f4c40ac}
       \strng{authorfullhash}{8ae0c0b61945b196ce28c9fb3bfea9f1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -911,8 +911,8 @@
       }
       \strng{namehash}{08326acd0414fce54c77febd4342ed33}
       \strng{fullhash}{c3a7dbcafd1e0c8cf50add10d7713e74}
-      \strng{bibnamehash}{c3a7dbcafd1e0c8cf50add10d7713e74}
-      \strng{authorbibnamehash}{c3a7dbcafd1e0c8cf50add10d7713e74}
+      \strng{bibnamehash}{08326acd0414fce54c77febd4342ed33}
+      \strng{authorbibnamehash}{08326acd0414fce54c77febd4342ed33}
       \strng{authornamehash}{08326acd0414fce54c77febd4342ed33}
       \strng{authorfullhash}{c3a7dbcafd1e0c8cf50add10d7713e74}
       \field{sortinit}{1}
@@ -1143,11 +1143,11 @@
            given={Jennifer},
            giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{6a3bf690a1d4d24eb223024af8b03331}
+      \strng{namehash}{cbc21f58b693cbe56b48862c734913e5}
       \strng{fullhash}{6a3bf690a1d4d24eb223024af8b03331}
       \strng{bibnamehash}{6a3bf690a1d4d24eb223024af8b03331}
       \strng{authorbibnamehash}{6a3bf690a1d4d24eb223024af8b03331}
-      \strng{authornamehash}{6a3bf690a1d4d24eb223024af8b03331}
+      \strng{authornamehash}{cbc21f58b693cbe56b48862c734913e5}
       \strng{authorfullhash}{6a3bf690a1d4d24eb223024af8b03331}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -7532,8 +7532,8 @@
       }
       \strng{namehash}{eae28ce1048d5898d3b17aafe04efdaf}
       \strng{fullhash}{c845c2deb8fe3dfcd1a9ff76590d6aa5}
-      \strng{bibnamehash}{c845c2deb8fe3dfcd1a9ff76590d6aa5}
-      \strng{authorbibnamehash}{c845c2deb8fe3dfcd1a9ff76590d6aa5}
+      \strng{bibnamehash}{eae28ce1048d5898d3b17aafe04efdaf}
+      \strng{authorbibnamehash}{eae28ce1048d5898d3b17aafe04efdaf}
       \strng{authornamehash}{eae28ce1048d5898d3b17aafe04efdaf}
       \strng{authorfullhash}{c845c2deb8fe3dfcd1a9ff76590d6aa5}
       \field{sortinit}{2}
@@ -7619,8 +7619,8 @@
       }
       \strng{namehash}{bd7b66066a6f6d2a792d2093d2c58b07}
       \strng{fullhash}{0e93a5b5c6b96d731a4f678af5fab0ff}
-      \strng{bibnamehash}{0e93a5b5c6b96d731a4f678af5fab0ff}
-      \strng{authorbibnamehash}{0e93a5b5c6b96d731a4f678af5fab0ff}
+      \strng{bibnamehash}{bd7b66066a6f6d2a792d2093d2c58b07}
+      \strng{authorbibnamehash}{bd7b66066a6f6d2a792d2093d2c58b07}
       \strng{authornamehash}{bd7b66066a6f6d2a792d2093d2c58b07}
       \strng{authorfullhash}{0e93a5b5c6b96d731a4f678af5fab0ff}
       \field{sortinit}{2}
@@ -7689,8 +7689,8 @@
       }
       \strng{namehash}{249bfe2afe6880252d78bd608c4236d3}
       \strng{fullhash}{2903c8acd6efd914c3cd07d9e9b9f23e}
-      \strng{bibnamehash}{2903c8acd6efd914c3cd07d9e9b9f23e}
-      \strng{authorbibnamehash}{2903c8acd6efd914c3cd07d9e9b9f23e}
+      \strng{bibnamehash}{249bfe2afe6880252d78bd608c4236d3}
+      \strng{authorbibnamehash}{249bfe2afe6880252d78bd608c4236d3}
       \strng{authornamehash}{249bfe2afe6880252d78bd608c4236d3}
       \strng{authorfullhash}{2903c8acd6efd914c3cd07d9e9b9f23e}
       \field{sortinit}{2}
@@ -7745,8 +7745,8 @@
       }
       \strng{namehash}{f96a3a9124ebb876cf4723811402d095}
       \strng{fullhash}{6363e8cf2555e5bb0dfb1432a07c7799}
-      \strng{bibnamehash}{6363e8cf2555e5bb0dfb1432a07c7799}
-      \strng{authorbibnamehash}{6363e8cf2555e5bb0dfb1432a07c7799}
+      \strng{bibnamehash}{f96a3a9124ebb876cf4723811402d095}
+      \strng{authorbibnamehash}{f96a3a9124ebb876cf4723811402d095}
       \strng{authornamehash}{f96a3a9124ebb876cf4723811402d095}
       \strng{authorfullhash}{6363e8cf2555e5bb0dfb1432a07c7799}
       \field{sortinit}{2}
@@ -8349,11 +8349,11 @@
            given={Wen},
            giveni={W\bibinitperiod}}}%
       }
-      \strng{namehash}{54709fe14ec2b28063e3607cbcdf50af}
+      \strng{namehash}{a28da4612d11a48266b9c7c06689a776}
       \strng{fullhash}{54709fe14ec2b28063e3607cbcdf50af}
       \strng{bibnamehash}{54709fe14ec2b28063e3607cbcdf50af}
       \strng{authorbibnamehash}{54709fe14ec2b28063e3607cbcdf50af}
-      \strng{authornamehash}{54709fe14ec2b28063e3607cbcdf50af}
+      \strng{authornamehash}{a28da4612d11a48266b9c7c06689a776}
       \strng{authorfullhash}{54709fe14ec2b28063e3607cbcdf50af}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
@@ -8402,11 +8402,11 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{0f9422df7f48513cfc66d62f3de89ef9}
+      \strng{namehash}{3d30b962b6649ec07b7a5dd216a199a1}
       \strng{fullhash}{0f9422df7f48513cfc66d62f3de89ef9}
       \strng{bibnamehash}{0f9422df7f48513cfc66d62f3de89ef9}
       \strng{authorbibnamehash}{0f9422df7f48513cfc66d62f3de89ef9}
-      \strng{authornamehash}{0f9422df7f48513cfc66d62f3de89ef9}
+      \strng{authornamehash}{3d30b962b6649ec07b7a5dd216a199a1}
       \strng{authorfullhash}{0f9422df7f48513cfc66d62f3de89ef9}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
@@ -8452,12 +8452,13 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{62ba585460b535953484ecb2eaf96570}
+      \strng{namehash}{82eefe4ab6503112e658fddccd2b52d5}
       \strng{fullhash}{62ba585460b535953484ecb2eaf96570}
       \strng{bibnamehash}{62ba585460b535953484ecb2eaf96570}
       \strng{authorbibnamehash}{62ba585460b535953484ecb2eaf96570}
-      \strng{authornamehash}{62ba585460b535953484ecb2eaf96570}
+      \strng{authornamehash}{82eefe4ab6503112e658fddccd2b52d5}
       \strng{authorfullhash}{62ba585460b535953484ecb2eaf96570}
+      \field{extraname}{1}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -8822,8 +8823,8 @@
       }
       \strng{namehash}{36cd6a3865dc9c79373d527d30ed9142}
       \strng{fullhash}{809508c26ce123719bdcc4f7a6195ba9}
-      \strng{bibnamehash}{809508c26ce123719bdcc4f7a6195ba9}
-      \strng{authorbibnamehash}{809508c26ce123719bdcc4f7a6195ba9}
+      \strng{bibnamehash}{36cd6a3865dc9c79373d527d30ed9142}
+      \strng{authorbibnamehash}{36cd6a3865dc9c79373d527d30ed9142}
       \strng{authornamehash}{36cd6a3865dc9c79373d527d30ed9142}
       \strng{authorfullhash}{809508c26ce123719bdcc4f7a6195ba9}
       \field{sortinit}{3}
@@ -8874,8 +8875,8 @@
       }
       \strng{namehash}{71eaad1673471c6de23b5b54d176b99d}
       \strng{fullhash}{b871b1439c84d3d8eeb8826e343e6f9b}
-      \strng{bibnamehash}{b871b1439c84d3d8eeb8826e343e6f9b}
-      \strng{authorbibnamehash}{b871b1439c84d3d8eeb8826e343e6f9b}
+      \strng{bibnamehash}{71eaad1673471c6de23b5b54d176b99d}
+      \strng{authorbibnamehash}{71eaad1673471c6de23b5b54d176b99d}
       \strng{authornamehash}{71eaad1673471c6de23b5b54d176b99d}
       \strng{authorfullhash}{b871b1439c84d3d8eeb8826e343e6f9b}
       \field{sortinit}{3}
@@ -8936,10 +8937,11 @@
       }
       \strng{namehash}{82eefe4ab6503112e658fddccd2b52d5}
       \strng{fullhash}{1b27a597f2d7ba2b26b4be7f1c619bc0}
-      \strng{bibnamehash}{1b27a597f2d7ba2b26b4be7f1c619bc0}
-      \strng{authorbibnamehash}{1b27a597f2d7ba2b26b4be7f1c619bc0}
+      \strng{bibnamehash}{82eefe4ab6503112e658fddccd2b52d5}
+      \strng{authorbibnamehash}{82eefe4ab6503112e658fddccd2b52d5}
       \strng{authornamehash}{82eefe4ab6503112e658fddccd2b52d5}
       \strng{authorfullhash}{1b27a597f2d7ba2b26b4be7f1c619bc0}
+      \field{extraname}{2}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -9276,8 +9278,8 @@
       }
       \strng{namehash}{8c025ad75642f80d1ed2ef68142d030d}
       \strng{fullhash}{414384b5f76633e481a8d577f86a625d}
-      \strng{bibnamehash}{414384b5f76633e481a8d577f86a625d}
-      \strng{authorbibnamehash}{414384b5f76633e481a8d577f86a625d}
+      \strng{bibnamehash}{8c025ad75642f80d1ed2ef68142d030d}
+      \strng{authorbibnamehash}{8c025ad75642f80d1ed2ef68142d030d}
       \strng{authornamehash}{8c025ad75642f80d1ed2ef68142d030d}
       \strng{authorfullhash}{414384b5f76633e481a8d577f86a625d}
       \field{sortinit}{4}
@@ -9331,8 +9333,8 @@
       }
       \strng{namehash}{b9602fa5869c62c5d4a85090e16f8a7e}
       \strng{fullhash}{25d1641778cf63194bbf54fa791647ed}
-      \strng{bibnamehash}{25d1641778cf63194bbf54fa791647ed}
-      \strng{authorbibnamehash}{25d1641778cf63194bbf54fa791647ed}
+      \strng{bibnamehash}{b9602fa5869c62c5d4a85090e16f8a7e}
+      \strng{authorbibnamehash}{b9602fa5869c62c5d4a85090e16f8a7e}
       \strng{authornamehash}{b9602fa5869c62c5d4a85090e16f8a7e}
       \strng{authorfullhash}{25d1641778cf63194bbf54fa791647ed}
       \field{sortinit}{4}
@@ -9421,12 +9423,13 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{390d0e5e2b2dfd3cd28a46245017ebf8}
+      \strng{namehash}{7a9e383b6033bd48c81d890da753995e}
       \strng{fullhash}{390d0e5e2b2dfd3cd28a46245017ebf8}
       \strng{bibnamehash}{390d0e5e2b2dfd3cd28a46245017ebf8}
       \strng{authorbibnamehash}{390d0e5e2b2dfd3cd28a46245017ebf8}
-      \strng{authornamehash}{390d0e5e2b2dfd3cd28a46245017ebf8}
+      \strng{authornamehash}{7a9e383b6033bd48c81d890da753995e}
       \strng{authorfullhash}{390d0e5e2b2dfd3cd28a46245017ebf8}
+      \field{extraname}{1}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
@@ -9528,6 +9531,7 @@
       \strng{authorbibnamehash}{0a7e7fe3f0d34c2e84ca6eca0bafbc4c}
       \strng{authornamehash}{0a7e7fe3f0d34c2e84ca6eca0bafbc4c}
       \strng{authorfullhash}{cd94e8475999607ba96a226173886027}
+      \field{extraname}{2}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
@@ -9594,6 +9598,340 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRev.131.435
+      \endverb
+    \endentry
+    \entry{radice_dynamical_2016}{article}{}
+      \name{author}{6}{}{%
+        {{hash=5ff701db048de4b8f5a5ec28c9b20fec}{%
+           family={Radice},
+           familyi={R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6be2311b9a51c3cd2f1ac855a2a2d17d}{%
+           family={Galeazzi},
+           familyi={G\bibinitperiod},
+           given={Filippo},
+           giveni={F\bibinitperiod}}}%
+        {{hash=1bc9a956867373428523b82d4820ae58}{%
+           family={Lippuner},
+           familyi={L\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=54c50077959c91e0a884bfd482914f87}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Luke\bibnamedelima F.},
+           giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=72bf87fe04b6d4011db7459c9a3fd27a}{%
+           family={Ott},
+           familyi={O\bibinitperiod},
+           given={Christian\bibnamedelima D.},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=72c35344cecfdbbeebc71d2ca292436a}{%
+           family={Rezzolla},
+           familyi={R\bibinitperiod},
+           given={Luciano},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ac8744cdee78b45afe8e840a12381104}
+      \strng{fullhash}{bfe90cc0a1fd0a71517b0db5c6a7f117}
+      \strng{bibnamehash}{ac8744cdee78b45afe8e840a12381104}
+      \strng{authorbibnamehash}{ac8744cdee78b45afe8e840a12381104}
+      \strng{authornamehash}{ac8744cdee78b45afe8e840a12381104}
+      \strng{authorfullhash}{bfe90cc0a1fd0a71517b0db5c6a7f117}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0035-8711, 1365-2966}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{month}{8}
+      \field{number}{3}
+      \field{title}{Dynamical mass ejection from binary neutron star mergers}
+      \field{urlday}{20}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{460}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{3255\bibrangedash 3271}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1093/mnras/stw1227
+      \endverb
+      \verb{file}
+      \verb Submitted Version:/home/diefer/snap/zotero-snap/common/Zotero/storage/566L74GA/Radice et al. - 2016 - Dynamical mass ejection from binary neutron star mergers.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/mnras/article-lookup/doi/10.1093/mnras/stw1227
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/mnras/article-lookup/doi/10.1093/mnras/stw1227
+      \endverb
+    \endentry
+    \entry{radice_binary_2018}{article}{}
+      \name{author}{6}{}{%
+        {{hash=5ff701db048de4b8f5a5ec28c9b20fec}{%
+           family={Radice},
+           familyi={R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=16e4e38f9baa815e722fe619beed162e}{%
+           family={Perego},
+           familyi={P\bibinitperiod},
+           given={Albino},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b29967ee81ac17919cea3ce6af4fb517}{%
+           family={Hotokezaka},
+           familyi={H\bibinitperiod},
+           given={Kenta},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f4e6d6ea9aa213dce65e010291073378}{%
+           family={Fromm},
+           familyi={F\bibinitperiod},
+           given={Steven\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=000222316f0924d391bba939aa089cf5}{%
+           family={Bernuzzi},
+           familyi={B\bibinitperiod},
+           given={Sebastiano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=54c50077959c91e0a884bfd482914f87}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Luke\bibnamedelima F.},
+           giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac8744cdee78b45afe8e840a12381104}
+      \strng{fullhash}{6fee7b12a761a346ca34b35f02e57dca}
+      \strng{bibnamehash}{ac8744cdee78b45afe8e840a12381104}
+      \strng{authorbibnamehash}{ac8744cdee78b45afe8e840a12381104}
+      \strng{authornamehash}{ac8744cdee78b45afe8e840a12381104}
+      \strng{authorfullhash}{6fee7b12a761a346ca34b35f02e57dca}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0004-637X, 1538-4357}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{month}{12}
+      \field{number}{2}
+      \field{shorttitle}{Binary {Neutron} {Star} {Mergers}}
+      \field{title}{Binary {Neutron} {Star} {Mergers}: {Mass} {Ejection}, {Electromagnetic} {Counterparts}, and {Nucleosynthesis}}
+      \field{volume}{869}
+      \field{year}{2018}
+      \field{pages}{130}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3847/1538-4357/aaf054
+      \endverb
+      \verb{urlraw}
+      \verb https://iopscience.iop.org/article/10.3847/1538-4357/aaf054
+      \endverb
+      \verb{url}
+      \verb https://iopscience.iop.org/article/10.3847/1538-4357/aaf054
+      \endverb
+    \endentry
+    \entry{radice_dynamics_2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5ff701db048de4b8f5a5ec28c9b20fec}{%
+           family={Radice},
+           familyi={R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=000222316f0924d391bba939aa089cf5}{%
+           family={Bernuzzi},
+           familyi={B\bibinitperiod},
+           given={Sebastiano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=16e4e38f9baa815e722fe619beed162e}{%
+           family={Perego},
+           familyi={P\bibinitperiod},
+           given={Albino},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ac8744cdee78b45afe8e840a12381104}
+      \strng{fullhash}{60c2c3af46b35d7355e3ca5f95b3aafe}
+      \strng{bibnamehash}{60c2c3af46b35d7355e3ca5f95b3aafe}
+      \strng{authorbibnamehash}{60c2c3af46b35d7355e3ca5f95b3aafe}
+      \strng{authornamehash}{ac8744cdee78b45afe8e840a12381104}
+      \strng{authorfullhash}{60c2c3af46b35d7355e3ca5f95b3aafe}
+      \field{extraname}{3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0163-8998, 1545-4134}
+      \field{journaltitle}{Annual Review of Nuclear and Particle Science}
+      \field{month}{10}
+      \field{number}{1}
+      \field{title}{The {Dynamics} of {Binary} {Neutron} {Star} {Mergers} and {GW170817}}
+      \field{volume}{70}
+      \field{year}{2020}
+      \field{pages}{95\bibrangedash 119}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1146/annurev-nucl-013120-114541
+      \endverb
+      \verb{urlraw}
+      \verb https://www.annualreviews.org/doi/10.1146/annurev-nucl-013120-114541
+      \endverb
+      \verb{url}
+      \verb https://www.annualreviews.org/doi/10.1146/annurev-nucl-013120-114541
+      \endverb
+    \endentry
+    \entry{kruger_estimates_2020}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f682b018dfa3c47e177aed22e98450cb}{%
+           family={Krüger},
+           familyi={K\bibinitperiod},
+           given={Christian\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f7ec4c702e782d53718f8a4e97ebbf6c}{%
+           family={Foucart},
+           familyi={F\bibinitperiod},
+           given={Francois},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{caee85315833eb5dea5bad19f3150a37}
+      \strng{fullhash}{caee85315833eb5dea5bad19f3150a37}
+      \strng{bibnamehash}{caee85315833eb5dea5bad19f3150a37}
+      \strng{authorbibnamehash}{caee85315833eb5dea5bad19f3150a37}
+      \strng{authornamehash}{caee85315833eb5dea5bad19f3150a37}
+      \strng{authorfullhash}{caee85315833eb5dea5bad19f3150a37}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2470-0010, 2470-0029}
+      \field{journaltitle}{Physical Review D}
+      \field{month}{5}
+      \field{number}{10}
+      \field{title}{Estimates for disk and ejecta masses produced in compact binary mergers}
+      \field{volume}{101}
+      \field{year}{2020}
+      \field{pages}{103002}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.101.103002
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.101.103002
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.101.103002
+      \endverb
+    \endentry
+    \entry{shibata_merger_2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=41bf97ddfab7a6296d0dc3265ce94f57}{%
+           family={Shibata},
+           familyi={S\bibinitperiod},
+           given={Masaru},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b29967ee81ac17919cea3ce6af4fb517}{%
+           family={Hotokezaka},
+           familyi={H\bibinitperiod},
+           given={Kenta},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{920eed5fc59a9d0ab5baa5b3d0b10a4c}
+      \strng{fullhash}{920eed5fc59a9d0ab5baa5b3d0b10a4c}
+      \strng{bibnamehash}{920eed5fc59a9d0ab5baa5b3d0b10a4c}
+      \strng{authorbibnamehash}{920eed5fc59a9d0ab5baa5b3d0b10a4c}
+      \strng{authornamehash}{920eed5fc59a9d0ab5baa5b3d0b10a4c}
+      \strng{authorfullhash}{920eed5fc59a9d0ab5baa5b3d0b10a4c}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0163-8998, 1545-4134}
+      \field{journaltitle}{Annual Review of Nuclear and Particle Science}
+      \field{month}{10}
+      \field{number}{1}
+      \field{title}{Merger and {Mass} {Ejection} of {Neutron} {Star} {Binaries}}
+      \field{volume}{69}
+      \field{year}{2019}
+      \field{pages}{41\bibrangedash 64}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1146/annurev-nucl-101918-023625
+      \endverb
+      \verb{urlraw}
+      \verb https://www.annualreviews.org/doi/10.1146/annurev-nucl-101918-023625
+      \endverb
+      \verb{url}
+      \verb https://www.annualreviews.org/doi/10.1146/annurev-nucl-101918-023625
+      \endverb
+    \endentry
+    \entry{korobkin_astrophysical_2012}{article}{}
+      \name{author}{4}{}{%
+        {{hash=4db865105ced4ecd4c91990cd105e9eb}{%
+           family={Korobkin},
+           familyi={K\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=93ff3affbcffbb43b089f426c0b23e3a}{%
+           family={Rosswog},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=78d41c60038273cb55ac854ad112903b}{%
+           family={Arcones},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2ba374d8f322a25efe2117f5f3524b0e}{%
+           family={Winteler},
+           familyi={W\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{29b586f463d369377d6213523f2836ca}
+      \strng{fullhash}{782a03b427a8e8bcf0b115f2e830e7ae}
+      \strng{bibnamehash}{29b586f463d369377d6213523f2836ca}
+      \strng{authorbibnamehash}{29b586f463d369377d6213523f2836ca}
+      \strng{authornamehash}{29b586f463d369377d6213523f2836ca}
+      \strng{authorfullhash}{782a03b427a8e8bcf0b115f2e830e7ae}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{00358711}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{month}{11}
+      \field{number}{3}
+      \field{shorttitle}{On the astrophysical robustness of the neutron star merger r-process}
+      \field{title}{On the astrophysical robustness of the neutron star merger r-process: {Robust} r-process in neutron star mergers}
+      \field{volume}{426}
+      \field{year}{2012}
+      \field{pages}{1940\bibrangedash 1949}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1111/j.1365-2966.2012.21859.x
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/mnras/article-lookup/doi/10.1111/j.1365-2966.2012.21859.x
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/mnras/article-lookup/doi/10.1111/j.1365-2966.2012.21859.x
       \endverb
     \endentry
   \enddatalist

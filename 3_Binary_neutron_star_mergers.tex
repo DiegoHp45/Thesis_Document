@@ -154,12 +154,161 @@ For $m_1 = m_2 = 1.35\,M_\odot$, $m_1 m_2 M = 4.92\,M_\odot^{3}$ and $\beta = 6.
   a_{\max} \simeq 3.2\times10^{6}~\mathrm{km}\simeq 4.6\,R_\odot ,
 \end{equation}
 about $0.02~\mathrm{AU}$. As reference, red supergiants have typical radii of hundreds of $R_\odot$, so having neutron stars closer than $4.6\,R_\odot$ is quite a challenge.
+
 \section{Mass ejection: tidal, shock-driven, and disk-wind ejecta}
 
-At the last instans 
+At the last instants of the inspiral phase, when the separation becomes comparable to a few stellar radii, the point mass approximation is not longer accurate.
+From those last instants to the first ones after the merger the system became really complex to study.
+Physical phenomena and processes such as deformation, dense matter compression and heating, neutrino interactions and the appearance of strong magnetic field became relevant.
+Even though current merger simulations include specialized treatment for each of the previous mention effects there remains loopholes in our understanding~\cite{radice_dynamical_2016, radice_binary_2018}.
+From the point of view of nucleosynthesis, the important outcome of the merger is the matter that becomes gravitational unbound.
+This matter is what we will call the ejecta and is divided in two categories according to the mechanism of ejection~\cite{metzger_kilonovae_2017}.
+The first is the dynamical ejecta, it is expelled within $~10 ms$ of the merger by tidal torques (tidal ejecta) and by shocks at the collision interface (shock-heated ejecta).
+The second is the secular or post-merger ejecta, it is expelled after the dynamical ejecta by winds from the remnant and from the accretion disk that surrounds it.
+
+\subsection{Dynamical ejecta}
+
+The study of dynamical ejecta is closely related to numerical relativity simualtions. 
+Results from such simulations help us to estimate really important properties of the ejected material such as masses, velocities, distribution, temperatures and electron fraction depending on the sophistication of the simulation.
+Current results from simulations estimates that the amount of dynamical ejecta lies between $~10^{-4}$ to $~10^{-2}M_\odot$ with asymptotic velocities of $0.1--0.3c$~\cite{radice_dynamics_2020}.
+Electron fraction and distribution depends on the exact mechanism.
+Tidal ejecta usually have low electron fraction ($Y_e<0.15$) and is ejected mostly through the equator.
+Shock driven ejecta on the other hand could reach higher electron fractions ($Y_e<0.4$) and could be emitted at angles close to the poles (see Fig.~\ref{fig:remnant}).
+One interesting results is that the channels are not equally likely to dominate.
+The tidal component dominates for unequal masses and stiff EOS while the shock component dominates fro equal masses and soft EOS. 
+In addition, the total mass correlates with the tidal deformability and with the mass ratio and there is fits calibrated on simulations for such quantities~\cite{kruger_estimates_2020}.
+
+
+\subsection{Post-merger ejecta}
+
+Post-merger ejecta is quite interesting since its mechanism relies on the presence of winds from the remnant.
+%The reader now may notice that after all this context we have not mention what is the remnant and it is a completely fair question to ask.
+So, let us talk a little bit about the remnant. 
+BNSMs have two possibles outcomes, they become a black hole or an another neutron star. 
+The first outcome happens where there is a collapse and the interesting fact about this is that it could happen at any time during the merger. 
+For example, the binary could became a very heavy unstable neutron star (long-lived remnant) that, after it cold down (typically seconds), collapses to a black hole.
+The collapse can happen also at the moment of the merger (prompt collapse) or during a viscous phase shortly after (short-lived remnant).
+%Now a natural question to ask is "what happen in a collapse?" and we will gracefully escape that question by saying: that is beyond the scope of this work.
+
+
+%%%%%%%%%%%%%%%%%  begin figure  %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{Figures/remnant.pdf}    
+    \caption{Diagram of the remnant from BNSM. Figure taken from Ref.~\cite{rosswog_heavy_2024}. }
+    \label{fig:remnant}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%  end figure  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+In all but the most prompt collapses, part of the material with high angular momentum settles into rotationally supported torus around the central object, with masses $-10^{-3}--0.2M_\odot$.
+At early times the disk is dense, hot and have low electron fraction.
+As the disk spreads the viscous heating and the synthesis of $\alpha$ particle and heavier nuclei drives the outflow~\cite{shibata_merger_2019}.
+As a result part of the disk accumulate enough kinetic energy to unbound from the remnant contributing to the kilonova.
 
 \section{Weak interactions and the electron fraction of the ejecta}
 
+Before the merger, the stars can be described as cold neutron rich matter.
+At the merger, as we mentioned, the matter heats up and several effects take place.
+As the matter move from the $\beta$ equilibrium, neutrinos became important since they control the $Y_e$ distribution across the ejecta.
+This is why neutrino transport schemes are important in merger simulations.
+Simulations without it lie about the $Y_e$ and are not useful for abundance calculations. 
+This section will stablish first why $Y_e$ is important and then how neutrinos controls it. 
 
+The outcome of the r-process in an expanding fluid element is set mainly by three quantities evaluated when nuclear statistical equilibrium freezes out: the electron fraction $Y_e$, the entropy per baryon $s$, and the expansion timescale $\tau_{\rm exp}$~\cite{lippuner_r-process_2015}.
+They fix the neutron-to-seed ratio at the onset of neutron captures.
+Merger ejecta have moderate entropies, $s\sim10$--$30\,k_B$ per baryon, and short expansion times, $\tau_{\rm exp}\sim$~ms, so $Y_e$ is the dominant parameter.
+By charge neutrality,
+\begin{equation}
+  Y_e = \frac{n_{e^-}-n_{e^+}}{n_b} = \sum_i Z_iY_i,\qquad Y_i=\frac{X_i}{A_i},
+\end{equation}
+where $X_i$ is the mass fraction and $A_i$ is the mass number of species $i$.
+Strong and electromagnetic reactions conserve $Y_e$.
+It changes only through charged-current weak interactions.
+
+In a cold neutron star the neutrinos escape freely ($\mu_\nu=0$) and matter is in neutrinoless $\beta$ equilibrium, $\mu_n=\mu_p+\mu_e$.
+Because $\mu_e$ grows rapidly with density, equilibrium favours neutrons.
+In the inner crust and outer core, from which the dynamical ejecta originate, $Y_e$ have values just above neutron drip to $\approx0.03$--$0.1$ at $\rho\sim10^{13}$--$10^{14}~\mathrm{g\,cm^{-3}}$.
+If this matter were ejected without further weak processing, it would have a neutron-to-seed ratio of several hundred and produce a robust abundance pattern from the second peak up to the actinides~\cite{korobkin_astrophysical_2012}.
+During and after the merger, however, the ejecta are heated and irradiated, and two classes of reactions can change $Y_e$:
+\begin{align}
+  e^-+p &\rightleftarrows n+\nu_e, & e^++n &\rightleftarrows p+\bar\nu_e,\label{eq:capt}\\
+  \nu_e+n &\rightarrow p+e^-, & \bar\nu_e+p &\rightarrow n+e^+.\label{eq:abs}
+\end{align}
+Captures on heavy nuclei and the inverse reactions with thermal neutrinos also contribute in dense, opaque regions, but for the ejecta the reactions on free nucleons dominate.
+
+For matter composed of free nucleons the abundances are $Y_p=Y_e$ and $Y_n=1-Y_e$, and the reactions~\eqref{eq:capt}--\eqref{eq:abs} give
+\begin{equation}\label{eq:dYedt}
+  \frac{dY_e}{dt} = \underbrace{\left(\lambda_{\nu_en}+\lambda_{e^+n}\right)}_{\equiv\lambda_+}(1-Y_e) - \underbrace{\left(\lambda_{\bar\nu_ep}+\lambda_{e^-p}\right)}_{\equiv\lambda_-}Y_e .
+\end{equation}
+For slowly varying rates, $Y_e$ relaxes exponentially to the instantaneous equilibrium value
+\begin{equation}\label{eq:Yeeq}
+  Y_e^{\rm eq}=\frac{\lambda_+}{\lambda_++\lambda_-}
+  \quad\text{on the timescale}\quad
+  \tau_{\rm weak}=\frac{1}{\lambda_++\lambda_-}.
+\end{equation}
+Whether the ejecta reach equilibrium is decided by the ratio $\tau_{\rm exp}/\tau_{\rm weak}$.
+If $\tau_{\rm exp}\gg\tau_{\rm weak}$, $Y_e$ follows $Y_e^{\rm eq}$; if $\tau_{\rm exp}\ll\tau_{\rm weak}$, $Y_e$ is frozen.
+Because both the temperature and the neutrino flux fall quickly as the matter expands, every fluid element eventually freezes out.
+This is why the slow expanding post-merger ejecta reach higher $Y_e$ than the rapid expanding tidal ejecta which is cold and fast and keep $Y_e$ similar to the interior of the star before the merger.
 
 \section{Electromagnetic counterparts}
+
+At this point we have briefly discuss the formation fo the binary, the GW emission, the mass ejection channels and the the initial conditions of the ejected material. 
+Now its time to talk about Electromagnetic emissions.
+These emissions can be divided into two groups, thermal and non thermal radiation.
+After the merger (seconds) the first emission generated is the gamma ray burst from a relativistic jet, which corresponds to a non thermal radiation.
+As the density decreases and the ejecta approaches a optically thin regime, thermilized photons scape and built the kilonova (from days and on).
+In addition some non thermal afterglows are produced when the jet and the ejecta decelerate (hours).
+
+\subsection{GRBs}
+
+Gamma ray bursts (GRBs) are high energy photons released from the polar regions by ultra-relativistic, collimated outflows called jets launched by the remnant. This could be and accreting black hole, which extracts its energy through magnetic fields, or a rapidly rotating magnetized neutron star.
+The photons are produced from the acceleration of the charges inside the jet.
+When the jet drives into the surrounding medium it decelerates and produce a non thermal afterglow.
+
+However, GRBs are not unique from mergers.
+Some GRBs are associated with the deaths of massive stars.
+In the collapsar model the core of the rapidly rotating, stripped massive star collapses to a black hole surrounded by a massive accretion disk, which powers a jet for tens of seconds. 
+The working assumption was therefore that the origin of the GRBs can be identify by the duration.
+Short GRBs comes from mergers and long GRBs from collapsars.
+But in recent years this was proved wrong.
+GRB 23037A had a prompt phase of tens of seconds followed by a red kilonova and GRB 200826A had a duration of $0.65s$ and was followed by a supernova.
+the duration of a burst is therefore not a reliable indicator of its progenitor.
+Now the cental open question is how a merger can power a jet for tens of seconds, when the accretion time of typical post-merger disk is $\lessapprox1s$.
+
+\subsection{Kilonoave}
+
+kilonovae belongs to the thermal radiation group since its origin comes from the thermalization of the energy from radioactive decays.
+However its emission is not exactly the one of a black body, it could have deviations, so a kilonova is a quasi-thermal transient.
+It spectrum ranges from ultraviolet to infrared.
+Most kilonova models, from analytic like LP98 to multidimensional radiative transfer, are built from the same few ingredients: homologous expansion of the ejecta, a radioactive heating rate and its thermalization efficiency, and opacity set by the composition and photon diffusion out of and expanding medium.
+
+\subsubsection{Homologous expansion}
+ 
+At early stages the dynamical ejecta is accelerated but shortly after the pressure forces become negligible and every fluid element moves ballistically, $r=vt$. One model for th density that encapsules this behavior is the one presented in Ref.~\cite{lippuner_r-process_2015}
+\begin{equation}\label{eq:homol}
+  \rho(\tau,t)=
+  \left \{
+    \begin{array}{lr}
+      \rho_0e^{-t/\tau} & \text{if}\, t\leq 3\tau \\
+      \rho_0 \left (\frac{3\tau}{et}\right )^3& \text{if}\, t \geq 3\tau \\
+    \end{array}
+  \right \}.
+\end{equation}
+where $\rho_0$ is an initial density and $\tau$ the expansion time. 
+Notice that this model referents a smooth transition from a exponential expansion to a ballistic expansion. 
+
+
+\subsection{Radioactive heating}
+Within the reaction network the nuclear energy released per unit mass for decays is
+\begin{equation}
+  \dot \epsilon(t)= \sum_{i,x} \frac{Q_{i,x}}{m_i}\lambda_{i,x}X_i(t)
+\end{equation}
+where the index $i$ represents the sum over all the nuclear species and the index $x$ represent the sum over decay modes. 
+$Q_{i,x}$ is the energy released by species $i$ that decay through the decay mode $x$.
+$\lambda_{i,x}$ is the decay constant through the decay mode $x$ of species $i$.
+$X_i$ is the mass fraction defined as $\rho_i/\rho$ and $m_i$ is the mass os a nucleus $i$.
+This definition is completely consistent with the standard 
+\begin{equation}
+  \dot q_{reac}=\sum_i (\mu_i+Z_i\mu_e)\dot Y_i
+\end{equation}

@@ -1,4 +1,7 @@
 {
     "window.density.editorTabHeight": "compact",
-    "workbench.editor.centeredLayoutFixedWidth": true
+    "workbench.editor.centeredLayoutFixedWidth": true,
+    "cSpell.words": [
+        "thermilized"
+    ]
 }
