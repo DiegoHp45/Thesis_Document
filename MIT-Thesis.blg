@@ -1,25 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'MIT-Thesis.blg'
-[93] biber:340> INFO - === Sun Nov  1, 2026, 18:11:26
-[110] Biber.pm:419> INFO - Reading 'MIT-Thesis.bcf'
-[197] Biber.pm:979> INFO - Found 60 citekeys in bib section 0
-[209] Biber.pm:4419> INFO - Processing section 0
-[220] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[228] bibtex.pm:1713> INFO - LaTeX decoding ...
-[435] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[2894] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2894] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2894] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[2895] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[2971] bbl.pm:660> INFO - Writing 'MIT-Thesis.bbl' with encoding 'UTF-8'
-[3430] bbl.pm:763> INFO - Output to MIT-Thesis.bbl
-[3430] Biber.pm:131> WARN - Duplicate entry key: 'metzger_kilonovae_2017' in file 'references.bib', skipping ...
-[3430] Biber.pm:131> WARN - Duplicate entry key: 'rosswog_heavy_2024' in file 'references.bib', skipping ...
-[3430] Biber.pm:131> WARN - Duplicate entry key: 'lippuner_r-process_2015' in file 'references.bib', skipping ...
-[3430] Biber.pm:131> WARN - Duplicate entry key: 'lippuner_r-process_2015' in file 'references.bib', skipping ...
-[3430] Biber.pm:131> WARN - Duplicate entry key: 'kasen_opacities_2013' in file 'references.bib', skipping ...
-[3430] Biber.pm:131> WARN - Duplicate entry key: 'metzger_electromagnetic_2010' in file 'references.bib', skipping ...
-[3430] Biber.pm:131> WARN - Duplicate entry key: 'li_transient_1998' in file 'references.bib', skipping ...
-[3430] Biber.pm:131> WARN - Duplicate entry key: 'abbott_gw170817_2017' in file 'references.bib', skipping ...
-[3430] Biber.pm:131> WARN - Duplicate entry key: 'tanaka_radiative_2013' in file 'references.bib', skipping ...
-[3430] Biber.pm:133> INFO - WARNINGS: 9
+[77] biber:340> INFO - === Sun Nov  1, 2026, 22:29:19
+[95] Biber.pm:419> INFO - Reading 'MIT-Thesis.bcf'
+[177] Biber.pm:979> INFO - Found 66 citekeys in bib section 0
+[193] Biber.pm:4419> INFO - Processing section 0
+[203] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[219] bibtex.pm:1713> INFO - LaTeX decoding ...
+[2250] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[14492] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[14492] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[14492] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[14492] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[14692] bbl.pm:660> INFO - Writing 'MIT-Thesis.bbl' with encoding 'UTF-8'
+[22031] bbl.pm:763> INFO - Output to MIT-Thesis.bbl

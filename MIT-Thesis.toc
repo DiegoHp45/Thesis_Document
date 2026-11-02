@@ -13,12 +13,12 @@
 \contentsline {section}{\numberline {2.5}Weak interactions and the electron fraction of the ejecta}{17}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Electromagnetic counterparts}{18}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}GRBs}{19}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Kilonoave}{19}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.2}Kilonovae}{19}{subsection.2.6.2}%
 \contentsline {subsubsection}{Homologous expansion}{19}{section*.3}%
-\contentsline {subsubsection}{Radioactive heating}{19}{section*.4}%
+\contentsline {subsubsection}{Radioactive heating}{20}{section*.4}%
 \contentsline {subsubsection}{Thermalization}{21}{section*.5}%
 \contentsline {subsubsection}{Opacity}{21}{section*.6}%
-\contentsline {subsubsection}{Diffusion and the time of the peak}{21}{section*.7}%
+\contentsline {subsubsection}{Diffusion and the time of the peak}{22}{section*.7}%
 \contentsline {chapter}{\numberline {3}r-Process Nucleosynthesis}{23}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Nuclear statistical equilibrium and freeze-out}{23}{section.3.1}%
 \contentsline {section}{\numberline {3.2}The r-process: neutron-to-seed ratio, fission cycling}{23}{section.3.2}%

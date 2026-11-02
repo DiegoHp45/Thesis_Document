@@ -2418,7 +2418,7 @@
     <bcf:citekey order="42" intorder="1">raaijmakers_constraints_2021</bcf:citekey>
     <bcf:citekey order="43" intorder="1">alford_hybrid_2005</bcf:citekey>
     <bcf:citekey order="44" intorder="1">paczynski_common_1976</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">tauris_erratum_2017</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">tauris_ultra-stripped_2015</bcf:citekey>
     <bcf:citekey order="46" intorder="1">tauris_formation_2017</bcf:citekey>
     <bcf:citekey order="47" intorder="1">tauris_formation_2017</bcf:citekey>
     <bcf:citekey order="48" intorder="1">tauris_formation_2017</bcf:citekey>
@@ -2433,18 +2433,27 @@
     <bcf:citekey order="56" intorder="1">shibata_merger_2019</bcf:citekey>
     <bcf:citekey order="57" intorder="1">lippuner_r-process_2015</bcf:citekey>
     <bcf:citekey order="58" intorder="1">korobkin_astrophysical_2012</bcf:citekey>
-    <bcf:citekey order="59" intorder="1">lippuner_r-process_2015</bcf:citekey>
-    <bcf:citekey order="60" intorder="1">metzger_electromagnetic_2010</bcf:citekey>
-    <bcf:citekey order="60" intorder="2">hotokezaka_analytic_2017</bcf:citekey>
-    <bcf:citekey order="61" intorder="1">hotokezaka_analytic_2017</bcf:citekey>
-    <bcf:citekey order="62" intorder="1">metzger_electromagnetic_2010</bcf:citekey>
-    <bcf:citekey order="62" intorder="2">korobkin_astrophysical_2012</bcf:citekey>
-    <bcf:citekey order="63" intorder="1">korobkin_astrophysical_2012</bcf:citekey>
-    <bcf:citekey order="64" intorder="1">barnes_radioactivity_2016</bcf:citekey>
-    <bcf:citekey order="64" intorder="2">hotokezaka_radioactive_2016</bcf:citekey>
-    <bcf:citekey order="65" intorder="1">kasen_radioactive_2019</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">kasen_opacities_2013</bcf:citekey>
-    <bcf:citekey order="66" intorder="2">tanaka_systematic_2020</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">abbott_multi-messenger_2017</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">abbott_gravitational_2017</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">coulter_swope_2017</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">blandford_electromagnetic_1977</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">woosley_gamma-ray_1993</bcf:citekey>
+    <bcf:citekey order="63" intorder="2">macfadyen_collapsars_1999</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">levan_heavy-element_2024</bcf:citekey>
+    <bcf:citekey order="64" intorder="2">yang_lanthanide-rich_2024</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">ahumada_discovery_2021</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">lippuner_r-process_2015</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">metzger_electromagnetic_2010</bcf:citekey>
+    <bcf:citekey order="67" intorder="2">hotokezaka_analytic_2017</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">hotokezaka_analytic_2017</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">metzger_electromagnetic_2010</bcf:citekey>
+    <bcf:citekey order="69" intorder="2">korobkin_astrophysical_2012</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">korobkin_astrophysical_2012</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">barnes_radioactivity_2016</bcf:citekey>
+    <bcf:citekey order="71" intorder="2">hotokezaka_radioactive_2016</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">kasen_radioactive_2019</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">kasen_opacities_2013</bcf:citekey>
+    <bcf:citekey order="73" intorder="2">tanaka_systematic_2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
