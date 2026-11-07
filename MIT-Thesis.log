@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.7)  1 NOV 2026 23:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.7)  6 NOV 2026 22:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -802,7 +802,7 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 ))
 \@quotelevel=\count478
 \@quotereset=\count479
- (./MIT-Thesis.aux (./acknowledgments.aux) (./1_Introduction.aux) (./3_Binary_neutron_star_mergers.aux) (./5_r_process_nucleosynthesis.aux) (./6_Kilonova_light_curves.aux) (./7_Methods.aux) (./8_Results.aux) (./9_Discussion.aux) (./10_Conclusions.aux) (./appendixa.aux))
+ (./MIT-Thesis.aux (./acknowledgments.aux) (./1_Introduction.aux) (./3_Binary_neutron_star_mergers.aux) (./5_r_process_nucleosynthesis.aux) (./6_Kilonova_light_curves.aux) (./7_Methods.aux) (./8_Results.aux) (./9_Discussion.aux) (./10_Conclusions.aux) (./appendixa.aux) (./appendixb.aux))
 \openout1 = `MIT-Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 230.
@@ -971,7 +971,7 @@ Chapter 2.
 
 
 ] [12]
-<Figures/DNS_formation.jpeg, id=286, 598.235pt x 721.69624pt>
+<Figures/DNS_formation.jpeg, id=324, 598.235pt x 721.69624pt>
 File: Figures/DNS_formation.jpeg Graphic file (type jpg)
 <use Figures/DNS_formation.jpeg>
 Package pdftex.def Info: Figures/DNS_formation.jpeg  used on input line 76.
@@ -982,7 +982,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) h
                                                   \__shipout_drop_firstpage_...
 l.87 
       <./Figures/DNS_formation.jpeg>]
-<Figures/binary.pdf, id=298, 406.51875pt x 338.76563pt>
+<Figures/binary.pdf, id=336, 406.51875pt x 338.76563pt>
 File: Figures/binary.pdf Graphic file (type pdf)
 <use Figures/binary.pdf>
 Package pdftex.def Info: Figures/binary.pdf  used on input line 91.
@@ -993,7 +993,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) h
                                                   \__shipout_drop_firstpage_...
 l.125 \end{align}
                   <./Figures/binary.pdf>] [15]
-<Figures/remnant.pdf, id=372, 794.97pt x 614.295pt>
+<Figures/remnant.pdf, id=410, 794.97pt x 614.295pt>
 File: Figures/remnant.pdf Graphic file (type pdf)
 <use Figures/remnant.pdf>
 Package pdftex.def Info: Figures/remnant.pdf  used on input line 197.
@@ -1008,17 +1008,39 @@ l.223 \end{equation}
 
  (./5_r_process_nucleosynthesis.tex
 Chapter 3.
-) [23
+
+LaTeX Warning: Reference `sec:inputs' on page 23 undefined on input line 9.
+
+[23
 
 
 
 
-]
+] [24]
+
+LaTeX Warning: Reference `sec:inputs' on page 25 undefined on input line 86.
+
+[25] [26]
+
+LaTeX Warning: Reference `sec:inputs' on page 27 undefined on input line 183.
+
+[27] [28] [29]
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 282.
+
+[30] [31] [32] [33] [34] [35] [36] [37]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmss' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [38]) [39]
 \openout2 = `6_Kilonova_light_curves.aux'.
 
  (./6_Kilonova_light_curves.tex
 Chapter 4.
-) [24
+) [40
 
 
 
@@ -1028,7 +1050,7 @@ Chapter 4.
 
  (./7_Methods.tex
 Chapter 5.
-) [25
+) [41
 
 
 
@@ -1054,7 +1076,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 14.
 
-) [26
+) [42
 
 
 
@@ -1064,7 +1086,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
  (./9_Discussion.tex
 Chapter 7.
-) [27
+) [43
 
 
 
@@ -1074,7 +1096,7 @@ Chapter 7.
 
  (./10_Conclusions.tex
 Chapter 8.
-) [28
+) [44
 
 
 
@@ -1096,37 +1118,56 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 2.
 
-[29
+[45
 
 
 
 
-]) [30] [31
+]) [46]
+\openout2 = `appendixb.aux'.
+
+ (./appendixb.tex
+Appendix B.
+[47
 
 
 
-] [32] [33] (./MIT-Thesis.aux (./acknowledgments.aux) (./1_Introduction.aux) (./3_Binary_neutron_star_mergers.aux) (./5_r_process_nucleosynthesis.aux) (./6_Kilonova_light_curves.aux) (./7_Methods.aux) (./8_Results.aux) (./9_Discussion.aux) (./10_Conclusions.aux) (./appendixa.aux))
+
+] [48]) [49] [50
+
+
+
+] [51]
+Overfull \hbox (14.53816pt too wide) in paragraph at lines 361--361
+\T1/cmr/m/it/12 (-20) clear en-ergy gen-er-a-tion. \T1/cmr/m/n/12 (-20) ISSN: 0377-0427 Vol-ume: 109 ADS Bib-code: 1999JCoAM.109..321H,
+ []
+
+[52] [53] (./MIT-Thesis.aux (./acknowledgments.aux) (./1_Introduction.aux) (./3_Binary_neutron_star_mergers.aux) (./5_r_process_nucleosynthesis.aux) (./6_Kilonova_light_curves.aux) (./7_Methods.aux) (./8_Results.aux) (./9_Discussion.aux) (./10_Conclusions.aux) (./appendixa.aux) (./appendixb.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'MIT-Thesis.run.xml'.
 \openout1 = `MIT-Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29829 strings out of 474222
- 559088 string characters out of 5748734
- 3136149 words of memory out of 5000000
- 51166 multiletter control sequences out of 15000+600000
- 599724 words of font info for 269 fonts, out of 8000000 for 9000
+ 30282 strings out of 474222
+ 568032 string characters out of 5748734
+ 3171828 words of memory out of 5000000
+ 51388 multiletter control sequences out of 15000+600000
+ 603895 words of font info for 313 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,13n,93p,1128b,3080s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on MIT-Thesis.pdf (33 pages, 1333256 bytes).
+ 90i,15n,93p,1128b,3082s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on MIT-Thesis.pdf (53 pages, 1523514 bytes).
 PDF statistics:
- 953 PDF objects out of 1000 (max. 8388607)
- 838 compressed objects within 9 object streams
- 220 named destinations out of 1000 (max. 500000)
- 74152 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 1489 PDF objects out of 1728 (max. 8388607)
+ 1339 compressed objects within 14 object streams
+ 365 named destinations out of 1000 (max. 500000)
+ 86592 words of extra memory for PDF output out of 89155 (max. 10000000)
 
