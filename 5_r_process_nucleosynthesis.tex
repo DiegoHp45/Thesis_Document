@@ -6,7 +6,6 @@ Its purpose is to present the physics contained in a nuclear reaction network su
 Section~\ref{sec:network} formulates the network equation and the general relations that its reaction rates satisfy.
 Section~\ref{sec:nse} studies the high-temperature limit of the network, nuclear statistical equilibrium, and its breakdown as the ejecta expand.
 Section~\ref{sec:rprocess} describes the r-process itself: the neutron-to-seed ratio, the reaction path and fission cycling.
-Section~\ref{sec:inputs} discusses the nuclear inputs, with emphasis on the decay rates of nuclei far from stability.
 Finally, Sec.~\ref{sec:energy} describes the radioactive energy release and its feedback on the temperature of the ejecta.
 Extensive reviews of the subject can be found in Refs.~\cite{arnould_r-process_2007,cowan_origin_2021}.
 
@@ -83,7 +82,7 @@ The population is described by the partition function
 where the sum runs over the states $l$ of nucleus $i$ with spin $J_l$ and excitation energy $E_l$, and $J_0$ is the spin of the ground state.
 
 \paragraph{Parametrization.}
-Rates computed from Eqs.~\ref{eq:photo} and~\ref{eq:sigmav}, either from experimental data or from theory (Sec.~\ref{sec:inputs}), are distributed in fitted form.
+Rates computed from Eqs.~\ref{eq:photo} and~\ref{eq:sigmav}, either from experimental data or from theory, are distributed in fitted form.
 The most widely used format, that of the JINA REACLIB library~\cite{cyburt_jina_2010}, writes each rate as
 \begin{equation}\label{eq:reaclib}
   \lambda=\exp\left[a_0+\sum_{n=1}^{5}a_nT_9^{(2n-5)/3}+a_6\ln T_9\right],
@@ -180,7 +179,7 @@ Equation~\ref{eq:detailed_balance} has two consequences.
 First, the reverse rate depends exponentially on the $Q$-value, therefore on the masses.
 The Q-value of a neutron capture is the neutron separation energy of the product, $Q=S_n(Z,A+1)$.
 An error of only $0.5\,\mathrm{MeV}$ in $S_n$ changes $\lambda_{\gamma n}$ at $T_9=1$ by a factor $e^{5.8}\approx330$.
-This exponential sensitivity determines the location of the r-process path (Sec.~\ref{sec:rprocess}) and makes masses an important nuclear input far from stability (Sec.~\ref{sec:inputs}).
+This exponential sensitivity determines the location of the r-process path (Sec.~\ref{sec:rprocess}) and makes masses an important nuclear input far from stability.
 Second, the network is consistent with equilibrium only if the forward rates, the reverse rates and the equilibrium composition of Sec.~\ref{sec:nse} are computed with the same masses.
 
 \subsection{The network during the r-process}\label{sec:network_rprocess}
@@ -279,7 +278,7 @@ For example, if in Eq.~\ref{eq:saha_log} we replace $A\rightarrow A+1$ its abund
 So what we can learn from this is that in order to produce abundance of heavy elements, the terms such as the binding energy should contribute enough to reduce the effect of the $\theta$.
 One can understand this from the Sackur--Tetrode entropy per baryon of free neutrons,
 \begin{equation}
-  s=k_bY_n\left[\ln\left(2\over{Y_n\theta}\right)+\frac{5}{2}\right]
+  s=k_bY_n\left[\ln\left(\frac{2}{Y_n\theta}\right)+\frac{5}{2}\right]
 \end{equation}
 so $\ln(1/\theta)$ is the leading term in the entropy of a free nucleon in units of $k_B$.
 From this results we can define the temperature at which nuclei and free neutrons have comparable abundances by balancing the first two terms of Eq.~\ref{eq:saha_log} 
