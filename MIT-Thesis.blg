@@ -1,18 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'MIT-Thesis.blg'
-[91] biber:340> INFO - === Fri Nov  6, 2026, 22:28:00
-[112] Biber.pm:419> INFO - Reading 'MIT-Thesis.bcf'
-[191] Biber.pm:979> INFO - Found 86 citekeys in bib section 0
+[94] biber:340> INFO - === Sun Nov  8, 2026, 12:40:57
+[109] Biber.pm:419> INFO - Reading 'MIT-Thesis.bcf'
+[188] Biber.pm:979> INFO - Found 88 citekeys in bib section 0
 [203] Biber.pm:4419> INFO - Processing section 0
-[212] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[229] bibtex.pm:1713> INFO - LaTeX decoding ...
-[2003] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[11666] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[11667] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[11667] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[11667] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[11953] bbl.pm:660> INFO - Writing 'MIT-Thesis.bbl' with encoding 'UTF-8'
-[17753] bbl.pm:763> INFO - Output to MIT-Thesis.bbl
-[17754] Biber.pm:131> WARN - Duplicate entry key: 'woosley_alpha_1992' in file 'references.bib', skipping ...
-[17754] Biber.pm:131> WARN - ISBN '978-0-226-10953-4 978-0-226-10952-7' in entry 'clayton_principles_1983' is invalid - run biber with '--validate_datamodel' for details.
-[17754] Biber.pm:133> INFO - WARNINGS: 2
+[213] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[228] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1673] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[11038] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[11039] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[11039] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[11039] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[11256] bbl.pm:660> INFO - Writing 'MIT-Thesis.bbl' with encoding 'UTF-8'
+[16558] bbl.pm:763> INFO - Output to MIT-Thesis.bbl

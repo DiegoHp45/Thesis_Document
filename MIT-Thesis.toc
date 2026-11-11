@@ -3,73 +3,73 @@
 \contentsline {section}{\numberline {1.2}A brief history of the kilonova}{7}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Modern models of kilonovae and observations}{8}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Objectives and thesis structure}{10}{section.1.4}%
-\contentsline {chapter}{\numberline {2}From Neutron Stars to Kilonovae}{11}{chapter.2}%
-\contentsline {section}{\numberline {2.1}The Neutron Star}{11}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Formation of binary neutron stars}{12}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Gravitational-wave-driven inspiral and the maximum separation}{14}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Mass ejection: tidal, shock-driven, and disk-wind ejecta}{15}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Dynamical ejecta}{16}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Post-merger ejecta}{16}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}Weak interactions and the electron fraction of the ejecta}{17}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Electromagnetic counterparts}{18}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}GRBs}{19}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Kilonovae}{19}{subsection.2.6.2}%
-\contentsline {subsubsection}{Homologous expansion}{19}{section*.3}%
-\contentsline {subsubsection}{Radioactive heating}{20}{section*.4}%
-\contentsline {subsubsection}{Thermalization}{21}{section*.5}%
-\contentsline {subsubsection}{Opacity}{21}{section*.6}%
-\contentsline {subsubsection}{Diffusion and the time of the peak}{22}{section*.7}%
-\contentsline {chapter}{\numberline {3}r-Process Nucleosynthesis}{23}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Abundances, reaction rates and the network equation}{23}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Abundances}{23}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Reaction rates}{24}{subsection.3.1.2}%
-\contentsline {paragraph}{One-body reactions.}{24}{section*.8}%
-\contentsline {paragraph}{Two-body reactions.}{24}{section*.9}%
-\contentsline {paragraph}{Three-body reactions.}{25}{section*.10}%
-\contentsline {paragraph}{Stellar rates and partition functions.}{25}{section*.11}%
-\contentsline {paragraph}{Parametrization.}{25}{section*.12}%
-\contentsline {paragraph}{Electron screening.}{25}{section*.13}%
-\contentsline {subsection}{\numberline {3.1.3}The network equation}{26}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Detailed balance}{27}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}The network during the r-process}{28}{subsection.3.1.5}%
-\contentsline {section}{\numberline {3.2}Nuclear statistical equilibrium and freeze-out}{29}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}The Saha equation}{29}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Composition in NSE: binding energy versus entropy}{30}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Quasi-equilibrium and freeze-out}{31}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}The r-process: neutron-to-seed ratio, reaction path and fission cycling}{32}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Neutron-to-seed ratio}{32}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}The reaction path and waiting points}{33}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Freeze-out and decay to stability}{34}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Fission}{34}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Radioactive energy release, decay chains and self-heating}{34}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Nuclear energy generation and the entropy equation}{35}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Energy partition and neutrino losses}{36}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Self-heating}{37}{subsection.3.4.3}%
-\contentsline {paragraph}{Temperature equation.}{37}{section*.14}%
-\contentsline {subsection}{\numberline {3.4.4}Decay chains}{38}{subsection.3.4.4}%
-\contentsline {chapter}{\numberline {4}Kilonova Light Curves}{40}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Li-Paczy\'nski model}{40}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Radiative transfer and the diffusion regime}{40}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Opacities of r-process matter}{40}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Light-curve modeling}{40}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Methodology on the impact of theoretical decay rates across thermodynamics trajectories}{41}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Binary neutron-star simulation}{41}{section.5.1}%
-\contentsline {section}{\numberline {5.2}From simulation to trajectories: ejecta extraction and expansion}{41}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Initial termodinamic trajectories treatment}{41}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Nuclear reaction network setup and theoretical reaction reates}{41}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Modified Li-Paczy\'nski model}{41}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Results}{42}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Nucleosynthesis and heating rates}{42}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Relevant $\alpha $ and $\beta $ }{42}{subsection.6.1.1}%
-\contentsline {section}{\numberline {6.2}Kilonova light curves}{42}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Detectability with current and future telescopes}{42}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Discussion}{43}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Comparison with previous studies}{43}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Limitations and model assumptions}{43}{section.7.2}%
-\contentsline {chapter}{\numberline {8}Conclusions and Outlook}{44}{chapter.8}%
-\contentsline {chapter}{\numberline {A}Quadrupole and $L_{GW}$}{45}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Derivation of the Saha equation of nuclear statistical equilibrium}{47}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Ideal non-degenerate gas of particles with internal structure}{47}{section.B.1}%
-\contentsline {section}{\numberline {B.2}The Saha equation for number densities}{48}{section.B.2}%
-\contentsline {section}{\numberline {B.3}From number densities to abundances}{49}{section.B.3}%
-\contentsline {backmatter}{References}{50}{appendix*.15}%
+\contentsline {chapter}{\numberline {2}From Neutron Stars to Kilonovae}{12}{chapter.2}%
+\contentsline {section}{\numberline {2.1}The Neutron Star}{12}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Formation of binary neutron stars}{13}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Gravitational-wave-driven inspiral and the maximum separation}{15}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Mass ejection: tidal, shock-driven, and disk-wind ejecta}{16}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Dynamical ejecta}{17}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Post-merger ejecta}{17}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Weak interactions and the electron fraction of the ejecta}{18}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Electromagnetic counterparts}{19}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}GRBs}{20}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Kilonovae}{20}{subsection.2.6.2}%
+\contentsline {subsubsection}{Homologous expansion}{20}{section*.3}%
+\contentsline {subsubsection}{Radioactive heating}{21}{section*.4}%
+\contentsline {subsubsection}{Thermalization}{22}{section*.5}%
+\contentsline {subsubsection}{Opacity}{22}{section*.6}%
+\contentsline {subsubsection}{Diffusion and the time of the peak}{23}{section*.7}%
+\contentsline {chapter}{\numberline {3}r-Process Nucleosynthesis}{24}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Abundances, reaction rates and the network equation}{24}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Abundances}{24}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Reaction rates}{25}{subsection.3.1.2}%
+\contentsline {paragraph}{One-body reactions.}{25}{section*.8}%
+\contentsline {paragraph}{Two-body reactions.}{25}{section*.9}%
+\contentsline {paragraph}{Three-body reactions.}{26}{section*.10}%
+\contentsline {paragraph}{Stellar rates and partition functions.}{26}{section*.11}%
+\contentsline {paragraph}{Parametrization.}{26}{section*.12}%
+\contentsline {paragraph}{Electron screening.}{26}{section*.13}%
+\contentsline {subsection}{\numberline {3.1.3}The network equation}{27}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Detailed balance}{28}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}The network during the r-process}{29}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.2}Nuclear statistical equilibrium and freeze-out}{30}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}The Saha equation}{30}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Composition in NSE: binding energy versus entropy}{31}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Quasi-equilibrium and freeze-out}{32}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}The r-process: neutron-to-seed ratio, reaction path and fission cycling}{33}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Neutron-to-seed ratio}{33}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}The reaction path and waiting points}{34}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Freeze-out and decay to stability}{35}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Fission}{35}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Radioactive energy release, decay chains and self-heating}{35}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Nuclear energy generation and the entropy equation}{36}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Energy partition and neutrino losses}{37}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Self-heating}{38}{subsection.3.4.3}%
+\contentsline {paragraph}{Temperature equation.}{38}{section*.14}%
+\contentsline {subsection}{\numberline {3.4.4}Decay chains}{39}{subsection.3.4.4}%
+\contentsline {chapter}{\numberline {4}Kilonova Light Curves}{41}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Li-Paczy\'nski model}{41}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Radiative transfer and the diffusion regime}{41}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Opacities of r-process matter}{41}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Light-curve modeling}{41}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Methodology on the impact of theoretical decay rates across thermodynamics trajectories}{42}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Binary neutron-star simulation}{42}{section.5.1}%
+\contentsline {section}{\numberline {5.2}From simulation to trajectories: ejecta extraction and expansion}{42}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Initial termodinamic trajectories treatment}{42}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Nuclear reaction network setup and theoretical reaction reates}{42}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Modified Li-Paczy\'nski model}{42}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Results}{43}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Nucleosynthesis and heating rates}{43}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Relevant $\alpha $ and $\beta $ }{43}{subsection.6.1.1}%
+\contentsline {section}{\numberline {6.2}Kilonova light curves}{43}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Detectability with current and future telescopes}{43}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Discussion}{44}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Comparison with previous studies}{44}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Limitations and model assumptions}{44}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Conclusions and Outlook}{45}{chapter.8}%
+\contentsline {chapter}{\numberline {A}Quadrupole and $L_{GW}$}{46}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Derivation of the Saha equation of nuclear statistical equilibrium}{48}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Ideal non-degenerate gas of particles with internal structure}{48}{section.B.1}%
+\contentsline {section}{\numberline {B.2}The Saha equation for number densities}{49}{section.B.2}%
+\contentsline {section}{\numberline {B.3}From number densities to abundances}{50}{section.B.3}%
+\contentsline {backmatter}{References}{51}{appendix*.15}%

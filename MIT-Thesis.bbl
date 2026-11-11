@@ -663,6 +663,49 @@
       \verb https://link.aps.org/doi/10.1103/RevModPhys.83.157
       \endverb
     \endentry
+    \entry{thielemann_r-process_2026}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1e73c29d808f7f934731ef2aec2ce412}{%
+           family={Thielemann},
+           familyi={T\bibinitperiod},
+           given={Friedrich-K.},
+           giveni={F\bibinithyphendelim K\bibinitperiod}}}%
+        {{hash=f47a7c5183a19d97d5dbca4e64b64904}{%
+           family={Cowan},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{988f8603b7334c7678f7b17d2e735bb5}
+      \strng{fullhash}{988f8603b7334c7678f7b17d2e735bb5}
+      \strng{bibnamehash}{988f8603b7334c7678f7b17d2e735bb5}
+      \strng{authorbibnamehash}{988f8603b7334c7678f7b17d2e735bb5}
+      \strng{authornamehash}{988f8603b7334c7678f7b17d2e735bb5}
+      \strng{authorfullhash}{988f8603b7334c7678f7b17d2e735bb5}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1434-601X}
+      \field{journaltitle}{The European Physical Journal A}
+      \field{month}{5}
+      \field{number}{5}
+      \field{shorttitle}{The r-process}
+      \field{title}{The r-process: history, required conditions, astrophysical sites, and observations}
+      \field{volume}{62}
+      \field{year}{2026}
+      \field{pages}{105}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epja/s10050-026-01865-w
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1140/epja/s10050-026-01865-w
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1140/epja/s10050-026-01865-w
+      \endverb
+    \endentry
     \entry{hoffman_model_1997}{article}{}
       \name{author}{3}{}{%
         {{hash=694491303318bc9371fe79dcc5d22690}{%
@@ -688,8 +731,8 @@
       \strng{authornamehash}{8d0f69975733a321d50c9ff6ef4695d5}
       \strng{authorfullhash}{fea82536233ec7b4023bf205b6d637d2}
       \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{03759474}
@@ -745,8 +788,8 @@
       \strng{authorbibnamehash}{9f1f73bc317ea4e48ac4b3f28b42d775}
       \strng{authornamehash}{9f1f73bc317ea4e48ac4b3f28b42d775}
       \strng{authorfullhash}{b67135b4fe52f316018d6d8074d22074}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0004-637X, 1538-4357}
@@ -1209,8 +1252,8 @@
       \strng{authorbibnamehash}{16d9fa49eaa787cd69f5e0864534205f}
       \strng{authornamehash}{16d9fa49eaa787cd69f5e0864534205f}
       \strng{authorfullhash}{16d9fa49eaa787cd69f5e0864534205f}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{29}
@@ -1255,8 +1298,8 @@
       \strng{authornamehash}{bab137a515094c878bf484f5f57e9fad}
       \strng{authorfullhash}{bab137a515094c878bf484f5f57e9fad}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{11}
@@ -7759,8 +7802,8 @@
       \strng{authorbibnamehash}{c321cd6b6b20dfd4d3a5ab40fec11974}
       \strng{authornamehash}{c321cd6b6b20dfd4d3a5ab40fec11974}
       \strng{authorfullhash}{c321cd6b6b20dfd4d3a5ab40fec11974}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{27}
@@ -8342,6 +8385,67 @@
       \verb https://iopscience.iop.org/article/10.3847/2041-8213/adc260
       \endverb
     \endentry
+    \entry{hernandez_porras_features_2027}{article}{}
+      \name{author}{6}{}{%
+        {{hash=1e8a156ba0fe16eabb722221ed802ca1}{%
+           family={Hernandez\bibnamedelima Porras},
+           familyi={H\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={D.F.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cba786b3e252422695104516e47681e4}{%
+           family={Kelkar},
+           familyi={K\bibinitperiod},
+           given={N.G.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=352ee0d0a006e92ed1595bdacbea2f6a}{%
+           family={Rojas-Gamboa},
+           familyi={R\bibinithyphendelim G\bibinitperiod},
+           given={D.F.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cec48edf8bfc52ac4fb8db195cbc25fd}{%
+           family={Lobato},
+           familyi={L\bibinitperiod},
+           given={R.V.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a61fdddb89d1af07298698f0ee69b6ba}{%
+           family={Nowakowski},
+           familyi={N\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=aed663fce302d5e2e368ab0e4730ad17}{%
+           family={Caballero},
+           familyi={C\bibinitperiod},
+           given={O.L.},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{2fa4508c1b34f8e5a7b3870bf04f6c7c}
+      \strng{fullhash}{9fce17f568b186b135198912e79e777c}
+      \strng{bibnamehash}{2fa4508c1b34f8e5a7b3870bf04f6c7c}
+      \strng{authorbibnamehash}{2fa4508c1b34f8e5a7b3870bf04f6c7c}
+      \strng{authornamehash}{2fa4508c1b34f8e5a7b3870bf04f6c7c}
+      \strng{authorfullhash}{9fce17f568b186b135198912e79e777c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{22144048}
+      \field{journaltitle}{Journal of High Energy Astrophysics}
+      \field{month}{2}
+      \field{title}{Features of $\alpha$ and $\beta$ decay heating rates and their role in the behavior of late-time kilonova curves}
+      \field{volume}{56}
+      \field{year}{2027}
+      \field{pages}{100761}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jheap.2026.100761
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2214404826002120
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2214404826002120
+      \endverb
+    \endentry
     \entry{horowitz_insights_2020}{article}{}
       \name{author}{3}{}{%
         {{hash=b9b2bd70a12473e3119e1d122cfca650}{%
@@ -8825,8 +8929,8 @@
       \strng{authorbibnamehash}{71eaad1673471c6de23b5b54d176b99d}
       \strng{authornamehash}{71eaad1673471c6de23b5b54d176b99d}
       \strng{authorfullhash}{b871b1439c84d3d8eeb8826e343e6f9b}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0004-637X, 1538-4357}
@@ -8888,8 +8992,8 @@
       \strng{authornamehash}{82eefe4ab6503112e658fddccd2b52d5}
       \strng{authorfullhash}{1b27a597f2d7ba2b26b4be7f1c619bc0}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{0034-4885, 1361-6633}
@@ -9520,8 +9624,8 @@
       \strng{authorbibnamehash}{7a4756b6c7efb0aac7025f18e0d2da8f}
       \strng{authornamehash}{7a4756b6c7efb0aac7025f18e0d2da8f}
       \strng{authorfullhash}{7a4756b6c7efb0aac7025f18e0d2da8f}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0031-899X}
@@ -9838,8 +9942,8 @@
       \strng{authorbibnamehash}{29b586f463d369377d6213523f2836ca}
       \strng{authornamehash}{29b586f463d369377d6213523f2836ca}
       \strng{authorfullhash}{782a03b427a8e8bcf0b115f2e830e7ae}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{00358711}
@@ -28095,8 +28199,8 @@
       \strng{authornamehash}{d9799319ee6631a4a5c0d1ce9c963e79}
       \strng{authorfullhash}{e7761e252537c00be8a680082ed47b49}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2041-8205, 2041-8213}
@@ -34593,7 +34697,7 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0370157307002438
       \endverb
     \endentry
-    \entry{hix_computational_1999}{misc}{}
+    \entry{hix_computational_1999}{article}{}
       \name{author}{2}{}{%
         {{hash=5066f644e47ccced7a077b72fc7376fe}{%
            family={Hix},
@@ -34606,9 +34710,6 @@
            given={F.-K.},
            giveni={F\bibinithyphendelim K\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
       \strng{namehash}{502bd1bbd82e96aa33f535d9fde8dd2c}
       \strng{fullhash}{502bd1bbd82e96aa33f535d9fde8dd2c}
       \strng{bibnamehash}{502bd1bbd82e96aa33f535d9fde8dd2c}
@@ -34619,20 +34720,12 @@
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{9}
-      \field{note}{ISSN: 0377-0427 Volume: 109 ADS Bibcode: 1999JCoAM.109..321H}
-      \field{title}{Computational methods for nucleosynthesis and nuclear energy generation.}
+      \field{journaltitle}{Journal of Computational and Applied Mathematics}
+      \field{title}{Computational methods for nucleosynthesis and nuclear energy generation}
+      \field{volume}{109}
       \field{year}{1999}
-      \verb{doi}
-      \verb 10.48550/arXiv.astro-ph/9906478
-      \endverb
-      \verb{urlraw}
-      \verb https://ui.adsabs.harvard.edu/abs/1999JCoAM.109..321H
-      \endverb
-      \verb{url}
-      \verb https://ui.adsabs.harvard.edu/abs/1999JCoAM.109..321H
-      \endverb
-      \keyw{Astrophysics,Nucleosynthesis: Numerical Methods}
+      \field{pages}{321\bibrangedash 351}
+      \range{pages}{31}
     \endentry
     \entry{lippuner_skynet_2017}{article}{}
       \name{author}{2}{}{%
@@ -34696,9 +34789,6 @@
            given={O.\bibnamedelimi L.},
            giveni={O\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{d27e045eb6b8e80fc5622ca9eeb8bfa2}
       \strng{fullhash}{0ad7c823f4f59d9e6fb05797b7a826b7}
       \strng{bibnamehash}{0ad7c823f4f59d9e6fb05797b7a826b7}
@@ -34752,8 +34842,8 @@
       \strng{authorbibnamehash}{28e8e0b4bd5f5ee09efd2b1bb711604d}
       \strng{authornamehash}{8ae1df30ad51766ba64fc6ec9006c140}
       \strng{authorfullhash}{28e8e0b4bd5f5ee09efd2b1bb711604d}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0066-4146, 1545-4282}
@@ -34794,8 +34884,8 @@
       \strng{authorbibnamehash}{4c4b17ad922c9ead3b677e70cfd80962}
       \strng{authornamehash}{4c4b17ad922c9ead3b677e70cfd80962}
       \strng{authorfullhash}{4c4b17ad922c9ead3b677e70cfd80962}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0092640X}
@@ -34942,7 +35032,7 @@
       \field{labeltitlesource}{shorttitle}
       \field{annotation}{Reprint. Originally published: New York : McGraw-Hill, [1968]}
       \field{edition}{University of Chicago Press ed}
-      \field{isbn}{978-0-226-10953-4 978-0-226-10952-7}
+      \field{isbn}{978-0-226-10953-4}
       \field{shorttitle}{Principles of stellar evolution and nucleosynthesis}
       \field{title}{Principles of stellar evolution and nucleosynthesis: with a new preface}
       \field{year}{1983}
@@ -34970,14 +35060,13 @@
       \strng{authorbibnamehash}{c04425cd0c6b53a4712aae7fc5c324eb}
       \strng{authornamehash}{c04425cd0c6b53a4712aae7fc5c324eb}
       \strng{authorfullhash}{c04425cd0c6b53a4712aae7fc5c324eb}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0004-637X}
       \field{journaltitle}{The Astrophysical Journal}
       \field{month}{8}
-      \field{note}{ADS Bibcode: 1992ApJ...395..202W}
       \field{title}{The alpha -{Process} and the r-{Process}}
       \field{volume}{395}
       \field{year}{1992}
@@ -35011,9 +35100,6 @@
            familyi={C\bibinitperiod},
            given={Donald\bibnamedelima D.},
            giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
       }
       \strng{namehash}{2ad7bd638acdd1bc69661b82000238f6}
       \strng{fullhash}{8c050143c3615fa627542555ab6c17cb}
@@ -35192,8 +35278,8 @@
       \strng{authorbibnamehash}{1c519b1a38d782aa1adcf848de50bc51}
       \strng{authornamehash}{1c519b1a38d782aa1adcf848de50bc51}
       \strng{authorfullhash}{1c519b1a38d782aa1adcf848de50bc51}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0004-637X, 1538-4357}
@@ -35234,8 +35320,8 @@
       \strng{authorbibnamehash}{f8ae18f70bb6226280655ec38cef9fae}
       \strng{authornamehash}{f8ae18f70bb6226280655ec38cef9fae}
       \strng{authorfullhash}{f8ae18f70bb6226280655ec38cef9fae}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0556-2813, 1089-490X}
@@ -35331,9 +35417,6 @@
            familyi={P\bibinitperiod},
            given={T.},
            giveni={T\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
       }
       \strng{namehash}{47b3077ef724777a8506c55fb08b2f90}
       \strng{fullhash}{02b30c970cecd8adb1b62289d1d7421c}

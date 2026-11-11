@@ -5,7 +5,8 @@ During and after the merger of two neutron stars, a fraction of their mass is ej
 The ejected material is expected to consist of extremely neutron-rich matter, within which rapid neutron captures (r-process) lead to the formation of heavy nuclei far from stability. 
 Consequently, these mergers are considered one of the primary sites for the synthesis of the heaviest elements in the Universe \cite{cowan_origin_2021,rosswog_heavy_2024}. 
 As the freshly synthesized nuclei decay toward stability, their radioactive energy release drives the thermodynamic evolution of the ejecta and produces a thermal electromagnetic transient \cite{metzger_electromagnetic_2010}.
-Such a transient is called a kilonova and will be the main topic of this thesis, since it encodes crucial information about the physics of the merger, such as the abundance pattern of the elements and the amount of ejected material.
+Such a transient is called a kilonova and will be the main topic of this thesis, since it encodes crucial information about the physics of the merger, leading to the abundance pattern of the elements formed in the r-process nucleosynthesis.
+Comparison of the observed light curves with models also allows us to constrain and understand the underlying nuclear physics responsible for powering the kilonovae.
 
 \section{Kilonovae in a nutshell}\label{in_a_nutshell}
 
@@ -40,14 +41,16 @@ Two main channels were known \cite{burbidge_synthesis_1957}.
 The first channel is the slow (s) process, in which neutron captures are slower than $\beta$-decays.
 The second is the rapid (r) process, in which captures are much faster than $\beta$-decays and drive matter far to the neutron-rich side of stability.
 The s-process is now well understood and operates mainly in asymptotic giant branch (AGB) stars and, for the lighter heavy elements, in massive stars \cite{kappeler_s_2011}.
-The conditions required by the r-process have also been characterized.
-Those are neutron densities $n_n \gtrsim 10^{20}\,\mathrm{cm^{-3}}$, or equivalently suitable combinations of electron fraction, entropy and expansion timescale in the ejecta \cite{hoffman_model_1997}.
+Thanks to the study of s-process predictions and the later comparison with observations it was possible to identify the solar system r-abundance~\cite{thielemann_r-process_2026}.
+With the solar system r-abundances and the conditions required by the r-process understood it was possible to constrain the possible astrophysical sites.
+Those conditions are neutron densities $n_n \gtrsim 10^{20}\,\mathrm{cm^{-3}}$, or equivalently suitable combinations of electron fraction, entropy and expansion timescale in the ejecta \cite{hoffman_model_1997}.
 However, the site where these conditions occur remained elusive.
 
 For several decades the favored candidate was the core-collapse supernova, in particular the neutrino-driven wind from the newborn neutron star \cite{woosley_r-process_1994}.
 Modern simulations, however, find this wind neither neutron-rich nor entropic enough to produce the heaviest $r$-process nuclei \cite{arcones_nucleosynthesis_2007}, so ordinary supernovae contribute at most a weak $r$-process, producing elements up to about Sr--Ag.
 Observations point in the same direction.
 The large star-to-star scatter of europium in metal-poor stars \cite{sneden_neutron_2008}, the strong $r$-process enrichment of the ultra-faint dwarf galaxy Reticulum II \cite{ji_complete_2016}, and the low abundance of live $^{244}$Pu in deep-sea sediments \cite{wallner_abundance_2015} all indicate that the heavy $r$-process elements are made in rare events with large yields, rather than in frequent ordinary supernovae.
+
 
 Neutron star mergers, on the other hand, match those requirements.
 Early theoretical studies had proposed that during the merger of compact objects, tidal forces lead to the ejection of neutron-rich material \cite{lattimer_tidal_1976}.
@@ -66,7 +69,7 @@ In addition, the actual energy generation rate may deviate from the assumed anal
 
 The first attempt to construct a realistic model of this phenomenon was presented by Metzger et al.~\cite{metzger_electromagnetic_2010}, who performed self-consistent calculations of the optical and near-infrared counterparts with two major improvements.
 First, they implemented nuclear reaction network calculations to evolve the abundances and compute the corresponding energy generation rate, $\dot{\varepsilon}(t)$, using both experimental and theoretical reaction and decay rates.
-Second, they performed one-dimensional Monte Carlo radiative transfer simulations, assuming opacities derived from bound–bound transitions of iron (Fe), with corrections applied to the ionization energies, in order to model the resulting light curves.
+Secondly, they performed one-dimensional Monte Carlo radiative transfer simulations, assuming opacities derived from bound–bound transitions of iron (Fe), with corrections applied to the ionization energies, in order to model the resulting light curves.
 The first results showed an abundance pattern close to the solar system r-process abundances.
 Also, the energy generation rate was found to follow a power-law dependence, $\dot \varepsilon(t) \propto t^{-\alpha}$ with $\alpha \sim 1.1$--$1.3$, and remarkably robust against variations in the electron fraction ($Y_e \sim 0.05$--$0.35$), thermodynamic trajectories, and nuclear properties along the r-process path.
 The second key result demonstrated that the light curves evolve significantly differently from those predicted by the simple blackbody approximation.
@@ -124,7 +127,7 @@ We found consistent deviations from the power-law behavior across the ensemble o
 We also identified the nuclei responsible for such behavior along with their decay chains.
 
 The thesis is divided into three main parts.
-The introductory part consist of Chapters~\ref{ch:introduction} and~\ref{chap:BNMS}.
-Chapter~\ref{chap:BNMS} develops the physics needed to understand neutron stars and binary neutron stars. 
+The introductory part consists of Chapters~\ref{ch:introduction} and~\ref{chap:BNMS}.
+Chapter~\ref{chap:BNMS} develops the physics needed to understand neutron stars and binary neutron star mergers. 
 Chapters~\ref{ch:Nuclear_reaction_net}, and~\ref{ch:rad_models} present the basic theoretical framework from literature for the stages of the merger simulation: the nuclear reaction network evolution and the construction of the kilonova light curve from emission models. 
-The last part, Chapters \ref{ch:methods}, \ref{ch:results}, \ref{ch:discussion}and \ref{ch:conclutions}, will explain the details of how this work constructed the initial thermodynamic trajectories, the setup we used for the nuclear reaction network calculations with their results and the construction of the kilonova light curves.
+The last part, Chapters \ref{ch:methods}, \ref{ch:results}, \ref{ch:discussion} and \ref{ch:conclutions}, will explain the details of how this work constructed the initial thermodynamic trajectories, the setup we used for the nuclear reaction network calculations with their results\footnote{Results presented in Chapter~\ref{ch:results} have been published in~\cite{hernandez_porras_features_2027}.} and the construction of the kilonova light curves.
