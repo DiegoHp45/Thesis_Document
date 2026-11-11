@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'MIT-Thesis.blg'
-[94] biber:340> INFO - === Sun Nov  8, 2026, 12:40:57
+[85] biber:340> INFO - === Wed Nov 11, 2026, 14:55:54
 [109] Biber.pm:419> INFO - Reading 'MIT-Thesis.bcf'
-[188] Biber.pm:979> INFO - Found 88 citekeys in bib section 0
-[203] Biber.pm:4419> INFO - Processing section 0
-[213] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[228] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1673] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[11038] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[11039] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[11039] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[11039] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[11256] bbl.pm:660> INFO - Writing 'MIT-Thesis.bbl' with encoding 'UTF-8'
-[16558] bbl.pm:763> INFO - Output to MIT-Thesis.bbl
+[194] Biber.pm:979> INFO - Found 103 citekeys in bib section 0
+[206] Biber.pm:4419> INFO - Processing section 0
+[215] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[230] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1871] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[12043] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[12043] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[12043] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[12043] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[12312] bbl.pm:660> INFO - Writing 'MIT-Thesis.bbl' with encoding 'UTF-8'
+[18337] bbl.pm:763> INFO - Output to MIT-Thesis.bbl
