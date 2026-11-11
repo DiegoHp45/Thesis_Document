@@ -7493,6 +7493,7 @@
       \strng{authorbibnamehash}{de23138ef5e9dda30cd87ea32947c061}
       \strng{authornamehash}{de23138ef5e9dda30cd87ea32947c061}
       \strng{authorfullhash}{de23138ef5e9dda30cd87ea32947c061}
+      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -35531,6 +35532,44 @@
       \verb https://iopscience.iop.org/article/10.1086/313304
       \endverb
     \endentry
+    \entry{metzger_kilonovae_2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=de23138ef5e9dda30cd87ea32947c061}{%
+           family={Metzger},
+           familyi={M\bibinitperiod},
+           given={Brian\bibnamedelima D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{de23138ef5e9dda30cd87ea32947c061}
+      \strng{fullhash}{de23138ef5e9dda30cd87ea32947c061}
+      \strng{bibnamehash}{de23138ef5e9dda30cd87ea32947c061}
+      \strng{authorbibnamehash}{de23138ef5e9dda30cd87ea32947c061}
+      \strng{authornamehash}{de23138ef5e9dda30cd87ea32947c061}
+      \strng{authorfullhash}{de23138ef5e9dda30cd87ea32947c061}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2367-3613, 1433-8351}
+      \field{journaltitle}{Living Reviews in Relativity}
+      \field{month}{12}
+      \field{number}{1}
+      \field{title}{Kilonovae}
+      \field{volume}{23}
+      \field{year}{2020}
+      \field{pages}{1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s41114-019-0024-0
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s41114-019-0024-0
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s41114-019-0024-0
+      \endverb
+    \endentry
     \entry{kuske_complete_2025}{article}{}
       \name{author}{3}{}{%
         {{hash=fdead733a506250e7548cf3096629c9a}{%
@@ -36648,6 +36687,15 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{arnett_type_1982}
+  \missing{bulla_critical_2023}
+  \missing{hotokezaka_radioactive_2020}
+  \missing{katz_exact_2013}
+  \missing{khatami_physics_2019}
+  \missing{perego_at_2017}
+  \missing{pinto_physics_2000}
+  \missing{pognan_validity_2022}
+  \missing{shingles_self-consistent_2023}
 \endrefsection
 \endinput
 
