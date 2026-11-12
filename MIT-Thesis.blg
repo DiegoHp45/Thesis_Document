@@ -1,9 +1,0 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'MIT-Thesis.blg'
-[72] biber:340> INFO - === Wed Nov 11, 2026, 22:38:50
-[90] Biber.pm:419> INFO - Reading 'MIT-Thesis.bcf'
-[179] Biber.pm:979> INFO - Found 111 citekeys in bib section 0
-[191] Biber.pm:4419> INFO - Processing section 0
-[202] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[217] bibtex.pm:1713> INFO - LaTeX decoding ...
-[2119] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
