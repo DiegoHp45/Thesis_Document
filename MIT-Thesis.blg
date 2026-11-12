@@ -1,25 +1,23 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'MIT-Thesis.blg'
-[67] biber:340> INFO - === Wed Nov 11, 2026, 18:37:59
-[82] Biber.pm:419> INFO - Reading 'MIT-Thesis.bcf'
-[172] Biber.pm:979> INFO - Found 113 citekeys in bib section 0
-[185] Biber.pm:4419> INFO - Processing section 0
-[195] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[211] bibtex.pm:1713> INFO - LaTeX decoding ...
-[2000] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[10452] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[10452] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[10452] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[10452] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[10698] bbl.pm:660> INFO - Writing 'MIT-Thesis.bbl' with encoding 'UTF-8'
-[16408] bbl.pm:763> INFO - Output to MIT-Thesis.bbl
-[16409] Biber.pm:131> WARN - I didn't find a database entry for 'arnett_type_1982' (section 0)
-[16409] Biber.pm:131> WARN - I didn't find a database entry for 'khatami_physics_2019' (section 0)
-[16409] Biber.pm:131> WARN - I didn't find a database entry for 'katz_exact_2013' (section 0)
-[16409] Biber.pm:131> WARN - I didn't find a database entry for 'hotokezaka_radioactive_2020' (section 0)
-[16409] Biber.pm:131> WARN - I didn't find a database entry for 'pinto_physics_2000' (section 0)
-[16409] Biber.pm:131> WARN - I didn't find a database entry for 'perego_at_2017' (section 0)
-[16409] Biber.pm:131> WARN - I didn't find a database entry for 'bulla_critical_2023' (section 0)
-[16409] Biber.pm:131> WARN - I didn't find a database entry for 'shingles_self-consistent_2023' (section 0)
-[16409] Biber.pm:131> WARN - I didn't find a database entry for 'pognan_validity_2022' (section 0)
-[16409] Biber.pm:133> INFO - WARNINGS: 9
+[71] biber:340> INFO - === Wed Nov 11, 2026, 20:50:24
+[85] Biber.pm:419> INFO - Reading 'MIT-Thesis.bcf'
+[184] Biber.pm:979> INFO - Found 111 citekeys in bib section 0
+[204] Biber.pm:4419> INFO - Processing section 0
+[221] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[245] bibtex.pm:1713> INFO - LaTeX decoding ...
+[2490] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[12672] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[12672] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[12673] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[12673] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[12895] bbl.pm:660> INFO - Writing 'MIT-Thesis.bbl' with encoding 'UTF-8'
+[18296] bbl.pm:763> INFO - Output to MIT-Thesis.bbl
+[18296] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_njne/33e59b5ca9ec342068223d604c3f8d55_207834.utf8, line 1350, warning: 2 characters of junk seen at toplevel
+[18296] Biber.pm:131> WARN - I didn't find a database entry for 'pinto_physics_2000' (section 0)
+[18296] Biber.pm:131> WARN - I didn't find a database entry for 'perego_at_2017' (section 0)
+[18296] Biber.pm:131> WARN - I didn't find a database entry for 'bulla_critical_2023' (section 0)
+[18297] Biber.pm:131> WARN - I didn't find a database entry for 'shingles_self-consistent_2023' (section 0)
+[18297] Biber.pm:131> WARN - I didn't find a database entry for 'pognan_validity_2022' (section 0)
+[18297] Biber.pm:131> WARN - I didn't find a database entry for 'hernandezporras_features_2027' (section 0)
+[18297] Biber.pm:133> INFO - WARNINGS: 7

@@ -1,255 +1,162 @@
 \chapter{Kilonova Light Curves}\label{ch:rad_models}
 
 In Chapter~\ref{chap:BNMS} we introduced the ingredients shared by all kilonova models: homologous expansion, a radioactive heating rate, its thermalization, an opacity and the diffusion of photons out of the ejecta.
-In Chapter~\ref{ch:Nuclear_reaction_net} we derived the radioactive energy release of the ejecta from the network equation and its partition among the decay products (Sec.~\ref{sec:partition}).
+In Chapter~\ref{ch:Nuclear_reaction_net} we derived the radioactive heating rate of the ejecta from the network equation and its partition among the decay products (Sec.~\ref{sec:partition}).
 This chapter connects the two.
 Its purpose is to construct the map
 \begin{equation}\label{eq:kn_map}
   \Big\{\dot\epsilon_x(t),\ \text{composition},\ M_{\rm ej},\ v_{\rm ej}\Big\}\ \longmapsto\ \Big\{L(t),\ L_\nu(t)\Big\},
 \end{equation}
-from the channel-resolved nuclear energy release $\dot\epsilon_x(t)$ of Chapter~\ref{ch:Nuclear_reaction_net} to the bolometric luminosity $L(t)$ and the spectral luminosity $L_\nu(t)$.
+from heating rate per chanel $\dot\epsilon_x(t)$ of Chapter~\ref{ch:Nuclear_reaction_net} to the bolometric luminosity $L(t)$ and the spectral luminosity $L_\nu(t)$.
+Many studies use power law fits or analytical heating rates, but since the subject of this work is the sensitivity of the light curve to the nuclear input, the heating rate is kept as an arbitrary function of time throughout.
 
-Since the subject of this work is the sensitivity of the light curve to the nuclear input, the heating rate is kept as an arbitrary function of time throughout.
-We replace it by a power law only to recover known results as special cases.
-
-Section~\ref{sec:onezone} presents the one-zone model of Li and Paczy\'nski and solves it for an arbitrary heating rate.
-Section~\ref{sec:thermalization} gives the deposited heating rate that enters the model, and Sec.~\ref{sec:opacity} the opacity.
+Section~\ref{sec:onezone} presents the one-zone model of Li and Paczy\'nski, with the modifications of Ref.~\cite{hernandez_porras_features_2027}: a separate treatment of the optically thick and optically thin phases, and an effective heating rate built from $\alpha$ and $\beta^-$ decays with their thermalization efficiencies.
+Section~\ref{sec:opacity} discusses the opacity.
 Section~\ref{sec:beyond} presents a more sophisticated semi-analytic model, the diffusion model of the \texttt{xkn} framework, which adds spatial structure, optically thin layers, anisotropy and broadband emission.
 Finally, Sec.~\ref{sec:rt_limits} discusses the limits of these models.
 Reviews of the subject can be found in Refs.~\cite{metzger_kilonovae_2020,rosswog_heavy_2024}.
 
 %==========================================================================================
-\section{The one-zone model}\label{sec:onezone}
+\section{The modified Li--Paczy\'nski model}\label{sec:onezone}
 %==========================================================================================
 
-The model of Li and Paczy\'nski~\cite{li_transient_1998} describes the ejecta by a single radiation energy and a single escape time.
+The model of Li and Paczy\'nski (LP)~\cite{li_transient_1998} describes the ejecta by a single radiation energy density and a single escape time.
 It is the simplest model that contains the three processes that shape the light curve: radioactive heating, adiabatic expansion and photon diffusion.
+In this section we follow the derivation of Ref.~\cite{hernandez_porras_features_2027}, where two modifications were introduced: the luminosity is evaluated separately before and after the ejecta become optically thin, and the heating rate is obtained from a discrete sum over the $\alpha$ and $\beta^-$ decays of all the nuclei in the ejecta, with a thermalization efficiency for each decay mode.
+We refer to the result as the modified LP (MLP) model.
 
 \subsection{Assumptions and energy equation}\label{sec:onezone_eq}
 
-The model rests on four assumptions:
-\begin{enumerate}
-  \item The ejecta are a uniform sphere of mass $M_{\rm ej}$ that expands homologously (Eq.~\ref{eq:homol}), with outer velocity $v_{\rm ej}$, radius $R=v_{\rm ej}t$ and density $\rho=3M_{\rm ej}/(4\pi v_{\rm ej}^3t^3)$.
-  \item The radiation dominates the internal energy and the pressure, $P=E_{\rm int}/3V$, where $E_{\rm int}$ is the radiation energy in the volume $V=4\pi R^3/3$.
-  \item The opacity $\kappa$ is grey and constant (Sec.~\ref{sec:opacity}).
-  \item The energy deposited by the decay products is re-emitted immediately as thermal radiation, at the rate $M_{\rm ej}\dot\varepsilon(t)$, where $\dot\varepsilon$ is the deposited heating rate per unit mass (Sec.~\ref{sec:thermalization}).
-\end{enumerate}
-
-The second assumption is easily checked.
-At $t=1\,\mathrm{d}$, for $M_{\rm ej}=0.01\,M_\odot$ and $v_{\rm ej}=0.1c$, the density is $\rho\approx2.7\times10^{-13}\,\mathrm{g\,cm^{-3}}$.
-At $T=10^4\,\mathrm{K}$ the radiation energy density is $aT^4\approx76\,\mathrm{erg\,cm^{-3}}$, while a gas of nuclei with $\bar A\approx130$ and two free electrons per nucleus has $\tfrac32nk_BT\approx8\times10^{-3}\,\mathrm{erg\,cm^{-3}}$.
-The ratio, $\sim10^4$, grows as $T^3/\rho$, so it is even larger in the hotter interior and at earlier times.
-
-The first law of thermodynamics for the radiation reads $\mathrm{d}E_{\rm int}=-P\,\mathrm{d}V+(M_{\rm ej}\dot\varepsilon-L)\,\mathrm{d}t$, where $L$ is the luminosity that leaves the surface.
-Since $V\propto t^3$, the work term is $P\,\mathrm{d}V/\mathrm{d}t=E_{\rm int}/t$, and
+LP assume that the ejecta form a spherical envelope of constant mass $M_{\rm ej}$ and constant expansion velocity $v_{\rm ej}$, so that $R=v_{\rm ej}t$, with a density that is uniform in space and decreases with time as
+\begin{equation}\label{eq:kn_rho}
+  \rho=\frac{3M_{\rm ej}}{4\pi R^3}=\frac{3M_{\rm ej}}{4\pi v_{\rm ej}^3}\,t^{-3}.
+\end{equation}
+The internal energy of the ejecta is assumed to be dominated by photons, with energy per volume
+\begin{equation}\label{eq:kn_U}
+  U=aT^4=\frac{4\sigma_{\rm SB}}{c}\,T^4 ,
+\end{equation}
+and pressure $P=U/3$.
+Let $V=4\pi R^3/3$ be the volume of the ejecta, $u=UV$ its internal energy and $S=s/M_{\rm ej}$ its entropy per unit mass.
+The first law of thermodynamics, $\mathrm{d}u=T\,\mathrm{d}s-P\,\mathrm{d}V$, gives
+\begin{equation}\label{eq:kn_TdS}
+  T\,\mathrm{d}S=\frac{1}{M_{\rm ej}}\left(V\,\mathrm{d}U+\frac43\,U\,\mathrm{d}V\right)
+  =\frac{4\pi v_{\rm ej}^3t^3}{3M_{\rm ej}}\,\mathrm{d}U+\frac{4\pi v_{\rm ej}^3t^2}{M_{\rm ej}}\,\frac43\,U\,\mathrm{d}t .
+\end{equation}
+Energy conservation states that the heat gained per unit mass is the deposited heating minus the radiated energy,
+\begin{equation}\label{eq:kn_econs}
+  T\,\frac{\mathrm{d}S}{\mathrm{d}t}=\dot\varepsilon(t)-\frac{L}{M_{\rm ej}} ,
+\end{equation}
+where $\dot\varepsilon(t)$ is the effective (thermalized) heating rate per unit mass (Sec.~\ref{sec:heating}) and $L$ is the luminosity.
+Combining Eqs.~\ref{eq:kn_TdS} and~\ref{eq:kn_econs},
+\begin{equation}\label{eq:kn_Ugen}
+  \frac{\mathrm{d}U}{\mathrm{d}t}+\frac{4U}{t}=\frac{3M_{\rm ej}}{4\pi v_{\rm ej}^3t^3}\,\dot\varepsilon(t)-\frac{3L}{4\pi v_{\rm ej}^3t^3} .
+\end{equation}
+The second term on the left is the adiabatic loss: without heating and radiation, $U\propto t^{-4}$, the law of a $\gamma=4/3$ gas.
+In terms of the total radiation energy $E_{\rm int}=UV$, Eq.~\ref{eq:kn_Ugen} reads
 \begin{equation}\label{eq:kn_oz}
-  \frac{\mathrm{d}E_{\rm int}}{\mathrm{d}t}=-\frac{E_{\rm int}}{t}+M_{\rm ej}\dot\varepsilon(t)-L(t).
+  \frac{\mathrm{d}E_{\rm int}}{\mathrm{d}t}=-\frac{E_{\rm int}}{t}+M_{\rm ej}\dot\varepsilon(t)-L(t),
 \end{equation}
-The first term is the adiabatic loss, the second the deposited heating and the third the radiated power.
-Without heating and losses $E_{\rm int}\propto t^{-1}$, the adiabatic law of a $\gamma=4/3$ gas.
+which shows the balance between adiabatic losses, heating and radiation explicitly.
+Equations~\ref{eq:kn_Ugen} and~\ref{eq:kn_oz} are exact within the assumptions above; to solve them, $L$ must be related to $U$.
 
-To close Eq.~\ref{eq:kn_oz} we need $L$ in terms of $E_{\rm int}$.
-In the diffusion regime the radiative flux is $F=-(c/3\kappa\rho)\,\partial_r(E_{\rm int}/V)$.
-Estimating the gradient as $E_{\rm int}/(VR)$ gives
-\begin{equation}\label{eq:kn_closure}
-  L=4\pi R^2F=\frac{E_{\rm int}}{t_d},\qquad t_d=\frac{\tau_d^2}{t},\qquad \tau_d^2\equiv\frac{\tau_m^2}{\xi}=\frac{3\kappa M_{\rm ej}}{4\pi\xi c v_{\rm ej}} ,
+\subsection{Bolometric luminosity}\label{sec:onezone_sol}
+
+LP approximate the radiative flux by a blackbody whose effective temperature is the mean temperature of the ejecta reduced by the optical depth $\kappa\rho R$, with a constant opacity $\kappa$,
+\begin{equation}\label{eq:kn_FLP}
+  F\equiv\sigma_{\rm SB}T_{\rm eff}^4\approx\frac{\sigma_{\rm SB}T^4}{\kappa\rho R} .
 \end{equation}
-with $\xi=1$.
-This is the diffusion time obtained in Chapter~\ref{chap:BNMS} from a random-walk argument (Eq.~\ref{eq:td}).
-The constant $\xi$ accounts for the actual shape of the radiation profile, which the one-zone model cannot determine.
-The exact solution of the diffusion problem for a uniform sphere gives $\xi=\pi^2/3$ for its slowest mode (Sec.~\ref{sec:modes})~\cite{arnett_type_1982,khatami_physics_2019}.
-The light curve depends on $\kappa$, $M_{\rm ej}$, $v_{\rm ej}$ and $\xi$ only through $\tau_d$, which for $\xi=1$ is
-\begin{equation}\label{eq:kn_taum_num}
-  \tau_m\approx2.7\,\mathrm{d}\left(\frac{\kappa}{1\,\mathrm{cm^2\,g^{-1}}}\right)^{1/2}\left(\frac{M_{\rm ej}}{0.01\,M_\odot}\right)^{1/2}\left(\frac{v_{\rm ej}}{0.1c}\right)^{-1/2}.
+With Eqs.~\ref{eq:kn_rho} and~\ref{eq:kn_U}, the luminosity is
+\begin{equation}\label{eq:kn_LLP}
+  L=4\pi R^2F\approx\left(\frac{4\pi^2v_{\rm ej}^4c}{3\kappa M_{\rm ej}}\right)U\,t^4 .
 \end{equation}
-
-Two timescales organize the evolution.
-The diffusion time $t_d$ equals the expansion time $t$ at $t=\tau_d$: before, the radiation is trapped and loses its energy adiabatically; after, it escapes faster than the ejecta expand.
-The ejecta become transparent when the optical depth from the centre to the surface drops to unity,
-\begin{equation}\label{eq:kn_tthin}
-  \tau=\kappa\rho R=\frac{3\kappa M_{\rm ej}}{4\pi v_{\rm ej}^2t^2}\equiv\frac{t_{\rm thin}^2}{t^2},\qquad t_{\rm thin}=\left(\frac{3\kappa M_{\rm ej}}{4\pi v_{\rm ej}^2}\right)^{1/2}=\tau_m\left(\frac{c}{v_{\rm ej}}\right)^{1/2} ,
+Equivalently, $L=E_{\rm int}/t_d$ with $t_d=\kappa M_{\rm ej}/(\pi v_{\rm ej}ct)$, which is the random-walk diffusion time of Chapter~\ref{chap:BNMS} (Eq.~\ref{eq:td}) up to a factor $4/3$.
+Inserting Eq.~\ref{eq:kn_LLP} into Eq.~\ref{eq:kn_Ugen} gives the LP equation for the internal energy~\cite{li_transient_1998},
+\begin{equation}\label{eq:kn_LPode}
+  \frac{\mathrm{d}U}{\mathrm{d}t}+\left[\frac4t+\left(\frac{\pi v_{\rm ej}c}{\kappa M_{\rm ej}}\right)t\right]U=\left(\frac{3M_{\rm ej}}{4\pi v_{\rm ej}^3t^3}\right)\dot\varepsilon(t).
 \end{equation}
-so that $t_{\rm thin}\approx3\tau_m$ for $v_{\rm ej}=0.1c$.
-The diffusion picture, and hence Eq.~\ref{eq:kn_closure}, holds for $t\lesssim t_{\rm thin}$.
-Table~\ref{tab:kn_timescales} lists representative values, together with the thermalization timescales of Sec.~\ref{sec:thermalization}.
-
-\begin{table}[t]
-\caption{Characteristic timescales (in days) for $M_{\rm ej}=0.01\,M_\odot$. $\tau_m$ is the one-zone diffusion timescale (Eq.~\ref{eq:kn_closure} with $\xi=1$), $\tau_1=(\sqrt3/\pi)\tau_m$ the diffusion timescale of the fundamental mode (Sec.~\ref{sec:modes}), $t_{\rm thin}$ the transparency time (Eq.~\ref{eq:kn_tthin}), $t_\gamma$ the $\gamma$-ray trapping time for $\kappa_\gamma=0.05\,\mathrm{cm^2\,g^{-1}}$ (Eq.~\ref{eq:kn_tgamma}), and $t_{{\rm ineff},p}$ the thermalization time of electrons ($E_0=0.5\,\mathrm{MeV}$) and $\alpha$ particles ($E_0=5\,\mathrm{MeV}$) from Eq.~\ref{eq:kn_tineff}. The last three are independent of $\kappa$.\label{tab:kn_timescales}}\vspace{0.25em}
-\centering
-\begin{tabular}{cccccccc}
-\toprule
-$v_{\rm ej}/c$ & $\kappa\ [\mathrm{cm^2\,g^{-1}}]$ & $\tau_m$ & $\tau_1$ & $t_{\rm thin}$ & $t_\gamma$ & $t_{{\rm ineff},\beta}$ & $t_{{\rm ineff},\alpha}$\\
-\midrule
-0.1 & 1  & 2.7 & 1.5 & 8.4  & 1.9 & 44 & 49\\
-0.1 & 10 & 8.4 & 4.6 & 26.6 & 1.9 & 44 & 49\\
-0.2 & 1  & 1.9 & 1.0 & 4.2  & 0.9 & 15 & 17\\
-0.2 & 10 & 5.9 & 3.3 & 13.3 & 0.9 & 15 & 17\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\subsection{Solution for an arbitrary heating rate}\label{sec:onezone_sol}
-
-Inserting Eq.~\ref{eq:kn_closure} into Eq.~\ref{eq:kn_oz},
-\begin{equation}
-  \frac{\mathrm{d}E_{\rm int}}{\mathrm{d}t}+\left(\frac{1}{t}+\frac{t}{\tau_d^2}\right)E_{\rm int}=M_{\rm ej}\dot\varepsilon(t),
+This is a linear first-order equation with integrating factor $t^4\exp(t^2/t_{\rm LP}^2)$, where
+\begin{equation}\label{eq:kn_tLP}
+  t_{\rm LP}=\sqrt{\frac{2\kappa M_{\rm ej}}{\pi v_{\rm ej}c}}.
 \end{equation}
-a linear first-order equation with integrating factor $t\,e^{t^2/2\tau_d^2}$.
-For initial energy $E_0$ at time $t_0$, the luminosity $L=tE_{\rm int}/\tau_d^2$ is
+The light curve depends on $\kappa$, $M_{\rm ej}$ and $v_{\rm ej}$ only through $t_{\rm LP}$.
+Solving Eq.~\ref{eq:kn_LPode} and using Eq.~\ref{eq:kn_LLP},
 \begin{equation}\label{eq:kn_Lsol}
-  L(t)=\frac{t_0E_0}{\tau_d^2}\,e^{-(t^2-t_0^2)/2\tau_d^2}+\int_{t_0}^{t}G(t,t')\,M_{\rm ej}\dot\varepsilon(t')\,\mathrm{d}t' ,
+  L(t)=\frac{2M_{\rm ej}}{t_{\rm LP}^2}\exp\left(-\frac{t^2}{t_{\rm LP}^2}\right)\int_0^t t'\exp\left(\frac{t'^2}{t_{\rm LP}^2}\right)\dot\varepsilon(t')\,\mathrm{d}t' .
 \end{equation}
-with the kernel
-\begin{equation}\label{eq:kn_kernel}
-  G(t,t')=\frac{t'}{\tau_d^2}\exp\left[-\frac{t^2-t'^2}{2\tau_d^2}\right],\qquad t\geq t'.
-\end{equation}
-Equation~\ref{eq:kn_Lsol} has the same form as the light curve of Arnett for supernovae~\cite{arnett_type_1982,khatami_physics_2019}.
+Equation~\ref{eq:kn_Lsol} has the same form as the light curve of Arnett for supernovae~\cite{arnett_type_1982}.
 
-The first term of Eq.~\ref{eq:kn_Lsol} is the memory of the initial thermal energy.
-It is proportional to the product $t_0E_0$, which is conserved under adiabatic expansion.
-The ejecta start from a radius $R_0\sim10^{7}$--$10^{9}\,\mathrm{cm}$ at $t_0\lesssim0.1\,\mathrm{s}$ with at most $E_0\lesssim10^{50}\,\mathrm{erg}$, so $t_0E_0\lesssim10^{49}\,\mathrm{erg\,s}$, whereas the radioactive term at one day involves $\int t'M_{\rm ej}\dot\varepsilon\,\mathrm{d}t'\sim10^{51}\,\mathrm{erg\,s}$ for $M_{\rm ej}=0.01\,M_\odot$ and the heating rate of Eq.~\ref{eq:korobkin}.
-The initial energy contributes below the per cent level, and we set $E_0=0$ and $t_0\to0$ from now on.
-The kilonova is powered by radioactivity alone.
+We have neglected the initial thermal energy of the ejecta.
+It would add the term $(2t_0E_0/t_{\rm LP}^2)\exp[-(t^2-t_0^2)/t_{\rm LP}^2]$, proportional to the product $t_0E_0$, which is conserved under adiabatic expansion.
+The ejecta start from a radius $R_0\sim10\mathrm{Km}=10^{7}\,\mathrm{cm}$ at $t_0\lesssim0.1\,\mathrm{s}$ with at most $E_0\lesssim10^{50}\,\mathrm{erg}$, so $t_0E_0\lesssim10^{49}\,\mathrm{erg\,s}$, whereas the radioactive term at one day involves $\int t'M_{\rm ej}\dot\varepsilon\,\mathrm{d}t'\sim10^{51}\,\mathrm{erg\,s}$ for $M_{\rm ej}=0.01\,M_\odot$ and the heating rate of Eq.~\ref{eq:korobkin}.
+The initial energy contributes below the per cent level.
+The kilonova, therefore is powered by radioactivity alone.
 
-The kernel has a simple interpretation.
-Writing it as
-\begin{equation}\label{eq:kn_kernel_phys}
-  G(t,t')=\underbrace{\frac{t'}{t}}_{\text{adiabatic loss}}\times\underbrace{\frac{1}{t_d(t)}}_{\text{escape rate}}\times\underbrace{\exp\left[-\int_{t'}^{t}\frac{\mathrm{d}t''}{t_d(t'')}\right]}_{\text{survival probability}},
-\end{equation}
-the energy deposited at $t'$ is degraded adiabatically by the factor $t'/t$, survives in the ejecta until $t$ with probability $\exp(-\int\mathrm{d}t''/t_d)$, and escapes at $t$ at the rate $1/t_d(t)$.
-The factor $t'/t$ shows why the heating during the r-process ($t'\lesssim1\,\mathrm{s}$) is irrelevant for the light curve, even though $\dot\varepsilon$ is largest then: its energy is lost to expansion long before it can escape.
-
-Equation~\ref{eq:kn_Lsol} is a linear functional of the heating rate.
-If two nuclear inputs give heating rates that differ by $\Delta\dot\varepsilon(t)$, the light curves differ by
-\begin{equation}\label{eq:kn_linear}
-  \Delta L(t)=\int_0^tG(t,t')\,M_{\rm ej}\,\Delta\dot\varepsilon(t')\,\mathrm{d}t' ,
-\end{equation}
-provided the opacity is the same.
-The kernel averages the heating rate over the diffusion time: features of $\dot\varepsilon$ shorter than $t_d(t)=\tau_d^2/t$ are smoothed and delayed, and they appear undistorted in $L$ only once $t\gg\tau_d$.
-
-With a heating rate from a nuclear network, Eq.~\ref{eq:kn_Lsol} is evaluated numerically.
-The two exponentials of Eq.~\ref{eq:kn_kernel} must be combined before evaluation, since $e^{t'^2/2\tau_d^2}$ alone overflows double precision for $t'\gtrsim38\,\tau_d$.
-
-\subsection{Properties of the solution}\label{sec:onezone_props}
-
-Differentiating $L=tE_{\rm int}/\tau_d^2$ and using Eq.~\ref{eq:kn_oz}, the adiabatic term cancels and the light curve obeys
+Differentiating Eq.~\ref{eq:kn_LLP} and using Eq.~\ref{eq:kn_LPode}, the light curve obeys
 \begin{equation}\label{eq:kn_Lode}
-  \frac{\tau_d^2}{t}\,\frac{\mathrm{d}L}{\mathrm{d}t}=M_{\rm ej}\dot\varepsilon(t)-L(t).
+  \frac{\mathrm{d}L}{\mathrm{d}t}=\frac{2t}{t_{\rm LP}^2}\Big[M_{\rm ej}\dot\varepsilon(t)-L(t)\Big],
 \end{equation}
-The luminosity relaxes towards the instantaneous deposition on the diffusion time $t_d=\tau_d^2/t$.
-Several properties follow directly.
-
-\paragraph{Arnett's rule.}
-At the peak, $\mathrm{d}L/\mathrm{d}t=0$, and Eq.~\ref{eq:kn_Lode} gives
+so the luminosity matches the instantaneous $\dot\varepsilon(t)$ at the peak, $\mathrm{d}L/\mathrm{d}t=0$ and
 \begin{equation}\label{eq:kn_arnett}
   L(t_{\rm pk})=M_{\rm ej}\dot\varepsilon(t_{\rm pk}).
 \end{equation}
-Before the peak $L<M_{\rm ej}\dot\varepsilon$, since part of the deposited energy is still stored; after the peak $L>M_{\rm ej}\dot\varepsilon$, since the stored energy is released.
+Before the peak $L<M_{\rm ej}\dot\varepsilon$, since part of the deposited energy is still stored and after the peak $L>M_{\rm ej}\dot\varepsilon$, since the stored energy is released.
 
-\paragraph{Early and late times.}
-For $t\ll\tau_d$ the exponential in Eq.~\ref{eq:kn_kernel} is close to unity and
-\begin{equation}\label{eq:kn_early}
-  L(t)\simeq\frac{1}{\tau_d^2}\int_0^tt'\,M_{\rm ej}\dot\varepsilon(t')\,\mathrm{d}t'\ \xrightarrow{\ \dot\varepsilon\propto t^{-\alpha}\ }\ \frac{t^2}{(2-\alpha)\,\tau_d^2}\,M_{\rm ej}\dot\varepsilon(t),\qquad\alpha<2 .
+
+
+\subsection{The optical depth problem and late times}\label{sec:onezone_late}
+
+The flux of Eq.~\ref{eq:kn_FLP} is a diffusion approximation, valid only while the optical depth $\kappa\rho R$ is much larger than unity.
+With Eq.~\ref{eq:kn_rho},
+\begin{equation}\label{eq:kn_tthin}
+  \kappa\rho R=\frac{3\kappa M_{\rm ej}}{4\pi v_{\rm ej}^2t^2}\equiv\frac{t_c^2}{t^2},\qquad
+  t_c=\sqrt{\frac{3\kappa M_{\rm ej}}{4\pi v_{\rm ej}^2}},
 \end{equation}
-For $t\gg\tau_d$, iterating Eq.~\ref{eq:kn_Lode} gives
+so the ejecta pass from optically thick to marginally optically thin at the critical time.
+This is important because after that time $\kappa\rho R>1$ so if we check Eq.~\ref{eq:kn_FLP} that would predict a flux grater than that of a perfect black body.
+So we assumed that for $t>t_c$ the emission is approximated by the blackbody form without the optical-depth reduction~\cite{hernandez_porras_features_2027},
+\begin{equation}\label{eq:kn_Fthin}
+  F\approx\sigma_{\rm SB}T^4,\qquad L=4\pi R^2\sigma_{\rm SB}T^4=\pi c\,v_{\rm ej}^2t^2\,U .
+\end{equation}
+If we check the ratio of Eq.~\ref{eq:kn_Fthin} to Eq.~\ref{eq:kn_LLP} is exactly $t^2/t_c^2$, so the two prescriptions give the same luminosity at $t=t_c$ and the light curve is continuous.
+Inserting Eq.~\ref{eq:kn_Fthin} into Eq.~\ref{eq:kn_Ugen}, the energy equation becomes
+\begin{equation}\label{eq:kn_LPode_late}
+  \frac{\mathrm{d}U}{\mathrm{d}t}+\left(4+\frac{3c}{4v_{\rm ej}}\right)\frac{U}{t}=\left(\frac{3M_{\rm ej}}{4\pi v_{\rm ej}^3}\right)\frac{\dot\varepsilon(t)}{t^3}.
+\end{equation}
+With the integrating factor $t^{4+\frac{3c}{4v_{\rm ej}}}$ and Eq.~\ref{eq:kn_Fthin}, the solution for $t\geq t_c$ is
+\begin{equation}\label{eq:kn_Lsol_late}
+  L(t)=L(t_c)\left(\frac{t_c}{t}\right)^{2+\frac{3c}{4v_{\rm ej}}}+\frac{3c}{4v_{\rm ej}}\,M_{\rm ej}\,t^{-2-\frac{3c}{4v_{\rm ej}}}\int_{t_c}^{t}t'^{\,1+\frac{3c}{4v_{\rm ej}}}\,\dot\varepsilon(t')\,\mathrm{d}t' ,
+\end{equation}
+where $L(t_c)$ is given by Eq.~\ref{eq:kn_Lsol}.
+For $v_{\rm ej}=0.15c$ the transient term decays as $(t_c/t)^7$ so it can be neglected for $t\gg t_c$.
+The MLP light curve is therefore Eq.~\ref{eq:kn_Lsol} for $t\leq t_c$ and Eq.~\ref{eq:kn_Lsol_late} for $t>t_c$.
+Both pieces are linear in $\dot\varepsilon$ so we can see the light curve as the sum of the contribution form $\beta^{-}$ and $\alpha$ decay.
+
+As $t\to\infty$, the luminosity should be finite.
+That impose a constrain of how slow the heating can decrease.
+But it can be easily satisfy so we should not worry about that.
+When we apply l'H\^opital's rule to the ratio $L/\dot\varepsilon$, and defining the local power-law index $\alpha(t)=-\mathrm{d}\ln\dot\varepsilon/\mathrm{d}\ln t$, which is assumed to vary slowly, we got
 \begin{equation}\label{eq:kn_late}
-  L(t)=M_{\rm ej}\dot\varepsilon-\frac{\tau_d^2}{t}\frac{\mathrm{d}(M_{\rm ej}\dot\varepsilon)}{\mathrm{d}t}+\mathcal O\!\left(\frac{\tau_d^4}{t^4}\right)\ \xrightarrow{\ \dot\varepsilon\propto t^{-\alpha}\ }\ M_{\rm ej}\dot\varepsilon\left(1+\frac{\alpha\,\tau_d^2}{t^2}\right).
+  L(t)\simeq\frac{\frac{3c}{4v_{\rm ej}}}{\frac{3c}{4v_{\rm ej}}+2-\alpha}\,M_{\rm ej}\,\dot\varepsilon(t)\propto\dot\varepsilon(t),\qquad t\gg t_c .
 \end{equation}
-At late times the bolometric light curve is the deposited heating rate, independently of the opacity.
-
-\paragraph{Peak time and peak luminosity.}
-For a power-law heating rate, $\dot\varepsilon=\dot\varepsilon_{\rm 1d}(t/1\,\mathrm{d})^{-\alpha}$, the peak time is proportional to $\tau_d$: $t_{\rm pk}\approx1.31\,\tau_d$ for $\alpha=1$ and $t_{\rm pk}\approx1.00\,\tau_d$ for $\alpha=1.3$.
-With Eq.~\ref{eq:kn_arnett}, the peak scales as
-\begin{equation}\label{eq:kn_peak}
-  t_{\rm pk}\propto\left(\frac{\kappa M_{\rm ej}}{v_{\rm ej}}\right)^{1/2},\qquad
-  L_{\rm pk}=M_{\rm ej}\dot\varepsilon(t_{\rm pk})\propto M_{\rm ej}^{1-\alpha/2}\left(\frac{v_{\rm ej}}{\kappa}\right)^{\alpha/2}.
-\end{equation}
-For $M_{\rm ej}=0.01\,M_\odot$ and $v_{\rm ej}=0.1c$, lanthanide-poor ejecta ($\kappa\sim1\,\mathrm{cm^2\,g^{-1}}$) peak after about three days and lanthanide-rich ejecta ($\kappa\sim10\,\mathrm{cm^2\,g^{-1}}$) after more than a week, with a peak luminosity lower by $10^{\alpha/2}\approx4.5$ for $\alpha=1.3$ (Table~\ref{tab:kn_timescales}).
-For $\alpha=1$ the solution is known in closed form in terms of the Dawson function $\mathcal D(x)=e^{-x^2}\int_0^xe^{y^2}\mathrm{d}y$, $L=\sqrt2\,(M_{\rm ej}\dot\varepsilon_{\rm 1d}\cdot1\,\mathrm{d}/\tau_d)\,\mathcal D(t/\sqrt2\,\tau_d)$, which serves as a check of the numerical integration.
-
-\paragraph{Katz integral.}
-Equation~\ref{eq:kn_oz} can be written as $\mathrm{d}(tE_{\rm int})/\mathrm{d}t=t\,[M_{\rm ej}\dot\varepsilon-L]$.
-Integrating over time, with $tE_{\rm int}\to0$ at both ends, gives~\cite{katz_exact_2013}
-\begin{equation}\label{eq:kn_katz}
-  \int_{0}^{\infty}t\,L(t)\,\mathrm{d}t=\int_{0}^{\infty}t\,M_{\rm ej}\dot\varepsilon(t)\,\mathrm{d}t .
-\end{equation}
-This identity does not use the closure Eq.~\ref{eq:kn_closure}: it holds for any opacity and any spatial structure, provided the expansion is homologous and the radiation dominates.
-It relates the observable $\int tL\,\mathrm{d}t$ to the deposited heating without any opacity uncertainty, and it has been used to estimate the ejecta mass of GW170817~\cite{hotokezaka_radioactive_2020}.
-
-\paragraph{Effective temperature.}
-Assuming that the surface radiates as a blackbody, its temperature is
-\begin{equation}\label{eq:kn_teff}
-  T_{\rm eff}=\left(\frac{L}{4\pi\sigma_{\rm SB}R_{\rm ph}^2}\right)^{1/4},
-\end{equation}
-with $R_{\rm ph}\simeq v_{\rm ej}t$ while $t\ll t_{\rm thin}$.
-The recession of the photosphere into the ejecta is treated in Sec.~\ref{sec:thin}.
-
-%==========================================================================================
-\section{The deposited heating rate}\label{sec:thermalization}
-%==========================================================================================
-
-The heating rate $\dot\varepsilon$ of the previous section is the energy deposited in the gas per unit mass and time, not the energy released by the decays.
-Each decay channel $x$ shares its energy among products $p$ ($\gamma$ rays, electrons, $\alpha$ particles, fission fragments and neutrinos) with fractions $\chi_{x,p}$, $\sum_p\chi_{x,p}=1$, and only a fraction $f_p(t)$ of the energy of each product is thermalized (Sec.~\ref{sec:partition}).
-The deposited heating is
-\begin{equation}\label{eq:kn_dep}
-  \dot\varepsilon(t)=\sum_x\dot\epsilon_x(t)\sum_{p\neq\nu}\chi_{x,p}\,f_p(t).
-\end{equation}
-Neutrinos always escape.
-For the $\beta^-$ decays of r-process nuclei the energy is shared roughly as $\chi_\nu\approx0.3$--$0.4$, $\chi_\gamma\approx0.4$--$0.5$ and $\chi_e\approx0.2$--$0.3$, whereas in $\alpha$ decay and fission almost all the energy goes into the kinetic energy of charged particles~\cite{barnes_radioactivity_2016,hotokezaka_radioactive_2016}.
-
-\paragraph{Gamma rays.}
-The $\gamma$ rays lose energy by Compton scattering, with an effective opacity $\kappa_\gamma\sim0.03$--$0.05\,\mathrm{cm^2\,g^{-1}}\ll\kappa$~\cite{hotokezaka_radioactive_2016,barnes_radioactivity_2016}.
-Their optical depth has the same form as Eq.~\ref{eq:kn_tthin} with $\kappa\to\kappa_\gamma$, and the deposited fraction is
-\begin{equation}\label{eq:kn_tgamma}
-  f_\gamma(t)\simeq1-\exp\left(-\frac{t_\gamma^2}{t^2}\right),\qquad t_\gamma=\left(\frac{3\kappa_\gamma M_{\rm ej}}{4\pi v_{\rm ej}^2}\right)^{1/2}.
-\end{equation}
-With the values of Table~\ref{tab:kn_timescales}, most of the $\gamma$-ray energy escapes after one or two days.
-
-\paragraph{Charged particles.}
-Electrons, $\alpha$ particles and fission fragments are confined by the magnetic fields of the ejecta and lose energy by ionization and excitation at a rate proportional to the density, $\dot E=-\mathcal A_p\,\rho$.
-Since $\rho\propto t^{-3}$, the loss time $E_{0,p}/(\mathcal A_p\rho)$ grows as $t^3$ and exceeds the expansion time after
-\begin{equation}\label{eq:kn_tineff}
-  t_{{\rm ineff},p}=\left(\frac{3M_{\rm ej}\,\mathcal A_p}{4\pi v_{\rm ej}^3E_{0,p}}\right)^{1/2}\propto M_{\rm ej}^{1/2}\,v_{\rm ej}^{-3/2},
-\end{equation}
-where $E_{0,p}$ is the initial kinetic energy of the particle.
-With $\mathcal A_\beta\approx4\times10^{10}$ and $\mathcal A_\alpha\approx5\times10^{11}\,\mathrm{MeV\,cm^3\,g^{-1}\,s^{-1}}$~\cite{barnes_radioactivity_2016}, this happens after several weeks for $v_{\rm ej}=0.1c$ (Table~\ref{tab:kn_timescales}).
-Before, $f_p\simeq1$; afterwards the efficiency decreases as a power law, which is described by Eq.~\ref{eq:te}~\cite{kasen_radioactive_2019},
-\begin{equation}\label{eq:kn_fp}
-  f_p(t)\simeq\left(1+\frac{t}{t_p}\right)^{-n_p},\qquad n_p\approx1\text{--}1.5 ,
-\end{equation}
-with $t_p$ of the order of $t_{{\rm ineff},p}$.
-
-\paragraph{Net efficiency.}
-When the energy release is not resolved by channel, $\dot\varepsilon=f_{\rm th}(t)\,\dot\epsilon(t)$ with the fit of Barnes et al.~\cite{barnes_radioactivity_2016},
-\begin{equation}\label{eq:kn_barnes}
-  f_{\rm th}(t)=0.36\left[\exp(-a\,t)+\frac{\ln\left(1+2b\,t^{d}\right)}{2b\,t^{d}}\right],
-\end{equation}
-where $t$ is in days and the coefficients $a$, $b$ and $d$ are tabulated as functions of $M_{\rm ej}$ and $v_{\rm ej}$.
-
-\paragraph{Consequence for the decay channels.}
-Between $t\sim t_\gamma$ and $t\sim t_{{\rm ineff},p}$, most $\gamma$ rays escape while the charged particles still thermalize.
-In this window Eq.~\ref{eq:kn_dep} deposits a fraction $\chi_e\approx0.2$--$0.3$ of the energy of the $\beta^-$ channel, but almost all the energy of the $\alpha$ channel.
-Per unit of released energy, $\alpha$ decays are three to five times more effective at powering the kilonova than $\beta^-$ decays.
-A change in the nuclear input that moves energy from one channel to the other therefore changes the light curve even if the total energy release is unchanged, which is why we keep the heating rate resolved by channel.
+For a slowly varying heating rate, $\alpha\ll \frac{3c}{4v_{\rm ej}}+2$, the prefactor reduces to $\frac{3c}{4v_{\rm ej}}/(\frac{3c}{4v_{\rm ej}}+2)$ which depends on $v_{\rm ej}$ but not on the opacity.
+The important result is that the contribution of the radiation trapped at earlier times is strongly suppressed while at late times the luminosity follows the instantaneous effective heating rate, and not the energy accumulated earlier, as also found in Ref.~\cite{kasen_radioactive_2019}.
+This is what makes the late-time light curve sensitive to the individual decay channels that dominate $\dot\varepsilon$.
+Now the idea is to use the effective heating rates from the nuclear reaction network. 
 
 %==========================================================================================
 \section{Opacity}\label{sec:opacity}
 %==========================================================================================
 
-The opacity sets $\tau_d$, $t_{\rm thin}$ and the photospheric temperature, and it is the largest source of uncertainty in kilonova models.
+The opacity sets $t_{\rm LP}$, $t_c$ and the photospheric temperature, and it is the largest source of uncertainty in kilonova models.
 It is dominated by the bound--bound transitions of the heavy elements, and its value is controlled by the mass fraction of lanthanides and actinides, whose open $f$ shells give an opacity one to two orders of magnitude larger than that of iron-group elements (Chapter~\ref{chap:BNMS})~\cite{kasen_opacities_2013,tanaka_radiative_2013}.
 Semi-analytic models replace the wavelength-dependent opacity by a single grey value, assigned from the composition through the initial electron fraction of the ejecta.
 Systematic atomic calculations give $\kappa\gtrsim10\,\mathrm{cm^2\,g^{-1}}$ for $Y_e\lesssim0.25$, $\kappa\sim1$--$10\,\mathrm{cm^2\,g^{-1}}$ for $0.25\lesssim Y_e\lesssim0.35$ and $\kappa\sim0.1$--$1\,\mathrm{cm^2\,g^{-1}}$ for $Y_e\gtrsim0.4$, at the temperatures and densities reached about one day after the merger~\cite{tanaka_systematic_2020}.
-
-The grey opacity is an effective parameter.
-In reality the opacity depends on the ionization state: when the outer layers cool below the recombination temperature of the dominant ions, a few thousand kelvin, their opacity falls steeply and the photosphere recedes into the ejecta at a nearly constant temperature~\cite{villar_combined_2017}.
-Semi-analytic models mimic this with a floor temperature (Sec.~\ref{sec:thin}).
 
 %==========================================================================================
 \section{Beyond one zone: the \texttt{xkn} diffusion model}\label{sec:beyond}
 %==========================================================================================
 
-The one-zone model has no spatial structure, treats the whole ejecta as optically thick and is spherical.
+The MLP model has no spatial structure, switches abruptly from diffusion to free escape at $t_c$, and is spherical.
 The \texttt{xkn} framework of Ricigliano et al.~\cite{ricigliano_xkn_2024} relaxes these three limitations while remaining semi-analytic.
 Its diffusion model, \texttt{xkn-diff}, has four elements: a solution of the diffusion equation for the optically thick ejecta, an explicit treatment of the optically thin layers, an angular discretization of the ejecta, and blackbody emission to obtain broadband light curves.
 We present them in turn.
@@ -257,7 +164,7 @@ We present them in turn.
 \subsection{Optically thick ejecta: diffusion in a uniform sphere}\label{sec:modes}
 
 Instead of a single energy $E_{\rm int}$, the model follows the radiation energy density $E(r,t)$.
-The assumptions are those of Sec.~\ref{sec:onezone_eq}, and the local form of the energy balance, Eq.~\ref{eq:kn_oz}, is the diffusion equation in a homologous flow~\cite{pinto_physics_2000,wollaeger_impact_2018},
+The assumptions are those of Sec.~\ref{sec:onezone_eq}, and the local form of the energy balance, Eq.~\ref{eq:kn_Ugen}, is the diffusion equation in a homologous flow~\cite{pinto_physics_2000,wollaeger_impact_2018},
 \begin{equation}\label{eq:kn_diffusion}
   \frac{\mathrm{D}E}{\mathrm{D}t}+\frac{4E}{t}=\frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\,\frac{c}{3\kappa\rho}\frac{\partial E}{\partial r}\right)+\rho\,\dot\varepsilon(t) ,
 \end{equation}
@@ -273,18 +180,18 @@ and each amplitude obeys an equation of the one-zone type,
 \begin{equation}\label{eq:kn_mode_ode}
   \frac{\mathrm{d}\phi_n}{\mathrm{d}t}+\frac{t}{\tau_n^2}\,\phi_n\propto t\,\dot\varepsilon(t),\qquad
   \tau_n=\frac{\tau_1}{n},\qquad
-  \tau_1^2=\frac{9\kappa M_{\rm ej}}{4\pi^3cv_{\rm ej}}=\frac{3}{\pi^2}\,\tau_m^2 .
+  \tau_1^2=\frac{9\kappa M_{\rm ej}}{4\pi^3cv_{\rm ej}}=\frac{9}{8\pi^2}\,t_{\rm LP}^2 .
 \end{equation}
 The luminosity is the flux through the surface, $L=4\pi R^2F(R)$, which gives
 \begin{equation}\label{eq:kn_modal}
   L_{\rm diff}(t)=\sum_{n=1}^{\infty}w_n\int_0^tG_n(t,t')\,M_{\rm ej}\dot\varepsilon(t')\,\mathrm{d}t',\qquad w_n=\frac{6}{\pi^2n^2},
 \end{equation}
-where $G_n$ is the one-zone kernel of Eq.~\ref{eq:kn_kernel} with $\tau_d\to\tau_n$.
+where $G_n$ is the LP kernel of Eq.~\ref{eq:kn_kernel} with $t_{\rm LP}\to\sqrt2\,\tau_n$.
 
-Equation~\ref{eq:kn_modal} is a superposition of one-zone light curves, Eq.~\ref{eq:kn_Lsol}, with diffusion timescales $\tau_n=\tau_1/n$ and weights that sum to one.
-The fundamental mode carries $6/\pi^2\approx61\%$ of the weight and is the one-zone model with $\xi=\pi^2/3$.
+Equation~\ref{eq:kn_modal} is a superposition of LP light curves, Eq.~\ref{eq:kn_Lsol}, with diffusion timescales $\tau_n=\tau_1/n$ and weights that sum to one.
+The fundamental mode carries $6/\pi^2\approx61\%$ of the weight and is an LP light curve with $t_{\rm LP}$ replaced by $\sqrt2\,\tau_1=(3/2\pi)\,t_{\rm LP}\approx0.48\,t_{\rm LP}$: the flux estimate of Eq.~\ref{eq:kn_FLP} overestimates the diffusion time of the slowest mode by about a factor of two.
 The higher modes diffuse faster and describe the emission of the outer layers, which the one-zone model misses: at early times the luminosity rises as $t$, and not as $t^2$ (Eq.~\ref{eq:kn_early}).
-The late-time limit $L\to M_{\rm ej}\dot\varepsilon$, the linearity in the heating rate and the Katz integral, Eq.~\ref{eq:kn_katz}, are preserved.
+The limit $L\to M_{\rm ej}\dot\varepsilon$ for $t\gg\tau_1$, the linearity in the heating rate and the Katz integral, Eq.~\ref{eq:kn_katz}, are preserved.
 In \texttt{xkn} the time integrals are evaluated in closed form for power-law heating rates~\cite{ricigliano_xkn_2024}; Eq.~\ref{eq:kn_modal} holds for any $\dot\varepsilon(t)$.
 
 \subsection{Photosphere and optically thin layers}\label{sec:thin}
@@ -298,12 +205,12 @@ To locate the transition, \texttt{xkn} uses a density profile that decreases out
 where $v_{\rm ej}$ is now the maximum velocity of the ejecta.
 The photosphere is the radius $R_{\rm ph}=x_{\rm ph}v_{\rm ej}t$ at which the optical depth measured from the outside equals $2/3$,
 \begin{equation}\label{eq:kn_xph}
-  \tau(x,t)=\kappa\int_{x}^{1}\rho\,v_{\rm ej}t\,\mathrm{d}x'=\frac{2}{3}\,\frac{t_{\rm c}^2}{t^2}\,g(x),\qquad
-  g(x_{\rm ph})=\frac{t^2}{t_{\rm c}^2},\qquad
-  t_{\rm c}=\left(\frac{27\kappa M_{\rm ej}}{8\pi v_{\rm ej}^2}\right)^{1/2},
+  \tau(x,t)=\kappa\int_{x}^{1}\rho\,v_{\rm ej}t\,\mathrm{d}x'=\frac{2}{3}\,\frac{t_{\rm tr}^2}{t^2}\,g(x),\qquad
+  g(x_{\rm ph})=\frac{t^2}{t_{\rm tr}^2},\qquad
+  t_{\rm tr}=\left(\frac{27\kappa M_{\rm ej}}{8\pi v_{\rm ej}^2}\right)^{1/2},
 \end{equation}
 with $g(x)=\tfrac{35}{16}\int_x^1(1-x'^2)^3\,\mathrm{d}x'$, which decreases from $g(0)=1$ to $g(1)=0$.
-The photosphere starts at the surface and reaches the centre at $t_{\rm c}\approx2.1\,t_{\rm thin}$.
+The photosphere starts at the surface and reaches the centre at $t_{\rm tr}=\sqrt{9/2}\,t_c\approx2.1\,t_c$, with $t_c$ the critical time of the MLP model (Eq.~\ref{eq:kn_tthin}).
 
 The photosphere divides the ejecta into an optically thick mass $M_{\rm thick}(t)$ inside it and an optically thin mass $M_{\rm thin}=M_{\rm ej}-M_{\rm thick}$ outside it, and the luminosity is the sum of two terms~\cite{ricigliano_xkn_2024},
 \begin{equation}\label{eq:kn_thick_thin}
@@ -311,8 +218,13 @@ The photosphere divides the ejecta into an optically thick mass $M_{\rm thick}(t
 \end{equation}
 The thick part radiates the diffusion luminosity of Eq.~\ref{eq:kn_modal}, rescaled to the mass that is still opaque.
 The thin part is divided into shells of mass $\delta m_i$, each of which radiates its deposited heating without delay.
-The heating $\dot\varepsilon_i$ of a shell differs from the mean only through its thermalization efficiency, which is lower in the fast, dilute outer layers (Eq.~\ref{eq:kn_barnes} evaluated at $t/(1-x_i^2)$).
-The decomposition is approximate, but it has the correct limits: it reduces to Eq.~\ref{eq:kn_modal} for $t\ll t_{\rm c}$ and to the instantaneous deposition, $L=M_{\rm ej}\dot\varepsilon$, for $t\gtrsim t_{\rm c}$.
+The heating $\dot\varepsilon_i$ of a shell differs from the mean only through its thermalization efficiency, which is lower in the dilute outer layers.
+\texttt{xkn} uses the fit of Barnes et al.~\cite{barnes_radioactivity_2016} evaluated at the local time variable $X_i=t/(1-x_i^2)$,
+\begin{equation}\label{eq:kn_barnes}
+  f_{\rm th}(X)=0.36\left[\exp(-aX)+\frac{\ln\left(1+2bX^{d}\right)}{2bX^{d}}\right],
+\end{equation}
+with $X$ in days and coefficients $a$, $b$ and $d$ tabulated as functions of $M_{\rm ej}$ and $v_{\rm ej}$.
+The decomposition is approximate, but it has the correct limits: it reduces to Eq.~\ref{eq:kn_modal} for $t\ll t_{\rm tr}$ and to the instantaneous deposition, $L=M_{\rm ej}\dot\varepsilon$, for $t\gtrsim t_{\rm tr}$.
 
 The temperature of the photosphere follows from the Stefan--Boltzmann law, with a floor that represents the recombination front of Sec.~\ref{sec:opacity},
 \begin{equation}\label{eq:kn_tph}
@@ -370,9 +282,9 @@ Once the ejecta become transparent, the emission is no longer thermal and the sp
 
 These limitations affect the different parts of the light curve differently.
 Around and before the peak, $L(t)$ depends on the opacity, the geometry and the transport.
-After the peak, Eq.~\ref{eq:kn_late} shows that $L(t)$ approaches the deposited heating rate, independently of the opacity, and Eq.~\ref{eq:kn_katz} constrains the deposited energy at all times.
-The late-time bolometric light curve is therefore the observable most directly connected to the nuclear physics of Chapter~\ref{ch:Nuclear_reaction_net}, and its main theoretical uncertainty is the thermalization of Sec.~\ref{sec:thermalization}, not the radiative transfer.
+After $t_c$, Eq.~\ref{eq:kn_late} shows that $L(t)$ follows the instantaneous effective heating rate, independently of the opacity, and Eq.~\ref{eq:kn_katz} constrains the deposited energy at all times.
+The late-time bolometric light curve is therefore the observable most directly connected to the nuclear physics of Chapter~\ref{ch:Nuclear_reaction_net}, and its main theoretical uncertainty is the thermalization of Sec.~\ref{sec:thermalization}, not the radiative transfer~\cite{hernandezporras_features_2027}.
 
 To summarize, the map of Eq.~\ref{eq:kn_map} consists of two steps.
-The channel-resolved energy release $\dot\epsilon_x(t)$ is converted into the deposited heating rate $\dot\varepsilon(t)$ by Eq.~\ref{eq:kn_dep}, and the deposited heating rate into the light curve by the kernel of Eq.~\ref{eq:kn_kernel} in the one-zone model, or by Eqs.~\ref{eq:kn_modal} and~\ref{eq:kn_thick_thin} in the diffusion model.
+The channel-resolved energy release $\dot\epsilon_x(t)$ is converted into the deposited heating rate $\dot\varepsilon(t)$ by Eq.~\ref{eq:kn_dep}, and the deposited heating rate into the light curve by Eqs.~\ref{eq:kn_Lsol} and~\ref{eq:kn_Lsol_late} in the MLP model, or by Eqs.~\ref{eq:kn_modal} and~\ref{eq:kn_thick_thin} in the diffusion model.
 Both steps are linear in $\dot\epsilon_x$: the nuclear input enters through the heating rate and, separately, through the composition-dependent opacity.

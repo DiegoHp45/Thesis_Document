@@ -9,7 +9,7 @@ Fourth, the heating rates are used as input of a kilonova model to obtain light 
 The theory behind each stage was developed in Chapters~\ref{chap:BNMS}--\ref{ch:rad_models}.
 
 The work follows and extends the study published in Ref.~\cite{hernandez_porras_features_2027}.
-In that study the impact of the decay-rate prescriptions were compared along a single trajectory of the dynamical ejecta, and their robustness was tested with 120 parametric trajectories restricted to cold, very neutron-rich conditions ($Y_e\leq0.20$, $s\leq10\,k_B$ per baryon).
+In that study the impact of the decay-rate prescriptions was compared along a single trajectory of the dynamical ejecta, and their robustness was tested with 120 parametric trajectories restricted to cold, very neutron-rich conditions ($Y_e\leq0.20$, $s\leq10\,k_B$ per baryon).
 Here the ensemble is the central object.
 It is more than four times larger, it extends to the electron fractions, entropies and velocities of the shock-heated and post-merger ejecta, and its initial state is computed with a complete equation of state instead of an ion-dominated approximation.
 Table~\ref{tab:paper_vs_thesis} lists the differences between the two setups.
@@ -83,8 +83,7 @@ where the three terms are the entropies per baryon, in units of $k_B$, of the nu
 The composition is obtained from the Saha equation (Eq.~\ref{eq:saha}) for the 7852 nuclei of the WinNet nuclear data table, which provides the mass excesses, ground-state spins and partition functions $G_i(T)$.
 The two constraints of Eq.~\ref{eq:conservation} are solved for the degeneracy parameters of the free neutrons and protons with a Newton--Raphson iteration.
 Each species is a non-degenerate ideal gas with internal degeneracy $g_iG_i(T)$ (Appendix~\ref{ap:Detailed_balance}), whose entropy follows from its free energy.
-Summing over species
-\footnote{Coulomb corrections are neglected.},
+Summing over species\footnote{Coulomb corrections are neglected.},
 \begin{equation}\label{eq:s_ion}
   s_{\rm ion}=\sum_iY_i\left[\frac52+\ln\!\left(\frac{g_iG_i}{n_i\Lambda_i^3}\right)+\frac{\mathrm{d}\ln G_i}{\mathrm{d}\ln T}\right],
 \end{equation}
@@ -133,9 +132,9 @@ The three parameters are sampled uniformly in the ranges
   0.04\leq Y_{e,0}\leq0.42,\qquad 1\leq s_0\leq49\ k_B\,\mathrm{baryon^{-1}},\qquad 0.01\leq v_\infty/c\leq0.49 .
 \end{equation}
 The ranges were chosen to contain the conditions of all the ejecta components described in Chapter~\ref{chap:BNMS}.
-The cold and very neutron-rich tidal ejecta ($Y_e\lesssim0.15$) and the shock-heated ejecta with electron fractions up to $\approx0.4$, both with asymptotic velocities of $0.1$--$0.3\,c$, and the slower post-merger outflows~\cite{radice_dynamical_2016,radice_binary_2018,radice_dynamics_2020,shibata_merger_2019}.
+These include the cold and very neutron-rich tidal ejecta ($Y_e\lesssim0.15$), the shock-heated ejecta with electron fractions up to $\approx0.4$, both with asymptotic velocities of $0.1$--$0.3\,c$, and the slower post-merger outflows~\cite{radice_dynamical_2016,radice_binary_2018,radice_dynamics_2020,shibata_merger_2019}.
 The entropies of $10$--$30\,k_B$ per baryon typical of merger ejecta lie in the middle of the adopted range.
-They also cross the boundary $Y_e\approx0.25$ that separates lanthanide-rich from lanthanide-poor nucleosynthesis (Sec.~\ref{sec:n_to_seed}) with 283 trajectories lie below it, and 148 have $Y_{e,0}<0.15$, where fission cycling is expected (Sec.~\ref{sec:fission}).
+The ranges also cross the boundary $Y_e\approx0.25$ that separates lanthanide-rich from lanthanide-poor nucleosynthesis (Sec.~\ref{sec:n_to_seed}): 283 trajectories lie below it, and 148 have $Y_{e,0}<0.15$, where fission cycling is expected (Sec.~\ref{sec:fission}).
 By Eq.~\ref{eq:tau_vinf} the velocity range corresponds to expansion timescales between $0.31$ and $14.5\,\mathrm{ms}$.
 Since the sampling is uniform in $v_\infty$, it is not uniform in $\tau$.
 The median is $0.60\,\mathrm{ms}$ and $90\%$ of the trajectories lie between $0.33$ and $4.4\,\mathrm{ms}$.
@@ -169,9 +168,9 @@ Beyond the last point WinNet continues the expansion ballistically with the velo
 The electron fraction column is only the initial value, because the network evolves $Y_e$ with its weak rates (Eq.~\ref{eq:dYe_network}).
 Figure~\ref{fig:trajectories_rho} shows $\rho(t)$ and Figure~\ref{fig:trajectories_T_Ye} the temperature and electron fraction for a sample of trajectories for each prescription.
 The temperature is recovered from the entropy, which evolves according to Eq.~\ref{eq:entropy_eq} (Sec.~\ref{sec:self_heating}).
-From Figure~\ref{fig:trajectories_T_Ye} we can find two important results.
-First, if the initial density is high enough the temperature will rise on time scale of seconds due to the self heating.
-Second, if the ejecta has low initial density, low electron fraction and high asymptotic velocity the synthesis will be mainly dominated by $\beta^{-}$ decay of free neutrons so the final $Ye$ will represent a ejecta with mostly hydrogen.
+From Figure~\ref{fig:trajectories_T_Ye} we can draw two important conclusions.
+First, if the initial density is high enough the temperature will rise on timescales of seconds due to self-heating.
+Second, if the ejecta have low initial density, low electron fraction and high asymptotic velocity the synthesis will be dominated by $\beta^{-}$ decay of free neutrons so the final $Y_e$ corresponds to ejecta composed mostly of hydrogen.
 Such conditions are rare in a real merger.
 
 
@@ -229,7 +228,7 @@ Final time & $4.32\times10^{7}\,\mathrm{s}$ (500 days) \\
 \end{table}
 
 The network contains 6757 nuclei.
-JINA Reaclib have 78\,910 rates of which 4861 are $\beta^-$ decays and 1439 are $\alpha$ decays and only 1041 and 256 of them are from experiments.
+JINA ReacLib has 78\,910 rates, of which 4861 are $\beta^-$ decays and 1439 are $\alpha$ decays; only 1041 and 256 of them, respectively, are from experiments.
 The remaining decay rates are theoretical.
 Fission is included in its three modes (Sec.~\ref{sec:fission}), with the fragment distribution of Panov et al.~\cite{panov_could_2001} in all calculations.
 
@@ -264,7 +263,7 @@ Zhou    & Zhou et al.~\cite{zhou_empirical_2017} & NMHF~\cite{sharma_new_2021} &
 \end{tabular}}
 \end{table}
 
-The theoretical $\beta^-$ rates from Reaclib come from the quasiparticle random-phase approximation on top of the finite-range droplet model (FRDM+QRPA)~\cite{moller_new_2003}.
+The theoretical $\beta^-$ rates from ReacLib come from the quasiparticle random-phase approximation on top of the finite-range droplet model (FRDM+QRPA)~\cite{moller_new_2003}.
 The $\alpha$ decays of the library are complemented with additional rates from the Viola--Seaborg formula~\cite{viola_nuclear_1966},
 \begin{equation}\label{eq:viola_seaborg}
   \log_{10}T_{1/2}=\frac{aZ+b}{\sqrt{Q_\alpha}}+cZ+d+h_{\log},
@@ -285,7 +284,7 @@ The formula of Tian et al.~\cite{tian_empirical_2025} adds the dependence of the
   \ln T_{1/2}=a_1-a_2\ln\left(Q_\beta+m_ec^2+a_3\delta\right)+S(Z,N)-a_8\ln\left(Ze^{-N/Z}+Ne^{-Z/N}+N-Z\right).
 \end{equation}
 In both cases $S(Z,N)$ is a shell correction, a sum of Gaussians in $Z$ and $N$ centred near the closed shells, and the parameters $a_k$ are fitted to the measured $\beta^-$ half-lives; their values are given in the original references.
-The $Q$-values were calculated as de difference of in the mass from the same table for the mass that the reaction network uses.
+The $Q$-values were calculated from the mass differences, using the same mass table as the reaction network.
 
 \paragraph{Empirical formula for $\alpha$ decay.}
 In the Tian and Zhou sets the theoretical $\alpha$-decay rates are given by the new modified Horoi formula (NMHF) of Sharma et al.~\cite{sharma_new_2021},
@@ -302,14 +301,12 @@ A constant decay rate is the special case of Eq.~\ref{eq:reaclib} in which only 
 \begin{equation}\label{eq:a0}
   a_0=\ln\left(\frac{\ln2}{T_{1/2}}\right),\qquad a_1=\dots=a_6=0 .
 \end{equation}
-For each formula we ev
-
-%%%%%%%%%%%%%%%%%  figures: coverage and comparison (Figs. 3 and 4 of the paper) aluate $T_{1/2}$ and write a library in ReacLib format in which the theoretical $\beta^-$ and $\alpha$ entries carry the coefficient of Eq.~\ref{eq:a0}, while the entries based on measurements and all other reactions are left untouched.
-For nuclei that the formula does not cover the original Reaclib rate was used.
-The additional $\alpha$ decay rates from Viola-Seaborg were used in all the sets as an alternative when NMHF can not be used.
+For each formula we evaluate $T_{1/2}$ and write a library in ReacLib format in which the theoretical $\beta^-$ and $\alpha$ entries carry the coefficient of Eq.~\ref{eq:a0}, while the entries based on measurements and all other reactions are left untouched.
+For nuclei that the formula does not cover the original ReacLib rate was used.
+The additional $\alpha$ decay rates from Viola--Seaborg were used in all the sets as an alternative when NMHF cannot be used.
 
 \paragraph{Validation and limitations.}
-Figure~\ref{fig:rate_coverage} shows the regions of the nuclear chart covered by the measurements, by ReacLib and by each formula\footnote{The figures uses an extra $\alpha$ decay prescription that we are no implementing here due to the fact that theoretical $\alpha$ decay rates far from stability do not contribute to the r-process.}, and Fig.~\ref{fig:rate_comparison} compares the formulae with the ReacLib rates and with experiment.
+Figure~\ref{fig:rate_coverage} shows the regions of the nuclear chart covered by the measurements, by ReacLib and by each formula\footnote{The figure uses an extra $\alpha$ decay prescription that we are not implementing here due to the fact that theoretical $\alpha$ decay rates far from stability do not contribute to the r-process.}, and Fig.~\ref{fig:rate_comparison} compares the formulae with the ReacLib rates and with experiment.
 The $\alpha$ formulae reproduce the measured half-lives well.
 For $\beta^-$ decay the formula of Tian et al.\ shows larger deviations from experiment than that of Zhou et al., which in turn covers a smaller region of the chart~\cite{hernandez_porras_features_2027}.
 An empirical formula has no information on the structure of individual nuclei beyond $Q_\beta$, $Z$ and $N$.

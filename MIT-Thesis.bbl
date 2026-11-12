@@ -35570,6 +35570,47 @@
       \verb http://link.springer.com/10.1007/s41114-019-0024-0
       \endverb
     \endentry
+    \entry{arnett_type_1982}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fd0eedebf97ae43e67d7d88bc9e7bf68}{%
+           family={Arnett},
+           familyi={A\bibinitperiod},
+           given={W.\bibnamedelimi D.},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP}%
+      }
+      \strng{namehash}{fd0eedebf97ae43e67d7d88bc9e7bf68}
+      \strng{fullhash}{fd0eedebf97ae43e67d7d88bc9e7bf68}
+      \strng{bibnamehash}{fd0eedebf97ae43e67d7d88bc9e7bf68}
+      \strng{authorbibnamehash}{fd0eedebf97ae43e67d7d88bc9e7bf68}
+      \strng{authornamehash}{fd0eedebf97ae43e67d7d88bc9e7bf68}
+      \strng{authorfullhash}{fd0eedebf97ae43e67d7d88bc9e7bf68}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0004-637X}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{month}{2}
+      \field{note}{ADS Bibcode: 1982ApJ...253..785A}
+      \field{title}{Type {I} supernovae. {I} - {Analytic} solutions for the early part of the light curve}
+      \field{volume}{253}
+      \field{year}{1982}
+      \field{pages}{785\bibrangedash 797}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1086/159681
+      \endverb
+      \verb{urlraw}
+      \verb https://ui.adsabs.harvard.edu/abs/1982ApJ...253..785A
+      \endverb
+      \verb{url}
+      \verb https://ui.adsabs.harvard.edu/abs/1982ApJ...253..785A
+      \endverb
+      \keyw{Astrophysics,Nuclear Fusion,Thermodynamics,Black Body Radiation,Gamma Rays,Light Curve,Photons,Radioactive Decay,Stellar Evolution,Stellar Luminosity,Stellar Models,Stellar Spectra,Stellar Temperature,Supernovae,Transparence}
+    \endentry
     \entry{kuske_complete_2025}{article}{}
       \name{author}{3}{}{%
         {{hash=fdead733a506250e7548cf3096629c9a}{%
@@ -36687,11 +36728,8 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{arnett_type_1982}
   \missing{bulla_critical_2023}
-  \missing{hotokezaka_radioactive_2020}
-  \missing{katz_exact_2013}
-  \missing{khatami_physics_2019}
+  \missing{hernandezporras_features_2027}
   \missing{perego_at_2017}
   \missing{pinto_physics_2000}
   \missing{pognan_validity_2022}

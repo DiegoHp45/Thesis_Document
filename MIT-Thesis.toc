@@ -48,42 +48,36 @@
 \contentsline {paragraph}{Temperature equation.}{39}{section*.14}%
 \contentsline {subsection}{\numberline {3.4.4}Decay chains}{40}{subsection.3.4.4}%
 \contentsline {chapter}{\numberline {4}Kilonova Light Curves}{42}{chapter.4}%
-\contentsline {section}{\numberline {4.1}The one-zone model}{42}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Assumptions and energy equation}{42}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Solution for an arbitrary heating rate}{44}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Properties of the solution}{45}{subsection.4.1.3}%
-\contentsline {paragraph}{Arnett's rule.}{45}{section*.15}%
-\contentsline {paragraph}{Early and late times.}{45}{section*.16}%
-\contentsline {paragraph}{Peak time and peak luminosity.}{45}{section*.17}%
-\contentsline {paragraph}{Katz integral.}{46}{section*.18}%
-\contentsline {paragraph}{Effective temperature.}{46}{section*.19}%
-\contentsline {section}{\numberline {4.2}The deposited heating rate}{46}{section.4.2}%
-\contentsline {paragraph}{Gamma rays.}{46}{section*.20}%
-\contentsline {paragraph}{Charged particles.}{47}{section*.21}%
-\contentsline {paragraph}{Net efficiency.}{47}{section*.22}%
-\contentsline {paragraph}{Consequence for the decay channels.}{47}{section*.23}%
-\contentsline {section}{\numberline {4.3}Opacity}{47}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Beyond one zone: the \texttt {xkn} diffusion model}{48}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Optically thick ejecta: diffusion in a uniform sphere}{48}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Photosphere and optically thin layers}{49}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Multi-component, anisotropic ejecta}{50}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Broadband light curves}{50}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Limits of semi-analytic models}{50}{section.4.5}%
+\contentsline {section}{\numberline {4.1}The modified Li--Paczy\'nski model}{42}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Assumptions and energy equation}{43}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Bolometric luminosity}{43}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}The optical depth problem and late times}{44}{subsection.4.1.3}%
+\contentsline {paragraph}{Late-time limit.}{45}{section*.15}%
+\contentsline {subsection}{\numberline {4.1.4}Heat generation rates}{45}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}Thermalization efficiencies}{46}{subsection.4.1.5}%
+\contentsline {paragraph}{Consequence for the decay channels.}{47}{section*.16}%
+\contentsline {section}{\numberline {4.2}Opacity}{47}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Beyond one zone: the \texttt {xkn} diffusion model}{47}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Optically thick ejecta: diffusion in a uniform sphere}{47}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Photosphere and optically thin layers}{48}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Multi-component, anisotropic ejecta}{49}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Broadband light curves}{50}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4.4}Limits of semi-analytic models}{50}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Methods: decay-rate prescriptions across an ensemble of thermodynamic trajectories}{52}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Parametric thermodynamic trajectories}{52}{section.5.1}%
 \contentsline {subsection}{\numberline {5.1.1}Parametrization of the expansion}{53}{subsection.5.1.1}%
 \contentsline {subsection}{\numberline {5.1.2}Initial density from the entropy}{53}{subsection.5.1.2}%
-\contentsline {paragraph}{Ions.}{54}{section*.24}%
-\contentsline {paragraph}{Electrons, positrons and photons.}{54}{section*.25}%
-\contentsline {paragraph}{Solution.}{54}{section*.26}%
+\contentsline {paragraph}{Ions.}{54}{section*.17}%
+\contentsline {paragraph}{Electrons, positrons and photons.}{54}{section*.18}%
+\contentsline {paragraph}{Solution.}{54}{section*.19}%
 \contentsline {subsection}{\numberline {5.1.3}Sampling of the parameter space}{55}{subsection.5.1.3}%
 \contentsline {subsection}{\numberline {5.1.4}Trajectory files and starting point of the network}{56}{subsection.5.1.4}%
 \contentsline {section}{\numberline {5.2}Nuclear reaction network configuration}{57}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}Decay-rate prescriptions}{58}{subsection.5.2.1}%
-\contentsline {paragraph}{Empirical formulae for $\beta ^-$ decay.}{59}{section*.27}%
-\contentsline {paragraph}{Empirical formula for $\alpha $ decay.}{59}{section*.28}%
-\contentsline {paragraph}{Implementation.}{59}{section*.29}%
-\contentsline {paragraph}{Validation and limitations.}{60}{section*.30}%
+\contentsline {paragraph}{Empirical formulae for $\beta ^-$ decay.}{59}{section*.20}%
+\contentsline {paragraph}{Empirical formula for $\alpha $ decay.}{59}{section*.21}%
+\contentsline {paragraph}{Implementation.}{59}{section*.22}%
+\contentsline {paragraph}{Validation and limitations.}{60}{section*.23}%
 \contentsline {subsection}{\numberline {5.2.2}Campaign design and execution}{60}{subsection.5.2.2}%
 \contentsline {chapter}{\numberline {6}Results}{64}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Nucleosynthesis and heating rates}{64}{section.6.1}%
@@ -99,4 +93,4 @@
 \contentsline {section}{\numberline {B.1}Ideal non-degenerate gas of particles with internal structure}{69}{section.B.1}%
 \contentsline {section}{\numberline {B.2}The Saha equation for number densities}{70}{section.B.2}%
 \contentsline {section}{\numberline {B.3}From number densities to abundances}{71}{section.B.3}%
-\contentsline {backmatter}{References}{72}{appendix*.31}%
+\contentsline {backmatter}{References}{72}{appendix*.24}%

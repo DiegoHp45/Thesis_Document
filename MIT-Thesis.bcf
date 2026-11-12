@@ -2508,41 +2508,37 @@
     <bcf:citekey order="109" intorder="1">wu_fingerprints_2019</bcf:citekey>
     <bcf:citekey order="110" intorder="1">wu_fingerprints_2019</bcf:citekey>
     <bcf:citekey order="110" intorder="2">chen_radioactive_2023</bcf:citekey>
-    <bcf:citekey order="111" intorder="1">metzger_kilonovae_2020</bcf:citekey>
-    <bcf:citekey order="111" intorder="2">rosswog_heavy_2024</bcf:citekey>
-    <bcf:citekey order="112" intorder="1">li_transient_1998</bcf:citekey>
-    <bcf:citekey order="113" intorder="1">arnett_type_1982</bcf:citekey>
-    <bcf:citekey order="113" intorder="2">khatami_physics_2019</bcf:citekey>
-    <bcf:citekey order="114" intorder="1">arnett_type_1982</bcf:citekey>
-    <bcf:citekey order="114" intorder="2">khatami_physics_2019</bcf:citekey>
-    <bcf:citekey order="115" intorder="1">katz_exact_2013</bcf:citekey>
-    <bcf:citekey order="116" intorder="1">hotokezaka_radioactive_2020</bcf:citekey>
-    <bcf:citekey order="117" intorder="1">barnes_radioactivity_2016</bcf:citekey>
-    <bcf:citekey order="117" intorder="2">hotokezaka_radioactive_2016</bcf:citekey>
-    <bcf:citekey order="118" intorder="1">hotokezaka_radioactive_2016</bcf:citekey>
-    <bcf:citekey order="118" intorder="2">barnes_radioactivity_2016</bcf:citekey>
-    <bcf:citekey order="119" intorder="1">barnes_radioactivity_2016</bcf:citekey>
-    <bcf:citekey order="120" intorder="1">kasen_radioactive_2019</bcf:citekey>
-    <bcf:citekey order="121" intorder="1">barnes_radioactivity_2016</bcf:citekey>
-    <bcf:citekey order="122" intorder="1">kasen_opacities_2013</bcf:citekey>
-    <bcf:citekey order="122" intorder="2">tanaka_radiative_2013</bcf:citekey>
-    <bcf:citekey order="123" intorder="1">tanaka_systematic_2020</bcf:citekey>
-    <bcf:citekey order="124" intorder="1">villar_combined_2017</bcf:citekey>
+    <bcf:citekey order="111" intorder="1">hernandez_porras_features_2027</bcf:citekey>
+    <bcf:citekey order="112" intorder="1">metzger_kilonovae_2020</bcf:citekey>
+    <bcf:citekey order="112" intorder="2">rosswog_heavy_2024</bcf:citekey>
+    <bcf:citekey order="113" intorder="1">li_transient_1998</bcf:citekey>
+    <bcf:citekey order="114" intorder="1">hernandez_porras_features_2027</bcf:citekey>
+    <bcf:citekey order="115" intorder="1">li_transient_1998</bcf:citekey>
+    <bcf:citekey order="116" intorder="1">arnett_type_1982</bcf:citekey>
+    <bcf:citekey order="117" intorder="1">hernandez_porras_features_2027</bcf:citekey>
+    <bcf:citekey order="118" intorder="1">kasen_radioactive_2019</bcf:citekey>
+    <bcf:citekey order="119" intorder="1">kasen_radioactive_2019</bcf:citekey>
+    <bcf:citekey order="120" intorder="1">kasen_opacities_2013</bcf:citekey>
+    <bcf:citekey order="120" intorder="2">tanaka_radiative_2013</bcf:citekey>
+    <bcf:citekey order="121" intorder="1">tanaka_systematic_2020</bcf:citekey>
+    <bcf:citekey order="122" intorder="1">villar_combined_2017</bcf:citekey>
+    <bcf:citekey order="123" intorder="1">ricigliano_xkn_2024</bcf:citekey>
+    <bcf:citekey order="124" intorder="1">pinto_physics_2000</bcf:citekey>
+    <bcf:citekey order="124" intorder="2">wollaeger_impact_2018</bcf:citekey>
     <bcf:citekey order="125" intorder="1">ricigliano_xkn_2024</bcf:citekey>
-    <bcf:citekey order="126" intorder="1">pinto_physics_2000</bcf:citekey>
-    <bcf:citekey order="126" intorder="2">wollaeger_impact_2018</bcf:citekey>
+    <bcf:citekey order="126" intorder="1">wollaeger_impact_2018</bcf:citekey>
     <bcf:citekey order="127" intorder="1">ricigliano_xkn_2024</bcf:citekey>
-    <bcf:citekey order="128" intorder="1">wollaeger_impact_2018</bcf:citekey>
-    <bcf:citekey order="129" intorder="1">ricigliano_xkn_2024</bcf:citekey>
-    <bcf:citekey order="130" intorder="1">perego_at_2017</bcf:citekey>
-    <bcf:citekey order="130" intorder="2">ricigliano_xkn_2024</bcf:citekey>
-    <bcf:citekey order="131" intorder="1">wollaeger_impact_2018</bcf:citekey>
-    <bcf:citekey order="131" intorder="2">bulla_critical_2023</bcf:citekey>
-    <bcf:citekey order="131" intorder="3">shingles_self-consistent_2023</bcf:citekey>
-    <bcf:citekey order="132" intorder="1">ricigliano_xkn_2024</bcf:citekey>
-    <bcf:citekey order="133" intorder="1">kasen_opacities_2013</bcf:citekey>
-    <bcf:citekey order="133" intorder="2">shingles_self-consistent_2023</bcf:citekey>
-    <bcf:citekey order="134" intorder="1">pognan_validity_2022</bcf:citekey>
+    <bcf:citekey order="128" intorder="1">barnes_radioactivity_2016</bcf:citekey>
+    <bcf:citekey order="129" intorder="1">perego_at_2017</bcf:citekey>
+    <bcf:citekey order="129" intorder="2">ricigliano_xkn_2024</bcf:citekey>
+    <bcf:citekey order="130" intorder="1">wollaeger_impact_2018</bcf:citekey>
+    <bcf:citekey order="130" intorder="2">bulla_critical_2023</bcf:citekey>
+    <bcf:citekey order="130" intorder="3">shingles_self-consistent_2023</bcf:citekey>
+    <bcf:citekey order="131" intorder="1">ricigliano_xkn_2024</bcf:citekey>
+    <bcf:citekey order="132" intorder="1">kasen_opacities_2013</bcf:citekey>
+    <bcf:citekey order="132" intorder="2">shingles_self-consistent_2023</bcf:citekey>
+    <bcf:citekey order="133" intorder="1">pognan_validity_2022</bcf:citekey>
+    <bcf:citekey order="134" intorder="1">hernandezporras_features_2027</bcf:citekey>
     <bcf:citekey order="135" intorder="1">reichert_nuclear_2023</bcf:citekey>
     <bcf:citekey order="136" intorder="1">hernandez_porras_features_2027</bcf:citekey>
     <bcf:citekey order="137" intorder="1">hernandez_porras_features_2027</bcf:citekey>
