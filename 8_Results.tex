@@ -1,15 +1,14 @@
 \newcommand{\TODO}[1]{\textbf{[TODO: #1]}}
 \chapter{Results: Effective heating rates, relevant nuclei and bolometric luminosities}\label{Results}
-\section{Nucleosynthesis and heating rates}\label{sec:res_nucleo}
 
-This section presents the radioactive heating of the 512 trajectories for the three rate sets of Table~\ref{tab:rate_sets}.
+This chapter presents the radioactive heating of the 512 trajectories for the three rate sets of Table~\ref{tab:rate_sets} with the identification of the relevant nuclei and the corresponding bolometric luminosity.
 The effective heating rates $\dot\varepsilon_x(t)$ of the channels $x\in\{\beta^-,\alpha,\mathrm{fis}\}$ include the thermalization efficiencies of Sec.~\ref{sec:partition}, evaluated for all trajectories with an ejecta mass $M_{\rm ej}=0.05\,M_\odot$ and a velocity corresponding to the trajectory.
 
 The Tian and Zhou sets share the $\alpha$-decay rates and differ only in the $\beta^-$ rates, whereas the ReacLib set differs from both in the two (Sec.~\ref{sec:methods_rates}).
 We therefore attribute to the $\beta^-$ rates the differences between Tian and Zhou, and to the decay-rate prescription as a whole the differences between ReacLib and the other two sets.
 
 %------------------------------------------------------------------------------------------
-\subsection{Heating regimes across the parameter space}\label{sec:res_classes}
+\section{Heating regimes across the parameter space}\label{sec:res_classes}
 %------------------------------------------------------------------------------------------
 
 The first result we will show here is Fig.~\ref{fig:heating}.
@@ -17,7 +16,7 @@ That figure present the average and the distribution of the effective heating ra
 The results clearly suggest that there is no much difference between prescriptions, which is true if we look the whole ensemble.
 However, such big spreads, as we will show, hide interesting results.
 
-\begin{figure}[t]
+\begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{Figures/heating_bands_sets_therm.png}
   \caption{Average and spread of the total effective heating rate across the whole 512 ensemble per prescription.}
@@ -25,137 +24,79 @@ However, such big spreads, as we will show, hide interesting results.
 \end{figure}
 
 Since the effective heating is the sum of the contribution from $\alpha$, $\beta^{-}$ decay and fission\footnote{The effective heating rate from fission is taken directly from the main output of WinNet.} we can find the ratios for each channel.
-Figure.~\ref{fig:heating_chanels} show exactly that and from that we can see some behavior of the prescription Zhou. 
-It do not produce that much heating from fission. 
-In addition, the spread is quite large for the ratios, that suggest that some trajectories favors some decay channels.
-We saw a little of that in Chapter.~\ref{ch:methods} when we saw the $Y_e$ as a function of time for some trajectories.
+Figure.~\ref{fig:heating_chanels} show such distinction between decay modes and from that we can see that the spread is quite large for the ratios.
+That suggest that some trajectories favors some decay channels.
+We saw that behavior in Chapter.~\ref{ch:methods} when we saw the $Y_e$ as a function of time for some trajectories.
 Low electron fraction with very high velocities favor the free neutrons instead of heavy nuclei and therefore the $\beta^{-}$ of such neutrons. 
+We therefore grouped the trajectories by the similarity\footnote{The classification uses ward hierarchical clustering.} of the time dependence of their ratios $\dot\varepsilon_x/\dot\varepsilon_{total}$, which gives the five classes of Table~\ref{tab:res_classes}.
+Figure~\ref{fig:res_class_map} shows where they lie in the parameter space.
 
 
-\begin{figure}[t]
+\begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{Figures/heating_channels_sets_therm.png}
   \caption{Average and spread of the total, $\alpha$,$\beta$ and fission effective heating rate across the whole 512 ensemble per prescription.}
   \label{fig:heating_chanels}
 \end{figure}
 
-We therefore grouped the trajectories by the similarity\footnote{The classification uses ward hierarchical clustering.} of the time dependence of their ratios $\dot\varepsilon_p/\dot\varepsilon_{total}$, which gives the six classes of Table~\ref{tab:res_classes}.
-Figure~\ref{fig:res_class_map} shows where they lie in the parameter space.
 
-\begin{table}[t]
-\caption{Classes of trajectories. For each parameter the median and, in brackets, the 16th and 84th percentiles over the class are given. The last column gives the number of trajectories in the three regions defined by $Y_{e,0}=0.21$ and $v_\infty=0.22\,c$: $Y_{e,0}\geq0.21$\,/\,$Y_{e,0}<0.21$ and $v_\infty<0.22\,c$\,/\,$Y_{e,0}<0.21$ and $v_\infty\geq0.22\,c$.\label{tab:res_classes}}\vspace{0.25em}
+
+\begin{table}[H]
+\caption{Classes of trajectories. For each parameter the median and, in brackets, the 16th and 84th percentiles over the class are given.\label{tab:res_classes}}\vspace{0.25em}
 \centering{\footnotesize
 \begin{tabular}{@{}cr@{\hspace{0.8em}}ccccc@{\hspace{0.8em}}c@{}}
 \toprule
-Class & $N$ & $Y_{e,0}$ & $s_0\ [k_B]$ & $v_\infty/c$ & $\tau\ [\mathrm{ms}]$ & $\log_{10}\rho_0\ [\mathrm{g\,cm^{-3}}]$ & Regions \\
+Class & $N$ & $Y_{e,0}$ & $s_0\ [k_B]$ & $v_\infty/c$ \\
 \midrule
-1 & 252 & $0.32\,[0.25, 0.39]$ & $22\,[8, 39]$ & $0.26\,[0.09, 0.42]$ & $0.58\,[0.36, 1.64]$ & $7.4\,[7.1, 8.4]$ & 243/2/7 \\
-2 & 87 & $0.12\,[0.07, 0.16]$ & $17\,[5, 35]$ & $0.14\,[0.05, 0.31]$ & $1.10\,[0.49, 2.94]$ & $7.7\,[7.2, 9.9]$ & 2/62/23 \\
-3 & 68 & $0.10\,[0.06, 0.16]$ & $37\,[26, 46]$ & $0.38\,[0.27, 0.45]$ & $0.40\,[0.34, 0.57]$ & $7.1\,[7.0, 7.4]$ & 1/5/62 \\
-4 & 47 & $0.13\,[0.07, 0.18]$ & $29\,[17, 42]$ & $0.25\,[0.16, 0.36]$ & $0.61\,[0.42, 0.97]$ & $7.3\,[7.0, 7.7]$ & 3/18/26 \\
-5 & 46 & $0.21\,[0.18, 0.25]$ & $21\,[5, 40]$ & $0.17\,[0.04, 0.33]$ & $0.90\,[0.46, 3.42]$ & $7.5\,[7.1, 9.4]$ & 22/13/11 \\
-6 & 12 & $0.32\,[0.31, 0.33]$ & $37\,[29, 42]$ & $0.34\,[0.18, 0.45]$ & $0.45\,[0.34, 0.88]$ & $7.1\,[7.0, 7.2]$ & 12/0/0 \\
+1 & 252 & $0.32\,[0.25, 0.39]$ & $22\,[8, 39]$ & $0.26\,[0.09, 0.42]$ \\
+2 & 87 & $0.12\,[0.07, 0.16]$ & $17\,[5, 35]$ & $0.14\,[0.05, 0.31]$ \\
+3 & 68 & $0.10\,[0.06, 0.16]$ & $37\,[26, 46]$ & $0.38\,[0.27, 0.45]$ \\
+4 & 47 & $0.13\,[0.07, 0.18]$ & $29\,[17, 42]$ & $0.25\,[0.16, 0.36]$ \\
+5 & 46 & $0.21\,[0.18, 0.25]$ & $21\,[5, 40]$ & $0.17\,[0.04, 0.33]$ \\
 \bottomrule
 \end{tabular}}
 \end{table}
 
 %%%%%%%%%%%%%%%%%  figure: class map  %%%%%%%%%%%%%%%%%
-\begin{figure}[t]
+\begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{Figures/ratio_classes_map.png}
-  \caption{Projections of the ensemble on the coordinate planes of the parameter space, coloured by class. The dashed lines mark $Y_{e,0}=0.21$ and $v_\infty=0.22\,c$ ($\tau\simeq0.69\,\mathrm{ms}$).}
+  \caption{Projections of the ensemble on the coordinate planes of the parameter space, coloured by class. The dashed lines mark $Y_{e,0}=0.21$ and $v_\infty=0.22\,c$.}
   \label{fig:res_class_map}
 \end{figure}
 
 The classes are organized mainly by the electron fraction and, below it, by the expansion.
 Class~1 contains half of the box.
 Of its 252 trajectories, 243 have $Y_{e,0}\geq0.21$, but it extends down to $Y_{e,0}=0.16$ for intermediate entropies and fast expansions, so $Y_{e,0}$ alone does not decide whether a trajectory is insensitive to the decay rates.
-Class~6 occupies a small corner of the same region, $Y_{e,0}=0.28$--$0.34$ with $s_0\geq23$, this class had a problem with with the evolution and do not mean anything physical.
-Classes~2, 4 and~3 contain the neutron-rich trajectories, $Y_{e,0}\lesssim0.22$, and they follow each other along the direction of increasing entropy and decreasing expansion timescale: the medians are $(s_0,\tau)=(17,1.1\,\mathrm{ms})$, $(29,0.61\,\mathrm{ms})$ and $(37,0.40\,\mathrm{ms})$, respectively.
+Classes~2, 4 and~3 contain the neutron-rich trajectories, $Y_{e,0}\lesssim0.22$, and they follow each other along the direction of increasing entropy and decreasing expansion timescale.
 This is the direction in which the number of seeds decreases (Eq.~\ref{eq:seed_scaling}) and in which the time available for the flow of matter through the closed shells becomes shorter.
 Class~5 straddles $Y_{e,0}\approx0.21$.
-
-Two cuts, $Y_{e,0}=0.21$ and $v_\infty=0.22\,c$, reproduce the location of the three large classes: they contain 96\% of class~1, 71\% of class~2 and 91\% of class~3 (last column of Table~\ref{tab:res_classes}).
-Classes~4 and~5 lie across the cuts and are the transitions between these regimes.
-
-%%%%%%%%%%%%%%%%%  figure: ratios per class  %%%%%%%%%%%%%%%%%
-
-
-%------------------------------------------------------------------------------------------
-\subsection{Energy budget of each class}\label{sec:res_budget}
-%------------------------------------------------------------------------------------------
-
-Table~\ref{tab:res_budget} gives the released energy of each class and its division among the decay channels, and Fig.~\ref{fig:res_fractions} the time evolution of the channel fractions of the effective heating rate.
-We discuss the classes in the order of the parameter space rather than of their number.
-
-\begin{table}[t]
-\caption{Released energy between 1 and 500 days, Eq.~\ref{eq:res_budget}, class mean, in units of $10^{15}\,\mathrm{erg\,g^{-1}}$, its percentage in each channel, and its ratio to the ReacLib value of the same class. Values as computed; see the text for the corrections to the Tian set of class~1 and to class~6.\label{tab:res_budget}}\vspace{0.25em}
-\centering{\small
-\begin{tabular}{@{}clrrrrr@{}}
-\toprule
-Class & Set & $E$ & $\beta^-$ [\%] & $\alpha$ [\%] & fission [\%] & $E/E_{\rm ReacLib}$ \\
-\midrule
-1 & ReacLib & 2.31 & 100.0 & 0.0 & 0.0 & 1.00 \\
- & Tian & 2.76$^a$ & 99.8 & 0.1 & 0.0 & 1.19 \\
- & Zhou & 1.82 & 99.8 & 0.2 & 0.0 & 0.79 \\
-\midrule
-6 & ReacLib & 1.10$^b$ & 100.0 & 0.0 & 0.0 & 1.00 \\
- & Tian & 0.58$^b$ & 100.0 & 0.0 & 0.0 & 0.53 \\
- & Zhou & 0.65$^b$ & 100.0 & 0.0 & 0.0 & 0.59 \\
-\midrule
-5 & ReacLib & 2.68 & 88.1 & 7.6 & 4.4 & 1.00 \\
- & Tian & 2.28 & 94.1 & 5.1 & 0.8 & 0.85 \\
- & Zhou & 2.05 & 97.0 & 3.0 & 0.0 & 0.76 \\
-\midrule
-2 & ReacLib & 3.00 & 61.7 & 15.1 & 23.2 & 1.00 \\
- & Tian & 4.05 & 44.7 & 21.7 & 33.6 & 1.35 \\
- & Zhou & 2.06 & 71.5 & 28.2 & 0.3 & 0.69 \\
-\midrule
-4 & ReacLib & 2.69 & 97.8 & 2.2 & 0.0 & 1.00 \\
- & Tian & 2.66 & 65.2 & 16.8 & 18.0 & 0.99 \\
- & Zhou & 1.84 & 75.3 & 24.5 & 0.2 & 0.68 \\
-\midrule
-3 & ReacLib & 1.79 & 98.4 & 1.6 & 0.0 & 1.00 \\
- & Tian & 2.90 & 90.7 & 9.3 & 0.0 & 1.62 \\
- & Zhou & 3.06 & 89.0 & 11.0 & 0.0 & 1.71 \\
-\bottomrule
-\end{tabular}\\[2pt]
-\parbox{0.62\textwidth}{\footnotesize $^a$ Includes $0.83$ from ${}^{48}$Sc and ${}^{96}$Nb, fed by the spurious decays of ${}^{48}$Ca and ${}^{96}$Zr.\\
-$^b$ Net of negative terms from ${}^{123}$Sn and ${}^{125}$Sn: $-21$, $-41$ and $-39\%$ of the positive $\beta^-$ energy.}}
-\end{table}
-
-%%%%%%%%%%%%%%%%%  figure: channel fractions  %%%%%%%%%%%%%%%%%
-
+Even though we have five classes with two cuts, $Y_{e,0}=0.21$ and $v_\infty=0.22\,c$, we can reproduce the location of three large classes that contain the relevant physics conditions.
+High electron fraction and low electron fraction with high velocity or low velocity.  
+From those groups we can find the average and the ratios for each prescription.
+Let us analyze the results class by class.
 
 \paragraph{Class 1: $\beta^-$ heating at high electron fraction.}
-In all three sets the heating is $\beta^-$ decay: the $\alpha$ channel carries at most $0.2\%$ of the released energy and fission none.
-The leading heaters are the isobars of the second peak, $A=131$--$133$ (mainly ${}^{132}$Te$\to{}^{132}$I), together with $A=127$, 95, 106, 103 and 72 (Table~\ref{tab:res_chains}).
-The released energy nevertheless differs between the sets.
-Tian exceeds ReacLib by $19\%$, but $30\%$ of its $\beta^-$ energy comes from ${}^{48}$Sc ($T_{1/2}=1.82\,\mathrm{d}$) and ${}^{96}$Nb ($23.4\,\mathrm{h}$).
-These nuclei are shielded: they can be fed only by the $\beta^-$ decays of ${}^{48}$Ca and ${}^{96}$Zr, which are stable against single $\beta$ decay but receive a finite half-life from the Tian formula (Sec.~\ref{sec:methods_rates}).
-In ReacLib and Zhou they are not among the leading contributors.
-Without them the Tian set releases $1.92\times10^{15}\,\mathrm{erg\,g^{-1}}$, about $5\%$ above Zhou.
-Both empirical sets then lie about $20\%$ below ReacLib, and the difference is carried almost entirely by the $A=131$--$133$ isobars, which release $0.79\times10^{15}\,\mathrm{erg\,g^{-1}}$ in ReacLib against $0.35$ and $0.33$ in Tian and Zhou.
-Since these isobars cannot be reached by $\alpha$ decay and fission is absent, the difference is an effect of the $\beta^-$ rates.
-Class~1 is therefore the least sensitive class, but not an insensitive one: at the 20\% level the second-peak abundance depends on the $\beta^-$ rates of the nuclei near $N=82$ through which it is built (Sec.~\ref{sec:rpath}).
+In all three sets the heating is dominated by$\beta^-$ decay.
+The leading heaters are the isobars of the second peak, $A=131$--$133$ (mainly ${}^{132}$Te$\to{}^{132}$I), together with $A=127$, 95, 106, 103 and 72.
+Since these isobars cannot be reached by $\alpha$ decay and fission is absent, the difference between prescriptions is an effect of the $\beta^-$ rates.
+At the same time Fig.~\ref{fig:class_1_epsilon_ratios_prep} shows that Tian prescription has a peak compared with Reaclib and Zhou.
+The peak is consequence of Tian rates populating species that was previously un reachable.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Figures/heating_channels_sets_therm_class1.pdf}
+  \caption{Average and spread of the total, $\alpha$,$\beta$ and fission effective heating rate per prescription across trajectories from class 1.}
+  \label{fig:class_1_epsilon_ratios}
+\end{figure}
 
-\paragraph{Class 6: matter below the second peak.}
-The 12 trajectories of class~6 combine $Y_{e,0}\approx0.32$ with high entropy ($s_0\gtrsim23$) and initial densities among the lowest of the ensemble.
-The r-process stops just below the second peak: the heating is $\beta^-$ decay of $A=125$--$128$ (${}^{127}$Sb, ${}^{125}$Sb, ${}^{128}$Sb, ${}^{127}$Te), and the $\alpha$ channel carries less than $0.05\%$ of the energy in all three sets.
-The net released energy of the empirical sets is about half that of ReacLib (Table~\ref{tab:res_budget}), but this ratio is dominated by a defect of the neutrino losses.
-For ${}^{123}$Sn and ${}^{125}$Sn the tabulated mean neutrino energy exceeds the $Q$-value used for the heating, so their net heating is negative.
-It amounts to $-21\%$ of the positive $\beta^-$ energy in ReacLib and to $-41\%$ and $-39\%$ in Tian and Zhou.
-Without the negative terms the empirical sets release $0.99$ and $1.06\times10^{15}\,\mathrm{erg\,g^{-1}}$ against $1.40$ in ReacLib, that is, 25--30\% less, with the deficit at $A=125$--$128$.
-\TODO{Recompute with $\chi_\nu=0.4$ for the nuclei with $\langle E_\nu\rangle>Q$ and check whether class~6 remains distinct from class~1.}
-
-\paragraph{Class 5: the boundary.}
-Class~5 lies on $Y_{e,0}\approx0.21$ and spans the full range of entropies and velocities.
-It is the only class in which ReacLib produces more actinides than both empirical sets: fission carries $4.4\%$ of the ReacLib energy against $0.8\%$ in Tian and none in Zhou, and $\alpha$ decay $7.6\%$ against $5.1\%$ and $3.0\%$.
-ReacLib also releases 1.6 times more energy in the $A=131$--$133$ isobars.
-Tian and Zhou differ by $12\%$ in the total and agree within $3\%$ in the $A=131$--$133$ isobars.
-
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Figures/heating_ratios_sets_therm_class1.png}
+  \caption{Average and spread of the  ratio of the effective heating rate between prescriptions across trajectories from class 1.}
+  \label{fig:class_1_epsilon_ratios_prep}
+\end{figure}
 \paragraph{Class 2: fission cycling in slow ejecta.}
-Class~2 is the slowest class (median $v_\infty=0.14\,c$, $\tau=1.1\,\mathrm{ms}$) and contains the most neutron-rich trajectories (median $Y_{e,0}=0.12$), the regime of fission cycling (Sec.~\ref{sec:fission}).
+Class~2 is the slowest class (median $v_\infty=0.14\,c$) and contains the most neutron-rich trajectories (median $Y_{e,0}=0.12$), the regime of fission cycling (Sec.~\ref{sec:fission}).
 It shows the largest spread of released energy: $4.05$, $3.00$ and $2.06\times10^{15}\,\mathrm{erg\,g^{-1}}$ for Tian, ReacLib and Zhou.
 Of the factor of two between Tian and Zhou, $1.35\times10^{15}\,\mathrm{erg\,g^{-1}}$ is fission.
 Fission carries a third of the Tian energy and a quarter of the ReacLib energy, but only $0.3\%$ of the Zhou energy.
@@ -165,13 +106,18 @@ The $A\geq240$ material thus releases its energy mainly by spontaneous fission, 
 Since Tian and Zhou share the $\alpha$ rates, the absence of late-time fission in Zhou is an effect of the $\beta^-$ rates.
 From \TODO{$t\approx$ X d} the fission and $\alpha$ channels together exceed the $\beta^-$ channel in ReacLib and Tian (Fig.~\ref{fig:res_fractions}).
 
-\paragraph{Class 4: three prescriptions, three channels.}
-Class~4 lies between classes~2 and~3 (median $s_0=29$, $v_\infty=0.25\,c$), and here each set heats through a different combination of channels.
-ReacLib heats almost only by $\beta^-$ decay, half of it in the isobar $A=202$ (${}^{202}$Pt$\to{}^{202}$Au) on the high-mass side of the third peak.
-Tian adds fission ($18\%$) and $\alpha$ decay ($17\%$, including ${}^{253}$Es), and Zhou adds $\alpha$ decay alone ($25\%$), carried by the odd-$A$ series.
-The $A=202$--$203$ isobars release $1.41\times10^{15}\,\mathrm{erg\,g^{-1}}$ in ReacLib against $0.23$ and $0.07$ in Tian and Zhou.
-The totals of ReacLib and Tian agree within $1\%$, but this agreement is a compensation between channels.
-After thermalization the $\alpha$ and fission channels weigh more than the $\beta^-$ channel (Sec.~\ref{sec:therm_channels}), which is why class~4 separates in the effective heating rates.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Figures/heating_channels_sets_therm_class2.pdf}
+  \caption{Average and spread of the total, $\alpha$,$\beta$ and fission effective heating rate per prescription across trajectories from class 2.}
+  \label{fig:class_2_epsilon_ratios}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Figures/heating_ratios_sets_therm_class2.png}
+  \caption{Average and spread of the  ratio of the effective heating rate between prescriptions across trajectories from class 2.}
+  \label{fig:class_2_epsilon_ratios_prep}
+\end{figure}
 
 \paragraph{Class 3: fast, high-entropy, neutron-rich ejecta.}
 Class~3 collects the fastest (median $v_\infty=0.38\,c$, $\tau=0.40\,\mathrm{ms}$) and highest-entropy ($s_0\geq13$, median 37) neutron-rich trajectories, which also have the lowest initial densities.
@@ -182,9 +128,41 @@ The $\alpha$ channel, mainly the $4n$ series headed by ${}^{224}$Ra, releases $0
 The isobars $A=202$--$203$ release $1.00$ in ReacLib against $0.88$ and $0.42$.
 The isobars $A=131$--$133$ release $0.62$ in ReacLib against $1.51$ and $1.96$.
 Tian and Zhou agree in the $\alpha$ channel but not in the third or second peak.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Figures/heating_channels_sets_therm_class3.pdf}
+  \caption{Average and spread of the total, $\alpha$,$\beta$ and fission effective heating rate per prescription across trajectories from class 3.}
+  \label{fig:class_3_epsilon_ratios}
+\end{figure}
+%--------------------------------------------------------------------
+\paragraph{Class 4: three prescriptions, three channels.}
+Class~4 lies between classes~2 and~3 (median $s_0=29$, $v_\infty=0.25\,c$), and here each set heats through a different combination of channels.
+ReacLib heats almost only by $\beta^-$ decay, half of it in the isobar $A=202$ (${}^{202}$Pt$\to{}^{202}$Au) on the high-mass side of the third peak.
+Tian adds fission ($18\%$) and $\alpha$ decay ($17\%$, including ${}^{253}$Es), and Zhou adds $\alpha$ decay alone ($25\%$), carried by the odd-$A$ series.
+The $A=202$--$203$ isobars release $1.41\times10^{15}\,\mathrm{erg\,g^{-1}}$ in ReacLib against $0.23$ and $0.07$ in Tian and Zhou.
+The totals of ReacLib and Tian agree within $1\%$, but this agreement is a compensation between channels.
+After thermalization the $\alpha$ and fission channels weigh more than the $\beta^-$ channel (Sec.~\ref{sec:therm_channels}), which is why class~4 separates in the effective heating rates.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Figures/heating_channels_sets_therm_class4.pdf}
+  \caption{Average and spread of the total, $\alpha$,$\beta$ and fission effective heating rate per prescription across trajectories from class 4.}
+  \label{fig:class_4_epsilon_ratios}
+\end{figure}
 
-%------------------------------------------------------------------------------------------
-\subsection{Relevant nuclei and decay chains}\label{sec:res_nuclei}
+
+\paragraph{Class 5: the boundary.}
+Class~5 lies on $Y_{e,0}\approx0.21$ and spans the full range of entropies and velocities.
+It is the only class in which ReacLib produces more actinides than both empirical sets: fission carries $4.4\%$ of the ReacLib energy against $0.8\%$ in Tian and none in Zhou, and $\alpha$ decay $7.6\%$ against $5.1\%$ and $3.0\%$.
+ReacLib also releases 1.6 times more energy in the $A=131$--$133$ isobars.
+Tian and Zhou differ by $12\%$ in the total and agree within $3\%$ in the $A=131$--$133$ isobars.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Figures/heating_channels_sets_therm_class5.pdf}
+  \caption{Average and spread of the total, $\alpha$,$\beta$ and fission effective heating rate per prescription across trajectories from class 5.}
+  \label{fig:class_5_epsilon_ratios}
+\end{figure}
+----------------------
+\section{Relevant nuclei and decay chains}\label{sec:res_nuclei}
 %------------------------------------------------------------------------------------------
 
 Table~\ref{tab:res_chains} groups the ten leading contributors of each channel, class and set.
@@ -194,41 +172,6 @@ In this way the energy of a short-lived member in equilibrium with its parent is
 For example, ${}^{213}$Po and ${}^{217}$At belong to the ${}^{225}$Ac series, ${}^{215}$Po and ${}^{211}$Bi to the ${}^{223}$Ra series, and ${}^{212}$Po and ${}^{212}$Bi to the ${}^{224}$Ra series.
 This removes the apparent multiplicity of $\alpha$ emitters in the ranked lists, where a single chain occupies four or five places.
 
-\begin{table}[t]
-\caption{Released energy between 1 and 500 days, Eq.~\ref{eq:res_budget}, in units of $10^{15}\,\mathrm{erg\,g^{-1}}$, carried by groups of the ten leading contributors of each channel: $\beta^-$ decays grouped by isobar and $\alpha$ decays by decay series, with the $\alpha$ emitters with $A\geq240$ (${}^{252}$Cf, ${}^{253}$Es) apart. The last column is the whole fission channel. Since only the ten leading nuclei of each channel are included, the entries are lower bounds. A dash marks less than $5\times10^{-4}$ (or a negligible $\alpha$ channel).\label{tab:res_chains}}\vspace{0.25em}
-\centering{\small
-\begin{tabular}{@{}cl|rrr|rrrr|r@{}}
-\toprule
- & & \multicolumn{3}{c|}{$\beta^-$, isobars $A=$} & \multicolumn{4}{c|}{$\alpha$, series} & \\
-Class & Set & 131--133 & 125--128 & 202--203 & $4n$ & $4n+1$ & $4n+3$ & $A\geq240$ & fission \\
-\midrule
-1 & ReacLib & 0.79 & 0.12 & -- & -- & -- & -- & -- & -- \\
- & Tian & 0.35 & 0.12 & -- & -- & -- & -- & -- & -- \\
- & Zhou & 0.33 & 0.20 & -- & -- & -- & -- & -- & -- \\
-\midrule
-6 & ReacLib & 0.004 & 0.99 & -- & -- & -- & -- & -- & -- \\
- & Tian & 0.046 & 0.47 & -- & -- & -- & -- & -- & -- \\
- & Zhou & 0.048 & 0.54 & -- & -- & -- & -- & -- & -- \\
-\midrule
-5 & ReacLib & 1.65 & 0.033 & -- & 0.070 & 0.022 & 0.029 & -- & 0.12 \\
- & Tian & 1.01 & 0.19 & -- & 0.040 & 0.017 & 0.037 & -- & 0.018 \\
- & Zhou & 1.03 & 0.19 & -- & 0.019 & 0.009 & 0.018 & -- & -- \\
-\midrule
-2 & ReacLib & 1.03 & 0.091 & -- & 0.14 & 0.040 & 0.019 & 0.071 & 0.70 \\
- & Tian & 0.79 & 0.087 & -- & 0.25 & 0.11 & 0.16 & 0.074 & 1.36 \\
- & Zhou & 0.65 & 0.13 & -- & 0.080 & 0.19 & 0.18 & -- & 0.006 \\
-\midrule
-4 & ReacLib & 0.84 & -- & 1.41 & 0.040 & -- & 0.002 & -- & -- \\
- & Tian & 0.67 & -- & 0.23 & 0.15 & 0.057 & 0.077 & 0.027 & 0.48 \\
- & Zhou & 0.58 & 0.043 & 0.068 & 0.10 & 0.089 & 0.15 & -- & 0.004 \\
-\midrule
-3 & ReacLib & 0.62 & -- & 1.00 & 0.021 & -- & 0.001 & -- & -- \\
- & Tian & 1.51 & -- & 0.88 & 0.20 & 0.007 & 0.039 & -- & -- \\
- & Zhou & 1.96 & 0.025 & 0.42 & 0.17 & -- & 0.073 & -- & -- \\
-\bottomrule
-\end{tabular}}
-\end{table}
-sentence on the neutrino losses ("... a fraction $\chi_\nu=0.4$ of the $Q$-value for all other nuclei."):
 
 For a few nuclei (${}^{85}$Kr, ${}^{115}$Cd, ${}^{123}$Sn, ${}^{125}$Sn and ${}^{200}$Au) the tabulated mean neutrino energy exceeds the $Q$-value of the decay in the network; for these the default fraction $\chi_\nu=0.4$ is used when the heating is computed.
 Three results follow from Table~\ref{tab:res_chains} and the underlying lists.
@@ -248,7 +191,7 @@ The step from Tian to Zhou is an effect of the $\beta^-$ rates.
 One possible origin is the different treatment of pairing in the two formulae (the terms in $\delta$ of Eqs.~\ref{eq:zhou} and~\ref{eq:tian}), which shifts the half-lives of even-even and odd-odd nuclei with respect to those of odd-$A$ nuclei and hence changes the balance between the even and odd isobars that feed the series \TODO{check the odd--even staggering of $Y(A)$ for $A=220$--$232$ at 1\,d}.
 
 %------------------------------------------------------------------------------------------
-\subsection{Origin of the dependence on the decay rates}\label{sec:res_origin}
+\section{Origin of the dependence on the decay rates}\label{sec:res_origin}
 %------------------------------------------------------------------------------------------
 
 Since the heaters themselves have measured decays, the differences between the sets are differences in where the matter ends.
@@ -277,7 +220,7 @@ The time evolution of $X_{A\geq240}$ and the abundances for $A=220$--$260$ at $1
 The enhanced odd-$A$ $\alpha$ series of Zhou in classes~2 and~4, which requires matter at $A\approx223$--$229$, is consistent with the first.
 
 %------------------------------------------------------------------------------------------
-\subsection{Summary}\label{sec:res_nucleo_summary}
+\section{Summary}\label{sec:res_nucleo_summary}
 %------------------------------------------------------------------------------------------
 
 \begin{enumerate}

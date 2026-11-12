@@ -69,25 +69,20 @@
 \contentsline {paragraph}{Implementation.}{52}{section*.20}%
 \contentsline {paragraph}{Validation and limitations.}{53}{section*.21}%
 \contentsline {subsection}{\numberline {5.2.2}Campaign design and execution}{53}{subsection.5.2.2}%
-\contentsline {section}{\numberline {5.3}Thermalized heating rates}{53}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Bolometric luminosity from effective heating rates}{53}{section.5.4}%
 \contentsline {chapter}{\numberline {6}Results: Effective heating rates, relevant nuclei and bolometric luminosities}{57}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Nucleosynthesis and heating rates}{57}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Heating regimes across the parameter space}{57}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Energy budget of each class}{59}{subsection.6.1.2}%
-\contentsline {paragraph}{Class 1: $\beta ^-$ heating at high electron fraction.}{59}{section*.22}%
-\contentsline {paragraph}{Class 6: matter below the second peak.}{59}{section*.23}%
-\contentsline {paragraph}{Class 5: the boundary.}{60}{section*.24}%
-\contentsline {paragraph}{Class 2: fission cycling in slow ejecta.}{60}{section*.25}%
-\contentsline {paragraph}{Class 4: three prescriptions, three channels.}{61}{section*.26}%
-\contentsline {paragraph}{Class 3: fast, high-entropy, neutron-rich ejecta.}{61}{section*.27}%
-\contentsline {subsection}{\numberline {6.1.3}Relevant nuclei and decay chains}{61}{subsection.6.1.3}%
-\contentsline {subsection}{\numberline {6.1.4}Origin of the dependence on the decay rates}{63}{subsection.6.1.4}%
-\contentsline {subsection}{\numberline {6.1.5}Summary}{64}{subsection.6.1.5}%
-\contentsline {chapter}{\numberline {7}Conclusions and Outlook}{67}{chapter.7}%
-\contentsline {chapter}{\numberline {A}Quadrupole and $L_{GW}$}{68}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Derivation of the Saha equation of nuclear statistical equilibrium}{70}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Ideal non-degenerate gas of particles with internal structure}{70}{section.B.1}%
-\contentsline {section}{\numberline {B.2}The Saha equation for number densities}{71}{section.B.2}%
-\contentsline {section}{\numberline {B.3}From number densities to abundances}{72}{section.B.3}%
-\contentsline {backmatter}{References}{73}{appendix*.28}%
+\contentsline {section}{\numberline {6.1}Heating regimes across the parameter space}{57}{section.6.1}%
+\contentsline {paragraph}{Class 1: $\beta ^-$ heating at high electron fraction.}{60}{section*.22}%
+\contentsline {paragraph}{Class 2: fission cycling in slow ejecta.}{62}{section*.23}%
+\contentsline {paragraph}{Class 3: fast, high-entropy, neutron-rich ejecta.}{64}{section*.24}%
+\contentsline {paragraph}{Class 4: three prescriptions, three channels.}{65}{section*.25}%
+\contentsline {paragraph}{Class 5: the boundary.}{66}{section*.26}%
+\contentsline {section}{\numberline {6.2}Relevant nuclei and decay chains}{67}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Origin of the dependence on the decay rates}{68}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Summary}{69}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Conclusions and Outlook}{70}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Quadrupole and $L_{GW}$}{71}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Derivation of the Saha equation of nuclear statistical equilibrium}{73}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Ideal non-degenerate gas of particles with internal structure}{73}{section.B.1}%
+\contentsline {section}{\numberline {B.2}The Saha equation for number densities}{74}{section.B.2}%
+\contentsline {section}{\numberline {B.3}From number densities to abundances}{75}{section.B.3}%
+\contentsline {backmatter}{References}{76}{appendix*.27}%
