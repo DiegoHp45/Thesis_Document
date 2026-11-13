@@ -2576,4 +2576,48 @@
     <bcf:citekey order="168" intorder="2">metzger_kilonovae_2017</bcf:citekey>
     <bcf:citekey order="169" intorder="1">fernandez_long-term_2019</bcf:citekey>
     <bcf:citekey order="170" intorder="1">metzger_kilonovae_2017</bcf:citekey>
-    <bcf
+    <bcf:citekey order="171" intorder="1">metzger_neutron-powered_2015</bcf:citekey>
+    <bcf:citekey order="171" intorder="2">radice_binary_2018</bcf:citekey>
+    <bcf:citekey order="172" intorder="1">metzger_neutron-powered_2015</bcf:citekey>
+    <bcf:citekey order="173" intorder="1">mumpower_impact_2016</bcf:citekey>
+    <bcf:citekey order="174" intorder="1">kasen_radioactive_2019</bcf:citekey>
+    <bcf:citekey order="175" intorder="1">wu_fingerprints_2019</bcf:citekey>
+    <bcf:citekey order="175" intorder="2">tanvir_emergence_2017</bcf:citekey>
+    <bcf:citekey order="175" intorder="3">villar_spitzer_2018</bcf:citekey>
+    <bcf:citekey order="175" intorder="4">kasliwal_spitzer_2021</bcf:citekey>
+    <bcf:citekey order="176" intorder="1">liu_constraint_2025</bcf:citekey>
+    <bcf:citekey order="176" intorder="2">yang_lanthanide-rich_2024</bcf:citekey>
+    <bcf:citekey order="177" intorder="1">rastinejad_kilonova_2022</bcf:citekey>
+    <bcf:citekey order="178" intorder="1">wu_fingerprints_2019</bcf:citekey>
+    <bcf:citekey order="178" intorder="2">tanvir_emergence_2017</bcf:citekey>
+    <bcf:citekey order="178" intorder="3">villar_spitzer_2018</bcf:citekey>
+    <bcf:citekey order="178" intorder="4">kasliwal_spitzer_2021</bcf:citekey>
+    <bcf:citekey order="179" intorder="1">liu_constraint_2025</bcf:citekey>
+    <bcf:citekey order="179" intorder="2">yang_lanthanide-rich_2024</bcf:citekey>
+    <bcf:citekey order="180" intorder="1">rastinejad_kilonova_2022</bcf:citekey>
+    <bcf:citekey order="181" intorder="1">villar_combined_2017</bcf:citekey>
+    <bcf:citekey order="182" intorder="1">hernandez_porras_features_2027</bcf:citekey>
+    <bcf:citekey order="183" intorder="1">wu_fingerprints_2019</bcf:citekey>
+    <bcf:citekey order="183" intorder="2">chen_radioactive_2023</bcf:citekey>
+    <bcf:citekey order="184" intorder="1">liu_constraint_2025</bcf:citekey>
+  </bcf:section>
+  <!-- SORTING TEMPLATES -->
+  <bcf:sortingtemplate name="none">
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">citeorder</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2">
+      <bcf:sortitem order="1">intciteorder</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sortingtemplate>
+  <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+</bcf:controlfile>
