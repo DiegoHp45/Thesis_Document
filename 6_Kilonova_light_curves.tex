@@ -7,7 +7,7 @@ Its purpose is to construct the map
 \begin{equation}\label{eq:kn_map}
   \Big\{\dot\epsilon_x(t),\ \text{composition},\ M_{\rm ej},\ v_{\rm ej}\Big\}\ \longmapsto\ \Big\{L(t),\ L_\nu(t)\Big\},
 \end{equation}
-from heating rate per channel $\dot\epsilon_x(t)$ of Chapter~\ref{ch:Nuclear_reaction_net} to the bolometric luminosity $L(t)$ and the spectral luminosity $L_\nu(t)$.
+from the heating rate per channel $\dot\epsilon_x(t)$ of Chapter~\ref{ch:Nuclear_reaction_net} to the bolometric luminosity $L(t)$ and the spectral luminosity $L_\nu(t)$.
 Many studies use power law fits or analytical heating rates, but since the subject of this work is the sensitivity of the light curve to the nuclear input, the heating rate is kept as an arbitrary function of time throughout.
 
 Section~\ref{sec:onezone} presents the one-zone model of Li and Paczy\'nski, with the modifications of Ref.~\cite{hernandez_porras_features_2027}: a separate treatment of the optically thick and optically thin phases, and an effective heating rate built from $\alpha$ and $\beta^-$ decays with their thermalization efficiencies.
@@ -96,7 +96,7 @@ so the luminosity matches the instantaneous $\dot\varepsilon(t)$ at the peak, $\
 \begin{equation}\label{eq:kn_arnett}
   L(t_{\rm pk})=M_{\rm ej}\dot\varepsilon(t_{\rm pk}).
 \end{equation}
-Before the peak $L<M_{\rm ej}\dot\varepsilon$, since part of the deposited energy is still stored and after the peak $L>M_{\rm ej}\dot\varepsilon$, since the stored energy is released.
+Before the peak $L<M_{\rm ej}\dot\varepsilon$, since part of the deposited energy is still stored, and after the peak $L>M_{\rm ej}\dot\varepsilon$, since the stored energy is released.
 
 
 
@@ -124,18 +124,18 @@ With the integrating factor $t^{4+\frac{3c}{4v_{\rm ej}}}$ and Eq.~\ref{eq:kn_Ft
   L(t)=L(t_c)\left(\frac{t_c}{t}\right)^{2+\frac{3c}{4v_{\rm ej}}}+\frac{3c}{4v_{\rm ej}}\,M_{\rm ej}\,t^{-2-\frac{3c}{4v_{\rm ej}}}\int_{t_c}^{t}t'^{\,1+\frac{3c}{4v_{\rm ej}}}\,\dot\varepsilon(t')\,\mathrm{d}t' ,
 \end{equation}
 where $L(t_c)$ is given by Eq.~\ref{eq:kn_Lsol}.
-For $v_{\rm ej}=0.15c$ the transient term decays as $(t_c/t)^7$ so it can be neglected for $t\gg t_c$.
+For $v_{\rm ej}=0.15c$ the transient term decays as $(t_c/t)^7$, so it can be neglected for $t\gg t_c$.
 The MLP light curve is therefore Eq.~\ref{eq:kn_Lsol} for $t\leq t_c$ and Eq.~\ref{eq:kn_Lsol_late} for $t>t_c$.
 Both pieces are linear in $\dot\varepsilon$, so we can see the light curve as the sum of the contributions from $\beta^{-}$ and $\alpha$ decays.
 
 As $t\to\infty$, the luminosity should be finite.
 That imposes a constraint on how slowly the heating can decrease, but it is easily satisfied, so we need not worry about it.
-When we apply l'H\^opital's rule to the ratio $L/\dot\varepsilon$, and defining the local power-law index $\alpha(t)=-\mathrm{d}\ln\dot\varepsilon/\mathrm{d}\ln t$, which is assumed to vary slowly, we obtain
+Applying l'H\^opital's rule to the ratio $L/\dot\varepsilon$, and defining the local power-law index $\alpha(t)=-\mathrm{d}\ln\dot\varepsilon/\mathrm{d}\ln t$, which is assumed to vary slowly, we obtain
 \begin{equation}\label{eq:kn_late}
   L(t)\simeq\frac{\frac{3c}{4v_{\rm ej}}}{\frac{3c}{4v_{\rm ej}}+2-\alpha}\,M_{\rm ej}\,\dot\varepsilon(t)\propto\dot\varepsilon(t),\qquad t\gg t_c .
 \end{equation}
-For a slowly varying heating rate, $\alpha\ll \frac{3c}{4v_{\rm ej}}+2$, the prefactor reduces to $\frac{3c}{4v_{\rm ej}}/(\frac{3c}{4v_{\rm ej}}+2)$ which depends on $v_{\rm ej}$ but not on the opacity.
-The important result is that the contribution of the radiation trapped at earlier times is strongly suppressed while at late times the luminosity follows the instantaneous effective heating rate, and not the energy accumulated earlier, as also found in Ref.~\cite{kasen_radioactive_2019}.
+For a slowly varying heating rate, $\alpha\ll \frac{3c}{4v_{\rm ej}}+2$, the prefactor reduces to $\frac{3c}{4v_{\rm ej}}/(\frac{3c}{4v_{\rm ej}}+2)$, which depends on $v_{\rm ej}$ but not on the opacity.
+The important result is that the contribution of the radiation trapped at earlier times is strongly suppressed, while at late times the luminosity follows the instantaneous effective heating rate, and not the energy accumulated earlier, as also found in Ref.~\cite{kasen_radioactive_2019}.
 This is what makes the late-time light curve sensitive to the individual decay channels that dominate $\dot\varepsilon$.
 Now the idea is to use the effective heating rates from the nuclear reaction network. 
 

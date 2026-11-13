@@ -1,19 +1,19 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'MIT-Thesis.blg'
-[113] biber:340> INFO - === Fri Nov 13, 2026, 00:56:44
-[140] Biber.pm:419> INFO - Reading 'MIT-Thesis.bcf'
-[299] Biber.pm:979> INFO - Found 111 citekeys in bib section 0
-[319] Biber.pm:4419> INFO - Processing section 0
-[334] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[368] bibtex.pm:1713> INFO - LaTeX decoding ...
-[2821] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[13581] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[13581] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[13581] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[13581] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[13844] bbl.pm:660> INFO - Writing 'MIT-Thesis.bbl' with encoding 'UTF-8'
-[20088] bbl.pm:763> INFO - Output to MIT-Thesis.bbl
-[20089] Biber.pm:131> WARN - Duplicate entry key: 'wu_fingerprints_2019' in file 'references.bib', skipping ...
-[20089] Biber.pm:131> WARN - Duplicate entry key: 'liu_constraint_2025' in file 'references.bib', skipping ...
-[20089] Biber.pm:131> WARN - Duplicate entry key: 'yang_lanthanide-rich_2024' in file 'references.bib', skipping ...
-[20089] Biber.pm:133> INFO - WARNINGS: 3
+[68] biber:340> INFO - === Fri Nov 13, 2026, 15:20:43
+[86] Biber.pm:419> INFO - Reading 'MIT-Thesis.bcf'
+[180] Biber.pm:979> INFO - Found 111 citekeys in bib section 0
+[192] Biber.pm:4419> INFO - Processing section 0
+[200] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[217] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1611] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[10414] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[10414] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[10414] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[10414] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[10639] bbl.pm:660> INFO - Writing 'MIT-Thesis.bbl' with encoding 'UTF-8'
+[15746] bbl.pm:763> INFO - Output to MIT-Thesis.bbl
+[15746] Biber.pm:131> WARN - Duplicate entry key: 'wu_fingerprints_2019' in file 'references.bib', skipping ...
+[15746] Biber.pm:131> WARN - Duplicate entry key: 'liu_constraint_2025' in file 'references.bib', skipping ...
+[15746] Biber.pm:131> WARN - Duplicate entry key: 'yang_lanthanide-rich_2024' in file 'references.bib', skipping ...
+[15746] Biber.pm:133> INFO - WARNINGS: 3

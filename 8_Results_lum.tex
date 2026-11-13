@@ -3,7 +3,7 @@
 This chapter presents the radioactive heating of the 512 trajectories for the three rate sets of Table~\ref{tab:rate_sets}, the nuclei responsible for it, the final abundances and the resulting bolometric light curves.
 The effective heating rates $\dot\varepsilon_x(t)$ of the channels $x\in\{\beta^-,\alpha,\mathrm{fis}\}$ include the thermalization efficiencies of Sec.~\ref{sec:partition} (details in Sec.~\ref{sec:res_lum}), evaluated for every trajectory with an ejecta mass $M_{\rm ej}=0.05\,M_\odot$ and the velocity $v_\infty$ of the trajectory.
 
-The Tian and Zhou sets share the $\alpha$-decay rates and differ only in the $\beta^-$ rates, whereas the ReacLib set differs from both in the two (Sec.~\ref{sec:methods_rates}).
+The Tian and Zhou sets share the $\alpha$-decay rates and differ only in the $\beta^-$ rates, whereas the ReacLib set differs from both in the $\alpha$ and $\beta^{-}$ rates (Sec.~\ref{sec:methods_rates}).
 We therefore attribute to the $\beta^-$ rates the differences between Tian and Zhou, and to the decay-rate prescription as a whole the differences between ReacLib and the other two sets.
 
 %------------------------------------------------------------------------------------------
@@ -22,7 +22,7 @@ Figure~\ref{fig:heating_chanels} shows this separation, and the spread of the in
   \label{fig:heating}
 \end{figure}
 This suggests that the decay channel that dominates the heating depends on the trajectory.
-We already saw this behaviour in Chapter~\ref{ch:methods}, in the evolution of $Y_e$ for some trajectories: a low electron fraction combined with a very high velocity favours free neutrons over heavy nuclei, and therefore the $\beta^-$ decay of these neutrons.
+We already saw this behavior in Chapter~\ref{ch:methods}, in the evolution of $Y_e$ for some trajectories: a low electron fraction combined with a very high velocity favors free neutrons over heavy nuclei, and therefore the $\beta^-$ decay of these neutrons.
 We therefore grouped the trajectories by the similarity\footnote{The classification uses Ward hierarchical clustering.} of the time dependence of their ratios $\dot\varepsilon_x/\dot\varepsilon_{\rm total}$ in the three prescriptions, which gives the five classes of Table~\ref{tab:res_classes}.
 Figure~\ref{fig:res_class_map} shows where they lie in the parameter space.
 
@@ -62,21 +62,17 @@ Class~1 contains half of the box.
 Of its 264 trajectories, 255 have $Y_{e,0}\geq0.21$, but it extends down to $Y_{e,0}=0.16$ for intermediate entropies and fast expansions, so $Y_{e,0}$ alone does not decide whether a trajectory belongs to a certain class.
 Classes~2, 4 and~3 contain the neutron-rich trajectories, $Y_{e,0}\lesssim0.22$, and follow each other along the direction of increasing entropy and decreasing expansion timescale.
 This is the direction in which the number of seeds decreases (Eq.~\ref{eq:seed_scaling}) and in which the time available for the flow of matter through the closed shells becomes shorter.
-Class~5 straddles $Y_{e,0}\approx0.21$ so it is a transition.
+Class~5 straddles $Y_{e,0}\approx0.21$, so it is a transition.
 Although there are five classes, two cuts, $Y_{e,0}=0.21$ and $v_\infty=0.22\,c$, reproduce the location of the three large ones, which contain the relevant physical conditions: high electron fraction (class~1), and low electron fraction with low (class~2) or high (class~3) velocity.
 Classes~4 and~5 are transitions between them.
 Let us analyze the results class by class.
 
 \textit{Class 1:}
-In this class the total effective heating rate is dominated by $\beta^-$ decay in all three prescriptions.
-The relevant nuclei are the same in the three sets, ${}^{132}$I and ${}^{127}$Sb, which belong to the decay chains
-\begin{equation}\label{chain:I132}
-  {}^{132}\mathrm{Te}\xrightarrow[3.2 \, {\rm d}] {\beta^{-}}{}^{132}\mathrm{I} \xrightarrow[2.29 \, {\rm h}] {\beta^{-}}{}^{132}\mathrm{Xe}\,\,\,\text{(stable)},
+In this class the total effective heating rate is dominated by $\beta^-$ decay in all three prescriptions (see Fig.~\ref{fig:class_1_epsilon_nuc}).
+The relevant nuclei are the same in the three sets, ${}^{99}$Mo, ${}^{106}$Rh and ${}^{91}$Y, where ${}^{106}$Rh dominates at late times due to the long half-life of its parent ${}^{106}$Ru,
+\begin{equation}\label{chain:106Ru}
+  {}^{106}\mathrm{Ru}\xrightarrow[371.8 \, {\rm d}] {\beta^{-}}{}^{106}\mathrm{Rh} \xrightarrow[30.07 \, {\rm s}] {\beta^{-}}{}^{106}\mathrm{Pd}\,\,\,\text{(stable)}.
 \end{equation}
-\begin{equation}\label{chain:Sb127}
-  {}^{127}\mathrm{Sb}\xrightarrow[3.8 \, {\rm d}] {\beta^{-}}{}^{127}\mathrm{Te} \xrightarrow[9.35 \, {\rm h}] {\beta^{-}}{}^{127}\mathrm{I}\,\,\,\text{(stable)}.
-\end{equation}
-The leading heaters are the isobars of the second peak, $A=131$--$133$, together with $A=127$.
 These isobars cannot be reached by $\alpha$ decay, and fission is absent.
 Therefore, the heating rate is insensitive to the prescription used.
 Accordingly, Fig.~\ref{fig:class_1_epsilon_ratios} shows that the three prescriptions give similar total effective heating rates and the shares of the decay channels correspond to just $\beta^{-}$.
@@ -89,20 +85,20 @@ Accordingly, Fig.~\ref{fig:class_1_epsilon_ratios} shows that the three prescrip
 
 \textit{Class 2:}
 This class is the slowest (median $v_\infty=0.14\,c$) and contains the neutron-rich trajectories (median $Y_{e,0}=0.12$), the regime of fission cycling (Sec.~\ref{sec:fission}).
-It shows the largest differences in the total effective heating rate between prescriptions (Fig.~\ref{fig:class_2_epsilon_ratios_prep}).
+It shows differences in the total effective heating rate between prescriptions (Fig.~\ref{fig:class_2_epsilon_ratios_prep}).
 At late times the instantaneous ratio between Tian and Zhou is of order 20, and it reaches 40 in some trajectories.
 This is not because Tian produces more heating, but because Zhou lacks the fission contribution: fission carries a third of the energy released in Tian and a quarter of that in ReacLib, but only $0.3\%$ of that in Zhou.
 The $\alpha$ channel releases a comparable energy in the three sets, but with a different composition.
-In ReacLib and Tian it contains the $A\geq240$ emitter ${}^{253}$Es (and, in ReacLib, ${}^{252}$Cf), with the decay chains
+In ReacLib and Tian it contains the $A\geq240$ emitters (see Fig.~\ref{fig:class_2_epsilon_nuc}), for example ${}^{253}$Es and ${}^{252}$Cf, with the decay chains
 \begin{equation}
   {}^{253}\mathrm{Es} \xrightarrow[20.5 \, {\rm d}] {\alpha}{}^{249}\mathrm{Bk} \xrightarrow[327.2 {\rm \, d}] {\beta^-} {}^{249}\mathrm{Cf} \xrightarrow [351 \,{\rm y}] {\alpha} \cdots ,
 \end{equation}
 \begin{equation}
   {}^{252}\mathrm{Cf} \xrightarrow[2.65 \, {\rm y}] {\alpha}{}^{248}\mathrm{Cm} \xrightarrow[3.48 \times 10^{5} {\rm \, y}] {\alpha} \cdots .
 \end{equation}
-In Zhou these are absent, and the odd-$A$ series headed by ${}^{225}$Ac and ${}^{223}$Ra dominate:
-\begin{equation}
-  {}^{225}\mathrm{Ac} \xrightarrow[9.92\,\mathrm{d}]{\alpha}{}^{221}\mathrm{Fr} \xrightarrow[4.8\,\mathrm{min}]{\alpha}{}^{217}\mathrm{At}\cdots,
+The major difference is that in Zhou these are absent (see Fig.~\ref{fig:class_2_epsilon_nuc}), and the odd-$A$ series headed by ${}^{225}$Ac and ${}^{223}$Ra dominate:
+\begin{equation}\label{chain:225Ac}
+  {}^{225}\mathrm{Ac} \xrightarrow[9.92\,\mathrm{d}]{\alpha}{}^{221}\mathrm{Fr} \xrightarrow[4.8\,\mathrm{min}]{\alpha}{}^{217}\mathrm{At} \xrightarrow[32.6\,\mathrm{ms}]{\alpha}{}^{213}\mathrm{Bi}\xrightarrow[45.6\,\mathrm{min}]{\beta^{-}}{}^{213}\mathrm{Po}\cdots
 \end{equation}
 \begin{equation}
   {}^{223}\mathrm{Ra} \xrightarrow[11.4 \, {\rm d}] {\alpha}{}^{219}\mathrm{Rn} \xrightarrow[3.96 {\rm \, s}] {\alpha} {}^{215}\mathrm{Po}\cdots.
@@ -125,7 +121,7 @@ Since Tian and Zhou share the $\alpha$ rates, the absence of late-time fission i
 
 \textit{Class 3:}
 This class collects the fastest (median $v_\infty=0.38\,c$) and highest-entropy (median $s_0=37$) neutron-rich trajectories, which also have the lowest initial densities.
-Under these conditions part of the neutrons are not captured, and their decay produces a rapid increase of $Y_e$ on the timescale of the free-neutron half-life (Fig.~\ref{fig:trajectories_T_Ye}).
+Under these conditions some of the neutrons are not captured, and their decay produces a rapid increase of $Y_e$ on the timescale of the free-neutron half-life (Fig.~\ref{fig:trajectories_T_Ye}).
 No set produces appreciable late-time fission (Fig.~\ref{fig:class_3_epsilon_ratios}).
 
 The empirical sets release more energy than ReacLib (Fig.~\ref{fig:class_3_epsilon_ratios_prep}).
@@ -134,14 +130,14 @@ The $\alpha$ decay chain that appears in all prescriptions is
 \begin{equation}
   {}^{224}\mathrm{Ra} \xrightarrow[3.63 \, {\rm d}] {\alpha}{}^{220}\mathrm{Rn} \xrightarrow[55.6 {\rm \, s}] {\alpha} {}^{216}\mathrm{Po}\xrightarrow[144 {\rm \, ms}] {\alpha} {}^{212}\mathrm{Pb}\xrightarrow[10.6 {\rm \, h}] {\beta^{-}} {}^{212}\mathrm{Bi}.
 \end{equation}
-${}^{212}$Bi has two decay branches, $\beta^-$ decay to ${}^{212}$Po and $\alpha$ decay to ${}^{208}$Tl, and both end in ${}^{208}$Pb.
-The main difference between the prescriptions is that Zhou and Tian also have a contribution from the odd-$A$ chain
+${}^{212}$Bi has two decay branches, $\beta^-$ decay to ${}^{212}$Po and $\alpha$ decay to ${}^{208}$Tl, and both end in ${}^{208}$Pb (see Fig.~\ref{fig:class_3_epsilon_nuc}).
+The main difference between the prescriptions is that Zhou and Tian have a contribution from the odd-$A$ chain ~\ref{chain:225Ac} and
 \begin{equation}
     {}^{223}\mathrm{Ra} \xrightarrow[11.4 \, {\rm d}] {\alpha}{}^{219}\mathrm{Rn} \xrightarrow[3.96 {\rm \, s}] {\alpha} {}^{215}\mathrm{Po}\xrightarrow[1.78 {\rm \, ms}] {\alpha} {}^{211}\mathrm{Pb}\xrightarrow[36.1 {\rm \, min}] {\beta^{-}} {}^{211}\mathrm{Bi}\xrightarrow[2.1 {\rm \, min}] {\alpha} {}^{207}\mathrm{Tl}\xrightarrow[4.77 {\rm \, min}] {\beta^{-}} {}^{207}\mathrm{Pb}\,\,\text{(stable)}.
 \end{equation}
 
-Notice that the abundance of ${}^{224}$Ra feeds on the $\beta^{-}$ decay of ${}^{224}$Fr (half-life$\sim 3\,\mathrm{min}$) and on the $\alpha$ decay of ${}^{228}$Th (half-life$\sim 2\,\mathrm y$) which means that ${}^{224}$Ra contributes at large times as ${}^{228}$Th decays.
-On the other hand, the time scale of the contribution of ${}^{225}$Ac and ${}^{223}$Ra is around $\sim10\,\mathrm d$.
+Notice that the abundance of ${}^{224}$Ra feeds on the $\beta^{-}$ decay of ${}^{224}$Fr (half-life$\sim 3\,\mathrm{min}$) and on the $\alpha$ decay of ${}^{228}$Th (half-life$\sim 2\,\mathrm y$), which means that ${}^{224}$Ra contributes at late times as ${}^{228}$Th decays.
+On the other hand, the timescale of the contribution of ${}^{225}$Ac and ${}^{223}$Ra is $\sim10\,\mathrm d$.
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.8\textwidth]{Figures/heating_channels_sets_therm_class3.pdf}
@@ -157,7 +153,7 @@ On the other hand, the time scale of the contribution of ${}^{225}$Ac and ${}^{2
 %--------------------------------------------------------------------
 \textit{Class 4:}
 This class lies between classes~2 and~3 (median $s_0=29$, $v_\infty=0.25\,c$), and here each set heats through a different combination of channels.
-ReacLib heats almost only by $\beta^-$ decay, half of it in the isobar $A=202$ (${}^{202}$Pt$\to{}^{202}$Au) on the high-mass side of the third peak.
+ReacLib heats almost only by $\beta^-$ decay, half of it in the isobar $A=202$ (${}^{202}$Pt$\to{}^{202}$Au) on the high-mass side of the third peak (see Fig.~\ref{fig:class_4_epsilon_nuc}).
 Tian adds fission and $\alpha$ decay, whereas Zhou adds only $\alpha$ decay, carried by the odd-$A$ series.
 Figure~\ref{fig:class_4_epsilon_ratios_prep} shows that Tian has a higher total effective heating rate than ReacLib, mainly because of fission, while Zhou has a larger contribution from $\alpha$ decay.
 In this class, therefore, each prescription has its own preferred decay channel.
@@ -177,7 +173,8 @@ In this class, therefore, each prescription has its own preferred decay channel.
 \textit{Class 5:}
 This class lies at $Y_{e,0}\approx0.21$ and spans the full range of entropies and velocities.
 It is a transition between class~1, heated only by $\beta^-$ decay, and classes~2, 3 and~4.
-The main difference between the prescriptions is between Zhou and ReacLib: ReacLib has a fission contribution at late times, whereas Zhou does not.
+It has a contribution from $\alpha$ decay, but the main mode remains $\beta^{-}$ (see Fig.~\ref{fig:class_5_epsilon_nuc}).
+The main difference between the prescriptions is that ReacLib has a fission contribution at late times, whereas Zhou does not.
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.8\textwidth]{Figures/heating_channels_sets_therm_class5.pdf}
@@ -191,11 +188,33 @@ The main difference between the prescriptions is between Zhou and ReacLib: ReacL
   \label{fig:class_5_epsilon_ratios_prep}
 \end{figure}
 
+After the analysis one can see that the main origin of the difference between prescriptions and classes depends on the scales of the nuclei that contribute.
+If the trajectory is slow enough, matter can reach, depending on the prescription, $A\geq240$ and the decay chains from nuclei with $A\geq240$ tend to contribute at very late times due to the timescale of their decays.
+If the ejecta is fast, the synthesis favors nuclei with $A\simeq210$ where the timescale of the chain depend on the parity.
+Odd-$A$ tend to contribute between $20$ d  to $100$ d, while even-$A$ contribute at late times.
+The ratio between odd-$A$ chains and even-$A$ chains depends on the prescription, class~4 illustrates this in Fig.~\ref{fig:class_4_epsilon_nuc}.
+\begin{figure}[h]
+\centering
+\subfloat[Class 1]{\includegraphics[width=0.42\textwidth]{Figures/heating_top_nuclei_class1_therm_peak.png}\label{fig:class_1_epsilon_nuc}
+}\hfil
+\subfloat[Class 2]{\includegraphics[width=0.42\textwidth]{Figures/heating_top_nuclei_class2_therm_peak.png}\label{fig:class_2_epsilon_nuc}
+}
+
+\subfloat[Class 3]{\includegraphics[width=0.42\textwidth]{Figures/heating_top_nuclei_class3_therm_peak.png}\label{fig:class_3_epsilon_nuc}
+}\hfil
+\subfloat[Class 4]{\includegraphics[width=0.42\textwidth]{Figures/heating_top_nuclei_class4_therm_peak.png}\label{fig:class_4_epsilon_nuc}
+}%
+
+\subfloat[Class 5]{\includegraphics[width=0.42\textwidth]{Figures/heating_top_nuclei_class5_therm_peak.png}\label{fig:class_5_epsilon_nuc}
+}
+\caption{For each class we selected a representative trajectory and then find the relevant nuclei per prescription that contribute to the effective heating rate.}\label{fig:nuclei_classes_1}\label{fig:nuclei_classes}
+\end{figure}
+
 %--------------------------------------------------------------------
 \subsection{Where these conditions occur in a merger}\label{sec:res_merger}
 
 The ensemble is a uniform design over a box, not a model of a particular merger (Sec.~\ref{sec:methods_sampling}).
-Each class can nevertheless be related to the ejecta components of Chapter~\ref{chap:BNMS}, which indicates where in a merger each behaviour would appear.
+Each class can nevertheless be related to the ejecta components of Chapter~\ref{chap:BNMS}, which indicates where in a merger each behavior would appear.
 Simulations find that most of the dynamical ejecta moves at $0.1$--$0.3\,c$, with an electron fraction that increases from the orbital plane, where the cold tidal ejecta have $Y_e\lesssim0.15$, towards the poles, where shock heating and neutrino irradiation raise it up to $Y_e\approx0.4$~\cite{radice_binary_2018,radice_dynamics_2020}.
 A small amount of matter from the collision interface is accelerated to $v\gtrsim0.4$--$0.6\,c$, and it expands so fast that part of its neutrons are never captured~\cite{metzger_neutron-powered_2015,metzger_kilonovae_2017}.
 The outflows from the post-merger torus are slower, $v\approx0.03$--$0.1\,c$, with $Y_e\approx0.1$--$0.25$ when the remnant collapses early to a black hole~\cite{fernandez_long-term_2019}, and with higher $Y_e$ when they are irradiated by the neutrinos of a long-lived neutron star~\cite{metzger_kilonovae_2017}.
@@ -313,10 +332,8 @@ Electrons, $\alpha$ particles and fission fragments thermalize according to the 
 \end{align}
 
 The luminosity is the solution of the one-zone equation for an arbitrary heating rate, Eq.~\ref{eq:kn_Lsol} for $t<t_c$.
-For times $>t_c$ the luminosity is the solution of Eq.~\ref{eq:kn_Lsol_late}.
-Where $t_c$ is defined in Eq.~\ref{eq:kn_tthin}.
+For times $>t_c$ the luminosity is the solution of Eq.~\ref{eq:kn_Lsol_late}, where $t_c$ is defined in Eq.~\ref{eq:kn_tthin}.
 For the opacity we use a grey opacity, constant in time, that depends on $Y_{e,0}$ through three bins (Sec.~\ref{sec:opacity}): $\kappa=10\,\mathrm{cm}^2\mathrm g^{-1}$ for $Y_{e,0}<0.25$ (lanthanide-rich matter), $\kappa=1\,\mathrm{cm}^2\mathrm g^{-1}$ for $0.25\leq Y_{e,0}<0.40$, and $\kappa=0.1\,\mathrm{cm}^2\mathrm g^{-1}$ for $Y_{e,0}\geq0.40$ (lanthanide-poor matter).
-Classes~2--4 lie entirely in the first bin, class~5 in the first two, and class~1 in all three.
 
 To calculate the light curve of a class we used $M_{ej}=0.05\,M_\odot$ of ejecta with the conditions of the class.
 We used the mean heating and velocity of the group to calculate the luminosity.
@@ -341,23 +358,23 @@ The lanthanide-rich classes~2--5 are fainter at early times and peak later, at a
 Between about one and six months class~2 is the brightest in all three sets, because $\alpha$ decay and fission release their energy over longer times than $\beta^-$ decay and thermalize more efficiently.
 This is quite interesting because class~2 is also one of the most sensitive to the $\beta^{-}$ decay prescription. 
 
-In the case of class~1 ReacLib and Zhou agree during the 500\,d.
+In the case of class~1, ReacLib and Zhou agree during the 500\,d.
 The Tian curve is brighter around the peak but quickly disappears after about 20\,d.
 So class~1 luminosity does not distinguish between prescriptions.
-Class~2 on the other hand does.
+Class~2, on the other hand does.
 Here the difference grows with time.
-During the first days the three sets agree but near the peak they evolve in different ways.
+During the first days, the three sets agree but near the peak they evolve in different ways.
 At 500 d the difference between Tian and Zhou reaches a factor of a few.
 ReacLib lies between the two.
-Class~3 do not distinguish between prescriptions, similar as class~1 but with a rapidly decreasing luminosity due to the rapid expansion.
+Class~3 does not distinguish between prescriptions, similar as class~1, but with a rapidly decreasing luminosity due to the rapid expansion.
 Class~4 is sensitive to the prescription but in a different way than class~2.
-In class~2 Tian and reaclib do not differ that much compared with zhou but in class~4 is now Reaclib and zhou the ones that do not differ while tian predicts higher luminosities.
-Class~5 has similar evolution to class~4 but with a modest sensitivity on the prescription. 
+In class~2, Tian and Reaclib do not differ much compared with Zhou, but in class~4 is now Reaclib and Zhou the ones that do not differ, while Tian predicts higher luminosities.
+Class~5 has an evolution similar to that of class~4 but with a modest sensitivity to the prescription. 
 
 From the previous analysis we can say that the decay-rate prescription influences the bolometric light curve in a way that depends on the trajectory.
 The size of the effect follows the weight of $\alpha$ decay and fission in the late heating.
 In classes where $\beta^-$ decay dominates, classes~1, 3 and 5, the prescription is not relevant.
-On the contrary, the prescription sensitivity is largest in classes~4 and~2, where one prescription heats by fission and another does not with an effect that in general grows with time.
+On the contrary, the prescription sensitivity is largest in classes~4 and~2, where one prescription heats by fission and another does not, with an effect that in general grows with time.
 Near the peak the effect is diluted by the $\beta^-$ heating common to the three sets.
 After the peak the luminosity approaches the effective heating, $L\to M_{\rm ej}\dot\varepsilon$ (Eq.~\ref{eq:kn_late}), and the light curve inherits the full difference between the heating rates.
 The imprint of the decay rates is therefore strongest in the late-time light curve, weeks to months after the merger, which is also the part that depends least on the opacity.

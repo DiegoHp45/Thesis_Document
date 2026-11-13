@@ -62,11 +62,11 @@
 \contentsline {section}{\numberline {6.2}Final abundances and the origin of the dependence on the decay rates}{69}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Bolometric light curves}{71}{section.6.3}%
 \contentsline {subsection}{\numberline {6.3.1}Light curves of the classes}{71}{subsection.6.3.1}%
-\contentsline {chapter}{\numberline {7}Conclusions and future work}{75}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Future work}{76}{section.7.1}%
-\contentsline {chapter}{\numberline {A}Quadrupole and $L_{GW}$}{77}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Derivation of the Saha equation of nuclear statistical equilibrium}{79}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Ideal non-degenerate gas of particles with internal structure}{79}{section.B.1}%
-\contentsline {section}{\numberline {B.2}The Saha equation for number densities}{80}{section.B.2}%
-\contentsline {section}{\numberline {B.3}From number densities to abundances}{81}{section.B.3}%
-\contentsline {backmatter}{References}{82}{appendix*.37}%
+\contentsline {chapter}{\numberline {7}Conclusions and future work}{76}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Future work}{77}{section.7.1}%
+\contentsline {chapter}{\numberline {A}Quadrupole and $L_{GW}$}{78}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Derivation of the Saha equation of nuclear statistical equilibrium}{80}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Ideal non-degenerate gas of particles with internal structure}{80}{section.B.1}%
+\contentsline {section}{\numberline {B.2}The Saha equation for number densities}{81}{section.B.2}%
+\contentsline {section}{\numberline {B.3}From number densities to abundances}{82}{section.B.3}%
+\contentsline {backmatter}{References}{83}{appendix*.38}%
