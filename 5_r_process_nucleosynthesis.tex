@@ -44,7 +44,7 @@ Reactions are classified by the number of nuclei in the entrance channel.
 
 \paragraph{One-body reactions.}
 Decays, photodisintegrations, lepton captures\footnote{The name one-body reaction only refers to the number of nuclei, electron captures still count as one-body. } and neutrino absorptions involve a single nucleus $j$ and have rates $r_j=\lambda_j n_j$.
-For a radioactive decay, $\lambda_j=\ln 2/T_{1/2}$ with $T_{1/2}$ the half-life, literature usually assumes a half-life independent of the environment but studies show that half-lives for specific decay modes depend on the environment~\cite{rojas-gamboa__2024}.
+For a radioactive decay, $\lambda_j=\ln 2/T_{1/2}$ with $T_{1/2}$ the half-life; the literature usually assumes a half-life independent of the environment but studies show that half-lives for specific decay modes depend on the environment~\cite{rojas-gamboa__2024}.
 In a photodisintegration the nucleus absorbs a photon from the thermal radiation field, so that
 \begin{equation}\label{eq:photo}
   \lambda_{j,\gamma}(T)=\frac{1}{\pi^2(\hbar c)^3}\int_0^\infty \frac{\sigma_{j,\gamma}(E_\gamma)c\,E_\gamma^2}{\exp\left(E_\gamma/k_BT\right)-1}\,\mathrm{d}E_\gamma
@@ -59,7 +59,7 @@ For two nuclei $j$ and $k$ the rate is
   r_{j,k}=\frac{n_jn_k}{1+\delta_{jk}}\,\langle\sigma v\rangle_{j,k},
 \end{equation}
 where the Kronecker delta avoids counting pairs of identical particles twice.
-For non-degenerate nuclei the velocities follow Maxwell--Boltzmann distributions, and the average of $\sigma v$ reduces to an average over the centre-of-mass energy $E$,
+For non-degenerate nuclei the velocities follow Maxwell--Boltzmann distributions, and the average of $\sigma v$ reduces to an average over the center-of-mass energy $E$,
 \begin{equation}\label{eq:sigmav}
   \langle\sigma v\rangle_{j,k}=\left(\frac{8}{\pi m_{jk}}\right)^{1/2}\frac{1}{(k_BT)^{3/2}}\int_0^\infty\sigma_{j,k}(E)\,E\,e^{-E/k_BT}\,\mathrm{d}E ,
 \end{equation}
@@ -74,7 +74,7 @@ Reactions such as the triple-$\alpha$ process, $3\,{}^4\mathrm{He}\to{}^{12}\mat
 
 \paragraph{Stellar rates and partition functions.}
 In a hot plasma the nuclei are not only in their ground states.
-Excited states are thermally populated, and the cross sections in Eqs.~\ref{eq:photo} and~\ref{eq:sigmav} are averages over this population, such rates are called stellar rates~\cite{fowler_thermonuclear_1967,rauscher_astrophysical_2000}.
+Excited states are thermally populated, and the cross sections in Eqs.~\ref{eq:photo} and~\ref{eq:sigmav} are averages over this population; such rates are called stellar rates~\cite{fowler_thermonuclear_1967,rauscher_astrophysical_2000}.
 The population is described by the partition function
 \begin{equation}\label{eq:partition}
   G_i(T)=\sum_{l}\frac{2J_l+1}{2J_0+1}\exp\left(-\frac{E_l}{k_BT}\right),
@@ -138,7 +138,7 @@ Therefore
 where the sum runs over all weak reactions $w$ with rates $r_w$.
 Restricted to free nucleons, Eq.~\ref{eq:dYe_network} is Eq.~\ref{eq:dYedt} of Chapter~\ref{chap:BNMS}.
 
-Equation~\ref{eq:network} describes a single fluid element that does not exchange matter with its neighbours.
+Equation~\ref{eq:network} describes a single fluid element that does not exchange matter with its neighbors.
 It must be supplemented with the history of that element, $\rho(t)$ and $T(t)$, and, if neutrino reactions are included, with the neutrino fluxes.
 This history is either recorded by tracer particles in a hydrodynamic simulation or given by a parametrized expansion such as Eq.~\ref{eq:homol}.
 The temperature is not entirely external, however, since the energy released by the reactions heats the matter.
@@ -207,9 +207,9 @@ The capture rate, $\lambda_{n\gamma}$, is proportional to the neutron number den
 For reference let us take $\langle\sigma v\rangle\sim10^{-17}\,\mathrm{cm^3\,s^{-1}}$, a neutron density $n_n\sim10^{24}\,\mathrm{cm^{-3}}$ that gives $\lambda_{n\gamma}\sim10^{7}\,\mathrm{s^{-1}}$.
 At the same time, some neutron-rich nuclei decay with $\lambda_\beta\sim1$--$10^3\,\mathrm{s^{-1}}$.
 Captures therefore proceed many orders of magnitude faster than $\beta$ decays, which is the defining property of the r-process.
-Along an isotopic chain the captures continue until neutron emission rate is comparable with neutron capture rate.
+Along an isotopic chain the captures continue until the neutron emission rate is comparable to the neutron capture rate.
 From there, matter advances to higher $Z$ only by $\beta$ decay (Sec.~\ref{sec:rprocess}).
-Once the neutrons are exhausted\footnote{Neutron freeze-out occurs at $\sim1\,\rm s$}, the neutron-capture rates and neutron induced fission rates stop ($\lambda_{n\gamma},\lambda_{nf}\to0$) and when the temperature is too low for photodisintegration ($\lambda_{\gamma n}\to0$), only the decay terms remain.
+Once the neutrons are exhausted\footnote{Neutron freeze-out occurs at $\sim1\,\rm s$.}, the neutron-capture rates and neutron-induced fission rates stop ($\lambda_{n\gamma},\lambda_{nf}\to0$) and when the temperature is too low for photodisintegration ($\lambda_{\gamma n}\to0$), only the decay terms remain.
 Equation~\ref{eq:network_r} then becomes linear, $\mathrm{d}\mathbf{Y}/\mathrm{d}t=\mathsf M\,\mathbf{Y}$, as in Sec.~\ref{sec:decay_chains}, with a matrix $\mathsf M$ built from decay constants, branching ratios and fission yields alone.
 Its solution is a superposition of decay chains and describes the composition and the radioactive heating at the times of the kilonova (Sec.~\ref{sec:energy}).
 
@@ -248,7 +248,7 @@ where
   B(Z,A)=\left[Zm_p+Nm_n-m(Z,A)\right]c^2
 \end{equation}
 is the nuclear binding energy.
-Setting $m_p\simeq m_n\simeq m_u$ and $m(Z,A)\simeq Am_u$ in the prefactors\footnote{These replacements multiply $Y(Z,A)$ by a factor of the form $c_p^{Z}c_n^{N}$, with $c_{p,n}=(m_u/m_{p,n})^{3/2}\simeq0.99$, which is absorbed by the solution for $Y_p$ and $Y_n$; they change the NSE composition only at the per cent level. The exact masses are kept in $B(Z,A)$.} and dividing by $n_b=\rho N_A$, Eq.~\ref{eq:saha_n} becomes the Saha equation for the abundances~\cite{clayton_principles_1983,reichert_nuclear_2023},
+Setting $m_p\simeq m_n\simeq m_u$ and $m(Z,A)\simeq Am_u$ in the prefactors\footnote{These replacements multiply $Y(Z,A)$ by a factor of the form $c_p^{Z}c_n^{N}$, with $c_{p,n}=(m_u/m_{p,n})^{3/2}\simeq0.99$, which is absorbed by the solution for $Y_p$ and $Y_n$; they change the NSE composition only at the percent level. The exact masses are kept in $B(Z,A)$.} and dividing by $n_b=\rho N_A$, Eq.~\ref{eq:saha_n} becomes the Saha equation for the abundances~\cite{clayton_principles_1983,reichert_nuclear_2023},
 \begin{equation}\label{eq:saha}
   Y(Z,A)=g(Z,A)\,G(Z,A)\,\frac{A^{3/2}}{2^A}\,\theta^{A-1}\exp\left(\frac{B(Z,A)}{k_BT}\right)Y_p^{Z}\,Y_n^{N},
 \end{equation}
@@ -256,7 +256,7 @@ with the dimensionless quantity
 \begin{equation}\label{eq:theta}
   \theta\equiv n_b\Lambda_u^3=\rho N_A\left(\frac{2\pi\hbar^2}{m_uk_BT}\right)^{3/2},
 \end{equation}
-Now we shall notice the similarity to the Eq.~\ref{eq:detailed_balance}, and that is because Eq.~\ref{eq:saha} is detailed balance applied to every link of the chain that builds the nucleus.
+Now we shall notice the similarity to Eq.~\ref{eq:detailed_balance}, and that is because Eq.~\ref{eq:saha} is detailed balance applied to every link of the chain that builds the nucleus.
 The full derivation is presented in Appendix~\ref{ap:Detailed_balance}.
 For this reason NSE and the reverse rates of the network are mutually consistent only if both use the same binding energies.
 Coulomb interactions in the plasma lower the free energy of each nucleus and thereby increase its effective binding energy; this correction is equivalent to the screening of the charged-particle captures that build the nucleus~\cite{reichert_nuclear_2023}.
@@ -287,15 +287,15 @@ From these results we can define the temperature at which nuclei and free neutro
   k_BT_*\simeq\frac{B(Z,A)}{(A-1)\ln(1/\theta)}=\frac{B/A}{(1-1/A)\ln(1/\theta)} .
 \end{equation}
  
-As the temperature rises at fixed density $\theta$ decreases (see Eq.~\ref{eq:theta}), NSE therefore evolves from heavy nuclei to $\alpha$ particles and free nucleons, and finally to free nucleons alone, with $Y_n=1-Y_e$ and $Y_p=Y_e$.
-Lowering the density at fixed temperature, has the same effect.
+As the temperature rises at fixed density, $\theta$ decreases (see Eq.~\ref{eq:theta}), NSE therefore evolves from heavy nuclei to $\alpha$ particles and free nucleons, and finally to free nucleons alone, with $Y_n=1-Y_e$ and $Y_p=Y_e$.
+Lowering the density at fixed temperature has the same effect.
 Below $T_*$ the composition is dominated by the most bound nuclei compatible with the constraint $\sum_i Z_iY_i=Y_e$.
-How neutron-rich these nuclei can become follows from the ratio of two neighbouring isotopes in Eq.~\ref{eq:saha},
+How neutron-rich these nuclei can become follows from the ratio of two neighboring isotopes in Eq.~\ref{eq:saha},
 \begin{equation}\label{eq:saha_isotopes}
   \frac{Y(Z,A+1)}{Y(Z,A)}=\frac{g(Z,A+1)\,G(Z,A+1)}{2\,g(Z,A)\,G(Z,A)}\left(\frac{A+1}{A}\right)^{3/2}\theta\,Y_n\exp\left(\frac{S_n(Z,A+1)}{k_BT}\right),
 \end{equation}
 with $S_n(Z,A+1)=B(Z,A+1)-B(Z,A)$ the neutron separation energy.
-Adding neutrons to a nucleus is favoured only while $S_n\gtrsim k_BT\ln[1/(\theta Y_n)]$, so the neutron excess that nuclei can hold is limited.
+Adding neutrons to a nucleus is favored only while $S_n\gtrsim k_BT\ln[1/(\theta Y_n)]$, so the neutron excess that nuclei can hold is limited.
 At low $Y_e$ the remaining neutrons stay free, and NSE at low temperature consists of neutron-rich nuclei coexisting with a large abundance of free neutrons.
 This is the origin of the neutron-to-seed ratio discussed in Sec.~\ref{sec:rprocess}, where Eq.~\ref{eq:saha_isotopes} reappears as the $(n,\gamma)\rightleftarrows(\gamma,n)$ equilibrium that defines the r-process path.
 
@@ -417,7 +417,7 @@ The reactions of the network do not only change the composition: they convert nu
 During the r-process this energy heats the ejecta and modifies their temperature, which in turn changes the reaction rates.
 In this section we derive the nuclear energy generation rate from the thermodynamics of a fluid element, describe how the energy is shared among the decay products, and study how it couples back to the temperature (self-heating).
 We then discuss the late-time regime, in which the heating is determined by decay chains.
-The deposition of the energy in the ejecta at the times of the kilonova ( thermalization) is treated in Chapter~\ref{ch:rad_models}.
+The deposition of the energy in the ejecta at the times of the kilonova (thermalization) is treated in Chapter~\ref{ch:rad_models}.
 
 \subsection{Nuclear energy generation and the entropy equation}\label{sec:entropy_equation}
 
@@ -441,7 +441,7 @@ Combining Eqs.~\ref{eq:first_law} and~\ref{eq:gibbs} gives the evolution of the 
   \dot q_{\rm nuc}\equiv-\sum_i\left(\mu_i+Z_i\mu_e\right)\frac{\mathrm{d}Y_i}{\mathrm{d}t},
 \end{equation}
 where $\dot q_{\rm nuc}$ is the nuclear heating rate per baryon.
-It is positive when the composition evolves towards species of lower chemical potential hence the minus sign.
+It is positive when the composition evolves towards species of lower chemical potential, hence the minus sign.
 
 The structure of $\dot q_{\rm nuc}$ can be better understood when it is written in terms of reactions.
 Let $R_r$ be the net rate per baryon (forward minus reverse) of reaction $r$, so that $\mathrm{d}Y_i/\mathrm{d}t=\sum_rN^i_rR_r$ with the multiplicities of Eq.~\ref{eq:network}.
@@ -467,7 +467,7 @@ Only reactions out of equilibrium heat the matter~\cite{reichert_nuclear_2023}.
 In the r-process these are essentially the $\beta$ decays and fission.
 
 Let us now write $\dot q_{\rm nuc}$ in terms of $Q$-values.
-To do that first we write the chemical potential of each nucleus as in Eq.~\ref{eq:mu_MB}, $\mu_i=m_ic^2+k_BT\eta_i$ with $\eta_i=\ln[n_i\Lambda_i^3/(g_iG_i)]$, and express the nuclear mass through the tabulated atomic mass excess $\Delta_i$, $m_ic^2=A_im_uc^2+\Delta_i-Z_im_ec^2$~\cite{reichert_nuclear_2023}.
+To do that, we first write the chemical potential of each nucleus as in Eq.~\ref{eq:mu_MB}, $\mu_i=m_ic^2+k_BT\eta_i$ with $\eta_i=\ln[n_i\Lambda_i^3/(g_iG_i)]$, and express the nuclear mass through the tabulated atomic mass excess $\Delta_i$, $m_ic^2=A_im_uc^2+\Delta_i-Z_im_ec^2$~\cite{reichert_nuclear_2023}.
 Then $\dot q_{nuc}$ from Eq.~\ref{eq:entropy_eq} is given as
 \begin{equation}
   \dot q_{nuc}=-\sum_i\left(A_im_uc^2+\Delta_i-Z_im_ec^2+k_BT\eta_i+Z_i\mu_e\right)\frac{\mathrm {d}Y_i}{\mathrm{d}t}
@@ -498,9 +498,9 @@ The corresponding term in Eq.~\ref{eq:entropy_eq} is
 \end{equation}
 where $\langle E_\nu\rangle_i$ is the average antineutrino energy per decay, known from experiment for measured decays and from theory otherwise, and $\chi_\nu$ is the average fraction of the decay energy carried by the neutrino.
 For the neutron-rich nuclei of the r-process $\chi_\nu\approx0.3$ is typical.
-This is less than the roughly equal sharing of the lepton energy between electron and antineutrino in a decay to the ground state, because the decays mainly populate excited states of the daughter
+This is less than the roughly equal sharing of the lepton energy between electron and antineutrino in a decay to the ground state, because the decays mainly populate excited states of the daughter,
 so part of the $Q_\beta$ is released in form of $\gamma$ or neutron emission.
-Energy can also be gained by the absorption of neutrinos emitted by the merger remnant only if the ejecta is close enough to the remnant.
+Energy can also be gained by the absorption of neutrinos emitted by the merger remnant only if the ejecta are close enough to the remnant.
 
 At early times the ejecta are dense enough to absorb the electrons, $\gamma$ rays, $\alpha$ particles and fission fragments locally, and all the energy not carried by neutrinos heats the matter.
 At the times of the kilonova this is no longer true.
@@ -515,7 +515,7 @@ where $f_x(t)$ is given as
   f_\beta(t)&\simeq\chi_e\left(1+\frac{t}{t_e}\right)^{-n}+\chi_\gamma\left(1-\exp\left[-\frac{t_\gamma^2}{t^2}\right]\right),\\
   f_{fiss}(t)&\simeq\left(1+\frac{t}{t_{fiss}}\right)^{-n},
 \end{align} 
-Where $t_\alpha$, $t_e$, $t_\gamma$, and $t_{fiss}$ are the time scale of the thermalization based on the products of the decay. $\chi_e$ and $\chi_\gamma$ are the average energy fraction for electrons and $\gamma$.
+where $t_\alpha$, $t_e$, $t_\gamma$ and $t_{fiss}$ are the thermalization timescales for the corresponding decay products, and $\chi_e$ and $\chi_\gamma$ are the average energy fractions carried by electrons and $\gamma$ rays.
 
 \subsection{Self-heating}\label{sec:self_heating}
 
@@ -524,7 +524,7 @@ In a network calculation with self-heating, the density history $\rho(t)$ is tak
 This approach, therefore, neglects the effect of the released energy on the dynamics.
 That means that it is assumed that the outer layers are not considerably accelerated through the radiation pressure of the inner layers.
 The approximation is justified by the energy budget.
-During the first $1.3\,\mathrm{s}$ Eq.~\ref{eq:korobkin} predicts a constant $\dot \epsilon_0=2\times 10^{18}\,\mathrm{erg\,g^{-1}\,s^{-1}}$, which gives a total energy per gram of $\approx2.6\times10^{18}\,\mathrm{erg\,g^{-1}}$,  $\approx2.7\,\mathrm{MeV}$ per baryon.
+During the first $1.3\,\mathrm{s}$ Eq.~\ref{eq:korobkin} predicts a constant $\dot \epsilon_0=2\times 10^{18}\,\mathrm{erg\,g^{-1}\,s^{-1}}$, which gives a total energy per gram of $\approx2.6\times10^{18}\,\mathrm{erg\,g^{-1}}$, $\approx2.7\,\mathrm{MeV}$ per baryon.
 This is small compared with the kinetic energy of the ejecta, $\approx19\,\mathrm{MeV}$ per baryon at $v=0.2c$, although it can modify the expansion of the slowest ejecta~\cite{rosswog_long-term_2014}.
 
 \paragraph{Temperature equation.}
@@ -544,16 +544,16 @@ For example, if we assume a radiation dominated regime, $s\propto T^3/\rho$ give
 with $\dot q=\dot q_{\rm nuc}+\dot q_{\rm ext}$.
 Without heating this is the adiabatic law $T\propto\rho^{1/3}\propto t^{-1}$. 
 However, in many cases this assumption is not fulfilled.
-Fortunately for us, codes such as WinNet and SkyNet implement a modified Timmes EOS presented in Refs.~\cite{timmes_accuracy_1999,timmes_accuracy_2000}, which have three parts, a photon gas, an arbitrarily degenerate and relativistic electron/positron gas, and a non-degenerate, non-relativistic Boltzmann gas for the heavy ions.
+Fortunately for us, codes such as WinNet and SkyNet implement a modified Timmes EOS presented in Refs.~\cite{timmes_accuracy_1999,timmes_accuracy_2000}, which have three parts: a photon gas, an arbitrarily degenerate and relativistic electron/positron gas, and a non-degenerate, non-relativistic Boltzmann gas for the heavy ions.
 Such EOS are valid in a wider range so consistency is preserved.
 
 \subsection{Decay chains}\label{sec:decay_chains}
 
-Now that we know how to evolve the thermodynamic part consistently with the network equation, we should move to the details of the decays itself.
+Now that we know how to evolve the thermodynamic part consistently with the network equation, we should move to the details of the decays themselves.
 We should remember that after the r-process freezes out, the network reduces to the linear system $\mathrm{d}\mathbf{Y}/\mathrm{d}t=\mathsf{M}\,\mathbf{Y}$ (Sec.~\ref{sec:network_rprocess}).
 If the nuclei are ordered by decreasing atomic mass, every decay leads from a nucleus to lighter ones further down the list, because $Q>0$ for all decay modes ($\beta^\pm$, electron capture, $\beta$-delayed neutron emission, $\alpha$ decay, spontaneous fission).
 The first species will be the heaviest and since there is no more synthesis it can only decay, so $\dot Y_1=-\lambda_1Y_1$.
-As consequence the first row of $\mathsf M$ is $(-\lambda_1,0,\dots,0)$.
+As a consequence, the first row of $\mathsf M$ is $(-\lambda_1,0,\dots,0)$.
 If we do this for any nuclei at position $i$ then the $i$th row will be something like $(c_1,c_2,\dots,-\lambda_i,0,\dots,0)$.
 $\mathsf{M}$ is therefore lower triangular.
 Its eigenvalues are its diagonal elements, $-\lambda_i$, with $\lambda_i$ the total decay constants, and every abundance is a superposition of exponentials, $Y_i(t)=\sum_jc_{ij}\,e^{-\lambda_jt}$.

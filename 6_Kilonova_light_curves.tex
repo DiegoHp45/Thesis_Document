@@ -7,14 +7,11 @@ Its purpose is to construct the map
 \begin{equation}\label{eq:kn_map}
   \Big\{\dot\epsilon_x(t),\ \text{composition},\ M_{\rm ej},\ v_{\rm ej}\Big\}\ \longmapsto\ \Big\{L(t),\ L_\nu(t)\Big\},
 \end{equation}
-from heating rate per chanel $\dot\epsilon_x(t)$ of Chapter~\ref{ch:Nuclear_reaction_net} to the bolometric luminosity $L(t)$ and the spectral luminosity $L_\nu(t)$.
+from heating rate per channel $\dot\epsilon_x(t)$ of Chapter~\ref{ch:Nuclear_reaction_net} to the bolometric luminosity $L(t)$ and the spectral luminosity $L_\nu(t)$.
 Many studies use power law fits or analytical heating rates, but since the subject of this work is the sensitivity of the light curve to the nuclear input, the heating rate is kept as an arbitrary function of time throughout.
 
 Section~\ref{sec:onezone} presents the one-zone model of Li and Paczy\'nski, with the modifications of Ref.~\cite{hernandez_porras_features_2027}: a separate treatment of the optically thick and optically thin phases, and an effective heating rate built from $\alpha$ and $\beta^-$ decays with their thermalization efficiencies.
 Section~\ref{sec:opacity} discusses the opacity.
-Section~\ref{sec:beyond} presents a more sophisticated semi-analytic model, the diffusion model of the \texttt{xkn} framework, which adds spatial structure, optically thin layers, anisotropy and broadband emission.
-Finally, Sec.~\ref{sec:rt_limits} discusses the limits of these models.
-Reviews of the subject can be found in Refs.~\cite{metzger_kilonovae_2020,rosswog_heavy_2024}.
 
 %==========================================================================================
 \section{The modified Li--Paczy\'nski model}\label{sec:onezone}
@@ -87,9 +84,9 @@ Equation~\ref{eq:kn_Lsol} has the same form as the light curve of Arnett for sup
 
 We have neglected the initial thermal energy of the ejecta.
 It would add the term $(2t_0E_0/t_{\rm LP}^2)\exp[-(t^2-t_0^2)/t_{\rm LP}^2]$, proportional to the product $t_0E_0$, which is conserved under adiabatic expansion.
-The ejecta start from a radius $R_0\sim10\mathrm{Km}=10^{7}\,\mathrm{cm}$ at $t_0\lesssim0.1\,\mathrm{s}$ with at most $E_0\lesssim10^{50}\,\mathrm{erg}$, so $t_0E_0\lesssim10^{49}\,\mathrm{erg\,s}$, whereas the radioactive term at one day involves $\int t'M_{\rm ej}\dot\varepsilon\,\mathrm{d}t'\sim10^{51}\,\mathrm{erg\,s}$ for $M_{\rm ej}=0.01\,M_\odot$ and the heating rate of Eq.~\ref{eq:korobkin}.
-The initial energy contributes below the per cent level.
-The kilonova, therefore is powered by radioactivity alone.
+The ejecta start from a radius $R_0\sim10\,\mathrm{km}=10^{7}\,\mathrm{cm}$ at $t_0\lesssim0.1\,\mathrm{s}$ with at most $E_0\lesssim10^{50}\,\mathrm{erg}$, so $t_0E_0\lesssim10^{49}\,\mathrm{erg\,s}$, whereas the radioactive term at one day involves $\int t'M_{\rm ej}\dot\varepsilon\,\mathrm{d}t'\sim10^{51}\,\mathrm{erg\,s}$ for $M_{\rm ej}=0.01\,M_\odot$ and the heating rate of Eq.~\ref{eq:korobkin}.
+The initial energy contributes below the percent level.
+The kilonova is, therefore, powered by radioactivity alone.
 
 Differentiating Eq.~\ref{eq:kn_LLP} and using Eq.~\ref{eq:kn_LPode}, the light curve obeys
 \begin{equation}\label{eq:kn_Lode}
@@ -112,12 +109,12 @@ With Eq.~\ref{eq:kn_rho},
   t_c=\sqrt{\frac{3\kappa M_{\rm ej}}{4\pi v_{\rm ej}^2}},
 \end{equation}
 so the ejecta pass from optically thick to marginally optically thin at the critical time.
-This is important because after that time $\kappa\rho R>1$ so if we check Eq.~\ref{eq:kn_FLP} that would predict a flux grater than that of a perfect black body.
-So we assumed that for $t>t_c$ the emission is approximated by the blackbody form without the optical-depth reduction~\cite{hernandez_porras_features_2027},
+This is important because after that time $\kappa\rho R<1$, so Eq.~\ref{eq:kn_FLP} would predict a flux greater than that of a perfect blackbody.
+We therefore assume that for $t>t_c$ the emission is approximated by the blackbody form without the optical-depth reduction~\cite{hernandez_porras_features_2027},
 \begin{equation}\label{eq:kn_Fthin}
   F\approx\sigma_{\rm SB}T^4,\qquad L=4\pi R^2\sigma_{\rm SB}T^4=\pi c\,v_{\rm ej}^2t^2\,U .
 \end{equation}
-If we check the ratio of Eq.~\ref{eq:kn_Fthin} to Eq.~\ref{eq:kn_LLP} is exactly $t^2/t_c^2$, so the two prescriptions give the same luminosity at $t=t_c$ and the light curve is continuous.
+The ratio of Eq.~\ref{eq:kn_Fthin} to Eq.~\ref{eq:kn_LLP} is exactly $t_c^2/t^2$, so the two prescriptions give the same luminosity at $t=t_c$ and the light curve is continuous.
 Inserting Eq.~\ref{eq:kn_Fthin} into Eq.~\ref{eq:kn_Ugen}, the energy equation becomes
 \begin{equation}\label{eq:kn_LPode_late}
   \frac{\mathrm{d}U}{\mathrm{d}t}+\left(4+\frac{3c}{4v_{\rm ej}}\right)\frac{U}{t}=\left(\frac{3M_{\rm ej}}{4\pi v_{\rm ej}^3}\right)\frac{\dot\varepsilon(t)}{t^3}.
@@ -129,12 +126,11 @@ With the integrating factor $t^{4+\frac{3c}{4v_{\rm ej}}}$ and Eq.~\ref{eq:kn_Ft
 where $L(t_c)$ is given by Eq.~\ref{eq:kn_Lsol}.
 For $v_{\rm ej}=0.15c$ the transient term decays as $(t_c/t)^7$ so it can be neglected for $t\gg t_c$.
 The MLP light curve is therefore Eq.~\ref{eq:kn_Lsol} for $t\leq t_c$ and Eq.~\ref{eq:kn_Lsol_late} for $t>t_c$.
-Both pieces are linear in $\dot\varepsilon$ so we can see the light curve as the sum of the contribution form $\beta^{-}$ and $\alpha$ decay.
+Both pieces are linear in $\dot\varepsilon$, so we can see the light curve as the sum of the contributions from $\beta^{-}$ and $\alpha$ decays.
 
 As $t\to\infty$, the luminosity should be finite.
-That impose a constrain of how slow the heating can decrease.
-But it can be easily satisfy so we should not worry about that.
-When we apply l'H\^opital's rule to the ratio $L/\dot\varepsilon$, and defining the local power-law index $\alpha(t)=-\mathrm{d}\ln\dot\varepsilon/\mathrm{d}\ln t$, which is assumed to vary slowly, we got
+That imposes a constraint on how slowly the heating can decrease, but it is easily satisfied, so we need not worry about it.
+When we apply l'H\^opital's rule to the ratio $L/\dot\varepsilon$, and defining the local power-law index $\alpha(t)=-\mathrm{d}\ln\dot\varepsilon/\mathrm{d}\ln t$, which is assumed to vary slowly, we obtain
 \begin{equation}\label{eq:kn_late}
   L(t)\simeq\frac{\frac{3c}{4v_{\rm ej}}}{\frac{3c}{4v_{\rm ej}}+2-\alpha}\,M_{\rm ej}\,\dot\varepsilon(t)\propto\dot\varepsilon(t),\qquad t\gg t_c .
 \end{equation}

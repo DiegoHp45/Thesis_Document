@@ -2,101 +2,70 @@
 % Version: 1.12, 2025/01/31
 % Documentation: https://ctan.org/pkg/mitthesis
 
-
 \chapter{Conclusions and Outlook}\label{ch:conclutions}
-%%%%%%%%%%%%%%%%%  begin figure  %%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{figure}[t]
-% sample images are from mwe package, but should be found by latex in the tex tree w/o loading that package
-%\begin{subfigure}[t]{0.495\textwidth}
-%{\centering{\includegraphics[alt={sample image},width=0.99\textwidth]{example-image-c.jpg}}}%
-%\subcaption{\label{fig:golden} Postremo aliquos futuros suspicor, qui me ad alias litteras vocent, genus hoc scribendi.}
-%\end{subfigure}
-%%%%%%%% don't leave a break here
-%\begin{subfigure}[t]{0.495\textwidth}
-%{\centering{\includegraphics[alt={sample image},width=0.99\textwidth]{example-image-c.jpg}}}%
-%\subcaption{\label{fig:golden1} Second subfigure.}%
-%\end{subfigure}%
-%\caption{A figure with two subfigures.\label{fig:4}}\label{fig:golden2}
-%\end{figure}
-%%%%%%%%%%%%%%%%%%%  end figure  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%% note use of \ref* here to avoid placing a nested link in the table of contents
+The objective of this thesis was to evaluate how much the kilonova depends on the theoretical decay rates adopted for the nuclei whose half-lives have not been measured.
+We compared three prescriptions that differ only in these rates: the FRDM+QRPA $\beta^-$ rates and Viola--Seaborg $\alpha$ rates of JINA ReacLib, and the empirical $\beta^-$ formulae of Tian et al.\ and Zhou et al., both combined with the NMHF $\alpha$ formula.
+Each prescription was applied to an ensemble of 512 parametric trajectories covering the electron fractions, entropies and velocities of the ejecta of neutron star mergers.
+The trajectories were evolved with the reaction network WinNet, including fission and nuclear self-heating; the heating was separated by channel and by nucleus, thermalized, and used as the source of one-zone bolometric light curves.
+Since every trajectory was evolved with the three prescriptions, all comparisons were made trajectory by trajectory.
+This extends the study of Ref.~\cite{hernandez_porras_features_2027}, which considered one trajectory of the dynamical ejecta and 120 cold, very neutron-rich trajectories without fission heating.
 
+%------------------------------------------------------------------------------------------
+\section{Conclusions}
+%------------------------------------------------------------------------------------------
 
-physical mechanisms that produce the messengers. This is the main part of the chapter, and it is divided into three sections, each of which is further subdivided into subsections and subsubsections.
+\paragraph{The ensemble average hides the dependence on the decay rates.}
+Averaged over the ensemble, the three prescriptions give very similar effective heating rates.
+The spread of the individual trajectories, however, is organized into five regimes, set mainly by the initial electron fraction and, below $Y_{e,0}\approx0.21$, by the expansion velocity.
+Two cuts, $Y_{e,0}=0.21$ and $v_\infty=0.22\,c$, locate the three largest regimes.
+Half of the parameter space, at high electron fraction, is heated by the $\beta^-$ decay of second-peak isobars in all three prescriptions and is the least sensitive.
+The largest differences appear in the neutron-rich trajectories.
 
+\paragraph{The sensitivity is indirect.}
+The nuclei that dominate the heating, from ${}^{132}$I and ${}^{127}$Sb to the $\alpha$ emitters of the four decay series, have measured half-lives, identical in the three sets.
+The theoretical rates act earlier, by deciding where the matter accumulates during the r-process: how long it is retained at the closed shells $N=82$ and $N=126$, how much of it reaches the actinides, and whether nuclei with $A\geq240$ survive.
+Compared with the empirical formulae, FRDM+QRPA retains more matter at the closed shells, and the empirical sets produce more lanthanides and actinides.
+The lanthanide and actinide fraction increases from ReacLib to Tian to Zhou in every class, so the prescription also affects the opacity of the ejecta.
 
-%\newcommand*{\boldA}{\ifpdftex\mathbf{A}\else\symbfup{A}\fi}% to get the right symbol with either pdftex or unicode-math
+\paragraph{The $\beta^-$ rates decide whether fission heats the ejecta.}
+The cleanest comparison is between the Tian and Zhou sets, which share the $\alpha$ rates.
+In slow, neutron-rich trajectories, Tian retains enough $A\geq240$ material for fission to carry a third of the released energy, whereas in Zhou fission never carries more than $0.3\%$.
+Where this material survives, it releases 10--18 times more energy by spontaneous fission than by $\alpha$ decay, so a calculation without fission heating, such as that of Ref.~\cite{hernandez_porras_features_2027}, sees it only through a few $\alpha$ emitters.
+The prescription also changes the composition of the $\alpha$ heating: the weight of the odd-$A$ series, headed by ${}^{223}$Ra and ${}^{225}$Ac, increases from ReacLib to Tian to Zhou.
+These are among the nuclei proposed as fingerprints of heavy-element production in late-time kilonovae~\cite{wu_fingerprints_2019,chen_radioactive_2023}, so abundances inferred from them, as in the case of AT2023vfi~\cite{liu_constraint_2025}, inherit the uncertainty of the theoretical decay rates.
 
+\paragraph{The light curve inherits the sensitivity, mainly at late times.}
+The effect of the prescription on the bolometric luminosity depends on the trajectory.
+It is smallest at high electron fraction, intermediate for fast neutron-rich ejecta and at the boundary $Y_{e,0}\approx0.21$, and largest for slow neutron-rich ejecta, where the energy-weighted integral of the luminosity, $\int tL\,\mathrm{d}t$, differs by a factor of four between Tian and Zhou.
+In general the effect grows with time: near the peak it is diluted by the common $\beta^-$ heating and smoothed by diffusion, whereas after the peak the luminosity follows the deposited heating and inherits its full difference.
+The decay rates therefore leave their imprint mainly in the light curve weeks to months after the merger, which is also the part of the light curve that depends least on the opacity.
 
-%% This version looks nicer, but it does not produce proper html under current tagpdf (2025/10/31)
-%
-%\begin{equation}\label{eqn:WT1} 
-%L(\boldA) = \begin{pmatrix}
-%\dfrac\varphi{(\varphi_1,\varepsilon_1)}			& 0 												 & \hdotsfor{3} 							& 0 \\[4\jot]
-%\dfrac{\varphi k_{2,1}}{(\varphi_2,\varepsilon_1)}	& \dfrac\varphi{(\varphi_2,\varepsilon_2)}			 & 0 										& \hdotsfor{2} & 0 \\[4\jot]
-%\dfrac{\varphi k_{3,1}}{(\varphi_3,\varepsilon_1)}	& \dfrac{\varphi k_{3,2}}{(\varphi_3,\varepsilon_2)} & \dfrac\varphi{(\varphi_3,\varepsilon_3)}	& 0 & \hdotsfor{1} & 0 \\[\jot]
-%\vdots 												&  													 &  & \smash{\rotatebox{15}{$\ddots$}} &  & \vdots \\[\jot]
-%\dfrac{\varphi k_{n-1, 1}}{(\varphi_{n-1},\varepsilon_1)}		& \dfrac{\varphi k_{n-1, 2}}{(\varphi_{n-1},\varepsilon_2)} & \cdots        & 
-%	\dfrac{\varphi k_{n-1,n-2}}{(\varphi_{n-1},\varepsilon_{n-2})}	& \dfrac{\varphi}{(\varphi_{n-1},\varepsilon_{n-1})} 		& 0 \\[4\jot]
-%\dfrac{\varphi k_{n,1}}{(\varphi_n,\varepsilon_1)}				& \dfrac{\varphi k_{n,2}}{(\varphi_n,\varepsilon_2)}		& \hdotsfor{2}	&
-%	\dfrac{\varphi k_{n,n-1}}{(\varphi_n,\varepsilon_{n-1})} 		& \dfrac{\varphi}{(\varphi_n,\varepsilon_n)}
-%\end{pmatrix}
-%\end{equation}
+\paragraph{Where in a merger.}
+The sensitive conditions correspond to slow, neutron-rich matter: the cold tidal ejecta near the orbital plane and the outflows of a torus around a black hole that forms early.
+The fast neutron-rich conditions, in which part of the neutrons are not captured, correspond to a small mass in the outermost layers of the ejecta.
+The decay-rate uncertainty is thus most relevant for the late-time emission of red kilonovae from asymmetric binaries, or from mergers whose remnant collapses early.
 
-%\begin{equation}
-%\int_{\Gamma^h_s}\frac{\partial}{\partial n_x}\int_{\Gamma^a_\xi} \mkern-3mu b(\xi) \frac{\partial E(x|\xi)}{\partial n_\xi} \,dl_\xi \Bigg\vert_{x\to s}\,dl_s = 0 
-%\end{equation}
+\paragraph{Answer to the question of this thesis.}
+For most conditions, the theoretical decay rates change the light curve, as measured by $\int tL\,\mathrm{d}t$, by tens of per cent, less than the uncertainty associated with the opacity (Sec.~\ref{sec:opacity}).
+For slow, neutron-rich ejecta and at late times, they change the bolometric luminosity by a factor of a few, through the survival of the fissioning nuclei.
+In that regime they are a nuclear-physics uncertainty that must be propagated whenever late-time light curves are used to infer the abundances of specific heavy nuclei.
 
+%------------------------------------------------------------------------------------------
+\section{Outlook}
+%------------------------------------------------------------------------------------------
 
-%%%%%%%%%%%%%%% begin table %%%%%%%%%%%%%%%%%% 
-%\begin{table}[t]
-%\caption{The error function and complementary error function\label{tab:1}}\vspace{0.25em} % adds some additional space between caption and \toprule, if desired.
-%\centering{%
-%\tagpdfsetup{table/header-rows={1}}
-%\begin{tabular*}{0.8\textwidth}{@{\hspace*{1.5em}}@{\extracolsep{\fill}}ccc!{\hspace*{3.em}}ccc@{\hspace*{1.5em}}}
-%\toprule
-%\multicolumn{1}{@{\hspace*{1.5em}}c}{$x$\rule{0pt}{8pt}} &
-%$\erf{x}$ &
-%\multicolumn{1}{c!{\hspace*{3.em}}}{$\erfc{x}$} &
-%$x$       &
-%$\erf{x}$ &
-%\multicolumn{1}{c@{\hspace*{1.5em}}}{$\erfc{x}$} \\ \midrule
-%0.00 & 0.00000 & 1.00000 & 1.10 & 0.88021 & 0.11980 \\
-%0.05 & 0.05637 & 0.94363 & 1.20 & 0.91031 & 0.08969 \\
-%0.10 & 0.11246 & 0.88754 & 1.30 & 0.93401 & 0.06599 \\
-%0.15 & 0.16800 & 0.83200 & 1.40 & 0.95229 & 0.04771 \\
-%0.20 & 0.22270 & 0.77730 & 1.50 & 0.96611 & 0.03389 \\
-%0.30 & 0.32863 & 0.67137 & 1.60 & 0.97635 & 0.02365 \\
-%0.40 & 0.42839 & 0.57161 & 1.70 & 0.98379 & 0.01621 \\
-%0.50 & 0.52050 & 0.47950 & 1.80 & 0.98909 & 0.01091 \\
-%0.60 & 0.60386 & 0.39614 & 1.82\makebox[0pt][l]{14} & 0.99000 & 0.01000 \\
-%0.70 & 0.67780 & 0.32220 & 1.90 & 0.99279 & 0.00721 \\
-%0.80 & 0.74210 & 0.25790 & 2.00 & 0.99532 & 0.00468 \\
-%0.90 & 0.79691 & 0.20309 & 2.50 & 0.99959 & 0.00041 \\
-%1.00 & 0.84270 & 0.15730 & 3.00 & 0.99998 & 0.00002 \\
-%\bottomrule
-%\end{tabular*}
-%}%
-%\end{table}
-%%%%%%%%%%%%%%%% end table %%%%%%%%%%%%%%%%%%% 
-
-
-
-%%	Nomenclature list is optional
-%
-%	This environment takes four optional arguments:
-%		[1] adjust space between symbol and definition
-%		[2] name (heading) of the nomenclature list
-%		[3] level - can be "section" or "chapter" depending on whether you
-%			have one nomenclature list for whole thesis or one for each
-%			chapter. 
-%		[4] style. The default matches the style of [3], but you can 
-%			instead choose [frontmatter] or [backmatter] if desired.
-%
-%	For a single-column nomenclature list, use \begin{nomenclature}
-%	For a two-column nomenclature list, use \begin{nomenclature*} AND
-%		**put \usepackage{multicol}** in your preamble (in the main .tex file)
-%
-%	\newcommand*{\boldomega}{\ifpdftex\mathord{\bm{\omega}}\else\mathord{\symbfup{\omega}}\fi} % works with pdftex or lualatex
-%
+\begin{itemize}
+  \item \textbf{From the box to a merger.}
+  The classes provide a map from $(Y_{e,0},s_0,v_\infty)$ to the response of the heating.
+  Weighting this map with the mass distribution of tracer particles from general-relativistic merger simulations would turn the present statistics over the box into predictions for specific binaries.
+  \item \textbf{Beyond one zone.}
+  A multi-zone, anisotropic light-curve model, such as the xkn framework~\cite{ricigliano_xkn_2024} modified in this work to read our heating rates, would place each component at its own velocity and angle, treat the fast neutron-rich layers separately, and remove several of the approximations listed in Sec.~\ref{sec:res_lum_results}.
+  \item \textbf{Opacity and thermalization from the composition.}
+  Assigning the opacity of each trajectory from its own $X_{\rm LA}$ would let the decay rates act on the light curve also through the opacity, and a time-dependent treatment of the thermalization~\cite{kasen_radioactive_2019} would improve the late-time light curve, where the decay rates matter most.
+  \item \textbf{Separating the nuclear inputs.}
+  A set that combines the FRDM+QRPA $\beta^-$ rates with the NMHF $\alpha$ rates would isolate the $\beta^-$ rates also in the comparison with ReacLib, and calculations with other fission-fragment distributions would test the robustness of the fission heating.
+  \item \textbf{Which half-lives to measure.}
+  The results point to the $\beta^-$ half-lives along $N=126$ and of the nuclei that feed $A\geq240$ as those that control the late-time heating.
+  A sensitivity study restricted to these nuclei would identify the measurements that would most reduce the uncertainty of late-time kilonova light curves.
+\end{itemize}
