@@ -23,15 +23,9 @@
 \contentsline {section}{\numberline {3.1}Abundances, reaction rates and the network equation}{24}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Abundances}{24}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Reaction rates}{25}{subsection.3.1.2}%
-\contentsline {paragraph}{One-body reactions.}{25}{section*.11}%
-\contentsline {paragraph}{Two-body reactions.}{25}{section*.12}%
-\contentsline {paragraph}{Three-body reactions.}{26}{section*.13}%
-\contentsline {paragraph}{Stellar rates and partition functions.}{26}{section*.14}%
-\contentsline {paragraph}{Parametrization.}{26}{section*.15}%
-\contentsline {paragraph}{Electron screening.}{26}{section*.16}%
-\contentsline {subsection}{\numberline {3.1.3}The network equation}{27}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.3}The network equation}{26}{subsection.3.1.3}%
 \contentsline {subsection}{\numberline {3.1.4}Detailed balance}{28}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}The network during the r-process}{29}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.5}The network during the r-process}{28}{subsection.3.1.5}%
 \contentsline {section}{\numberline {3.2}Nuclear statistical equilibrium and freeze-out}{30}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}The Saha equation}{30}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Composition in NSE: binding energy versus entropy}{31}{subsection.3.2.2}%
@@ -42,10 +36,9 @@
 \contentsline {subsection}{\numberline {3.3.3}Freeze-out and decay to stability}{35}{subsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.3.4}Fission}{35}{subsection.3.3.4}%
 \contentsline {section}{\numberline {3.4}Radioactive energy release, decay chains and self-heating}{35}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Nuclear energy generation and the entropy equation}{36}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.1}Nuclear energy generation and the entropy equation}{35}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Energy partition and neutrino losses}{37}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3}Self-heating}{38}{subsection.3.4.3}%
-\contentsline {paragraph}{Temperature equation.}{38}{section*.17}%
 \contentsline {subsection}{\numberline {3.4.4}Decay chains}{39}{subsection.3.4.4}%
 \contentsline {chapter}{\numberline {4}Kilonova Light Curves}{41}{chapter.4}%
 \contentsline {section}{\numberline {4.1}The modified Li--Paczy\'nski model}{41}{section.4.1}%
@@ -53,50 +46,27 @@
 \contentsline {subsection}{\numberline {4.1.2}Bolometric luminosity}{42}{subsection.4.1.2}%
 \contentsline {subsection}{\numberline {4.1.3}The optical depth problem and late times}{43}{subsection.4.1.3}%
 \contentsline {section}{\numberline {4.2}Opacity}{44}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Methods: decay-rate prescriptions across an ensemble of thermodynamic trajectories and bolometric luminosity}{45}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Methods: decay-rate prescriptions across an ensemble of thermodynamic trajectories}{45}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Parametric thermodynamic trajectories}{45}{section.5.1}%
 \contentsline {subsection}{\numberline {5.1.1}Parametrization of the expansion}{46}{subsection.5.1.1}%
 \contentsline {subsection}{\numberline {5.1.2}Initial density from the entropy}{46}{subsection.5.1.2}%
-\contentsline {paragraph}{Ions.}{47}{section*.19}%
-\contentsline {paragraph}{Electrons, positrons and photons.}{47}{section*.20}%
-\contentsline {paragraph}{Solution.}{47}{section*.21}%
 \contentsline {subsection}{\numberline {5.1.3}Sampling of the parameter space}{48}{subsection.5.1.3}%
 \contentsline {subsection}{\numberline {5.1.4}Trajectory files and starting point of the network}{49}{subsection.5.1.4}%
 \contentsline {section}{\numberline {5.2}Nuclear reaction network configuration}{49}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}Decay-rate prescriptions}{51}{subsection.5.2.1}%
-\contentsline {paragraph}{Empirical formulae for $\beta ^-$ decay.}{51}{section*.28}%
-\contentsline {paragraph}{Empirical formula for $\alpha $ decay.}{52}{section*.29}%
-\contentsline {paragraph}{Implementation.}{52}{section*.30}%
-\contentsline {paragraph}{Validation and limitations.}{53}{section*.31}%
-\contentsline {subsection}{\numberline {5.2.2}Campaign design and execution}{53}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.2}Implementation and validation of the decay-rate prescriptions}{52}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Campaign design and execution}{53}{subsection.5.2.3}%
 \contentsline {chapter}{\numberline {6}Results: Effective heating rates, relevant nuclei and bolometric luminosities}{57}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Heating regimes across the parameter space}{57}{section.6.1}%
-\contentsline {paragraph}{Class 1: $\beta ^-$ heating at high electron fraction.}{59}{section*.38}%
-\contentsline {paragraph}{Class 2: fission cycling in slow ejecta.}{60}{section*.40}%
-\contentsline {paragraph}{Class 3: fast, high-entropy, neutron-rich ejecta.}{62}{section*.43}%
-\contentsline {paragraph}{Class 4: three prescriptions, three channels.}{64}{section*.46}%
-\contentsline {paragraph}{Class 5: the boundary.}{66}{section*.49}%
 \contentsline {subsection}{\numberline {6.1.1}Where these conditions occur in a merger}{68}{subsection.6.1.1}%
 \contentsline {section}{\numberline {6.2}Final abundances and the origin of the dependence on the decay rates}{69}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Bolometric light curves}{71}{section.6.3}%
-\contentsline {paragraph}{Effective heating.}{71}{section*.55}%
-\contentsline {paragraph}{Diffusion.}{71}{section*.56}%
-\contentsline {paragraph}{Opacity.}{71}{section*.57}%
-\contentsline {paragraph}{Class light curves.}{71}{section*.58}%
 \contentsline {subsection}{\numberline {6.3.1}Light curves of the classes}{71}{subsection.6.3.1}%
-\contentsline {paragraph}{Comparison with observations.}{72}{section*.60}%
-\contentsline {chapter}{\numberline {7}Conclusions and Outlook}{75}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Conclusions}{75}{section.7.1}%
-\contentsline {paragraph}{The ensemble average hides the dependence on the decay rates.}{75}{section*.61}%
-\contentsline {paragraph}{The sensitivity is indirect.}{75}{section*.62}%
-\contentsline {paragraph}{The $\beta ^-$ rates decide whether fission heats the ejecta.}{76}{section*.63}%
-\contentsline {paragraph}{The light curve inherits the sensitivity, mainly at late times.}{76}{section*.64}%
-\contentsline {paragraph}{Where in a merger.}{76}{section*.65}%
-\contentsline {paragraph}{Answer to the question of this thesis.}{76}{section*.66}%
-\contentsline {section}{\numberline {7.2}Outlook}{76}{section.7.2}%
-\contentsline {chapter}{\numberline {A}Quadrupole and $L_{GW}$}{78}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Derivation of the Saha equation of nuclear statistical equilibrium}{80}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Ideal non-degenerate gas of particles with internal structure}{80}{section.B.1}%
-\contentsline {section}{\numberline {B.2}The Saha equation for number densities}{81}{section.B.2}%
-\contentsline {section}{\numberline {B.3}From number densities to abundances}{82}{section.B.3}%
-\contentsline {backmatter}{References}{83}{appendix*.67}%
+\contentsline {chapter}{\numberline {7}Conclusions and future work}{75}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Future work}{76}{section.7.1}%
+\contentsline {chapter}{\numberline {A}Quadrupole and $L_{GW}$}{77}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Derivation of the Saha equation of nuclear statistical equilibrium}{79}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Ideal non-degenerate gas of particles with internal structure}{79}{section.B.1}%
+\contentsline {section}{\numberline {B.2}The Saha equation for number densities}{80}{section.B.2}%
+\contentsline {section}{\numberline {B.3}From number densities to abundances}{81}{section.B.3}%
+\contentsline {backmatter}{References}{82}{appendix*.37}%

@@ -41,8 +41,6 @@ The advantage of $Y_i$ over $n_i$ is that it is unaffected by the expansion of t
 
 The rate $r$ of a reaction is the number of reactions per unit volume and unit time.
 Reactions are classified by the number of nuclei in the entrance channel.
-
-\paragraph{One-body reactions.}
 Decays, photodisintegrations, lepton captures\footnote{The name one-body reaction only refers to the number of nuclei, electron captures still count as one-body. } and neutrino absorptions involve a single nucleus $j$ and have rates $r_j=\lambda_j n_j$.
 For a radioactive decay, $\lambda_j=\ln 2/T_{1/2}$ with $T_{1/2}$ the half-life; the literature usually assumes a half-life independent of the environment but studies show that half-lives for specific decay modes depend on the environment~\cite{rojas-gamboa__2024}.
 In a photodisintegration the nucleus absorbs a photon from the thermal radiation field, so that
@@ -53,8 +51,8 @@ depends only on the temperature~\footnote{Here we assume that photons are therma
 Electron and positron captures depend on $T$ and on the electron density $\rho Y_e$, and neutrino absorptions on the neutrino number flux $F_\nu$ through $\lambda_\nu=\langle\sigma_\nu\rangle F_\nu$, with $\langle\sigma_\nu\rangle$ the cross section averaged over the neutrino spectrum.
 Together with $\beta$ decays, these are the reactions that change $Y_e$ in Eq.~\ref{eq:dYedt}.
 
-\paragraph{Two-body reactions.}
-For two nuclei $j$ and $k$ the rate is
+
+For a reaction that involves two nuclei $j$ and $k$ the rate $r_{j,k}$ is defined as
 \begin{equation}\label{eq:rate2}
   r_{j,k}=\frac{n_jn_k}{1+\delta_{jk}}\,\langle\sigma v\rangle_{j,k},
 \end{equation}
@@ -69,11 +67,10 @@ For neutron captures at low energy the s-wave cross section follows the $1/v$ la
 For charged particles the cross section contains the Coulomb penetrability $\exp(-2\pi\eta)$, with $\eta=Z_jZ_ke^2/(\hbar v)$ the Sommerfeld parameter, and the rate falls steeply as the temperature drops.
 This difference is the reason why, in expanding ejecta, charged-particle reactions stop long before neutron captures do (Sec.~\ref{sec:nse}).
 
-\paragraph{Three-body reactions.}
-Reactions such as the triple-$\alpha$ process, $3\,{}^4\mathrm{He}\to{}^{12}\mathrm{C}$, or $\alpha\alpha n\to{}^9\mathrm{Be}$ proceed through a short-lived intermediate state (${}^8\mathrm{Be}$) and are treated as effective three-body reactions with rate $r_{j,k,l}=n_jn_kn_l\langle jkl\rangle/(1+\Delta_{jkl})$, where $1+\Delta_{jkl}$ counts the permutations of identical particles, e.g. $1+\Delta=3!$ for the triple-$\alpha$ reaction~\cite{reichert_nuclear_2023}.
+In some special cases, such as the triple-$\alpha$ process, $3\,{}^4\mathrm{He}\to{}^{12}\mathrm{C}$, or $\alpha\alpha n\to{}^9\mathrm{Be}$ proceed through a short-lived intermediate state (${}^8\mathrm{Be}$), the rates are treated as effective three-body reactions with rate $r_{j,k,l}=n_jn_kn_l\langle jkl\rangle/(1+\Delta_{jkl})$, where $1+\Delta_{jkl}$ counts the permutations of identical particles, e.g. $1+\Delta=3!$ for the triple-$\alpha$ reaction~\cite{reichert_nuclear_2023}.
 
-\paragraph{Stellar rates and partition functions.}
-In a hot plasma the nuclei are not only in their ground states.
+The reaction described previously are defined as rates from ground state to ground state.
+However, in a hot plasma the nuclei are not only in their ground states.
 Excited states are thermally populated, and the cross sections in Eqs.~\ref{eq:photo} and~\ref{eq:sigmav} are averages over this population; such rates are called stellar rates~\cite{fowler_thermonuclear_1967,rauscher_astrophysical_2000}.
 The population is described by the partition function
 \begin{equation}\label{eq:partition}
@@ -81,7 +78,6 @@ The population is described by the partition function
 \end{equation}
 where the sum runs over the states $l$ of nucleus $i$ with spin $J_l$ and excitation energy $E_l$, and $J_0$ is the spin of the ground state.
 
-\paragraph{Parametrization.}
 Rates computed from Eqs.~\ref{eq:photo} and~\ref{eq:sigmav}, either from experimental data or from theory, are distributed in fitted form.
 The most widely used format, that of the JINA REACLIB library~\cite{cyburt_jina_2010}, writes each rate as
 \begin{equation}\label{eq:reaclib}
@@ -89,9 +85,8 @@ The most widely used format, that of the JINA REACLIB library~\cite{cyburt_jina_
 \end{equation}
 where $T_9=T/10^9\,\mathrm{K}$ and $\lambda$ stands for $\lambda, N_A\langle\sigma v\rangle$ or $N_A^2\langle jkl\rangle$ for one-, two- and three-body reactions, respectively.
 
-\paragraph{Electron screening.}
-Free electrons partially screen the Coulomb repulsion between two nuclei.
-So we need to include a factor to account for that effect. 
+One effect that modify the rates is the electron screening. 
+This effect happen when free electrons partially screen the Coulomb repulsion between two nuclei.
 The strength of the effect is measured by the ion-coupling parameter~\cite{reichert_nuclear_2023}
 \begin{equation}\label{eq:gamma12}
   \Gamma_{12}=\frac{2Z_1Z_2}{Z_1^{1/3}+Z_2^{1/3}}\,\frac{e^2}{k_BT}\left(\frac{4\pi n_e}{3}\right)^{1/3}\simeq4.55\times10^{-4}\,\frac{Z_1Z_2}{Z_1^{1/3}+Z_2^{1/3}}\,\frac{(\rho Y_e)^{1/3}}{T_9},
@@ -497,7 +492,7 @@ The corresponding term in Eq.~\ref{eq:entropy_eq} is
   \dot q_{\rm ext}=-\sum_i\langle E_\nu\rangle_i\,\lambda_{\beta,i}\,Y_i=-\chi_\nu\sum_iQ_{\beta,i}\,\lambda_{\beta,i}\,Y_i,
 \end{equation}
 where $\langle E_\nu\rangle_i$ is the average antineutrino energy per decay, known from experiment for measured decays and from theory otherwise, and $\chi_\nu$ is the average fraction of the decay energy carried by the neutrino.
-For the neutron-rich nuclei of the r-process $\chi_\nu\approx0.3$ is typical.
+For the neutron-rich nuclei of the r-process $\chi_\nu\approx0.4$ is typical.
 This is less than the roughly equal sharing of the lepton energy between electron and antineutrino in a decay to the ground state, because the decays mainly populate excited states of the daughter,
 so part of the $Q_\beta$ is released in form of $\gamma$ or neutron emission.
 Energy can also be gained by the absorption of neutrinos emitted by the merger remnant only if the ejecta are close enough to the remnant.
@@ -527,8 +522,7 @@ The approximation is justified by the energy budget.
 During the first $1.3\,\mathrm{s}$ Eq.~\ref{eq:korobkin} predicts a constant $\dot \epsilon_0=2\times 10^{18}\,\mathrm{erg\,g^{-1}\,s^{-1}}$, which gives a total energy per gram of $\approx2.6\times10^{18}\,\mathrm{erg\,g^{-1}}$, $\approx2.7\,\mathrm{MeV}$ per baryon.
 This is small compared with the kinetic energy of the ejecta, $\approx19\,\mathrm{MeV}$ per baryon at $v=0.2c$, although it can modify the expansion of the slowest ejecta~\cite{rosswog_long-term_2014}.
 
-\paragraph{Temperature equation.}
-Differentiating $s(\rho,T,\{Y_i\})$ and using Eq.~\ref{eq:entropy_eq},
+To evolve the temperature we find the following equation by differentiating $s(\rho,T,\{Y_i\})$ and using Eq.~\ref{eq:entropy_eq},
 \begin{equation}\label{eq:T_general}
   c_V\,\frac{\mathrm{d}\ln T}{\mathrm{d}t}=\frac{\dot q_{\rm nuc}+\dot q_{\rm ext}}{k_BT}-\left(\frac{\partial s}{\partial\ln\rho}\right)_{T,Y}\frac{\mathrm{d}\ln\rho}{\mathrm{d}t}-\sum_i\left(\frac{\partial s}{\partial Y_i}\right)_{\rho,T}\frac{\mathrm{d}Y_i}{\mathrm{d}t},
 \end{equation}

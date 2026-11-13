@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.7)  12 NOV 2026 20:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.7)  13 NOV 2026 01:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1001,11 +1001,7 @@ Chapter 1.
 [6
 
 
-] [7] [8] [9]
-
-LaTeX Warning: Reference `ch:discussion' on page 10 undefined on input line 133.
-
-) [10] [11]
+] [7] [8] [9]) [10] [11]
 \openout2 = `3_Binary_neutron_star_mergers.aux'.
 
  (./3_Binary_neutron_star_mergers.tex
@@ -1016,19 +1012,19 @@ Chapter 2.
 
 
 ] [13]
-<Figures/DNS_formation.jpeg, id=343, 598.235pt x 721.69624pt>
+<Figures/DNS_formation.jpeg, id=341, 598.235pt x 721.69624pt>
 File: Figures/DNS_formation.jpeg Graphic file (type jpg)
 <use Figures/DNS_formation.jpeg>
 Package pdftex.def Info: Figures/DNS_formation.jpeg  used on input line 76.
 (pdftex.def)             Requested size: 342.91914pt x 413.6947pt.
  [14 <./Figures/DNS_formation.jpeg>]
-<Figures/binary.pdf, id=354, 406.51875pt x 338.76563pt>
+<Figures/binary.pdf, id=352, 406.51875pt x 338.76563pt>
 File: Figures/binary.pdf Graphic file (type pdf)
 <use Figures/binary.pdf>
 Package pdftex.def Info: Figures/binary.pdf  used on input line 91.
 (pdftex.def)             Requested size: 234.8775pt x 195.72949pt.
  [15 <./Figures/binary.pdf>] [16]
-<Figures/remnant.pdf, id=428, 794.97pt x 614.295pt>
+<Figures/remnant.pdf, id=426, 794.97pt x 614.295pt>
 File: Figures/remnant.pdf Graphic file (type pdf)
 <use Figures/remnant.pdf>
 Package pdftex.def Info: Figures/remnant.pdf  used on input line 197.
@@ -1048,7 +1044,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39]) [40]
+ [29] [30] [31] [32] [33] [34] [35] [36] [37] [38]) [39] [40]
 \openout2 = `6_Kilonova_light_curves.aux'.
 
  (./6_Kilonova_light_curves.tex
@@ -1058,11 +1054,7 @@ Chapter 4.
 
 
 
-]
-
-LaTeX Warning: Reference `sec:heating' on page 42 undefined on input line 46.
-
-[42] [43]) [44]
+] [42] [43]) [44]
 \openout2 = `7_Methods.aux'.
 
  (./7_Methods.tex
@@ -1073,33 +1065,33 @@ Chapter 5.
 
 
 ] [46]
-<Figures/rho0_map_T10GK.pdf, id=988, 397.485pt x 289.08pt>
+<Figures/rho0_map_T10GK.pdf, id=978, 397.485pt x 289.08pt>
 File: Figures/rho0_map_T10GK.pdf Graphic file (type pdf)
 <use Figures/rho0_map_T10GK.pdf>
-Package pdftex.def Info: Figures/rho0_map_T10GK.pdf  used on input line 118.
+Package pdftex.def Info: Figures/rho0_map_T10GK.pdf  used on input line 117.
 (pdftex.def)             Requested size: 375.80544pt x 273.32318pt.
  [47] [48 <./Figures/rho0_map_T10GK.pdf>]
-<Figures/ensemble_projections.pdf, id=1074, 679.33798pt x 231.26399pt>
+<Figures/ensemble_projections.pdf, id=1060, 679.33798pt x 231.26399pt>
 File: Figures/ensemble_projections.pdf Graphic file (type pdf)
 <use Figures/ensemble_projections.pdf>
-Package pdftex.def Info: Figures/ensemble_projections.pdf  used on input line 153.
+Package pdftex.def Info: Figures/ensemble_projections.pdf  used on input line 152.
 (pdftex.def)             Requested size: 469.75502pt x 159.92166pt.
-<Figures/run_density.pdf, id=1085, 404.712pt x 274.626pt>
+<Figures/run_density.pdf, id=1071, 404.712pt x 274.626pt>
 File: Figures/run_density.pdf Graphic file (type pdf)
 <use Figures/run_density.pdf>
-Package pdftex.def Info: Figures/run_density.pdf  used on input line 180.
+Package pdftex.def Info: Figures/run_density.pdf  used on input line 179.
 (pdftex.def)             Requested size: 422.77664pt x 286.89914pt.
-<Figures/run_T_Ye.pdf, id=1088, 549.25201pt x 556.47902pt>
+<Figures/run_T_Ye.pdf, id=1074, 549.25201pt x 556.47902pt>
 File: Figures/run_T_Ye.pdf Graphic file (type pdf)
 <use Figures/run_T_Ye.pdf>
-Package pdftex.def Info: Figures/run_T_Ye.pdf  used on input line 186.
+Package pdftex.def Info: Figures/run_T_Ye.pdf  used on input line 185.
 (pdftex.def)             Requested size: 422.77664pt x 428.33733pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [49 <./Figures/ensemble_projections.pdf>]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 209.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 208.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
@@ -1108,42 +1100,38 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 1189) in paragraph at lines 209--210
+Underfull \hbox (badness 1189) in paragraph at lines 208--209
 []|\T1/cmr/m/n/10.95 (+20) masses, spins and par-ti-tion func-tions of the Win-Net ta-ble
  []
 
 [50 <./Figures/run_density.pdf>] [51] [52]
-<Figures/Ranges.pdf, id=1321, 625.96065pt x 873.49959pt>
+<Figures/Ranges.pdf, id=1304, 625.96065pt x 873.49959pt>
 File: Figures/Ranges.pdf Graphic file (type pdf)
 <use Figures/Ranges.pdf>
-Package pdftex.def Info: Figures/Ranges.pdf  used on input line 318.
-(pdftex.def)             Requested size: 446.26582pt x 622.76144pt.
-
-
-LaTeX Warning: Float too large for page by 26.26143pt on input line 321.
-
-<Figures/Comparison_decay_rates.pdf, id=1324, 1114.1625pt x 853.1875pt>
+Package pdftex.def Info: Figures/Ranges.pdf  used on input line 314.
+(pdftex.def)             Requested size: 422.77664pt x 589.97331pt.
+<Figures/Comparison_decay_rates.pdf, id=1307, 1114.1625pt x 853.1875pt>
 File: Figures/Comparison_decay_rates.pdf Graphic file (type pdf)
 <use Figures/Comparison_decay_rates.pdf>
-Package pdftex.def Info: Figures/Comparison_decay_rates.pdf  used on input line 325.
+Package pdftex.def Info: Figures/Comparison_decay_rates.pdf  used on input line 321.
 (pdftex.def)             Requested size: 446.26582pt x 341.72461pt.
 ) [53] [54 <./Figures/run_T_Ye.pdf>] [55 <./Figures/Ranges.pdf>] [56 <./Figures/Comparison_decay_rates.pdf>]
 \openout2 = `8_Results_lum.aux'.
 
  (./8_Results_lum.tex
 Chapter 6.
-<Figures/heating_bands_sets_therm.png, id=1572, 289.08pt x 209.583pt>
+<Figures/heating_bands_sets_therm.png, id=1555, 289.08pt x 209.583pt>
 File: Figures/heating_bands_sets_therm.png Graphic file (type png)
 <use Figures/heating_bands_sets_therm.png>
-Package pdftex.def Info: Figures/heating_bands_sets_therm.png  used on input line 21.
+Package pdftex.def Info: Figures/heating_bands_sets_therm.png  used on input line 20.
 (pdftex.def)             Requested size: 328.82707pt x 238.41222pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/heating_channels_sets_therm.png, id=1578, 722.7pt x 628.749pt>
+<Figures/heating_channels_sets_therm.png, id=1561, 722.7pt x 628.749pt>
 File: Figures/heating_channels_sets_therm.png Graphic file (type png)
 <use Figures/heating_channels_sets_therm.png>
-Package pdftex.def Info: Figures/heating_channels_sets_therm.png  used on input line 32.
+Package pdftex.def Info: Figures/heating_channels_sets_therm.png  used on input line 31.
 (pdftex.def)             Requested size: 375.80544pt x 326.95135pt.
 [57
 
@@ -1154,111 +1142,106 @@ Package pdftex.def Info: Figures/heating_channels_sets_therm.png  used on input 
 Overfull \vbox (9.36354pt too high) has occurred while \output is active []
 
  [58 <./Figures/heating_bands_sets_therm.png> <./Figures/heating_channels_sets_therm.png>]
-<Figures/ratio_classes_map.png, id=1595, 693.792pt x 289.08pt>
+<Figures/ratio_classes_map.png, id=1578, 693.792pt x 289.08pt>
 File: Figures/ratio_classes_map.png Graphic file (type png)
 <use Figures/ratio_classes_map.png>
-Package pdftex.def Info: Figures/ratio_classes_map.png  used on input line 56.
+Package pdftex.def Info: Figures/ratio_classes_map.png  used on input line 55.
 (pdftex.def)             Requested size: 469.75502pt x 195.7337pt.
  [59 <./Figures/ratio_classes_map.png>]
-<Figures/heating_channels_sets_therm_class1.pdf, id=1605, 542.025pt x 498.663pt>
+<Figures/heating_channels_sets_therm_class1.pdf, id=1588, 542.025pt x 498.663pt>
 File: Figures/heating_channels_sets_therm_class1.pdf Graphic file (type pdf)
 <use Figures/heating_channels_sets_therm_class1.pdf>
-Package pdftex.def Info: Figures/heating_channels_sets_therm_class1.pdf  used on input line 86.
+Package pdftex.def Info: Figures/heating_channels_sets_therm_class1.pdf  used on input line 85.
 (pdftex.def)             Requested size: 375.80544pt x 345.7518pt.
  [60 <./Figures/heating_channels_sets_therm_class1.pdf>]
-<Figures/heating_channels_sets_therm_class2.pdf, id=1689, 542.025pt x 498.663pt>
+<Figures/heating_channels_sets_therm_class2.pdf, id=1669, 542.025pt x 498.663pt>
 File: Figures/heating_channels_sets_therm_class2.pdf Graphic file (type pdf)
 <use Figures/heating_channels_sets_therm_class2.pdf>
-Package pdftex.def Info: Figures/heating_channels_sets_therm_class2.pdf  used on input line 116.
+Package pdftex.def Info: Figures/heating_channels_sets_therm_class2.pdf  used on input line 115.
 (pdftex.def)             Requested size: 375.80544pt x 345.7518pt.
-<Figures/heating_ratios_sets_therm_class2.png, id=1690, 317.988pt x 419.166pt>
+<Figures/heating_ratios_sets_therm_class2.png, id=1670, 317.988pt x 419.166pt>
 File: Figures/heating_ratios_sets_therm_class2.png Graphic file (type png)
 <use Figures/heating_ratios_sets_therm_class2.png>
-Package pdftex.def Info: Figures/heating_ratios_sets_therm_class2.png  used on input line 122.
+Package pdftex.def Info: Figures/heating_ratios_sets_therm_class2.png  used on input line 121.
 (pdftex.def)             Requested size: 234.8775pt x 309.60875pt.
  [61 <./Figures/heating_channels_sets_therm_class2.pdf>]
-Overfull \hbox (0.69756pt too wide) detected at line 142
+Overfull \hbox (0.69756pt too wide) detected at line 141
 [][][][][][] [] [][][] [] [][][] [] [][][] [] [][][] [] [][][] [] [][][]  []\OML/cmm/m/it/12 :
  []
 
-<Figures/heating_channels_sets_therm_class3.pdf, id=1777, 542.025pt x 498.663pt>
+<Figures/heating_channels_sets_therm_class3.pdf, id=1757, 542.025pt x 498.663pt>
 File: Figures/heating_channels_sets_therm_class3.pdf Graphic file (type pdf)
 <use Figures/heating_channels_sets_therm_class3.pdf>
-Package pdftex.def Info: Figures/heating_channels_sets_therm_class3.pdf  used on input line 148.
+Package pdftex.def Info: Figures/heating_channels_sets_therm_class3.pdf  used on input line 147.
 (pdftex.def)             Requested size: 375.80544pt x 345.7518pt.
-[62 <./Figures/heating_ratios_sets_therm_class2.png>]
-<Figures/heating_ratios_sets_therm_class3.png, id=1788, 317.988pt x 419.166pt>
+<Figures/heating_ratios_sets_therm_class3.png, id=1758, 317.988pt x 419.166pt>
 File: Figures/heating_ratios_sets_therm_class3.png Graphic file (type png)
 <use Figures/heating_ratios_sets_therm_class3.png>
-Package pdftex.def Info: Figures/heating_ratios_sets_therm_class3.png  used on input line 154.
+Package pdftex.def Info: Figures/heating_ratios_sets_therm_class3.png  used on input line 153.
 (pdftex.def)             Requested size: 281.85587pt x 371.55351pt.
- [63 <./Figures/heating_channels_sets_therm_class3.pdf>]
-<Figures/heating_channels_sets_therm_class4.pdf, id=1866, 542.025pt x 498.663pt>
+[62 <./Figures/heating_ratios_sets_therm_class2.png>] [63 <./Figures/heating_channels_sets_therm_class3.pdf>]
+<Figures/heating_channels_sets_therm_class4.pdf, id=1845, 542.025pt x 498.663pt>
 File: Figures/heating_channels_sets_therm_class4.pdf Graphic file (type pdf)
 <use Figures/heating_channels_sets_therm_class4.pdf>
-Package pdftex.def Info: Figures/heating_channels_sets_therm_class4.pdf  used on input line 167.
+Package pdftex.def Info: Figures/heating_channels_sets_therm_class4.pdf  used on input line 166.
 (pdftex.def)             Requested size: 375.80544pt x 345.7518pt.
-<Figures/heating_ratios_sets_therm_class4.png, id=1867, 317.988pt x 419.166pt>
+<Figures/heating_ratios_sets_therm_class4.png, id=1846, 317.988pt x 419.166pt>
 File: Figures/heating_ratios_sets_therm_class4.png Graphic file (type png)
 <use Figures/heating_ratios_sets_therm_class4.png>
-Package pdftex.def Info: Figures/heating_ratios_sets_therm_class4.png  used on input line 173.
+Package pdftex.def Info: Figures/heating_ratios_sets_therm_class4.png  used on input line 172.
 (pdftex.def)             Requested size: 281.85587pt x 371.55351pt.
  [64 <./Figures/heating_ratios_sets_therm_class3.png>] [65 <./Figures/heating_channels_sets_therm_class4.pdf>]
-<Figures/heating_channels_sets_therm_class5.pdf, id=1952, 542.025pt x 498.663pt>
+<Figures/heating_channels_sets_therm_class5.pdf, id=1930, 542.025pt x 498.663pt>
 File: Figures/heating_channels_sets_therm_class5.pdf Graphic file (type pdf)
 <use Figures/heating_channels_sets_therm_class5.pdf>
-Package pdftex.def Info: Figures/heating_channels_sets_therm_class5.pdf  used on input line 184.
+Package pdftex.def Info: Figures/heating_channels_sets_therm_class5.pdf  used on input line 183.
 (pdftex.def)             Requested size: 375.80544pt x 345.7518pt.
-<Figures/heating_ratios_sets_therm_class5.png, id=1953, 317.988pt x 419.166pt>
+<Figures/heating_ratios_sets_therm_class5.png, id=1931, 317.988pt x 419.166pt>
 File: Figures/heating_ratios_sets_therm_class5.png Graphic file (type png)
 <use Figures/heating_ratios_sets_therm_class5.png>
-Package pdftex.def Info: Figures/heating_ratios_sets_therm_class5.png  used on input line 190.
+Package pdftex.def Info: Figures/heating_ratios_sets_therm_class5.png  used on input line 189.
 (pdftex.def)             Requested size: 281.85587pt x 371.55351pt.
  [66 <./Figures/heating_ratios_sets_therm_class4.png>] [67 <./Figures/heating_channels_sets_therm_class5.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [68 <./Figures/heating_ratios_sets_therm_class5.png>]
-<Figures/abundances_class1.png, id=2062, 520.344pt x 281.853pt>
+<Figures/abundances_class1.png, id=2038, 520.344pt x 281.853pt>
 File: Figures/abundances_class1.png Graphic file (type png)
 <use Figures/abundances_class1.png>
-Package pdftex.def Info: Figures/abundances_class1.png  used on input line 269.
+Package pdftex.def Info: Figures/abundances_class1.png  used on input line 268.
 (pdftex.def)             Requested size: 234.8775pt x 127.22833pt.
-<Figures/abundances_class2.png, id=2063, 520.344pt x 281.853pt>
+<Figures/abundances_class2.png, id=2039, 520.344pt x 281.853pt>
 File: Figures/abundances_class2.png Graphic file (type png)
 <use Figures/abundances_class2.png>
-Package pdftex.def Info: Figures/abundances_class2.png  used on input line 270.
+Package pdftex.def Info: Figures/abundances_class2.png  used on input line 269.
 (pdftex.def)             Requested size: 234.8775pt x 127.22833pt.
-<Figures/abundances_class3.png, id=2064, 520.344pt x 281.853pt>
+<Figures/abundances_class3.png, id=2040, 520.344pt x 281.853pt>
 File: Figures/abundances_class3.png Graphic file (type png)
 <use Figures/abundances_class3.png>
-Package pdftex.def Info: Figures/abundances_class3.png  used on input line 272.
+Package pdftex.def Info: Figures/abundances_class3.png  used on input line 271.
 (pdftex.def)             Requested size: 234.8775pt x 127.22833pt.
-<Figures/abundances_class4.png, id=2065, 520.344pt x 281.853pt>
+<Figures/abundances_class4.png, id=2041, 520.344pt x 281.853pt>
 File: Figures/abundances_class4.png Graphic file (type png)
 <use Figures/abundances_class4.png>
-Package pdftex.def Info: Figures/abundances_class4.png  used on input line 273.
+Package pdftex.def Info: Figures/abundances_class4.png  used on input line 272.
 (pdftex.def)             Requested size: 234.8775pt x 127.22833pt.
-<Figures/abundances_class5.png, id=2066, 520.344pt x 281.853pt>
+<Figures/abundances_class5.png, id=2042, 520.344pt x 281.853pt>
 File: Figures/abundances_class5.png Graphic file (type png)
 <use Figures/abundances_class5.png>
-Package pdftex.def Info: Figures/abundances_class5.png  used on input line 275.
+Package pdftex.def Info: Figures/abundances_class5.png  used on input line 274.
 (pdftex.def)             Requested size: 234.8775pt x 127.22833pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [69] [70]
-<Figures/luminosity_classes_Ye_v.png, id=2087, 462.528pt x 332.442pt>
+<Figures/luminosity_classes_Ye_v.png, id=2063, 462.528pt x 332.442pt>
 File: Figures/luminosity_classes_Ye_v.png Graphic file (type png)
 <use Figures/luminosity_classes_Ye_v.png>
-Package pdftex.def Info: Figures/luminosity_classes_Ye_v.png  used on input line 339.
+Package pdftex.def Info: Figures/luminosity_classes_Ye_v.png  used on input line 332.
 (pdftex.def)             Requested size: 399.29463pt x 287.00545pt.
- [71]
-
-LaTeX Warning: Reference `eq:kn_modal_early' on page 72 undefined on input line 375.
-
-) [72] [73 <./Figures/abundances_class1.png> <./Figures/abundances_class2.png> <./Figures/abundances_class3.png> <./Figures/abundances_class4.png> <./Figures/abundances_class5.png>] [74 <./Figures/luminosity_classes_Ye_v.png>]
+ [71]) [72] [73 <./Figures/abundances_class1.png> <./Figures/abundances_class2.png> <./Figures/abundances_class3.png> <./Figures/abundances_class4.png> <./Figures/abundances_class5.png>] [74 <./Figures/luminosity_classes_Ye_v.png>]
 \openout2 = `10_Conclusions.aux'.
 
  (./10_Conclusions.tex
@@ -1268,7 +1251,7 @@ Chapter 7.
 
 
 
-] [76]) [77]
+]) [76]
 \openout2 = `appendixa.aux'.
 
  (./appendixa.tex
@@ -1285,60 +1268,47 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 2.
 
-[78
+[77
 
 
 
 
-]) [79]
+]) [78]
 \openout2 = `appendixb.aux'.
 
  (./appendixb.tex
 Appendix B.
-[80
+[79
 
 
 
 
-] [81]) [82] [83
+] [80]) [81] [82
 
 
 
-] [84] [85] [86] [87] [88] (./MIT-Thesis.aux (./acknowledgments.aux) (./1_Introduction.aux) (./3_Binary_neutron_star_mergers.aux) (./5_r_process_nucleosynthesis.aux) (./6_Kilonova_light_curves.aux) (./7_Methods.aux) (./8_Results_lum.aux) (./10_Conclusions.aux) (./appendixa.aux) (./appendixb.aux))
+] [83] [84] [85] [86] (./MIT-Thesis.aux (./acknowledgments.aux) (./1_Introduction.aux) (./3_Binary_neutron_star_mergers.aux) (./5_r_process_nucleosynthesis.aux) (./6_Kilonova_light_curves.aux) (./7_Methods.aux) (./8_Results_lum.aux) (./10_Conclusions.aux) (./appendixa.aux) (./appendixb.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-LaTeX Warning: Temporary extra page added at the end. Rerun to get it removed.
-
 Package logreq Info: Writing requests to 'MIT-Thesis.run.xml'.
 \openout1 = `MIT-Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32384 strings out of 474222
- 613286 string characters out of 5748734
- 3233192 words of memory out of 5000000
- 53241 multiletter control sequences out of 15000+600000
- 609453 words of font info for 360 fonts, out of 8000000 for 9000
+ 32339 strings out of 474222
+ 613282 string characters out of 5748734
+ 3252479 words of memory out of 5000000
+ 53243 multiletter control sequences out of 15000+600000
+ 609001 words of font info for 352 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,15n,93p,1344b,3082s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{section.6.4} has been referenced but does not exist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on MIT-Thesis.pdf (88 pages, 6309518 bytes).
+ 90i,15n,93p,1495b,3082s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on MIT-Thesis.pdf (86 pages, 6295268 bytes).
 PDF statistics:
- 2877 PDF objects out of 2984 (max. 8388607)
- 2111 compressed objects within 22 object streams
- 526 named destinations out of 1000 (max. 500000)
+ 2836 PDF objects out of 2984 (max. 8388607)
+ 2070 compressed objects within 21 object streams
+ 495 named destinations out of 1000 (max. 500000)
  99544 words of extra memory for PDF output out of 106986 (max. 10000000)
 
